@@ -24,7 +24,7 @@ Mods: {
 				Description:
 					'''
 					Стань любимым подопытным Дрэйдона
-					[c/777777:Ододеть все комбинации Экзо-механизмов в режиме инфернума]
+					[c/777777:Одолеть все комбинации Экзо-механизмов в режиме инфернума]
 					'''
 			}
 
@@ -32,7 +32,7 @@ Mods: {
 				DisplayName: Крещёние адским огнём
 				Description:
 					'''
-					Преодолей последнее испытание и получите заслуженную награду
+					Преодолей последнее испытание и получи заслуженную награду
 					[c/777777:Получить инфернальную чашу]
 					'''
 			}
@@ -42,7 +42,7 @@ Mods: {
 				Description:
 					'''
 					Рви и кромсай, пока не иссякнут
-					[c/777777:Одолить всех боссов в режиме инфернума]
+					[c/777777:Одолеть всех боссов в режиме инфернума]
 					'''
 			}
 
@@ -105,7 +105,7 @@ Mods: {
 					DisplayName: Избранный
 					Description:
 						'''
-						Легенды гласят о великом воине, которому предстоит путешествие по миру и нахождение легендарного лезвия, сокрытого внутри
+						Легенды гласят о великом воине, предстоит отправиться в путешествие по миру и найти легендарный клинок, сокрытый в его глубинах
 						[c/777777:Найди святыню яичного меча после победы над Големом]
 						'''
 				}
@@ -444,22 +444,22 @@ Mods: {
 				'''
 			DesertScourgeIntroScreen.TextToDisplay:
 				'''
-				Высохший Чревоугодник
-				Пустынный Бич
+				Высохший чревоугодник
+				Пустынный бич
 				'''
 			DestroyerIntroScreen.TextToDisplay:
 				'''
-				Экскаватор Миров
+				Экскаватор миров
 				Уничтожитель
 				'''
 			DoGIntroScreen.TextToDisplay:
 				'''
 				Тщеславный
-				Пожиратель Богов
+				Пожиратель богов
 				'''
 			DraedonIntroScreen.TextToDisplay:
 				'''
-				Космический Инженер
+				Космический инженер
 				Дрэйдон
 				'''
 			DragonfollyIntroScreen.TextToDisplay:
@@ -469,23 +469,23 @@ Mods: {
 				'''
 			DreadnautilusIntroScreen.TextToDisplay:
 				'''
-				Кошмар Кровавой Луны
+				Кошмар кровавой луны
 				Дреднаутилус
 				'''
 			DukeFishronIntroScreen.TextToDisplay:
 				'''
-				Ужас Морей
+				Ужас морей
 				Герцог рыбокрыл
 				'''
 			EaterOfWorldsIntroScreen.TextToDisplay:
 				'''
-				Ужас Порчи
-				Пожиратель Миров
+				Ужас порчи
+				Пожиратель миров
 				'''
 			EmpressOfLightIntroScreen.TextToDisplay:
 				'''
-				Призматичная Фея
-				Императрица Света
+				Призматичная фея
+				Императрица света
 				'''
 			EyeOfCthulhuIntroScreen.TextToDisplay:
 				'''
@@ -496,7 +496,7 @@ Mods: {
 			GolemIntroScreen: {
 				TextToDisplay:
 					'''
-					Древний Идол
+					Древний идол
 					Голем
 					'''
 				JokeTextToDisplay:
@@ -509,7 +509,7 @@ Mods: {
 			GreatSandSharkIntroScreen.TextToDisplay:
 				'''
 				Тавр
-				Великая Песчаная Акула
+				Великая песчаная акула
 				'''
 			HiveMindIntroScreen.TextToDisplay:
 				'''
@@ -519,28 +519,28 @@ Mods: {
 			KingSlimeIntroScreen.TextToDisplay:
 				'''
 				Монарх желатина
-				Король Слизней
+				Король слизней
 				'''
 			LeviathanIntroScreen.TextToDisplay:
 				'''
-				Изнемождённый Зверь
+				Изнемождённый хверь
 				Левиафан
 				'''
 			MoonLordIntroScreen.TextToDisplay:
 				'''
-				Жуткие Останки
+				Жуткие останки
 				Лунный повелитель
 				'''
 
 			OldDukeIntroScreen: {
 				TextToDisplay:
 					'''
-					Сернистый Террор
+					Сернистый террор
 					Старый Герцог
 					'''
 				JokeTextToDisplay:
 					'''
-					Демон Скорости
+					Демон скорости
 					Старый Герцог
 					'''
 			}
@@ -548,113 +548,113 @@ Mods: {
 			PBGIntroScreen.TextToDisplay:
 				'''
 				Биомеханический исполин
-				Разносчица Чумы Голиаф
+				Разносчица чумы, Голиаф
 				'''
 			PerforatorHiveIntroScreen.TextToDisplay:
 				'''
-				Окровавленные Паразиты
+				Окровавленные паразиты
 				Перфораторы
 				'''
 			PlanteraIntroScreen.TextToDisplay:
 				'''
-				Разросшийся Цветок
+				Разросшийся цветок
 				Плантера
 				'''
 			PolterghastIntroScreen.TextToDisplay:
 				'''
-				Яростное Слияние
+				Яростное слияние
 				Полтергаст
 				'''
 			ProfanedGuardiansIntroScreen.TextToDisplay:
 				'''
-				Последователи Очищения
-				Осквернённые Стражи
+				Последователи очищения
+				Осквернённые стражи
 				'''
 			ProfanedTempleIntroScreen.TextToDisplay:
 				'''
-				Очищенное Место
-				Осквернённый Сад
+				Очищенное место
+				Осквернённый сад
 				'''
 
 			ProvidenceIntroScreen: {
 				TextToDisplay:
 					'''
-					Всполох Искупления
+					Всполох искупления
 					Провиденс
 					'''
 				EnragedTextToDisplay:
 					'''
-					Всполох Очищения
+					Всполох очищения
 					Провиденс
 					'''
 			}
 
 			QueenBeeIntroScreen.TextToDisplay:
 				'''
-				Матриарх Улья
-				Королева Пчёл
+				Матриарх улья
+				Королева пчёл
 				'''
 			QueenSlimeIntroScreen.TextToDisplay:
 				'''
-				Священная Масса
-				Королева Слизней
+				Священная масса
+				Королева слизней
 				'''
 			RavagerIntroScreen.TextToDisplay:
 				'''
-				Плотяная Крепость
+				Плотяная крепость
 				Разрушитель
 				'''
 			SCalIntroScreen.TextToDisplay:
 				'''
-				Серная Ведьма
+				Серная ведьма
 				Каламитас
 				'''
 			SignusIntroScreen.TextToDisplay:
 				'''
-				Непостижимый Ассасин
+				Непостижимый ассасин
 				Сигнус
 				'''
 			SkeletronIntroScreen.TextToDisplay:
 				'''
-				Проклятье Старика
+				Проклятье старика
 				Скелетрон
 				'''
 			SkeletronPrimeIntroScreen.TextToDisplay:
 				'''
-				Изобретение Страха
+				Изобретение страха
 				Скелетрон Прайм
 				'''
 			SlimeGodIntroScreen.TextToDisplay:
 				'''
-				Первобытная Формация
-				Бог Слизней
+				Первобытная формация
+				Бог слизней
 				'''
 			StormWeaverIntroScreen.TextToDisplay:
 				'''
-				Атмосферный Хищник
-				Штормовой Ткач
+				Атмосферный хищник
+				Штормовой ткач
 				'''
 			TerminusIntroScreen.TextToDisplay: Вы нашли Терминус!
 			ThanatosIntroScreen.TextToDisplay:
 				'''
-				Идеальный Аннигилятор
+				Идеальный аннигилятор
 				Танатос
 				'''
 			TwinsIntroScreen.TextToDisplay:
 				'''
-				Механические Наблюдатели
+				Механические наблюдатели
 				Близнецы
 				'''
 			WoFIntroScreen.TextToDisplay:
 				'''
-				Голодающее Скопление
-				Стена Плоти
+				Голодающее скопление
+				Стена плоти
 				'''
 
 			YharonIntroScreen: {
 				TextToDisplay:
 					'''
-					Непоколебимый Страж
+					Непоколебимый страж
 					Ярон
 					'''
 				JokeTextToDisplay:
