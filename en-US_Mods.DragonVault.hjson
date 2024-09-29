@@ -1,0 +1,88 @@
+Tiles: {
+	Vault.MapEntry: Vault
+	CraftingCrucible.MapEntry: Crafting Crucible
+}
+
+Items: {
+	AzureStone: {
+		DisplayName: Azure Dragonstone
+		Tooltip:
+			'''
+			Increases capacity by 100000
+			Dropped by Duke Fishron
+			'''
+	}
+
+	CeruleanStone: {
+		DisplayName: Cerulean Dragonstone
+		Tooltip:
+			'''
+			Allows for remote depositing to your vault
+			Dropped by any mechanical boss
+			'''
+	}
+
+	CitrineStone: {
+		DisplayName: Citrine Dragonstone
+		Tooltip:
+			'''
+			Allows you to craft from your vault 
+			Dropped by the Eater of Worlds or Brain of Cthulu
+			'''
+	}
+
+	MidnightStone: {
+		DisplayName: Midnight Dragonstone
+		Tooltip:
+			'''
+			Allows full remote access to the vault
+			Dropped by the Moon Lord
+			'''
+	}
+
+	PureStone: {
+		DisplayName: Pure Dragonstone
+		Tooltip:
+			'''
+			Your vault is guarded by a pet dragon
+			Extremely rare drop from any mob after moonlord has been defeated
+			'''
+	}
+
+	RadiantStone: {
+		DisplayName: Radiant Dragonstone
+		Tooltip:
+			'''
+			Your crafting crucible can be used at pylons
+			Dropped by Skeletron
+			'''
+	}
+
+	RoseStone: {
+		DisplayName: Rose Dragonstone
+		Tooltip:
+			'''
+			Allows you to upgrade your storage size for gold
+			Dropped by Eye of Cthulu
+			'''
+	}
+
+	VerdantStone: {
+		DisplayName: Verdant Dragonstone
+		Tooltip:
+			'''
+			Increases capacity by 50000
+			Dropped by the Wall of Flesh
+			'''
+	}
+
+	VaultItem: {
+		DisplayName: Dragon Vault
+		Tooltip: The ultimate storage solution! (magic not included)
+	}
+
+	CraftingCrucibleItem: {
+		DisplayName: Crafting Crucible
+		Tooltip: Melt all your crafting stations into a highly-useable slurry!
+	}
+}
