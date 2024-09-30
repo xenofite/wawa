@@ -1,6 +1,15 @@
 Browser: {
 	ListView: Показать списком
 	Filters: Фильтры
+	Sorts: Sorting mode
+	Sort: {
+		ID: By ID
+		Alphabetical: Alphabetical
+		Damage: By Damage
+		Defense: By Defense
+		Value: By Gold Value
+		Life: By Maximum Life
+	}
 
 	ButtonSizeSlider: {
 		Name: Изменить масштаб
