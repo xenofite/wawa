@@ -160,3 +160,9 @@ EntityEditor: {
 	LiveReaction: Live {0} Reaction
 	Select: Кликните по сущности в мире, чтобы выбрать ей. ПКМ для отмены.
 }
+FieldEditor: {
+	Uneditable: Uneditable
+	UneditableBlockMsg: This field is uneditable!
+	Static: Static
+	ModdedFields: Modded fields
+}
