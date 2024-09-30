@@ -157,7 +157,7 @@ ToolbarCustomizationElements: {
 ThemeMenu.Name: Редактор тем
 
 EntityEditor: {
-	LiveReaction: Искренняя реакция {0}
+	LiveReaction: Live {0} Reaction
 	Select: Кликните по сущности в мире, чтобы выбрать ей. ПКМ для отмены.
 }
 FieldEditor: {
