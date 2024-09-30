@@ -1,14 +1,14 @@
 Browser: {
 	ListView: Показать списком
 	Filters: Фильтры
-	Sorts: Sorting mode
+	Sorts: Сортировать по...
 	Sort: {
-		ID: By ID
-		Alphabetical: Alphabetical
-		Damage: By Damage
-		Defense: By Defense
-		Value: By Gold Value
-		Life: By Maximum Life
+		ID: ID
+		Alphabetical: алфавиту
+		Damage: типу урона
+		Defense: защите
+		Value: цене
+		Life: максимальному здоровью
 	}
 
 	ButtonSizeSlider: {
@@ -157,12 +157,12 @@ ToolbarCustomizationElements: {
 ThemeMenu.Name: Редактор тем
 
 EntityEditor: {
-	LiveReaction: Live {0} Reaction
+	LiveReaction: Искренняя реакция {0}
 	Select: Кликните по сущности в мире, чтобы выбрать ей. ПКМ для отмены.
 }
 FieldEditor: {
-	Uneditable: Uneditable
-	UneditableBlockMsg: This field is uneditable!
-	Static: Static
-	ModdedFields: Modded fields
+	Uneditable: Нельзя изменить
+	UneditableBlockMsg: Этот параметр нельзя изменить!
+	Static: Статичный
+	ModdedFields: Параметры из модов
 }
