@@ -442,7 +442,7 @@ Mods: {
 			}
 
 			GAstJRItem: {
-				DisplayName: Gold Astragelly Slime
+				DisplayName: Золотой астрогелевый слизень
 				Tooltip: ""
 			}
 
@@ -457,12 +457,12 @@ Mods: {
 			}
 
 			GoldEyedolItem: {
-				DisplayName: Gold Eyedol
+				DisplayName: Золотой Eyedol
 				Tooltip: ""
 			}
 
 			GoldViolemurItem: {
-				DisplayName: Gold Violemur
+				DisplayName: Золотой Violemur
 				Tooltip: ""
 			}
 
@@ -472,17 +472,17 @@ Mods: {
 			}
 
 			VaporoflyItem: {
-				DisplayName: Vaporofly
+				DisplayName: Паромуха
 				Tooltip: ""
 			}
 
 			NeuroFlyItem: {
-				DisplayName: Neuro Fly
+				DisplayName: Нейромуха
 				Tooltip: ""
 			}
 
 			OrthobabItem: {
-				DisplayName: Orthocera Hatchling
+				DisplayName: Детёныш ортоцераса
 				Tooltip: ""
 			}
 
@@ -492,17 +492,17 @@ Mods: {
 			}
 
 			PlagueFrogItem: {
-				DisplayName: Plagued Frog
+				DisplayName: Чумная лягушка
 				Tooltip: ""
 			}
 
 			ProvFlyItem: {
-				DisplayName: Profaned Butterfly
+				DisplayName: Осквернённая бабочка
 				Tooltip: ""
 			}
 
 			SandTurtleItem: {
-				DisplayName: Sand Turtle
+				DisplayName: Песчаная черепаха
 				Tooltip: ""
 			}
 
@@ -6331,16 +6331,16 @@ Mods: {
 
 		Biomes: {
 			AstralBlight: {
-				DisplayName: Astral Blight
-				TownNPCDialogueName: the Astral Blight
+				DisplayName: Астральная гибель
+				TownNPCDialogueName: биом «Астральная гибель»
 			}
 		}
 
-		Conditions.Acid: fuck you
+		Conditions.Acid: пошёл нахуй
 
 		Configs: {
 			CalValEXConfig: {
-				DisplayName: Config
+				DisplayName: Конфигурация
 
 				DisableVanityDrops: {
 					Label: Disable All Drops
@@ -6429,9 +6429,9 @@ Mods: {
 		}
 
 		Config: {
-			Drops: Drops
-			Pets: Pets
-			OtherHeader: Other
+			Drops: Выпадение предметов
+			Pets: Питомцы
+			OtherHeader: Другое
 			HeroHeader: Config Access
 		}
 	}
