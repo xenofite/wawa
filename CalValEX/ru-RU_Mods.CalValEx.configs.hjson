@@ -2,12 +2,12 @@
 
 CalValExConfig: {
 	DisplayName: Конфигурация
-	DropsGen_L: Disable All Drops
-	DropsGen_T: Disables all of the mod's direct drops
+	DropsGen_L: Отключить всю добычу
+	DropsGen_T: Отключает выпадение всех предметов из мода
 
 	DisableVanityDrops: {
 		Label: Отключить выпадение предметов-украшений
-		Tooltip: Disables all of the mod's vanity drops
+		Tooltip: Отключает выпадение всех украшений из мода
 	}
 
 	DropsBlock_L: Disable Boss Block Drops
@@ -19,11 +19,12 @@ CalValExConfig: {
 	}
 
 	Headers: {
-		DropsHeaderAmongus: Drops
-		PetsHeader: Pets
-		NPCsHeader: NPCs
+		DropsHeaderAmongus: Выпадение предметов
+		PetsHeader: Питомцы
+		NPCsHeader: НИПы
 		VanityHeader: Vanity Minions
-		MiscHeader: Other
+		MiscHeader: Другое
 		ConfigHeader: Config Access
 	}
+
 }
