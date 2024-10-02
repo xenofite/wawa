@@ -1,15 +1,15 @@
 Browser: {
 	ListView: Показать списком
 	Filters: Фильтры
-	Sorts: Сортировать по...
+	Sorts: Тип сортировки
 
 	Sort: {
-		ID: ID
-		Alphabetical: алфавиту
-		Damage: типу урона
-		Defense: защите
-		Value: цене
-		Life: максимальному здоровью
+		ID: по ID
+		Alphabetical: по алфавиту
+		Damage: по типу урона
+		Defense: по защите
+		Value: по цене
+		Life: по максимальному здоровью
 	}
 
 	ButtonSizeSlider: {
@@ -200,8 +200,8 @@ EntityEditor: {
 }
 
 FieldEditor: {
-	Uneditable: Нельзя изменить
-	UneditableBlockMsg: Этот параметр нельзя изменить!
+	Uneditable: Неизменяемый
+	UneditableBlockMsg: Этои параметр нельзя изменить!
 	Static: Статичный
-	ModdedFields: Параметры из модов
+	ModdedFields: Модовые параметры
 }
