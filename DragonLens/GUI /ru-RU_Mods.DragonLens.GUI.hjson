@@ -134,12 +134,11 @@ ToolbarCustomizationElements: {
 			Добавить панель
 			инструментов
 			'''
-                // Do not delete blank lines. This is to avoid the weird problem of text popping out of boxes
 		Tooltip:
 			'''
 			Создайте новую пустую панель инструментов!
-			
-			
+
+
 			'''
 	}
 
@@ -152,8 +151,8 @@ ToolbarCustomizationElements: {
 		Tooltip:
 			'''
 			Сохраняет шаблон и закрывает меню кастомизации
-			
-			
+
+
 			'''
 		LayoutSaved: Шаблон сохранён!
 	}
@@ -167,8 +166,8 @@ ToolbarCustomizationElements: {
 		Tooltip:
 			'''
 			Загрузить существующий шаблон
-			
-			
+
+
 			'''
 	}
 
@@ -186,8 +185,8 @@ ToolbarCustomizationElements: {
 		Tooltip:
 			'''
 			Открывает конфигурацию для изменения функциональности/настроек инструментов
-			
-			
+
+
 			'''
 	}
 }
