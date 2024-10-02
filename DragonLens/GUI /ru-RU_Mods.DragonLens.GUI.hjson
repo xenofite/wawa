@@ -201,7 +201,7 @@ EntityEditor: {
 
 FieldEditor: {
 	Uneditable: Неизменяемый
-	UneditableBlockMsg: Этои параметр нельзя изменить!
+	UneditableBlockMsg: Этот параметр нельзя изменить!
 	Static: Статичный
 	ModdedFields: Модовые параметры
 }
