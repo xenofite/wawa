@@ -1,6 +1,6 @@
 ItemSpawner: {
-	DisplayName: Item spawner
-	Description: Spawn any item in the game!
+	DisplayName: Браузер предметов
+	Description: Позволяет призывать любые предметы из игры.
 
 	FilterCategories: {
 		Crafting: По рецепту
