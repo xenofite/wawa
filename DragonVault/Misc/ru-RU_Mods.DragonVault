@@ -1,7 +1,7 @@
 MOTD:
 	'''
-	Thank you for using DragonVault V.{0}!
+	Спасибо, что используете DragonVault v.{0}!
 
-	Craft a vault using 10 gold or platinum bars to get started.
+	Для начала создайте хранилище из 10 золотых или платиновых слитков.
 	'''
 Projectiles.DragonPet.DisplayName: Dragon Pet
