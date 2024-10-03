@@ -3,7 +3,7 @@ CWRRecipes: {
 	GodEaterWeapon: Оружие Пожирателя богов
 }
 
-EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: бесконечного урона
+EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: ед. бесконечного урона
 Tools.RecipesLoseText: Вы не можете создать этот предмет просто так
 
 Items: {
