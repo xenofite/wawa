@@ -3,121 +3,121 @@ ItemSpawner: {
 	Description: Spawn any item in the game!
 
 	FilterCategories: {
-		Crafting: Crafting filters
-		Mod: Mod filters
-		Damage: Damage filters
-		Equipment: Equipment filters
-		Utility: Utility filters
-		Misc: Misc filters
+		Crafting: По рецепту
+		Mod: По модам
+		Damage: По типу урона
+		Equipment: По типу снаряжения
+		Utility: По типу инструмента
+		Misc: Прочие фильтры
 	}
 
 	Filters: {
-		DamageClass.Description: Items with {0}
-		Mod.Description: Items added by the mod {0}
+		DamageClass.Description: Предметы, наносящие {0}
+		Mod.Description: Предметы из {0}
 
 		Craftable: {
-			Name: Craftable
-			Description: Items which you have the materials to craft
+			Name: Доступное для создания
+			Description: Предметы, которые вы можете создать из имеющихся материалов
 		}
 
 		Vanilla: {
-			Name: Vanilla
-			Description: Items from the base game
+			Name: Ванилла
+			Description: Предметы из ванильной игры
 		}
 
 		AnyDamage: {
-			Name: Any damage
-			Description: Any item that deals damage
+			Name: Любой урон
+			Description: Все предметы, наносящие урон
 		}
 
 		Accessory: {
-			Name: Accessory
-			Description: Any item that can be equipped as an accessory
+			Name: Аксессуары
+			Description: Все предметы, которые можно надеть в слоты для аксессуаров
 		}
 
 		Armor: {
-			Name: Armor
-			Description: Any item that can be equipped as armor
+			Name: Броня
+			Description: Все предметы, которые можно надеть в слоты для брони
 		}
 
 		Placeable: {
-			Name: Placeable
-			Description: Any item that places a tile
+			Name: Можно поставить
+			Description: Все предметы, которые можно поставить
 		}
 
 		Deprecated: {
-			Name: Deprecated
-			Description: Any item that is deprecated (ItemID.Sets.Deprecated)
+			Name: Недоступное
+			Description: Все устаревшие и недоступные предметы, которые невозможно получить в игре (ItemID.Sets.Deprecated)
 		}
 
 		Consumables: {
-			Name: Consumables
-			Description: Any item that is consumable and doesn't place a tile
+			Name: Расходуемое
+			Description: Все предметы, которые можно израсходовать, но нельзя поставить
 		}
 
 		Pickaxe: {
-			Name: Pickaxe
-			Description: Any item that has pickaxe power
+			Name: Кирки
+			Description: Все предметы с какой-либо мощностью кирки
 		}
 
 		Axe: {
-			Name: Axe
-			Description: Any item that has axe power
+			Name: Топоры
+			Description: Все предметы с какой-либо мощностью топора
 		}
 
 		Hammer: {
-			Name: Hammer
-			Description: Any item that has hammer power
+			Name: Молоты
+			Description: Все предметы с какой-либо мощностью молота
 		}
 
 		Ammo: {
-			Name: Ammo
-			Description: Any item that can be used as ammo
+			Name: Боеприпасы
+			Description: Все предметы, которые можно использовать в качестве боеприпасов
 		}
 
 		Expert: {
-			Name: Expert
-			Description: Any item that is Expert Mode exclusive
+			Name: Эксперт
+			Description: Все предметы, эксклюзивные для режима Эксперт
 		}
 
 		Master: {
-			Name: Master
-			Description: Any item that is Master Mode exclusive
+			Name: Мастер
+			Description: Все предметы, эксклюзивные для режима Мастер
 		}
 
 		Vanity: {
-			Name: Vanity
-			Description: Any item that is a vanity item
+			Name: Украшения
+			Description: Все предметы, являющиеся украшением игрока
 		}
 
 		MakeNPC: {
-			Name: Create NPC
-			Description: Any item that creates an NPC
+			Name: Призывалки
+			Description: Все предметы, призывающие каких-либо существ
 		}
 
 		Mounts: {
-			Name: Mounts
-			Description: Any item that is a mount
+			Name: Маунты
+			Description: Все предметы, являющиеся маунтами
 		}
 
 		Pets: {
-			Name: Pets
-			Description: Any item that is a pet or light pet
+			Name: Питомцы
+			Description: Все предметы, являющиеся питомцами
 		}
 
 		Wings: {
-			Name: Wings
-			Description: Any item that are wings
+			Name: Крылья
+			Description: Все предметы, являющиеся крыльями
 		}
 
 		Hooks: {
-			Name: Hooks
-			Description: Any item that is a grappling hook
+			Name: Крюки
+			Description: Все предметы, являющиеся крюками-кошками
 		}
 
 		Material: {
-			Name: Material
-			Description: Any item that is a material
+			Name: Материалы
+			Description: Все предметы, являющиеся материалами для создания других предметов
 		}
 	}
 }
