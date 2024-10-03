@@ -1,23 +1,23 @@
 Browser: {
-	ListView: List view
+	ListView: Показать списком
 	Filters: Фильтры
 
 	ButtonSizeSlider: {
-		Name: Button scale
-		Tooltip: Drag to adjust the size of buttons in the browser
+		Name: Изменить масштаб
+		Tooltip: Двигайте ползунок, чтобы изменить маштаб иконок в браузере
 	}
 }
 
 DraggableUIState: {
-	Close: Close
+	Close: Закрыть
 
 	UserGuide: {
-		Name: User guide
-		Tooltip: Open the user guide for this tool in the browser
+		Name: Руководство
+		Tooltip: Открыть руководство по использованию этого инструмента в браузере
 	}
 }
 
 ToggleButton: {
-	On: On
-	Off: Off
+	On: Вкл.
+	Off: Выкл.
 }
