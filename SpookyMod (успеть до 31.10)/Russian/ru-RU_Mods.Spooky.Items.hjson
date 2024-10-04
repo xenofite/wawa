@@ -1338,57 +1338,57 @@ GourdLegs: {
 }
 
 OldWoodBody: {
-	DisplayName: Old Wood Breastplate
+	DisplayName: Нагрудник из старого дерева
 	Tooltip: ""
 }
 
 OldWoodHead: {
-	DisplayName: Old Wood Mask
+	DisplayName: Маска из старого дерева
 	Tooltip: ""
 }
 
 OldWoodLegs: {
-	DisplayName: Old Wood Greaves
+	DisplayName: Поножи из старого дерева
 	Tooltip: ""
 }
 
 WizardGangsterBody: {
-	DisplayName: Gilded Mage Tunic
+	DisplayName: Позолоченная туника мага
 	Tooltip: Increases your magic damage by 5
 }
 
 WizardGangsterHead: {
-	DisplayName: Gilded Wizard Hat
-	Tooltip: 5% increased magic critical strike chance
+	DisplayName: Позолоченная шляпа волшебника
+	Tooltip: Увеличивает шанс нанести критический удар магией на 5%
 }
 
 WizardGangsterHead2: {
-	DisplayName: Gilded Magician Hat
-	Tooltip: 5% increased magic damage
+	DisplayName: Позолоченная шляпа чародея
+	Tooltip: Увеличивает магический урон на 5%
 }
 
 WizardGangsterLegs: {
-	DisplayName: Gilded Mage Robe
-	Tooltip: Increases maximum mana by 20
+	DisplayName: Позолоченный халат мага
+	Tooltip: Увеличивает максимальный запас маны на 20 ед.
 }
 
 Candy1: {
-	DisplayName: Summoner Candy
+	DisplayName: Конфета призывателя
 	Tooltip: ""
 }
 
 Candy2: {
-	DisplayName: Summoner Candy
+	DisplayName: Конфета призывателя
 	Tooltip: ""
 }
 
 Candy3: {
-	DisplayName: Summoner Candy
+	DisplayName: Конфета призывателя
 	Tooltip: ""
 }
 
 Candy4: {
-	DisplayName: Summoner Candy
+	DisplayName: Конфета призывателя
 	Tooltip: ""
 }
 
@@ -1436,8 +1436,8 @@ SpookyBiomeKey: {
 }
 
 SpookyGlowshroom: {
-	DisplayName: Spooky Glowshroom
-	Tooltip: "'Filled with arcane energies'"
+	DisplayName: Жуткий светящийся гриб
+	Tooltip: "«Наполнен магической энергией»"
 }
 
 SpookySolution: {
@@ -1465,12 +1465,12 @@ BustlingGlowshroom: {
 }
 
 CandyBag: {
-	DisplayName: Bag O' Treats
+	DisplayName: Мешочек со сладостями 
 	Tooltip:
 		'''
-		Summons a magical bag of candy to float above you
-		The candy bag will drop pieces of candy every twenty seconds
-		Picking up candies will provide different summoner benefits
+		Призывает магическеский мешочек с конфетами, который будет летать над вами
+		С этого мешочка каждые 20 секунд будут выпадать по конфете
+		Подбирая эти конфеты, вы получаете различные бонусы призывателя
 		'''
 }
 
@@ -1531,8 +1531,8 @@ LeafBlower: {
 }
 
 MossyPebble: {
-	DisplayName: Mossy Pebble
-	Tooltip: Used as ammo with slingshots
+	DisplayName: Замшелый камешек
+	Tooltip: Используется как боеприпас для рогатки из старого дерева
 }
 
 NecromancyTome: {
@@ -1545,60 +1545,60 @@ NecromancyTome: {
 }
 
 OldMossBow: {
-	DisplayName: Old Moss Bow
-	Tooltip: Deals even more damage when used with Old Wood Arrows
+	DisplayName: Старых моховый лук
+	Tooltip: Наносит больше урона при использовании с стрелами из старого дерева
 }
 
 OldWoodArrow: {
-	DisplayName: Old Wood Arrow
-	Tooltip: May sometimes stick to enemies on hit
+	DisplayName: Стрела из старого дерева
+	Tooltip: Иногда может прилипнуть к врагу при попадании
 }
 
 OldWoodBow: {
-	DisplayName: Old Wood Bow
+	DisplayName: Лук из старого дерева
 	Tooltip: ""
 }
 
 OldWoodGreatsword: {
-	DisplayName: Old Wood Greatsword
-	Tooltip: "'It's more of a club than a sword'"
+	DisplayName: Двуручный меч из старого дерева
+	Tooltip: "«Это скорее дубинка, чем меч»"
 }
 
 OldWoodHammer: {
-	DisplayName: Old Wood Hammer
+	DisplayName: Молот из старого дерева
 	Tooltip: ""
 }
 
 OldWoodSlingshot: {
-	DisplayName: Old Wood Slingshot
+	DisplayName: Раготака из старого дерева
 	Tooltip:
 		'''
-		Hold down to pull back the slingshot, then release to fling ammo
-		Uses Mossy Pebbles as ammo
+		Удерживайте ЛКМ, чтоба зарядить рогатку
+		Использует замшелые камушки в качестве боеприпасов 
 		'''
 }
 
 OldWoodStaff: {
-	DisplayName: Old Wood Staff
-	Tooltip: Casts magic shadow orbs
+	DisplayName: Посох из старого дерева
+	Tooltip: Выпускает магические теневые шары
 }
 
 OldWoodSword: {
-	DisplayName: Old Wood Sword
+	DisplayName: Меч из старого редева
 	Tooltip: ""
 }
 
 ShroomFlail: {
-	DisplayName: Fungal Flail
+	DisplayName: Грибной кистень
 	Tooltip: ""
 }
 
 ShroomWhip: {
-	DisplayName: Spore Smacker
+	DisplayName: Спорошлёп
 	Tooltip:
 		'''
-		Your summons will focus stuck enemies
-		Hitting enemies will sometimes create lingering spores
+		{$CommonItemTooltip.Whips}
+		Попадание по врагу может вызвать медленно левитирующие споры
 		'''
 }
 
@@ -2237,7 +2237,7 @@ CatacombFlooringItem: {
 }
 
 GildedBrickItem: {
-	DisplayName: Gilded Brick
+	DisplayName: Позолоченный кирпич
 	Tooltip: ""
 }
 
@@ -2504,16 +2504,16 @@ GourdSmallLitItem: {
 }
 
 HalloweenChestItem: {
-	DisplayName: Old Wood Chest
+	DisplayName: Сундук из старого дерева
 	Tooltip: ""
 }
 
 CandleItem: {
-	DisplayName: Old Wax Candle
+	DisplayName: Старая восковая свеча
 	Tooltip:
 		'''
-		Provides a small amount of light
-		Right click a carved gourd with this in your inventory to put it inside
+		Излучает небольшое количество света
+		Нажмите ПКМ по вырезанной тыкве в вашем инвентаре, чтобы положить в неё свечу
 		'''
 }
 
@@ -2528,61 +2528,61 @@ FlySmallJarItem: {
 }
 
 OldWoodBathtubItem: {
-	DisplayName: Old Wood Bathtub
+	DisplayName: Ванна из старого дерева
 	Tooltip: ""
 }
 
 OldWoodBedItem: {
-	DisplayName: Old Wood Bed
+	DisplayName: Кровать из старого дерева
 	Tooltip: ""
 }
 
 OldWoodBookcaseItem: {
-	DisplayName: Old Wood Bookcase
+	DisplayName: Книжный шкаф из старого дерева
 	Tooltip: ""
 }
 
 OldWoodCandleItem: {
-	DisplayName: Old Wood Candle
+	DisplayName: Свеча из старого дерева
 	Tooltip: ""
 }
 
 OldWoodChairItem: {
-	DisplayName: Old Wood Chair
+	DisplayName: Стул из старого дерева
 	Tooltip: ""
 }
 
 OldWoodDoorItem: {
-	DisplayName: Old Wood Door
+	DisplayName: Дверь из старого деерева
 	Tooltip: ""
 }
 
 OldWoodOrganItem: {
-	DisplayName: Old Wood Organ
+	DisplayName: Орган из старого дерева
 	Tooltip:
 		'''
-		Right click to play the organ
-		But, it can only play Toccata and Fugue in D minor
+		Нажмите ПКМ по органу, чтобы сыграть на нём
+		Однако, он может проигрывать только «Токкату и фуга ре минор»
 		'''
 }
 
 OldWoodPlatformItem: {
-	DisplayName: Old Wood Platform
+	DisplayName: Платформа из старого дерева
 	Tooltip: ""
 }
 
 OldWoodSofaItem: {
-	DisplayName: Old Wood Sofa
+	DisplayName: Диван из старого дерева
 	Tooltip: ""
 }
 
 OldWoodTableItem: {
-	DisplayName: Old Wood Table
+	DisplayName: Стол из старого дерева
 	Tooltip: ""
 }
 
 OldWoodWorkBenchItem: {
-	DisplayName: Old Wood Work Bench
+	DisplayName: Верстак из старого дерева
 	Tooltip: ""
 }
 
@@ -2607,7 +2607,7 @@ MushroomMossSeeds: {
 }
 
 SpookyDirtItem: {
-	DisplayName: Spooky Dirt
+	DisplayName: Жуткая земля
 	Tooltip: ""
 }
 
@@ -2622,37 +2622,37 @@ SpookySeedsOrange: {
 }
 
 SpookyStoneItem: {
-	DisplayName: Mossy Stone
+	DisplayName: Замшелый камень
 	Tooltip: ""
 }
 
 SpookyStoneWallItem: {
-	DisplayName: Mossy Stone Wall
+	DisplayName: Стена из замшелого камня
 	Tooltip: ""
 }
 
 SpookyStoneBricksItem: {
-	DisplayName: Mossy Stone Brick
+	DisplayName: Кирпич замшелого каменя
 	Tooltip: ""
 }
 
 SpookyStoneBricksWallItem: {
-	DisplayName: Mossy Stone Brick Wall
+	DisplayName: Стена из кирпича замшелого камня
 	Tooltip: ""
 }
 
 SpookyWoodItem: {
-	DisplayName: Old Wood
+	DisplayName: Старая древесина
 	Tooltip: ""
 }
 
 SpookyWoodWallItem: {
-	DisplayName: Old Wood Wall
+	DisplayName: Стена из старого дерева
 	Tooltip: ""
 }
 
 SpookyWoodFenceItem: {
-	DisplayName: Old Wood Fence
+	DisplayName: Забор из старого дерева
 	Tooltip: ""
 }
 
