@@ -54,11 +54,11 @@ OrroboroEmbryo: {
 }
 
 SpiritAmulet: {
-	DisplayName: Spirit Amulet
+	DisplayName: Амулет духа
 	Tooltip:
 		'''
-		20% increased movement speed
-		When hit, you will sometimes release homing spirit particles around you
+		Увеличивает скоростьп передвижения на 20%
+		Из вас иногда будут исходить маленькие духи при получении урона, которые самонаводятся на ближайших врагов
 		'''
 }
 
@@ -88,7 +88,7 @@ BossBagRotGourd: {
 }
 
 BossBagSpookySpirit: {
-	DisplayName: Treasure Bag (Spooky Spirit)
+	DisplayName: Мешок с сокровищами (Дух страха)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -133,12 +133,12 @@ CreepyFace: {
 }
 
 EMFReader: {
-	DisplayName: EMF Reader
+	DisplayName: Измеритель ЭМП
 	Tooltip:
 		'''
-		Not consumable
-		Used to find paranormal entities
-		Summons Spooky Spirit when used at the cursed statue at night
+		Не расходуется
+		Использется для обнаружения паронормальных существ
+		Призывает Духа страха при использовании на проклятой статуе ночью
 		'''
 }
 
@@ -196,18 +196,18 @@ FlowerLegs: {
 }
 
 CatacombKey1: {
-	DisplayName: Yellow Barrier Key
-	Tooltip: Use to open the yellow catcombs barrier
+	DisplayName: Ключ от жёлтого барьера
+	Tooltip: Используется для открытия жёлтого барьера в катакомбах
 }
 
 CatacombKey2: {
-	DisplayName: Red Barrier Key
-	Tooltip: Use to open the red catcombs barrier
+	DisplayName Ключ от красного барьера
+	Tooltip: Используется для открытия красного барьера в катакомбах
 }
 
 CatacombKey3: {
-	DisplayName: Orange Barrier Key
-	Tooltip: Use to open the orange catacombs barrier
+	DisplayName: Ключ от оранжевого барьера
+	Tooltip: Используется для открытия оранжевого барьера в катакомбах
 }
 
 PlantChunk: {
@@ -451,18 +451,18 @@ ThornStaff: {
 }
 
 SpiritHorsemanBody: {
-	DisplayName: Spirit Horseman's Chestmail
-	Tooltip: 5% increased damage
+	DisplayName: Колючуга духа-наездника
+	Tooltip: Увеличивает урон на 5%
 }
 
 SpiritHorsemanHead: {
-	DisplayName: Spirit Horseman's Pumpkin
-	Tooltip: 5% increased critical strike chance
+	DisplayName: Тыква духа-наездника
+	Tooltip: Увеличивает шанс нанести критический удар на 5%
 }
 
 SpiritHorsemanLegs: {
-	DisplayName: Spirit Horseman's Greaves
-	Tooltip: 12% increased movement speed
+	DisplayName: Поножи 
+	Tooltip: Увеличивает скорость передвижение на 12%
 }
 
 BackroomsCorpse: {
@@ -681,20 +681,22 @@ SpiritHandStaff: {
 }
 
 SpiritScroll: {
-	DisplayName: Spooky Scroll
+	DisplayName: Жуткий свиток
 	Tooltip:
 		'''
-		Conjures pumpkin heads that will charge at nearby enemies
-		They do not take up minion slots, but you cannot have more than 5 at once
+		Выпускает тыквенные головы, который заряжаются и наводятся на ближайшего врага
+		Тыквенные головы взрываются после попадания по врагу или спустя некоторое время бездействия
+		Не требует наличие свободних слотов под миньонов для использования, но вы не можете призывать более 5 голов за раз
 		'''
 }
 
 SpiritSlingshot: {
-	DisplayName: Ghostly Slingshot
+	DisplayName: Призрачная рогатка
 	Tooltip:
 		'''
-		Hold down to pull back the slingshot, then release to fling ammo
-		Converts Mossy Pebbles into ghastly orbs that wildly ricochet off of surfaces and enemies
+		Использует замшелые камушки в качестве боеприпасов
+		Удерживайте ЛКМ, чтоба зарядить рогатку
+		Превращает замшелые камушки в призрачные шары, быстро отскакивающие от поверхностей и врагов
 		'''
 }
 
@@ -784,7 +786,7 @@ SirenHead: {
 }
 
 SpookySpiritMask: {
-	DisplayName: Spooky Spirit Mask
+	DisplayName: Маска Духа страха
 	Tooltip: ""
 }
 
@@ -1040,11 +1042,11 @@ SmallDaffodil: {
 }
 
 SpiritLamp: {
-	DisplayName: Spirit Lantern
+	DisplayName: Фонарь духа
 	Tooltip:
 		'''
-		Summons a mini spirit to light the way
-		'What kind of spirit possesses a lantern?'
+		Призывает мини-духа, который будет освещать ваш путь
+		«Какой дух будет владеть фонарём?»
 		'''
 }
 
@@ -1475,11 +1477,11 @@ CandyBag: {
 }
 
 CreepyCandle: {
-	DisplayName: Creepy Candle
+	DisplayName: Страшная свеча
 	Tooltip:
 		'''
-		Increases magic damage by 10
-		Magic projectiles will sometimes ignite enemies
+		Увеличивает магический урон на 10 ед.
+		Снаряды магического оружия могут поджечь врагов
 		'''
 }
 
@@ -1522,11 +1524,11 @@ GourdStaff: {
 }
 
 LeafBlower: {
-	DisplayName: Pump-Action Leaf Blower
+	DisplayName: Насосная воздуходувка
 	Tooltip:
 		'''
-		Rapidly fires different colored autumn leaves
-		'It's like a leaf blower, but it creates more leaves!'
+		Быстро стреляет разноцветными осенними листями
+		«Это как уброка листьев, приводящяя к ещё большому количеству листьев!»
 		'''
 }
 
@@ -1536,11 +1538,11 @@ MossyPebble: {
 }
 
 NecromancyTome: {
-	DisplayName: Necromancy for Dummies
+	DisplayName: Некромантия для чайников
 	Tooltip:
 		'''
-		Conjures various zombie parts that bounce everywhere
-		'Not quite strong enough to summon full zombies'
+		Стреляет отскакивающими от поверхностей частями тела зомби
+		«Вы не настолько сильны, чтобы призывать полноценных зомби»
 		'''
 }
 
@@ -1561,7 +1563,7 @@ OldWoodBow: {
 
 OldWoodGreatsword: {
 	DisplayName: Двуручный меч из старого дерева
-	Tooltip: "«Это скорее дубинка, чем меч»"
+	Tooltip: "«Это скорее просто дубинка, чем меч»"
 }
 
 OldWoodHammer: {
@@ -1570,7 +1572,7 @@ OldWoodHammer: {
 }
 
 OldWoodSlingshot: {
-	DisplayName: Раготака из старого дерева
+	DisplayName: Рогатка из старого дерева
 	Tooltip:
 		'''
 		Удерживайте ЛКМ, чтоба зарядить рогатку
@@ -1612,11 +1614,11 @@ SkullWispStaff: {
 }
 
 ToiletPaper: {
-	DisplayName: Toilet Paper
+	DisplayName: Туалетная бумага
 	Tooltip:
 		'''
-		Throws rolls of toilet paper
-		'The perfect thing for some nefarious halloween pranks'
+		Бросает рулон туалетной бумаги
+		«Идально подходит для гнусных розыгрышей на Хэллоуин»
 		'''
 }
 
@@ -2247,7 +2249,7 @@ CemeteryBiomeChestItem: {
 }
 
 CemeteryDirtItem: {
-	DisplayName: Swamp Soil
+	DisplayName: Грунт болота
 	Tooltip: ""
 }
 
@@ -2257,7 +2259,7 @@ CemeteryGrassSeeds: {
 }
 
 CemeteryStoneItem: {
-	DisplayName: Swamp Rock
+	DisplayName: Горная порода болота
 	Tooltip: ""
 }
 
@@ -2358,13 +2360,13 @@ SpookyHellBox: {
 }
 
 SpookyMenuBox: {
-	DisplayName: Music Box (Spooky Mod Menu)
-	Tooltip: "[c/FFBF00:Welcome To Spooky Mod] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Spooky Mod — Главное меню)
+	Tooltip: "[c/FFBF00:«Welcome To Spooky Mod»] от BananaLizard"
 }
 
 SpookySpiritBox: {
-	DisplayName: Music Box (Spooky Spirit)
-	Tooltip: "[c/B6ABFF:Groovy Geist] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Дух страха)
+	Tooltip: "[c/B6ABFF:«Groovy Geist»] от BananaLizard"
 }
 
 CemeteryPylonItem: {
@@ -2429,7 +2431,7 @@ RotGourdRelicItem: {
 }
 
 SpookySpiritRelicItem: {
-	DisplayName: Spooky Spirit Relic
+	DisplayName: Реликвия Духа страха
 	Tooltip: ""
 }
 
@@ -2597,7 +2599,7 @@ SpookyCrate: {
 }
 
 SwoleMushroomStatueItem: {
-	DisplayName: Mushroom God Statue
+	DisplayName: Статуя грибного Бога
 	Tooltip: ""
 }
 
@@ -2822,7 +2824,7 @@ RotGourdTrophyItem: {
 }
 
 SpookySpiritTrophyItem: {
-	DisplayName: Spooky Spirit Trophy
+	DisplayName: Трофей Духа страха
 	Tooltip: ""
 }
 
