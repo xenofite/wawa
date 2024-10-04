@@ -8,7 +8,7 @@ RotGourd: {
 }
 
 SpookySpirit: {
-	DisplayName: Дух Страха
+	DisplayName: Дух страха
 
 	BossChecklistIntegration: {
 		SpawnInfo: Right click the cursed statue in the swampy cemetery at night while you have an [i:Spooky/EMFReader] in your inventory.
