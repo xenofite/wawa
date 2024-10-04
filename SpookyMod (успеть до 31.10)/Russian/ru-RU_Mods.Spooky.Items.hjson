@@ -1338,17 +1338,17 @@ GourdLegs: {
 }
 
 OldWoodBody: {
-	DisplayName: Íàãðóäíèê èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Breastplate
 	Tooltip: ""
 }
 
 OldWoodHead: {
-	DisplayName: Ìàñêà èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Mask
 	Tooltip: ""
 }
 
 OldWoodLegs: {
-	DisplayName: Ïîíîæè èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Greaves
 	Tooltip: ""
 }
 
@@ -1550,41 +1550,41 @@ OldMossBow: {
 }
 
 OldWoodArrow: {
-	DisplayName: Ñòðåëà èç ñòàðîãî äåðåâà
-	Tooltip: Èíîãäà ïðèëåïàþò ê âðàãàì ïðè ïîïàäàíèè
+	DisplayName: Old Wood Arrow
+	Tooltip: May sometimes stick to enemies on hit
 }
 
 OldWoodBow: {
-	DisplayName: Ëóê èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Bow
 	Tooltip: ""
 }
 
 OldWoodGreatsword: {
-	DisplayName: Äâóðó÷íèê èç ñòàðîãî äåðåâà
-	Tooltip: "«Ýòî ñêîðåå êóñîê áðåâíà, ÷åì ìå÷»"
+	DisplayName: Old Wood Greatsword
+	Tooltip: "'It's more of a club than a sword'"
 }
 
 OldWoodHammer: {
-	DisplayName: Ìîëîò èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Hammer
 	Tooltip: ""
 }
 
 OldWoodSlingshot: {
-	DisplayName: Ðîãàòêà èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Slingshot
 	Tooltip:
 		'''
-		Óäåðæèâàéòå ËÊÌ, ÷òîáû çàðÿäèò ðîãàòêó
-		Èñïîëüçóåò çàìøåëûå ãàëüêè â êà÷åñòâå áîåïðèïàñîâ
+		Hold down to pull back the slingshot, then release to fling ammo
+		Uses Mossy Pebbles as ammo
 		'''
 }
 
 OldWoodStaff: {
-	DisplayName: Ïîñîõ èç ñòàðîãî äåðåâà
-	Tooltip: Âûïóñêàåò ìàãè÷åñêèå òåíåâûå øàðû
+	DisplayName: Old Wood Staff
+	Tooltip: Casts magic shadow orbs
 }
 
 OldWoodSword: {
-	DisplayName: Ìå÷ èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Sword
 	Tooltip: ""
 }
 
@@ -2504,7 +2504,7 @@ GourdSmallLitItem: {
 }
 
 HalloweenChestItem: {
-	DisplayName: Ñóíäóê èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Chest
 	Tooltip: ""
 }
 
@@ -2528,61 +2528,61 @@ FlySmallJarItem: {
 }
 
 OldWoodBathtubItem: {
-	DisplayName: Âàííà èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Bathtub
 	Tooltip: ""
 }
 
 OldWoodBedItem: {
-	DisplayName: Êðîâàòü èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Bed
 	Tooltip: ""
 }
 
 OldWoodBookcaseItem: {
-	DisplayName: Êíèæíûé øêàô èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Bookcase
 	Tooltip: ""
 }
 
 OldWoodCandleItem: {
-	DisplayName: Ñâå÷à èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Candle
 	Tooltip: ""
 }
 
 OldWoodChairItem: {
-	DisplayName: Ñòóë èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Chair
 	Tooltip: ""
 }
 
 OldWoodDoorItem: {
-	DisplayName: Äâåðü èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Door
 	Tooltip: ""
 }
 
 OldWoodOrganItem: {
-	DisplayName: Îðãàí èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Organ
 	Tooltip:
 		'''
-		Íàæìèòå ÏÊÌ ïî îðãàíó, ÷òîáû ñûãàòü íà í¸ì
-		Îäíàêî, îí ìîæåò âîñïðîèçâîäèòü òîëüêî «Òîêêàòó è ôóãà ðå ìèíîð»
+		Right click to play the organ
+		But, it can only play Toccata and Fugue in D minor
 		'''
 }
 
 OldWoodPlatformItem: {
-	DisplayName: Ïëàòôîðìà èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Platform
 	Tooltip: ""
 }
 
 OldWoodSofaItem: {
-	DisplayName: Äèâàí èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Sofa
 	Tooltip: ""
 }
 
 OldWoodTableItem: {
-	DisplayName: Ñòîë èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Table
 	Tooltip: ""
 }
 
 OldWoodWorkBenchItem: {
-	DisplayName: Âåðñòàê èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Work Bench
 	Tooltip: ""
 }
 
@@ -2607,7 +2607,7 @@ MushroomMossSeeds: {
 }
 
 SpookyDirtItem: {
-	DisplayName: Æóòêàÿ çåìëÿ
+	DisplayName: Spooky Dirt
 	Tooltip: ""
 }
 
@@ -2642,17 +2642,17 @@ SpookyStoneBricksWallItem: {
 }
 
 SpookyWoodItem: {
-	DisplayName: Ñòàðàÿ äðåâåñèíà
+	DisplayName: Old Wood
 	Tooltip: ""
 }
 
 SpookyWoodWallItem: {
-	DisplayName: Ñòåíà èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Wall
 	Tooltip: ""
 }
 
 SpookyWoodFenceItem: {
-	DisplayName: Çàáîð èç ñòàðîãî äåðåâà
+	DisplayName: Old Wood Fence
 	Tooltip: ""
 }
 
