@@ -30,11 +30,11 @@ DaffodilHairpinCooldown: {
 
 EmbryoRevival: {
 	DisplayName: Embryotic Revival
-	/* Description:
+	Description:
 		'''
 		The embyro has saved you from death
 		Majorly increases defense and life regeneration
-		''' */
+		'''
 }
 
 FlyBuff: {
@@ -44,11 +44,11 @@ FlyBuff: {
 
 SkullFrenzyBuff: {
 	DisplayName: Necromantic Frenzy
-	/* Description:
+	Description:
 		'''
 		The power of necromancy flows through you
 		Increased damage, critical strike chance, knockback, and movement speed
-		''' */
+		'''
 }
 
 SnottySchnozCooldown: {
@@ -62,12 +62,12 @@ BouncerDeathmark: {
 }
 
 CatacombDebuff: {
-	DisplayName: Curse of the Catacombs
-	/* Description:
+	DisplayName: Проклятье катакомб 
+	Description:
 		'''
-		You cannot place blocks or use various tools
-		Your vision is very limited
-		''' */
+		Вы не можете ставить блоки и использовать инструменты
+		Поле зрения сильно ограничено
+		'''
 }
 
 CrossCooldown: {
@@ -77,11 +77,11 @@ CrossCooldown: {
 
 EmbryoCooldown: {
 	DisplayName: Embryotic Shatter
-	/* Description:
+	Description:
 		'''
 		The embryo's revival must recharge
 		Increases all damage and critical strike chance by 8%
-		''' */
+		'''
 }
 
 EnsnaredCooldown: {
@@ -226,12 +226,12 @@ SoulSkullBuff: {
 
 SkullTotemBuff: {
 	DisplayName: Skull Idol Empowerment
-	/* Description:
+	Description:
 		'''
 		12% increased summon damage
 		50% increased whip range
 		+2 max minions
-		''' */
+		'''
 }
 
 TortumorMinionBuff: {
@@ -320,8 +320,8 @@ SkullGoopBuff: {
 }
 
 SpookySpiritPetBuff: {
-	DisplayName: Mini Spirit
-	Description: The mini spirit lingers around you
+	DisplayName: Мини-дух
+	Description: Вас преследует маленький дух
 }
 
 StickyEyeBuff: {
@@ -386,11 +386,11 @@ HerobrineAltarCooldown: {
 
 SpiderArmorStealth: {
 	DisplayName: Spi-Ops Stealth
-	/* Description:
+	Description:
 		'''
 		Enemies will not target you
 		20% increased damage reduction
-		''' */
+		'''
 }
 
 SpiderStealthCooldown: {
