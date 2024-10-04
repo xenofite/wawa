@@ -1,0 +1,283 @@
+RotGourd: {
+	DisplayName: Rot Gourd
+
+	BossChecklistIntegration: {
+		SpawnInfo: Use a [i:Spooky/RottenSeed] in the spooky forest, It is dropped by breaking the large moldy gourds in the biome.
+		DespawnMessage: Rot Gourd hops into the distance
+	}
+}
+
+SpookySpirit: {
+	DisplayName: Spooky Spirit
+
+	BossChecklistIntegration: {
+		SpawnInfo: Right click the cursed statue in the swampy cemetery at night while you have an [i:Spooky/EMFReader] in your inventory.
+		DespawnMessage: Spooky Spirit has haunted all players
+	}
+}
+
+Moco: {
+	DisplayName: Moco
+
+	BossChecklistIntegration: {
+		SpawnInfo: Right click the nose statue in the valley of eyes while you have a [i:Spooky/CottonSwab] in your inventory. The cotton swab is given to you after completing 3 of little eye's quests, or can be crafted.
+		DespawnMessage: Moco has sneezed on all players
+	}
+}
+
+DaffodilEye: {
+	DisplayName: Daffodil
+
+	BossChecklistIntegration: {
+		SpawnInfo: Throw a [i:Spooky/Brick] at her to wake her up.
+		DespawnMessage: Daffodil has ended your catacomb expedition
+	}
+}
+
+OrroHead: {
+	DisplayName: Orro
+
+	BossChecklistIntegration: {
+		EntryName: Orro & Boro
+		SpawnInfo: Right click the egg in the valley of eyes while you have the [i:Spooky/Concoction] in your inventory, after you have completed the Egg Incursion event once. The concoction is given to you after completing all of little eye's quests, or can be crafted.
+		DespawnMessage: Orro & Boro have protected their egg
+	}
+}
+
+BigBone: {
+	DisplayName: Big Bone
+
+	BossChecklistIntegration: {
+		SpawnInfo: Use [i:Spooky/Fertilizer] while standing nearby the giant flower pot in the catacombs.
+		DespawnMessage: All players have succumbed to big bone's wrath
+	}
+}
+
+//boss stuff
+BigFlowerPot.DisplayName: Giant Flower Pot
+BigFlower.DisplayName: Solar Flower
+DefensiveFlower.DisplayName: Defensive Flower
+HealingFlower.DisplayName: Healing Flower
+DaffodilBody.DisplayName: ""
+DaffodilHandLeft.DisplayName: Daffodil
+DaffodilHandRight.DisplayName: Daffodil
+BoroBody.DisplayName: Boro
+BoroBodyConnect.DisplayName: Boro
+BoroBodyP1.DisplayName: Boro
+BoroHead.DisplayName: Boro
+BoroTail.DisplayName: Boro
+BoroTailP1.DisplayName: Boro
+OrroBody.DisplayName: Orro
+OrroBodyP1.DisplayName: Orro
+OrroHeadP1.DisplayName: Orro
+OrroTail.DisplayName: Orro
+PhantomSkull.DisplayName: Phantom Skull
+//hallucinations
+TheBaby.DisplayName: The Baby
+TheFlesh.DisplayName: The Flesh
+TheHorse.DisplayName: The Horse
+TheMan.DisplayName: The Man
+//catacombs layer 1
+CatacombGuardian.DisplayName: Catacomb Guardian
+Skeletoid1.DisplayName: Skeletoid
+Skeletoid2.DisplayName: Skeletoid
+Skeletoid3.DisplayName: Skeletoid
+Skeletoid4.DisplayName: Skeletoid
+SkeletoidBig.DisplayName: Big John
+BoneStackerBase.DisplayName: Catacomb Slab
+BoneStacker1.DisplayName: Bone Slab
+BoneStacker2.DisplayName: Bone Slab
+BoneStacker3.DisplayName: Bone Slab
+BoneStackerMoving1.DisplayName: Bone Slab
+BoneStackerMoving2.DisplayName: Bone Slab
+BoneStackerMoving3.DisplayName: Bone Slab
+GiantPutty.DisplayName: Cube of Putty
+RollingSkull1.DisplayName: Rolling Skull
+RollingSkull2.DisplayName: Rolling Skull
+RollingSkull3.DisplayName: Rolling Skull
+RollingSkull4.DisplayName: Gilded Skull
+ZomboidGlyphomancer.DisplayName: Zomboid Glyphomancer
+ZomboidNecromancer.DisplayName: Zomboid Necromancer
+ZomboidNecromancerSoul.DisplayName: Undead Soul
+PhantomRollingSkull.DisplayName: Phantom Skull
+PhantomSkeletoid.DisplayName: Phantom Skeletoid
+ZomboidPyromancer.DisplayName: Zomboid Pyromancer
+ZomboidSuspiciomancer.DisplayName: Zomboid Suspiciomancer
+//catacombs layer 2
+Daisy1.DisplayName: Daisy
+Daisy2.DisplayName: Daisy
+Flourence.DisplayName: Flourence
+Marigold.DisplayName: Marigold
+MarigoldSpit.DisplayName: Marigold
+Smelly.DisplayName: Smelly
+Sunny.DisplayName: Sunny
+Toothy.DisplayName: Toothy
+//pandora's box
+PandoraBox.DisplayName: Pandora's Box
+Bobbert.DisplayName: Bobbert
+Chester.DisplayName: Chester
+ChesterClub.DisplayName: Chester
+ChesterShield.DisplayName: Chester
+Sheldon.DisplayName: Sheldon
+SheldonShield.DisplayName: Sheldon
+Stitch.DisplayName: Stitch
+StitchWand.DisplayName: Stitch
+//cemetery
+BloatGhostBig.DisplayName: Bloated Ghost
+BloatGhostSmall.DisplayName: Ghost
+Possessor.DisplayName: Possessor
+PossessorEvil.DisplayName: Possessor
+ZomboidCasket.DisplayName: Zomboid Casket
+ZomboidGremlin.DisplayName: Zombino
+MistGhost.DisplayName: Mist Ghost
+FeralRat1.DisplayName: Feral Rat
+FeralRat2.DisplayName: Feral Rat
+TinyRat1.DisplayName: Tiny Rat
+TinyRat2.DisplayName: Tiny Rat
+SadGhostBig.DisplayName: Sad Ghost
+SadGhostSmall.DisplayName: Sad Ghost
+//egg event
+Crux.DisplayName: Crux
+Glutinous.DisplayName: Glutinous
+Ventricle.DisplayName: Ventricle
+Vesicator.DisplayName: Vesicator
+Vigilante.DisplayName: Vigilante
+//friendly
+DumbZomboid.DisplayName: Dumb Zomboid
+GiantWeb.DisplayName: Giant Web
+GiantWebAnimationBase.DisplayName: ""
+GiantWebAnimationPiece.DisplayName: ""
+LittleBone.DisplayName: Little Bone
+LittleBonePotTransform.DisplayName: Little Bone
+LittleBoneSleeping.DisplayName: Sleeping Plant
+LittleEye.DisplayName: Little Eye
+LittleEyeSleeping.DisplayName: Sleeping Eye
+Musicman.DisplayName: Musicman
+PartySkeleton1.DisplayName: Party Skeleton
+PartySkeleton2.DisplayName: Party Skeleton
+PartySkeleton3.DisplayName: Party Skeleton
+PartySkeleton4.DisplayName: Party Skeleton
+PartySkeleton5.DisplayName: Party Skeleton
+PartySkeleton6.DisplayName: Party Skeleton
+PartySkeleton7.DisplayName: Party Skeleton
+PartySkeleton8.DisplayName: Party Skeleton
+SkeletonBouncer.DisplayName: Skeleton Bouncer
+SuspiciousSkeleton.DisplayName: Suspicious Skeleton
+OldHunterSleeping.DisplayName: Old Hunter
+
+OldHunter: {
+	DisplayName: Old Hunter
+
+	TownNPCMood: {
+		Content: I am content.
+		NoHome: You know, I was wonderin' if you had a cozy place to live.
+		FarFromHome: I am too far from home.
+		LoveSpace: The amount of space here is real nice!
+		DislikeCrowded: Ain't liking how many people are around me right now.
+		HateCrowded: It's too damn crowded here. Way too much yip-yapping!
+		LoveBiome: Ahh the good ol' {BiomeName}. Still love this place despite them ugly ass spiders wandering around!
+		LikeBiome: The {BiomeName} is my type of biome. Nothin' says home quite like fending off venomous bugs and bats!
+		DislikeBiome: Not really likin' {BiomeName}, too peaceful and calm for me.
+		HateBiome: What the hell is this so-called Hallowed? I ain't wanna live in fairytale land!
+		LoveNPC: "{NPCName} is awesome! Glad there's some hard-core dudes out there!"
+		LikeNPC: I like {NPCName}. Honestly I'm just glad I got someone old to talk with haha!
+		DislikeNPC: "{NPCName}? Seems way too hoity-toity for me."
+		HateNPC: "{NPCName} can screw off. Don't think I ever seen such a terrible attitude before!"
+		Princess_LovesNPC: ""
+		LikeNPC_Princess: ""
+	}
+}
+
+//spooky biome
+Bungus.DisplayName: Bungus
+CandleMonster.DisplayName: Candle Monster
+Chungus.DisplayName: Chunky Fungus
+FluffBatBig1.DisplayName: Giant Fuzz Bat
+FluffBatBig2.DisplayName: Giant Fuzz Bat
+FluffBatSmall1.DisplayName: Fuzz Bat
+FluffBatSmall2.DisplayName: Fuzz Bat
+FlyBig.DisplayName: Giant Fly
+FlySmall.DisplayName: Fly
+HoppingCandyBasket.DisplayName: Hopping Candy Basket
+LittleSpider.DisplayName: Little Spider
+MonsterEye1.DisplayName: Monster Eye
+MonsterEye2.DisplayName: Monster Eye
+MonsterEye4.DisplayName: Monster Eye
+MonsterEye3.DisplayName: Monster Eye
+PuttyPumpkin.DisplayName: Putty Pumpkin
+PuttyPumpkinling.DisplayName: Putty Pumpkinling
+PuttySlime1.DisplayName: Putty Slime
+PuttySlime2.DisplayName: Putty Slime
+PuttySlime3.DisplayName: Putty Slime
+ScarecrowShotgunner.DisplayName: Possessed Scarecrow
+ShroomHopper.DisplayName: Shroom Hopper
+SpookyDance.DisplayName: Spooky Dance Ghost
+TinyGhost1.DisplayName: Tiny Ghost
+TinyGhost2.DisplayName: Tiny Ghost
+TinyGhostBoof.DisplayName: Tiny Ghost
+TinyGhostRare.DisplayName: Spooky Ghost
+TinyMushroom.DisplayName: Tiny Mushroom
+Witch.DisplayName: Evil Witch
+ZomboidFungus.DisplayName: Zomboid
+ZomboidPumpkin.DisplayName: Rooted Zomboid
+ZomboidPumpkinFire.DisplayName: Flaming Root Zomboid
+ZomboidThorn.DisplayName: Zomboid
+ZomboidWind.DisplayName: Zomboid
+ZomboidWarlock.DisplayName: Zomboid Warlock
+//valley of eyes
+EyeBat.DisplayName: Bat n' Eye
+ManHole.DisplayName: Man Hole
+ManHoleBig.DisplayName: Man Hole
+ManHoleEye.DisplayName: Stalking Eye
+MrHandy.DisplayName: Mr. Handy
+Tortumor.DisplayName: Tortumor
+TortumorGiant.DisplayName: Giant Tortumor
+ValleyFish.DisplayName: Peeper Fish
+ValleyNautilus.DisplayName: Claret Cephalopod
+ValleySquid.DisplayName: Clot Squid
+ValleySquidClone.DisplayName: Clot Squid
+ValleyEelBody.DisplayName: Aortic Eel
+ValleyEelHead.DisplayName: Aortic Eel
+ValleyEelTail.DisplayName: Aortic Eel
+ValleyShark.DisplayName: Hemostasis Beast
+ValleySharkMouth.DisplayName: Hemostasis Beast
+ValleyMerman.DisplayName: Flesh Merman
+//spider cave
+Ant1.DisplayName: Ant
+Ant2.DisplayName: Ant
+BallSpider.DisplayName: Sphider
+BallSpiderWeb.DisplayName: Sphider Web
+Cockroach.DisplayName: Cockroach
+DaddyLongLegs.DisplayName: Daddy Long Legs
+Inchworm1.DisplayName: Inchworm
+Inchworm2.DisplayName: Inchworm
+Inchworm3.DisplayName: Inchworm
+JumpingSpider1.DisplayName: Jumping Spider
+JumpingSpider2.DisplayName: Jumping Spider
+LeafSpiderSleeping.DisplayName: Leaf
+LeafSpider.DisplayName: Leaf Spider
+LeafSpiderWeb.DisplayName: Leaf Spider Web
+Mosquito1.DisplayName: Mosquito
+Mosquito2.DisplayName: Mosquito
+Mosquito3.DisplayName: Mosquito
+Moth1.DisplayName: Moth
+Moth2.DisplayName: Moth
+OrbWeaver1.DisplayName: Orb Weaver
+OrbWeaver2.DisplayName: Orb Weaver
+OrbWeaver3.DisplayName: Orb Weaver
+OrbWeaverGiant.DisplayName: Giant Orb Weaver
+TarantulaHawk1.DisplayName: Tarantula Hawk
+TarantulaHawk2.DisplayName: Tarantula Hawk
+TarantulaHawk3.DisplayName: Tarantula Hawk
+TinySpider1.DisplayName: Tiny Spider
+TinySpider2.DisplayName: Tiny Spider
+TinySpider3.DisplayName: Tiny Spider
+TinySpider4.DisplayName: Tiny Spider
+TinySpider5.DisplayName: Tiny Spider
+TinySpiderEgg.DisplayName: Spider Egg
+TrapdoorSpider1.DisplayName: Trapdoor Spider
+TrapdoorSpider2.DisplayName: Trapdoor Spider
+TrapdoorSpiderIdle1.DisplayName: Trapdoor Spider
+TrapdoorSpiderIdle2.DisplayName: Trapdoor Spider
+WhipSpider.DisplayName: Whip Spider
+WhipSpiderTongue.DisplayName: Whip Spider
