@@ -1,9 +1,9 @@
 RotGourd: {
-	DisplayName: Rot Gourd
+	DisplayName: Гнилая тыква
 
 	BossChecklistIntegration: {
-		SpawnInfo: Use a [i:Spooky/RottenSeed] in the spooky forest, It is dropped by breaking the large moldy gourds in the biome.
-		DespawnMessage: Rot Gourd hops into the distance
+		SpawnInfo: Используйте [i:Spooky/RottenSeed] прогнившее семя в жутком лесу. Семя можно получить при разрушении заплесневевших тыкв в этом же лесу.
+		DespawnMessage: Гнилая тыква упрыгивает за горизонт...
 	}
 }
 
@@ -12,7 +12,7 @@ SpookySpirit: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: Нажмите ПКМ по проклятой статуи на болотном кладбище ночью имея [i:Spooky/EMFReader] измеритель ЭМП в инвентаре.
-		DespawnMessage: Жуткий дух запугал всех игроков.
+		DespawnMessage: Жуткий дух запугал всех игроков!
 	}
 }
 
@@ -102,7 +102,7 @@ ZomboidNecromancerSoul.DisplayName: Undead Soul
 PhantomRollingSkull.DisplayName: Phantom Skull
 PhantomSkeletoid.DisplayName: Phantom Skeletoid
 ZomboidPyromancer.DisplayName: Зомбоид-пиромант
-Zomboidсomancer.DisplayName: Зомбоид-подозревант
+ZomboidSuspiciomancer.DisplayName: Зомбоид-подозревант
 //catacombs layer 2
 Daisy1.DisplayName: Daisy
 Daisy2.DisplayName: Daisy
