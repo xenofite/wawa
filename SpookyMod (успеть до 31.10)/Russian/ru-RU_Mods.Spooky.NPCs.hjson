@@ -71,7 +71,7 @@ OrroBody.DisplayName: Orro
 OrroBodyP1.DisplayName: Orro
 OrroHeadP1.DisplayName: Orro
 OrroTail.DisplayName: Orro
-PhantomSkull.DisplayName: Phantom Skull
+PhantomSkull.DisplayName: Призрачный череп
 //hallucinations
 TheBaby.DisplayName: The Baby
 TheFlesh.DisplayName: The Flesh
@@ -79,30 +79,30 @@ TheHorse.DisplayName: The Horse
 TheMan.DisplayName: The Man
 //catacombs layer 1
 CatacombGuardian.DisplayName: Страж катакомб
-Skeletoid1.DisplayName: Skeletoid
-Skeletoid2.DisplayName: Skeletoid
-Skeletoid3.DisplayName: Skeletoid
-Skeletoid4.DisplayName: Skeletoid
-SkeletoidBig.DisplayName: Big John
+Skeletoid1.DisplayName: Скелетоид
+Skeletoid2.DisplayName: Скелетоид
+Skeletoid3.DisplayName: Скелетоид
+Skeletoid4.DisplayName: Скелетоид
+SkeletoidBig.DisplayName: Большой Иоанн
 BoneStackerBase.DisplayName: Catacomb Slab
-BoneStacker1.DisplayName: Bone Slab
-BoneStacker2.DisplayName: Bone Slab
-BoneStacker3.DisplayName: Bone Slab
-BoneStackerMoving1.DisplayName: Bone Slab
-BoneStackerMoving2.DisplayName: Bone Slab
-BoneStackerMoving3.DisplayName: Bone Slab
-GiantPutty.DisplayName: Cube of Putty
-RollingSkull1.DisplayName: Rolling Skull
-RollingSkull2.DisplayName: Rolling Skull
-RollingSkull3.DisplayName: Rolling Skull
+BoneStacker1.DisplayName: Костяная плита
+BoneStacker2.DisplayName: Костяная плита
+BoneStacker3.DisplayName: Костяная плита
+BoneStackerMoving1.DisplayName: Костяная плита
+BoneStackerMoving2.DisplayName: Костяная плита
+BoneStackerMoving3.DisplayName: Костяная плита
+GiantPutty.DisplayName: Желейный куб
+RollingSkull1.DisplayName: Катающийся череп
+RollingSkull2.DisplayName: Катающийся череп
+RollingSkull3.DisplayName: Катающийся череп
 RollingSkull4.DisplayName: Gilded Skull
-ZomboidGlyphomancer.DisplayName: Zomboid Glyphomancer
-ZomboidNecromancer.DisplayName: Zomboid Necromancer
+ZomboidGlyphomancer.DisplayName: Зомбоид-глифомант
+ZomboidNecromancer.DisplayName: Зомбоид-некромант
 ZomboidNecromancerSoul.DisplayName: Undead Soul
 PhantomRollingSkull.DisplayName: Phantom Skull
 PhantomSkeletoid.DisplayName: Phantom Skeletoid
-ZomboidPyromancer.DisplayName: Zomboid Pyromancer
-ZomboidSuspiciomancer.DisplayName: Zomboid Suspiciomancer
+ZomboidPyromancer.DisplayName: Зомбоид-пиромант
+Zomboidсomancer.DisplayName: Зомбоид-подозревант
 //catacombs layer 2
 Daisy1.DisplayName: Daisy
 Daisy2.DisplayName: Daisy
@@ -123,19 +123,19 @@ SheldonShield.DisplayName: Sheldon
 Stitch.DisplayName: Stitch
 StitchWand.DisplayName: Stitch
 //cemetery
-BloatGhostBig.DisplayName: Bloated Ghost
-BloatGhostSmall.DisplayName: Ghost
-Possessor.DisplayName: Possessor
-PossessorEvil.DisplayName: Possessor
-ZomboidCasket.DisplayName: Zomboid Casket
-ZomboidGremlin.DisplayName: Zombino
+BloatGhostBig.DisplayName: Дующийся призрак
+BloatGhostSmall.DisplayName: Призрак
+Possessor.DisplayName: Обитающий
+PossessorEvil.DisplayName: Обитающий
+ZomboidCasket.DisplayName: Зомбоид в гробу
+ZomboidGremlin.DisplayName: Зомбу
 MistGhost.DisplayName: Mist Ghost
 FeralRat1.DisplayName: Feral Rat
 FeralRat2.DisplayName: Feral Rat
 TinyRat1.DisplayName: Tiny Rat
 TinyRat2.DisplayName: Tiny Rat
-SadGhostBig.DisplayName: Sad Ghost
-SadGhostSmall.DisplayName: Sad Ghost
+SadGhostBig.DisplayName: Грусный призрак
+SadGhostSmall.DisplayName: Грусный призрак
 //egg event
 Crux.DisplayName: Crux
 Glutinous.DisplayName: Glutinous
@@ -189,21 +189,21 @@ OldHunter: {
 }
 
 //spooky biome
-Bungus.DisplayName: Bungus
-CandleMonster.DisplayName: Candle Monster
-Chungus.DisplayName: Chunky Fungus
-FluffBatBig1.DisplayName: Giant Fuzz Bat
-FluffBatBig2.DisplayName: Giant Fuzz Bat
-FluffBatSmall1.DisplayName: Fuzz Bat
-FluffBatSmall2.DisplayName: Fuzz Bat
-FlyBig.DisplayName: Giant Fly
-FlySmall.DisplayName: Fly
+Bungus.DisplayName: Хриб
+CandleMonster.DisplayName: Монстросвеч
+Chungus.DisplayName: Толстый гриб
+FluffBatBig1.DisplayName: Гигантская пушистая летучая мышь
+FluffBatBig2.DisplayName: Гигантская пушистая летучая мышь
+FluffBatSmall1.DisplayName: Пушистая летучая мышь
+FluffBatSmall2.DisplayName: Пушистая летучая мышь
+FlyBig.DisplayName: Гигантская муха
+FlySmall.DisplayName: Муха
 HoppingCandyBasket.DisplayName: Hopping Candy Basket
 LittleSpider.DisplayName: Little Spider
-MonsterEye1.DisplayName: Monster Eye
-MonsterEye2.DisplayName: Monster Eye
-MonsterEye4.DisplayName: Monster Eye
-MonsterEye3.DisplayName: Monster Eye
+MonsterEye1.DisplayName: Глаз-монстр
+MonsterEye2.DisplayName: Глаз-монстр
+MonsterEye4.DisplayName: Глаз-монстр
+MonsterEye3.DisplayName: Глаз-монстр
 PuttyPumpkin.DisplayName: Putty Pumpkin
 PuttyPumpkinling.DisplayName: Putty Pumpkinling
 PuttySlime1.DisplayName: Putty Slime
@@ -212,18 +212,18 @@ PuttySlime3.DisplayName: Putty Slime
 ScarecrowShotgunner.DisplayName: Possessed Scarecrow
 ShroomHopper.DisplayName: Shroom Hopper
 SpookyDance.DisplayName: Spooky Dance Ghost
-TinyGhost1.DisplayName: Tiny Ghost
-TinyGhost2.DisplayName: Tiny Ghost
-TinyGhostBoof.DisplayName: Tiny Ghost
+TinyGhost1.DisplayName: Приведеньеце
+TinyGhost2.DisplayName: Приведеньеце
+TinyGhostBoof.DisplayName: Приведеньеце
 TinyGhostRare.DisplayName: Spooky Ghost
-TinyMushroom.DisplayName: Tiny Mushroom
-Witch.DisplayName: Evil Witch
-ZomboidFungus.DisplayName: Zomboid
-ZomboidPumpkin.DisplayName: Rooted Zomboid
-ZomboidPumpkinFire.DisplayName: Flaming Root Zomboid
-ZomboidThorn.DisplayName: Zomboid
-ZomboidWind.DisplayName: Zomboid
-ZomboidWarlock.DisplayName: Zomboid Warlock
+TinyMushroom.DisplayName: Грибочек
+Witch.DisplayName: Злая ведьма
+ZomboidFungus.DisplayName: Зомбоид
+ZomboidPumpkin.DisplayName: Корнезомбоид
+ZomboidPumpkinFire.DisplayName: Пылающий корнезомбоид
+ZomboidThorn.DisplayName: Зомбоид
+ZomboidWind.DisplayName: Зомбоид
+ZomboidWarlock.DisplayName: Зомбоид-колдун
 //valley of eyes
 EyeBat.DisplayName: Bat n' Eye
 ManHole.DisplayName: Man Hole
