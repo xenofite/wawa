@@ -11,8 +11,8 @@ SpookySpirit: {
 	DisplayName: Жуткий дух
 
 	BossChecklistIntegration: {
-		SpawnInfo: Right click the cursed statue in the swampy cemetery at night while you have an [i:Spooky/EMFReader] in your inventory.
-		DespawnMessage: Spooky Spirit has haunted all players
+		SpawnInfo: Нажмите ПКМ по проклятой статуи на болотном кладбище ночью имея [i:Spooky/EMFReader] измеритель ЭМП в инвентаре.
+		DespawnMessage: Жуткий дух запугал всех игроков.
 	}
 }
 
