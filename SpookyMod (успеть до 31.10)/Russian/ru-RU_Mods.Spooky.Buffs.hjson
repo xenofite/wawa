@@ -43,11 +43,11 @@ FlyBuff: {
 }
 
 SkullFrenzyBuff: {
-	DisplayName: Necromantic Frenzy
+	DisplayName: Некромантическое безумие
 	Description:
 		'''
-		The power of necromancy flows through you
-		Increased damage, critical strike chance, knockback, and movement speed
+		Вас пронизывает сила некромантии
+		Увеличение урона, шанса нанести критический удар, отбрасывание и скорости передвижения
 		'''
 }
 
@@ -100,8 +100,8 @@ HallucinationDebuff1: {
 }
 
 HallucinationDebuff2: {
-	DisplayName: The Baby
-	Description: It is crying
+	DisplayName: Ребёнок
+	Description: Он плачет
 }
 
 HallucinationDebuff3: {
@@ -215,8 +215,8 @@ RotGourdMinionBuff: {
 }
 
 SkullWispBuff: {
-	DisplayName: Skull Wisp
-	Description: The skull wisp will fight with you
+	DisplayName: Призрачный череп
+	Description: Призрачный череп будет сражаться за вас
 }
 
 SoulSkullBuff: {
@@ -245,8 +245,8 @@ BigBonePetBuff: {
 }
 
 CatBuff: {
-	DisplayName: Black Kitten
-	Description: The evil little kitten follows you
+	DisplayName: Чёрный котёнок
+	Description: Зловещий чёрный котёнок, приследующий вас
 }
 
 ColumboBuff: {
@@ -260,8 +260,8 @@ FlyPetBuff: {
 }
 
 FuzzBatPetBuff: {
-	DisplayName: Goofy Fuzz Bat
-	Description: It doesn't know why, but it likes following you
+	DisplayName: Бестолковая летучая плюшомышь
+	Description: Он не понимает почему, но ему нравится ходить за вами
 }
 
 GhostPetBuff: {
