@@ -84,23 +84,23 @@ Skeletoid2.DisplayName: Скелетоид
 Skeletoid3.DisplayName: Скелетоид
 Skeletoid4.DisplayName: Скелетоид
 SkeletoidBig.DisplayName: Большой Иоанн
-BoneStackerBase.DisplayName: Catacomb Slab
+BoneStackerBase.DisplayName: Плита катакомбы
 BoneStacker1.DisplayName: Костяная плита
 BoneStacker2.DisplayName: Костяная плита
 BoneStacker3.DisplayName: Костяная плита
 BoneStackerMoving1.DisplayName: Костяная плита
 BoneStackerMoving2.DisplayName: Костяная плита
 BoneStackerMoving3.DisplayName: Костяная плита
-GiantPutty.DisplayName: Желейный куб
+GiantPutty.DisplayName: Мастичный куб
 RollingSkull1.DisplayName: Катающийся череп
 RollingSkull2.DisplayName: Катающийся череп
 RollingSkull3.DisplayName: Катающийся череп
-RollingSkull4.DisplayName: Gilded Skull
+RollingSkull4.DisplayName: Позолоченный череп
 ZomboidGlyphomancer.DisplayName: Зомбоид-глифомант
 ZomboidNecromancer.DisplayName: Зомбоид-некромант
-ZomboidNecromancerSoul.DisplayName: Undead Soul
-PhantomRollingSkull.DisplayName: Phantom Skull
-PhantomSkeletoid.DisplayName: Phantom Skeletoid
+ZomboidNecromancerSoul.DisplayName: Душа нежити
+PhantomRollingSkull.DisplayName: Призрачный череп
+PhantomSkeletoid.DisplayName: Призрачный скелетоид
 ZomboidPyromancer.DisplayName: Зомбоид-пиромант
 ZomboidSuspiciomancer.DisplayName: Зомбоид-подозревант
 //catacombs layer 2
@@ -129,11 +129,11 @@ Possessor.DisplayName: Обитающий
 PossessorEvil.DisplayName: Обитающий
 ZomboidCasket.DisplayName: Зомбоид в гробу
 ZomboidGremlin.DisplayName: Зомбу
-MistGhost.DisplayName: Mist Ghost
-FeralRat1.DisplayName: Feral Rat
-FeralRat2.DisplayName: Feral Rat
-TinyRat1.DisplayName: Tiny Rat
-TinyRat2.DisplayName: Tiny Rat
+MistGhost.DisplayName: Туманный призрак
+FeralRat1.DisplayName: Дикая крыса
+FeralRat2.DisplayName: Дикая крыса
+TinyRat1.DisplayName: Крысёныш
+TinyRat2.DisplayName: Крысёныш
 SadGhostBig.DisplayName: Грусный призрак
 SadGhostSmall.DisplayName: Грусный призрак
 //egg event
@@ -144,7 +144,7 @@ Vesicator.DisplayName: Vesicator
 Vigilante.DisplayName: Vigilante
 //friendly
 DumbZomboid.DisplayName: Dumb Zomboid
-GiantWeb.DisplayName: Giant Web
+GiantWeb.DisplayName: Громадная паутина
 GiantWebAnimationBase.DisplayName: ""
 GiantWebAnimationPiece.DisplayName: ""
 LittleBone.DisplayName: Little Bone
@@ -192,30 +192,30 @@ OldHunter: {
 Bungus.DisplayName: Хриб
 CandleMonster.DisplayName: Монстросвеч
 Chungus.DisplayName: Толстый гриб
-FluffBatBig1.DisplayName: Гигантская пушистая летучая мышь
-FluffBatBig2.DisplayName: Гигантская пушистая летучая мышь
-FluffBatSmall1.DisplayName: Пушистая летучая мышь
-FluffBatSmall2.DisplayName: Пушистая летучая мышь
+FluffBatBig1.DisplayName: Гигантская летучая плюшомышь
+FluffBatBig2.DisplayName: Гигантская летучая плюшомышь
+FluffBatSmall1.DisplayName: Летучая плюшомышь
+FluffBatSmall2.DisplayName: Летучая плюшомышь
 FlyBig.DisplayName: Гигантская муха
 FlySmall.DisplayName: Муха
-HoppingCandyBasket.DisplayName: Hopping Candy Basket
-LittleSpider.DisplayName: Little Spider
+HoppingCandyBasket.DisplayName: Прыгающая корзинка с конфетами
+LittleSpider.DisplayName: Паучок
 MonsterEye1.DisplayName: Глаз-монстр
 MonsterEye2.DisplayName: Глаз-монстр
 MonsterEye4.DisplayName: Глаз-монстр
 MonsterEye3.DisplayName: Глаз-монстр
-PuttyPumpkin.DisplayName: Putty Pumpkin
-PuttyPumpkinling.DisplayName: Putty Pumpkinling
-PuttySlime1.DisplayName: Putty Slime
-PuttySlime2.DisplayName: Putty Slime
-PuttySlime3.DisplayName: Putty Slime
+PuttyPumpkin.DisplayName: Мастичная тыква
+PuttyPumpkinling.DisplayName: Мастичная тыковка
+PuttySlime1.DisplayName: Мастичный слизень
+PuttySlime2.DisplayName: Мастичный слизень
+PuttySlime3.DisplayName: Мастичный слизень
 ScarecrowShotgunner.DisplayName: Possessed Scarecrow
 ShroomHopper.DisplayName: Shroom Hopper
 SpookyDance.DisplayName: Spooky Dance Ghost
 TinyGhost1.DisplayName: Приведеньеце
 TinyGhost2.DisplayName: Приведеньеце
 TinyGhostBoof.DisplayName: Приведеньеце
-TinyGhostRare.DisplayName: Spooky Ghost
+TinyGhostRare.DisplayName: Жуткое приведеньеце
 TinyMushroom.DisplayName: Грибочек
 Witch.DisplayName: Злая ведьма
 ZomboidFungus.DisplayName: Зомбоид
@@ -223,7 +223,7 @@ ZomboidPumpkin.DisplayName: Корнезомбоид
 ZomboidPumpkinFire.DisplayName: Пылающий корнезомбоид
 ZomboidThorn.DisplayName: Зомбоид
 ZomboidWind.DisplayName: Зомбоид
-ZomboidWarlock.DisplayName: Зомбоид-колдун
+ZomboidWarlock.DisplayName: Колдун-зомбоид
 //valley of eyes
 EyeBat.DisplayName: Bat n' Eye
 ManHole.DisplayName: Man Hole
@@ -243,41 +243,41 @@ ValleyShark.DisplayName: Hemostasis Beast
 ValleySharkMouth.DisplayName: Hemostasis Beast
 ValleyMerman.DisplayName: Flesh Merman
 //spider cave
-Ant1.DisplayName: Ant
-Ant2.DisplayName: Ant
-BallSpider.DisplayName: Sphider
-BallSpiderWeb.DisplayName: Sphider Web
-Cockroach.DisplayName: Cockroach
-DaddyLongLegs.DisplayName: Daddy Long Legs
-Inchworm1.DisplayName: Inchworm
-Inchworm2.DisplayName: Inchworm
-Inchworm3.DisplayName: Inchworm
-JumpingSpider1.DisplayName: Jumping Spider
-JumpingSpider2.DisplayName: Jumping Spider
-LeafSpiderSleeping.DisplayName: Leaf
-LeafSpider.DisplayName: Leaf Spider
-LeafSpiderWeb.DisplayName: Leaf Spider Web
-Mosquito1.DisplayName: Mosquito
-Mosquito2.DisplayName: Mosquito
-Mosquito3.DisplayName: Mosquito
-Moth1.DisplayName: Moth
-Moth2.DisplayName: Moth
-OrbWeaver1.DisplayName: Orb Weaver
-OrbWeaver2.DisplayName: Orb Weaver
-OrbWeaver3.DisplayName: Orb Weaver
-OrbWeaverGiant.DisplayName: Giant Orb Weaver
-TarantulaHawk1.DisplayName: Tarantula Hawk
-TarantulaHawk2.DisplayName: Tarantula Hawk
-TarantulaHawk3.DisplayName: Tarantula Hawk
-TinySpider1.DisplayName: Tiny Spider
-TinySpider2.DisplayName: Tiny Spider
-TinySpider3.DisplayName: Tiny Spider
-TinySpider4.DisplayName: Tiny Spider
-TinySpider5.DisplayName: Tiny Spider
-TinySpiderEgg.DisplayName: Spider Egg
-TrapdoorSpider1.DisplayName: Trapdoor Spider
-TrapdoorSpider2.DisplayName: Trapdoor Spider
-TrapdoorSpiderIdle1.DisplayName: Trapdoor Spider
-TrapdoorSpiderIdle2.DisplayName: Trapdoor Spider
-WhipSpider.DisplayName: Whip Spider
-WhipSpiderTongue.DisplayName: Whip Spider
+Ant1.DisplayName: Муровей
+Ant2.DisplayName: Муровей
+BallSpider.DisplayName: Пхаук
+BallSpiderWeb.DisplayName: Пхаутина
+Cockroach.DisplayName: Таракан
+DaddyLongLegs.DisplayName: Длинноногий дядюшка
+Inchworm1.DisplayName: Гусеница
+Inchworm2.DisplayName: Гусеница
+Inchworm3.DisplayName: Гусеница
+JumpingSpider1.DisplayName: Паук-прыгун
+JumpingSpider2.DisplayName: Паук-прыгун
+LeafSpiderSleeping.DisplayName: Листок
+LeafSpider.DisplayName: Листотелый паук
+LeafSpiderWeb.DisplayName: Паутина листотелово паука
+Mosquito1.DisplayName: Москит
+Mosquito2.DisplayName: Москит
+Mosquito3.DisplayName: Москит
+Moth1.DisplayName: Моль
+Moth2.DisplayName: Моль
+OrbWeaver1.DisplayName: Шаровой ткач
+OrbWeaver2.DisplayName: Шаровой ткач
+OrbWeaver3.DisplayName: Шаровой ткач
+OrbWeaverGiant.DisplayName: Гигантский шаровой ткач
+TarantulaHawk1.DisplayName: Тарантуловый ястреб
+TarantulaHawk2.DisplayName: Тарантуловый ястреб
+TarantulaHawk3.DisplayName: Тарантуловый ястреб
+TinySpider1.DisplayName: Крошечный паук
+TinySpider2.DisplayName: Крошечный паук
+TinySpider3.DisplayName: Крошечный паук
+TinySpider4.DisplayName: Крошечный паук
+TinySpider5.DisplayName: Крошечный паук
+TinySpiderEgg.DisplayName: Паучье яйца
+TrapdoorSpider1.DisplayName: Ловушечный паук
+TrapdoorSpider2.DisplayName: Ловушечный паук
+TrapdoorSpiderIdle1.DisplayName: Ловушечный паук
+TrapdoorSpiderIdle2.DisplayName: Ловушечный паук
+WhipSpider.DisplayName: Паук-хлыстовик
+WhipSpiderTongue.DisplayName: Паук-хлыстовик
