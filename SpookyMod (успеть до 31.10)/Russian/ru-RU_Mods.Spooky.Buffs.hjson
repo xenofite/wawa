@@ -210,8 +210,8 @@ PumpkinHeadBuff: {
 }
 
 RotGourdMinionBuff: {
-	DisplayName: Gourd Goober
-	Description: The small gourd will crush enemies
+	DisplayName: Тыква-дурашка
+	Description: Маленькая тыковка, расплющивающая врагов
 }
 
 SkullWispBuff: {
@@ -300,8 +300,8 @@ PetscopTiaraBuff: {
 }
 
 RotGourdPetBuff: {
-	DisplayName: Tiny Rot Gourd
-	Description: Smelly, but cute
+	DisplayName: Крошка Гнилая тыква
+	Description: Вонючий, но миленький
 }
 
 ShroomHopperBuff: {
@@ -310,8 +310,8 @@ ShroomHopperBuff: {
 }
 
 SkullEmojiBuff: {
-	DisplayName: Floating Skull
-	Description: He spins for eternity
+	DisplayName: Летающий череп
+	Description: Он вращается целую вечность
 }
 
 SkullGoopBuff: {
@@ -325,8 +325,8 @@ SpookySpiritPetBuff: {
 }
 
 StickyEyeBuff: {
-	DisplayName: Glow In The Dark Sticky Eye
-	Description: May contain toxic chemicals
+	DisplayName: Светящийся в темноте липкий глаз
+	Description: Может содержать токсичные вещества
 }
 
 ValleyNautilusBuff: {
