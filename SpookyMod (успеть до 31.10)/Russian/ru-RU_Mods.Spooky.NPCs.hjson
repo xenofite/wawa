@@ -8,7 +8,7 @@ RotGourd: {
 }
 
 SpookySpirit: {
-	DisplayName: Дух страха
+	DisplayName: Жуткий дух
 
 	BossChecklistIntegration: {
 		SpawnInfo: Right click the cursed statue in the swampy cemetery at night while you have an [i:Spooky/EMFReader] in your inventory.
@@ -78,7 +78,7 @@ TheFlesh.DisplayName: The Flesh
 TheHorse.DisplayName: The Horse
 TheMan.DisplayName: The Man
 //catacombs layer 1
-CatacombGuardian.DisplayName: Catacomb Guardian
+CatacombGuardian.DisplayName: Страж катакомб
 Skeletoid1.DisplayName: Skeletoid
 Skeletoid2.DisplayName: Skeletoid
 Skeletoid3.DisplayName: Skeletoid
