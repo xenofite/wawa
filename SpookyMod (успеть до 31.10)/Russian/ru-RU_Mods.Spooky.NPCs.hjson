@@ -2,7 +2,7 @@ RotGourd: {
 	DisplayName: Гнилая тыква
 
 	BossChecklistIntegration: {
-		SpawnInfo: Используйте [i:Spooky/RottenSeed] прогнившее семя в жутком лесу. Семя можно получить при разрушении заплесневевших тыкв в этом же лесу.
+		SpawnInfo: Используйте [i:Spooky/RottenSeed] в жутком лесу. Семя можно получить при разрушении заплесневевших тыкв в этом же лесу.
 		DespawnMessage: Гнилая тыква упрыгивает за горизонт...
 	}
 }
@@ -11,7 +11,7 @@ SpookySpirit: {
 	DisplayName: Жуткий дух
 
 	BossChecklistIntegration: {
-		SpawnInfo: Нажмите ПКМ по проклятой статуи на болотном кладбище ночью имея [i:Spooky/EMFReader] измеритель ЭМП в инвентаре.
+		SpawnInfo: Нажмите ПКМ по проклятой статуи на болотном кладбище ночью имея [i:Spooky/EMFReader] в инвентаре.
 		DespawnMessage: Жуткий дух запугал всех игроков!
 	}
 }
