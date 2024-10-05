@@ -88,7 +88,7 @@ BossBagRotGourd: {
 }
 
 BossBagSpookySpirit: {
-	DisplayName: Мешок с сокровищами (Дух страха)
+	DisplayName: Мешок с сокровищами (Жуткий дух)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -138,7 +138,7 @@ EMFReader: {
 		'''
 		Не расходуется
 		Использется для обнаружения паронормальных существ
-		Призывает Духа страха при использовании на проклятой статуе ночью
+		Призывает Жуткого духа при использовании на проклятой статуе ночью
 		'''
 }
 
@@ -672,7 +672,7 @@ PartyNailgun: {
 }
 
 SpiritHandStaff: {
-	DisplayName: Rod of Hands
+	DisplayName: Жезл рук
 	Tooltip:
 		'''
 		Casts spooky hands out of nearby surfaces
@@ -701,8 +701,8 @@ SpiritSlingshot: {
 }
 
 SpiritSword: {
-	DisplayName: Spooky Buster
-	Tooltip: Launches an explosive skull on enemy hits
+	DisplayName: «Жуткий громила»
+	Tooltip: Вызывает взрывающие черепа при поподании по врагу
 }
 
 BananalizardHead: {
@@ -786,7 +786,7 @@ SirenHead: {
 }
 
 SpookySpiritMask: {
-	DisplayName: Маска Духа страха
+	DisplayName: Маска Жуткого духа
 	Tooltip: ""
 }
 
@@ -892,11 +892,11 @@ EyeFruit: {
 }
 
 FrankenMarshmallow: {
-	DisplayName: Franken Marshmallow
+	DisplayName: Франкеншмэллоу
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'A chewy abomination'
+		{$BuffDescription.WellFed_Expert}
+		«Жевательная мерзость»
 		'''
 }
 
@@ -2365,7 +2365,7 @@ SpookyMenuBox: {
 }
 
 SpookySpiritBox: {
-	DisplayName: Музыкальная шкатулка (Дух страха)
+	DisplayName: Музыкальная шкатулка (Жутких дух)
 	Tooltip: "[c/B6ABFF:«Groovy Geist»] от BananaLizard"
 }
 
@@ -2431,7 +2431,7 @@ RotGourdRelicItem: {
 }
 
 SpookySpiritRelicItem: {
-	DisplayName: Реликвия Духа страха
+	DisplayName: Реликвия Жуткого духа
 	Tooltip: ""
 }
 
@@ -2604,8 +2604,8 @@ SwoleMushroomStatueItem: {
 }
 
 MushroomMossSeeds: {
-	DisplayName: Mushroom Moss Seeds
-	Tooltip: Plants mushroom moss on Mossy Stone
+	DisplayName: Семена грибного мха
+	Tooltip: Позволяет посадить грибной бох на замелый камень
 }
 
 SpookyDirtItem: {
@@ -2614,13 +2614,13 @@ SpookyDirtItem: {
 }
 
 SpookySeedsGreen: {
-	DisplayName: Green Spooky Seeds
-	Tooltip: Plants green grass on Spooky Dirt
+	DisplayName: Семена жуткой зелёной травы
+	Tooltip: Позволяет посадить зелёную траву на жуткую землю
 }
 
 SpookySeedsOrange: {
-	DisplayName: Orange Spooky Seeds
-	Tooltip: Plants orange grass on Spooky Dirt
+	DisplayName: Семена жуткой оранжевой травы
+	Tooltip: Позволяет посадить оранжевую траву на жуткую землю
 }
 
 SpookyStoneItem: {
@@ -2824,7 +2824,7 @@ RotGourdTrophyItem: {
 }
 
 SpookySpiritTrophyItem: {
-	DisplayName: Трофей Духа страха
+	DisplayName: Трофей Жуткого духа
 	Tooltip: ""
 }
 
