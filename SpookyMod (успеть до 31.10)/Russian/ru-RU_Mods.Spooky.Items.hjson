@@ -83,7 +83,7 @@ BossBagOrroboro: {
 }
 
 BossBagRotGourd: {
-	DisplayName: Treasure Bag (Rot Gourd)
+	DisplayName: Мешок с сокровищами (Гнилая тыква)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -157,8 +157,8 @@ Horseshoe: {
 }
 
 RottenSeed: {
-	DisplayName: Rotten Seed
-	Tooltip: Summons Rot Gourd when used in the spooky forest
+	DisplayName: Прогнившее семя
+	Tooltip: Призывает Гнилую тыкву при использовании в жутком лесу
 }
 
 StrangeCyst: {
@@ -201,7 +201,7 @@ CatacombKey1: {
 }
 
 CatacombKey2: {
-	DisplayName Ключ от красного барьера
+	DisplayName: Ключ от красного барьера
 	Tooltip: Используется для открытия красного барьера в катакомбах
 }
 
@@ -675,8 +675,8 @@ SpiritHandStaff: {
 	DisplayName: Жезл рук
 	Tooltip:
 		'''
-		Casts spooky hands out of nearby surfaces
-		Hands cannot be summoned if your cursor is too far from any surfaces
+		Призывает жуткие руки из земли
+		Руки не могут быть призваны, если ваш курсор находится слишком далеко от какой-либо поверхности
 		'''
 }
 
@@ -771,7 +771,7 @@ PelusaHead: {
 }
 
 RotGourdMask: {
-	DisplayName: Rot Gourd Mask
+	DisplayName: Маска Гнилой тыквы
 	Tooltip: ""
 }
 
@@ -1010,7 +1010,7 @@ PetscopTool3: {
 }
 
 RottenGourd: {
-	DisplayName: Rotten Gourd
+	DisplayName: Прогнившая тыква
 	Tooltip:
 		'''
 		Summons a squishy little gourd to follow you
@@ -1325,18 +1325,18 @@ VenomHarpoon: {
 }
 
 GourdBody: {
-	DisplayName: Rotten Gourd Breastplate
-	Tooltip: 5% increased melee damage
+	DisplayName: Нагрудник прогнившей тыквы
+	Tooltip: Увеличивает урон в ближнем бою на 5%=
 }
 
 GourdHead: {
-	DisplayName: Rotten Gourd Head
-	Tooltip: 5% increased melee critical strike chance
+	DisplayName: Голова прогнившей тыквы
+	Tooltip: Увеличивает шанс нанести критический удар в ближнем бою на 5%
 }
 
 GourdLegs: {
-	DisplayName: Rotten Gourd Leggings
-	Tooltip: 5% increased melee speed
+	DisplayName: Штаны прогнившей тыквы
+	Tooltip: Увеличивает скорость ближнего боя на 5%
 }
 
 OldWoodBody: {
@@ -1419,8 +1419,8 @@ PumpkinCarvingKit: {
 }
 
 RottenChunk: {
-	DisplayName: Moldy Chunk
-	Tooltip: "'It smells foul'"
+	DisplayName: Проплесневевший кусочек
+	Tooltip: "«Издаёт неприятный запах»"
 }
 
 ShroomHopperItem: {
@@ -1467,7 +1467,7 @@ BustlingGlowshroom: {
 }
 
 CandyBag: {
-	DisplayName: Мешочек со сладостями 
+	DisplayName: Мешочек со сладостями
 	Tooltip:
 		'''
 		Призывает магическеский мешочек с конфетами, который будет летать над вами
@@ -1501,7 +1501,7 @@ GourdBook: {
 }
 
 GourdFlail: {
-	DisplayName: Rotty's Wrath
+	DisplayName: «Ярость гнили»
 	Tooltip:
 		'''
 		Spawns flies around you after being swung for a bit
@@ -1519,8 +1519,8 @@ GourdSlingshot: {
 }
 
 GourdStaff: {
-	DisplayName: Branch of Gourd
-	Tooltip: Summons gourd goobers that will slam on enemies
+	DisplayName: Ветка тыквы
+	Tooltip: Призывает тыквенных дурашек, которые напрыгивают на врагов
 }
 
 LeafBlower: {
@@ -2320,8 +2320,8 @@ RaveyardBox: {
 }
 
 RotGourdBox: {
-	DisplayName: Music Box (Rot Gourd)
-	Tooltip: "[c/D45037:Funky Pumpkin] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Гнилая тыква)
+	Tooltip: "[c/D45037:«Funky Pumpkin»] от BananaLizard"
 }
 
 SpiderCaveBox: {
@@ -2365,7 +2365,7 @@ SpookyMenuBox: {
 }
 
 SpookySpiritBox: {
-	DisplayName: Музыкальная шкатулка (Жутких дух)
+	DisplayName: Музыкальная шкатулка (Жуткий дух)
 	Tooltip: "[c/B6ABFF:«Groovy Geist»] от BananaLizard"
 }
 
@@ -2426,7 +2426,7 @@ OrroboroRelicItem: {
 }
 
 RotGourdRelicItem: {
-	DisplayName: Rot Gourd Relic
+	DisplayName: Реликвия Гнилой тыквы
 	Tooltip: ""
 }
 
@@ -2819,7 +2819,7 @@ OrroTrophyItem: {
 }
 
 RotGourdTrophyItem: {
-	DisplayName: Rot Gourd Trophy
+	DisplayName: Трофей Гнилой тыквы
 	Tooltip: ""
 }
 
