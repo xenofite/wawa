@@ -15,6 +15,21 @@
  - Summoner UI: писали ли кому-нибудь?
  - Pylons Prevent Evils: разраб игнорит в лс. Есть вариант написать ему в коммах стима, но может это только ксен
 
+В планах:
+(примерно в порядке заинтересованности)
+ - Mod Folder System
+ - CalValEX (глобал)
+ - Boss Checklist
+ - Magic Storage
+ - High FPS Support
+ - Lights and Shadows
+ Глобалы на потом:
+ - Catalyst
+ - Starlight River
+ - Hunt of the Old God
+ - Spirit
+ - WAYFAIR
+
 ----------------------------------------------------------------------------------------------------------------
 Завершённые:
 (примерно в порядке разработки)
