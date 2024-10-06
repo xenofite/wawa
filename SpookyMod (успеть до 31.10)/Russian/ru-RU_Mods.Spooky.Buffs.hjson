@@ -414,8 +414,8 @@ TrapdoorSpiderMountBuff: {
 }
 
 SpiderBabyBuff: {
-	DisplayName: Baby Spiders
-	Description: They have imprinted on you
+	DisplayName: Паучки
+	Description: They have imprinted on you (idk)
 }
 
 HunterScarfMark: {
