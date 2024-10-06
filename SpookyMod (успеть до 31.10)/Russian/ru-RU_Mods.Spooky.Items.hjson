@@ -137,7 +137,7 @@ EMFReader: {
 	Tooltip:
 		'''
 		Не расходуется
-		Использется для обнаружения паронормальных явлений
+		Использется для обнаружения паранормальных явлений
 		Призывает Жуткого духа при использовании на проклятой статуе ночью
 		'''
 }
@@ -457,7 +457,7 @@ SpiritHorsemanBody: {
 
 SpiritHorsemanHead: {
 	DisplayName: Тыква духа-наездника
-	Tooltip: Увеличивает шанс нанести критический удар на 5%
+	Tooltip: Увеличивает шанс критического удара на 5%
 }
 
 SpiritHorsemanLegs: {
@@ -938,7 +938,7 @@ DissolvedBone: {
 }
 
 FuzzBatWing: {
-	DisplayName: Крыло летучей шлюшомыши
+	DisplayName: Крыло летучей плюшомыши
 	Tooltip: Призывает ручную плюшомышь
 }
 
@@ -1014,7 +1014,7 @@ RottenGourd: {
 	Tooltip:
 		'''
 		Призывает маленькую и хлипкую тыкву, следующую за вами
-		«Она ещё молодая, но уже ужасно воняет»
+		«Она ещё молодая, но уже ужасно пахнет»
 		'''
 }
 
@@ -1075,44 +1075,44 @@ YellowSpore: {
 }
 
 RootBody: {
-	DisplayName: Root Body Plate
-	Tooltip: Increases your ranged damage by 5
+	DisplayName: Нагрудная пластина из корней
+	Tooltip: Увеличивает стрелковый урона на 5 ед.
 }
 
 RootHead: {
-	DisplayName: Root Mask
-	Tooltip: 5% increased ranged critical strike chance
+	DisplayName: Маска из корней
+	Tooltip: Увеличивает шанс критического удара стрелкового оружия на 5%
 }
 
 RootLegs: {
-	DisplayName: Root Garments
+	DisplayName: Одеяние из корней
 	Tooltip: ""
 }
 
 SpiderBody: {
-	DisplayName: Spi-Ops Bodyplate
+	DisplayName: Пси-учая нагрудная пластина
 	Tooltip:
 		'''
-		3% increased critical strike chance
-		Taking a large amount of damage will give you a short speed boost
+		Увеличивает шанс критического удара на 3%
+		Ваша скорость ненадолго увеличивается после получения урона
 		'''
 }
 
 SpiderHead: {
-	DisplayName: Spi-Ops Visor
+	DisplayName: Пси-учий визор
 	Tooltip:
 		'''
-		10% increased damage
-		Gives you night vision
+		Увеличивает урон на 10%
+		Даёт вам ночное зрение
 		'''
 }
 
 SpiderLegs: {
-	DisplayName: Spi-Ops Leggings
+	DisplayName: Пси-учие ботинки
 	Tooltip:
 		'''
-		15% increased movement speed
-		Increases your movement acceleration and jump height
+		Увеличивает скорость передвижения на 15%
+		Увеличивает скорость ускорения и высоту прыжка
 		'''
 }
 
@@ -1152,8 +1152,8 @@ OldHunterTorso: {
 }
 
 SpiderChitin: {
-	DisplayName: Spider Chitin
-	Tooltip: The hard exo-skeleton of a spider-like creature
+	DisplayName: Паучий хитин
+	Tooltip: Твёрдый экзоскелет паукообразных существ
 }
 
 SpiderKey: {
@@ -1245,12 +1245,12 @@ OrbWeaverStaff: {
 }
 
 PheromoneWhip: {
-	DisplayName: Pheromone Stinger
+	DisplayName: Жало с феромонами
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Hitting enemies will spread pheromones onto them
-		Enemies inflicted with pheromones take more damage from all spider-related minions
+		{$CommonItemTooltip.Whips}
+		Попадание по врагу оставляет на нём след феромонов
+		Все враги, поражённые феромонами получают больше урона он паукообразных миньонов
 		'''
 }
 
@@ -1284,25 +1284,25 @@ SpiderSlingshot: {
 }
 
 SpiderSummonEgg: {
-	DisplayName: Strange Spider Egg
+	DisplayName: Странное паучье яйцо
 	Tooltip:
 		'''
-		Throw an egg that hatches into some baby spider minions
-		Each baby spider only takes half of a minion slot
+		Бросает яйцо, из которого вылупляются паучки-миньоны
+		Каждый паучок занимает 0,5 слотов миньонов
 		'''
 }
 
 SpiderSword: {
-	DisplayName: Spider Stabber
-	Tooltip: Can sometimes poison enemies
+	DisplayName: Паучий вонзатель
+	Tooltip: Имеет шанс отравить поражённого врага
 }
 
 TarantulaHawkBow: {
-	DisplayName: Spider-Wing Longbow
+	DisplayName: Паукокрылый лук
 	Tooltip:
 		'''
-		Shoots winged arrows that can slightly track enemies
-		The longer you use it, the faster it shoots
+		Стреляет крылатыми стрелами, самонаводящимеся на врагов
+		Чем дольше вы стреляете, тем вышего его скорость стрельбы
 		'''
 }
 
@@ -1331,7 +1331,7 @@ GourdBody: {
 
 GourdHead: {
 	DisplayName: Голова прогнившей тыквы
-	Tooltip: Увеличивает шанс нанести критический удар в ближнем бою на 5%
+	Tooltip: Увеличивает шанс критического удара в ближнем бою на 5%
 }
 
 GourdLegs: {
@@ -1361,7 +1361,7 @@ WizardGangsterBody: {
 
 WizardGangsterHead: {
 	DisplayName: Позолоченная шляпа волшебника
-	Tooltip: Увеличивает шанс нанести критический удар магией на 5%
+	Tooltip: Увеличивает шанс критического удара магического оружия на 5%
 }
 
 WizardGangsterHead2: {
@@ -1496,25 +1496,25 @@ ElGourdo: {
 }
 
 GourdBook: {
-	DisplayName: Jerry's Book of Stinkology
-	Tooltip: Casts a smelly blast that makes enemies stinky
+	DisplayName: Книга Джерри о вонючестях
+	Tooltip: Выпускает вонючие газы, которые делают вонючими поражённых врагов
 }
 
 GourdFlail: {
 	DisplayName: «Ярость гнили»
 	Tooltip:
 		'''
-		Spawns flies around you after being swung for a bit
-		Releasing the flail will launch the flies
+		Постепенно призывает вокруг вас мух, пока вы раскручиваете оружие
+		Вместе с броском кистеня в ту же сторону полетит и рой мух
 		'''
 }
 
 GourdSlingshot: {
-	DisplayName: Stinky Slinger
+	DisplayName: Вонючий рогаткер
 	Tooltip:
 		'''
-		Hold down to pull back the slingshot, then release to fling ammo
-		Converts Mossy Pebbles into moldy pellets that linger and create flies
+		Удерживайте, чтоба зарядить рогатку
+		Превращает замшелые камушки в заплесневевшие кусочки тыквы
 		'''
 }
 
@@ -1576,7 +1576,7 @@ OldWoodSlingshot: {
 	Tooltip:
 		'''
 		Удерживайте, чтоба зарядить рогатку
-		Использует замшелые камушки в качестве боеприпасов 
+		Использует замшелые камушки в качестве боеприпасов
 		'''
 }
 
@@ -1609,7 +1609,7 @@ SkullWispStaff: {
 	Tooltip:
 		'''
 		Призывает призрачные черепа, сражающиеся за вас
-		«Неужели нужно оторвать и его руку?»
+		«Неужели тебе нужно оторвать и его руку?»
 		'''
 }
 
@@ -2441,27 +2441,27 @@ SpiderCaveChestItem: {
 }
 
 DampGrassSeeds: {
-	DisplayName: Damp Grass Seeds
-	Tooltip: Plants grass on Damp Soil
+	DisplayName: Сырые семена травы
+	Tooltip: Позволяет посадить траву на сырую почву
 }
 
 DampSoilItem: {
-	DisplayName: Damp Soil
+	DisplayName: Сырая почва
 	Tooltip: ""
 }
 
 RootWoodItem: {
-	DisplayName: Root Block
+	DisplayName: Блок корня
 	Tooltip: ""
 }
 
 RootWoodWallItem: {
-	DisplayName: Root Block Wall
+	DisplayName: Стена из блока корня
 	Tooltip: ""
 }
 
 WebBlockItem: {
-	DisplayName: Spider Web Block
+	DisplayName: Блок паутины
 	Tooltip: ""
 }
 
@@ -2605,7 +2605,7 @@ SwoleMushroomStatueItem: {
 
 MushroomMossSeeds: {
 	DisplayName: Семена грибного мха
-	Tooltip: Позволяет посадить грибной бох на замелый камень
+	Tooltip: Позволяет посадить грибной бох на замшелый камень
 }
 
 SpookyDirtItem: {
