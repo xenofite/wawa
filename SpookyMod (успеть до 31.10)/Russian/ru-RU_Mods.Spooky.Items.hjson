@@ -1,55 +1,55 @@
 BoneMask: {
-	DisplayName: Disciple's Mask
+	DisplayName: Маска ученика
 	Tooltip:
 		'''
-		Fire off homing skull wisps while you are flying or running
-		The rate wisps are fired and their damage scales with your current speed
+		Выпускает самонаводяхся духов во все стороны, пока вы не стоите на месте
+		Чем быстрее вы передвигаетесь, тем чаще выпускаются духи и тем больше урона они наносят
 		'''
 }
 
 DaffodilHairpin: {
-	DisplayName: Flower Hairpin
+	DisplayName: Заколка-цветочек
 	Tooltip:
 		'''
-		Grants you a petal ring that deals massive damage to enemies when they touch you
-		The ring goes away when an enemy hits you, and grows back after one minute
+		Образует вокруг вас кольцо лепестков, наносящее уйму урона врагам при столкновении с вами
+		Кольцо распадается при получении урона, но отрастает обратно, если вы не получали урон в течение 1 минуты
 		'''
 }
 
 FlyCharm: {
-	DisplayName: Очарование мухов
+	DisplayName: Талисман мух
 	Tooltip:
 		'''
-		Вокруг вас будет собираться рой мух, до 10 особей за раз
-		Каждая существующая муха даёт вам одно дополнительное очко защиты
-		Все мухи умирают при получении вами урона и могут возродится только через 30 секунд
+		Вокруг вас постененно собирается рой из мух, до 10 особей за раз
+		Каждая муха даёт вам одну единицу защиты
+		Все мухи умирают при получении вами урона и могут возродиться только через 30 секунд
 		'''
 }
 
 MocoNose: {
-	DisplayName: Snotty Schnoz
+	DisplayName: Сопливый носище
 	Tooltip:
 		'''
-		Gives you a snot bar that will fill up as you pick up snot globs
-		Snot globs will occassionaly drop when you damage enemies
-		Once the bar is full, using a weapon will fire out a giant spread of homing snot
-		Enemies will stop dropping snot for 30 seconds after this effect is triggered
-		The damage and speed of the homing snot depends on the weapon you use when shooting them
+		Нанесение урона врагам разбрасывает вокруг сгустки соплей
+		Подбор этих сгустков заполняет вашу шкалу соплей
+		Любая атака оружием с полной шкалой выпустит шквал самонаводящихся соплей
+		Сгустки соплей не смогут появляться в течение следующих 30 секунд после срабатывания этого эффекта
+		Урон и скорость полёта самонаводящихся соплей зависят от базовых характеристик оружия в ваших руках
 		'''
 }
 
 MocoNoseBooger: {
-	DisplayName: Snot
+	DisplayName: Сопля
 	Tooltip: ""
 }
 
 OrroboroEmbryo: {
-	DisplayName: Undying Embryo
+	DisplayName: Неупокоенный зародыш
 	Tooltip:
 		'''
-		Upon death you will be revived and given high life regeneration and defense for a short time
-		This revive ability has a 10 minute cooldown before it can activate again
-		During the cooldown, you gain 8% increased damage and critical strike chance
+		Возрождает вас после вашей смерти и даёт мощную прибавку к регенерации здоровья и защите на короткое время
+		Эффекту возрождения требуется десять минут перезарядки перед повторным срабатыванием
+		Однако в течение этих десяти минут ваш урон и шанс критического удара будут увеличены на 8%
 		'''
 }
 
@@ -63,22 +63,22 @@ SpiritAmulet: {
 }
 
 BossBagBigBone: {
-	DisplayName: Treasure Bag (Big Bone)
+	DisplayName: Мешок с сокровищами (Big Bone)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 BossBagDaffodil: {
-	DisplayName: Treasure Bag (Daffodil)
+	DisplayName: Мешок с сокровищами (Daffodil)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 BossBagMoco: {
-	DisplayName: Treasure Bag (Moco)
+	DisplayName: Мешок с сокровищами (Moco)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 BossBagOrroboro: {
-	DisplayName: Treasure Bag (Orro & Boro)
+	DisplayName: Мешок с сокровищами (Orro & Boro)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -99,37 +99,37 @@ BabyRattle: {
 
 Brick: {
 	DisplayName: Тяжёлый кирпич
-	Tooltip: Можно кинуть в кого-нибудь сонливого, чтобы он очухался
+	Tooltip: Можно кинуть в кого-нибудь сонливого, чтобы тот очухался
 }
 
 Concoction: {
-	DisplayName: Acidic Concoction
+	DisplayName: Кислотный отвар
 	Tooltip:
 		'''
-		Not consumable
-		A very corrosive substance, made from the most vile ingredients
-		Right click the giant egg with this in your inventory to corrode it
+		Не расходуется
+		Крайне едкая жидкость, изготовленная из самых мерзких ингредиентов
+		Нажмите ПКМ по гигантскому яйцу с этим предметом в инвентаре, чтобы растворить его
 		'''
 }
 
 CottonSwab: {
-	DisplayName: Cotton Swab
+	DisplayName: Ватная палочка
 	Tooltip:
 		'''
-		Not consumable
-		A peculiarly large cotton swab
-		Summons Moco when used at the giant nose shrine
+		Не расходуется
+		Подозрительно большая ватная палочка
+		Призывает Моко при использовании на святыне гигантского носа
 		'''
 }
 
 CowBell: {
-	DisplayName: Rusty Cowbell
-	Tooltip: An ancient cowbell, with a mysterious origin
+	DisplayName: Ржавый колокольчик
+	Tooltip: Старинный колокольчик с загадочным происхождением
 }
 
 CreepyFace: {
-	DisplayName: Screeching Face
-	Tooltip: It whispers discouraging phrases to you
+	DisplayName: Лицо кричащего
+	Tooltip: Оно нашёптывает свои омерзительные фразочки вам на ухо
 }
 
 EMFReader: {
@@ -143,17 +143,17 @@ EMFReader: {
 }
 
 Fertilizer: {
-	DisplayName: Freaky Fertilizer
+	DisplayName: Причудливое удобрение
 	Tooltip:
 		'''
-		A smelly bag of dirt and bones
-		Summons Big Bone when used when nearby the giant flower pot
+		Воняющий мешок земли и костей
+		Призывает Большую кость при использовании у горшка с гигантским цветком
 		'''
 }
 
 Horseshoe: {
-	DisplayName: Old Horseshoe
-	Tooltip: You can hear the clopping noises
+	DisplayName: Старая подкова
+	Tooltip: Если прислушаеться, всё ещё можно услышать клацанье копыт
 }
 
 RottenSeed: {
@@ -162,36 +162,36 @@ RottenSeed: {
 }
 
 StrangeCyst: {
-	DisplayName: Strange Cyst
-	Tooltip: Begins the egg incursion event when used at the giant egg
+	DisplayName: Странная киста
+	Tooltip: Начинает яичное вторжение при использовании на гигантском яйце
 }
 
 FlowerBody: {
-	DisplayName: Thorn Stem Shirt
+	DisplayName: Рубаха шипастого стебля
 	Tooltip:
 		'''
-		15% increased damage and critical strike chance
-		Attackers will take damage when they hit you
+		Увеличивает урон и шанс критического удара на 15%
+		Наносит урон атакующим вас врагам при получении урона
 		'''
 }
 
 FlowerHead: {
-	DisplayName: Flower Mask
+	DisplayName: Маска цветка
 	Tooltip:
 		'''
-		15% reduced mana usage
-		Increases your max number of minions by 2
-		Increases your max number of sentries by 1
+		Уменьшает расход маны на 15%
+		Увеличивает максимальное число миньонов на 2
+		Увеличивает максимальное число часовых на 1
 		'''
 }
 
 FlowerLegs: {
-	DisplayName: Large Flower Pot
+	DisplayName: Горшок гигантского цветка
 	Tooltip:
 		'''
-		Grants immunity to knockback
-		Reduces damage taken by 8%
-		Causes you to fall much faster when worn
+		Даёт невосприимчивость к отбрасыванию
+		Уменьшает получаемый урон на 8%
+		Значительно увеличивает скорость падения
 		'''
 }
 
@@ -211,95 +211,96 @@ CatacombKey3: {
 }
 
 PlantChunk: {
-	DisplayName: Plant Chunk
-	Tooltip: A piece of living plant matter
+	DisplayName: Комок растительности
+	Tooltip: Кусочек тканей растений
 }
 
 BigBoneBow: {
-	DisplayName: Flower Shot
+	DisplayName: Цветочный залп
 	Tooltip:
 		'''
-		Left click to rapidly fire piercing roses that can slightly home on enemies
-		Right click to shoot a stationary thorn flower that inflicts thorn mark on enemies
-		Enemies with the thorn mark debuff will take more damage from this weapon
-		10% chance to save ammo
+		Нажмите ЛКМ, чтобы быстро стрелять самонаводящимися розами, пронзающими врагов
+		Нажмите ПКМ, чтобы выпустить останавливающийся на месте шипастый цветок, накладывающий на врагов метку шипов
+		Враги с меткой шипов получают значительно больше урона от этого оружия
+		10% шанс не использовать боеприпасы
 		'''
 }
 
 BigBoneHammer: {
-	DisplayName: Skull Smasher
+	DisplayName: Череполом
 	Tooltip:
 		'''
-		Left click to quickly throw the hammer a short distance
-		Hold down right click to swing the hammer around you and charge it up
-		Once fully charged, release right click to throw the hammer
+		Нажмите ЛКМ, чтобы быстро метать молот на короткую дистанцию
+		Удерживайте ПКМ, чтобы раскрутить молот вокруг себя и зарядить мощный бросок
+		Полностью зарядив бросок, отпустите ПКМ, чтобы запульнуть молотом с невиданной силой
 		'''
 }
 
 BigBoneScepter: {
-	DisplayName: Skull Totem Scepter
+	DisplayName: Скипетр идола черепов
 	Tooltip:
 		'''
-		Left click to summon skull wisps that can shoot magic blasts and charge at enemies
-		Right click to summon a stationary skull idol at your cursor position that lasts for one minute
-		While within the idol's radius, you will receive various summoner stat increases
+		Нажмите ЛКМ, чтобы призвать черепов-духов, атакующих ваших врагов рывками и залпами магии
+		Нажмите ПКМ, чтобы установить идол черепов на месте вашего курсора на 1 минуту
+		Находясь в радиусе действия идола, вы получаете различные прибавки к характеристикам призывателя
 		'''
 }
 
 BigBoneStaff: {
-	DisplayName: Flame Orb Staff
+	DisplayName: Посох пламенной сферы
 	Tooltip:
 		'''
-		Left click to cast a large spread of fire bolts that bounce off of tiles
-		Right click to unleash a high damage fire beam that homes on enemies
+		Нажмите ЛКМ, чтобы выпустить залп из огненных снарядов, отскакивающих от блоков
+		Нажмите ПКМ, чтобы высвободить мощный самонаводящийся луч огня
 		'''
 }
 
 CrossCharm: {
-	DisplayName: Cross Charm
+	DisplayName: Крестик-оберег
 	Tooltip:
 		'''
-		Grants you a magic cross that reduces damage the next time you are hit
-		After being hit, the cross will disappear and regenerate after 10 seconds
+		Призывает магический крест, существенно уменьшающий получаемый урон от следующей атаки
+		Крест пропадает после получения вами урона и восстанавливается только через 10 секунд
 		'''
 }
 
 DaffodilBlade: {
-	DisplayName: Thorn Dagger
-	Tooltip: A quick dagger that can sometimes poison enemies
+	DisplayName: Шип-кинжал
+	Tooltip: Быстрый кинжал, удары котором изредка могут отравить врагов
 }
 
 DaffodilBow: {
-	DisplayName: Fly Shot
+	DisplayName: Мухобойка
 	Tooltip:
 		'''
-		Hold down to charge the bow and shoot out flies
-		The longer you charge it, the more flies it shoots
+		Удерживайте ПКМ, чтобы зарядить лук, и отпустите, чтобы выстрелить залпом из мух // очень плохо
+		Чем дольше вы заряжали лук, тем больше мух выпустите
 		'''
 }
 
 DaffodilRod: {
-	DisplayName: Sunflower Rod
-	Tooltip: Casts flowers that can home on enemies and bounce off surfaces
+	DisplayName: Жезл подсолнуха
+	Tooltip: Выпускает самонаводящиеся цветы подсолнуха, отскакивающие от блоков
 }
 
 DaffodilStaff: {
-	DisplayName: Plant Puncher Staff
+	DisplayName: Посох стебля-борца
 	Tooltip:
 		'''
-		Summons a powerful plant hand to punch nearby enemies
-		It only requires one minion slot, but only one can be active at once
+		Призывает огромную руку-растение, бьющую ближайших врагов своим кулаком
+		Одновременно может быть призвана только одна рука
 		'''
 }
 
 FemurFracture: {
-	DisplayName: «Перелом бедренной кости»
+	DisplayName: Перелом бедренной кости
 	Tooltip:
 		'''
-		Удерживайте, чтобы раскрутить молот, и отпустите, когда он будет достаточно заряжен, чтобы метнуть
-		Долгое удержание сделает молот суперзаряженным
-		Суперзаряженный молот при метании оставляет за собой самонаводящиеся черепа
-		«Идеальное оружие, чтобы сделать переломы вашим врагам!»
+		Удерживайте ЛКМ, чтобы раскрутить молот вокруг себя и зарядить мощный бросок
+		Продолжайте раскручивать молот после зарядки броска, чтобы сверхзарядить его
+		Зарядив бросок, отпустите ЛКМ, чтобы запульнуть молотом с невиданной силой
+		Сверхзаряженный молот при броске оставляет за собой самонаводящиеся черепа
+		«То что нужно, чтобы попереломать все косточки вашим врагам!»
 		'''
 }
 
@@ -307,61 +308,60 @@ FlameIdol: {
 	DisplayName: Идол пламени
 	Tooltip:
 		'''
-		Удерживайте, чтобы вызвать вылетающие со всех сторон огни
-		Однако, идол пламени также поджигает вас при его использовании
+		Удерживайте ЛКМ, чтобы выпускать огни во все стороны
+		Однако использование идола также будет поджигать и вас самих
 		'''
 }
 
 GlowBulb: {
-	DisplayName: Bulb Bomb
+	DisplayName: Бомбоплод
 	Tooltip:
 		'''
-		Throws an explosive bulb that can stick to the ground
-		The bulb will explode into smaller thorns when it hits an enemy
+		Бросает взрывные луковицы, прилипающие к блокам
+		Луковицы взрываются при соприкосновении с врагами и выпускают уйму мелких шипов
 		'''
 }
 
 GraveCrossbow: {
-	DisplayName: Old Hunter's Crossbow
+	DisplayName: Арбалет старого охотника
 	Tooltip:
 		'''
-		Charge the crossbow to shoot a high velocity piercing arrow
-		The longer you charge it, the more the arrow's speed and damage increases
+		Удерживайте ЛКМ, чтобы зарядить мощный выстрел стрелой, пронзающей врагов
+		Чем дольше вы заряжали выстрел, тем быстрее будет лететь стрела и тем больше урона она нанесёт
 		'''
 }
 
 HarvesterScythe: {
-	DisplayName: Harvester's Scythe
+	DisplayName: Коса жнеца
 	Tooltip:
 		'''
-		Hitting enemies will unleash a soul that lingers around you
-		After you have 10 souls, they will fly away and home in on nearby enemies
+		Удары по врагам накапливают вокруг вас души
+		Накопив 10 душ, все они начнут самонаводиться на ближайших врагов
 		'''
 }
 
 HunterSoulScepter: {
-	DisplayName: Hunter Soul Scepter
+	DisplayName: Скипетр душегуба
 	Tooltip:
 		'''
-		Summons the ghosts of old hunters to fight with you
-		There are 3 different types of old hunters, a warrior, a shotgunner, and a mage
-		Right click to switch between each of the different types
+		Призывает призраков старых охотников, сражающихся за вас
+		Нажмите ПКМ, чтобы сменить тип призываемых призраков
+		Всего есть три типа: воин, стрелок и маг, каждый из которых имеет свои особенности поведения
 		'''
 }
 
 NineTails: {
-	DisplayName: Cat O' Nine Tails
+	DisplayName: Кошка-девятихвостка
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Swings out multiple short range whips at once
-		'There is no safeword'
+		Размахивает множеством коротких, но очень больно бьющих хлыстов
+		'Нет никакого стоп-слова'
 		'''
 }
 
 OldRifle: {
-	DisplayName: Old Hunter's Rifle
-	Tooltip: Shoots out rusty bullets that split on impact
+	DisplayName: Винтовка старого охотника
+	Tooltip: Стреляет ржавыми пулями, разрывающимися на несколько осколков при столкновении с блоками или врагами
 }
 
 PandoraAmalgam: {
