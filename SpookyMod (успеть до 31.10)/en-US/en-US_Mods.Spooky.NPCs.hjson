@@ -20,7 +20,7 @@ Moco: {
 	DisplayName: Moco
 
 	BossChecklistIntegration: {
-		SpawnInfo: Right click the nose statue in the valley of eyes while you have a [i:Spooky/CottonSwab] in your inventory. The cotton swab is given to you after completing 3 of little eye's quests, or can be crafted.
+		SpawnInfo: Right click the nose shrine in the valley of eyes while you have a [i:Spooky/CottonSwab] in your inventory.
 		DespawnMessage: Moco has sneezed on all players
 	}
 }
@@ -39,7 +39,7 @@ OrroHead: {
 
 	BossChecklistIntegration: {
 		EntryName: Orro & Boro
-		SpawnInfo: Right click the egg in the valley of eyes while you have the [i:Spooky/Concoction] in your inventory, after you have completed the Egg Incursion event once. The concoction is given to you after completing all of little eye's quests, or can be crafted.
+		SpawnInfo: Right click the egg in the valley of eyes while you have the [i:Spooky/Concoction] in your inventory, after you have completed the Egg Incursion event.
 		DespawnMessage: Orro & Boro have protected their egg
 	}
 }
@@ -58,27 +58,36 @@ BigFlowerPot.DisplayName: Giant Flower Pot
 BigFlower.DisplayName: Solar Flower
 DefensiveFlower.DisplayName: Defensive Flower
 HealingFlower.DisplayName: Healing Flower
+CatacombGuardian.DisplayName: Catacomb Guardian
+BigBoneArenaBG.DisplayName: ""
 DaffodilBody.DisplayName: ""
 DaffodilHandLeft.DisplayName: Daffodil
 DaffodilHandRight.DisplayName: Daffodil
+DaffodilArenaBG.DisplayName: ""
+MoclingMinion.DisplayName: Mocling
+MocoIntro.DisplayName: Mocling
+MocoOutro.DisplayName: Mocling
+MocoSpawner.DisplayName: ""
 BoroBody.DisplayName: Boro
 BoroBodyConnect.DisplayName: Boro
+BoroBodyWings.DisplayName: Boro
+BoroBodyWingsP1.DisplayName: Boro
 BoroBodyP1.DisplayName: Boro
 BoroHead.DisplayName: Boro
 BoroTail.DisplayName: Boro
 BoroTailP1.DisplayName: Boro
 OrroBody.DisplayName: Orro
+OrroBodyWings.DisplayName: Orro
+OrroBodyWingsP1.DisplayName: Orro
 OrroBodyP1.DisplayName: Orro
 OrroHeadP1.DisplayName: Orro
 OrroTail.DisplayName: Orro
+BoroTongue.DisplayName: Boro's Tongue
 PhantomSkull.DisplayName: Phantom Skull
+OrbitingBooger.DisplayName: Booger Ball
 //hallucinations
-TheBaby.DisplayName: The Baby
-TheFlesh.DisplayName: The Flesh
-TheHorse.DisplayName: The Horse
 TheMan.DisplayName: The Man
 //catacombs layer 1
-CatacombGuardian.DisplayName: Catacomb Guardian
 Skeletoid1.DisplayName: Skeletoid
 Skeletoid2.DisplayName: Skeletoid
 Skeletoid3.DisplayName: Skeletoid
@@ -99,19 +108,56 @@ RollingSkull4.DisplayName: Gilded Skull
 ZomboidGlyphomancer.DisplayName: Zomboid Glyphomancer
 ZomboidNecromancer.DisplayName: Zomboid Necromancer
 ZomboidNecromancerSoul.DisplayName: Undead Soul
-PhantomRollingSkull.DisplayName: Phantom Skull
-PhantomSkeletoid.DisplayName: Phantom Skeletoid
+PhantomRollingSkull.DisplayName: Phantom
+PhantomSkeletoid.DisplayName: Phantom
 ZomboidPyromancer.DisplayName: Zomboid Pyromancer
 ZomboidSuspiciomancer.DisplayName: Zomboid Suspiciomancer
 //catacombs layer 2
-Daisy1.DisplayName: Daisy
-Daisy2.DisplayName: Daisy
-Flourence.DisplayName: Flourence
-Marigold.DisplayName: Marigold
-MarigoldSpit.DisplayName: Marigold
+CatacombCrusherSpawner.DisplayName: Ancient Crusher Spawner
+CatacombCrusher1.DisplayName: Ancient Crusher
+CatacombCrusher2.DisplayName: Ancient Crusher
+CatacombCrusher3.DisplayName: Ancient Crusher
+CatacombCrusher4.DisplayName: Gilded Crusher
+CelebrationSkeletoid1.DisplayName: Muerto Skeletoid
+CelebrationSkeletoid2.DisplayName: Muerto Skeletoid
+CelebrationSkeletoid3.DisplayName: Muerto Skeletoid
+CelebrationSkeletoid4.DisplayName: Muerto Skeletoid
+CelebrationSkeletoid5.DisplayName: Muerto Skeletoid
+Dahlia.DisplayName: Diva Dahlia
+DahliaEye.DisplayName: Diva Dahlia
+FlushBush1.DisplayName: Flush Bush
+FlushBush2.DisplayName: Flush Bush
+FlushBush3.DisplayName: Flush Bush
+FlushBush4.DisplayName: Flush Bush
+JumpingSeed1.DisplayName: Hopseed
+JumpingSeed2.DisplayName: Hopseed
+JumpingSeed3.DisplayName: Hopseed
+LilySlime1Big.DisplayName: Water Lily
+LilySlime1Small.DisplayName: Water Lily
+LilySlime2Big.DisplayName: Water Lily
+LilySlime2Small.DisplayName: Water Lily
+OrchidPinkBig.DisplayName: Observing Orchid
+OrchidPinkSmall.DisplayName: Observing Orchid
+OrchidPurpleBig.DisplayName: Observing Orchid
+OrchidPurpleSmall.DisplayName: Observing Orchid
+OrchidStem.DisplayName: ""
+PitcherPlant1.DisplayName: Spitcher Plant
+PitcherPlant2.DisplayName: Spitcher Plant
+PitcherPlant3.DisplayName: Spitcher Plant
+PitcherPlant4.DisplayName: Spitcher Plant
+PlantTrap1.DisplayName: Trapper Plant
+PlantTrap2.DisplayName: Trapper Plant
+PlantTrap3.DisplayName: Trapper Plant
+PlantTrap4.DisplayName: Trapper Plant
+PlantTrap5.DisplayName: Trapper Plant
+PlantTrap6.DisplayName: Trapper Plant
+PollinatorBeeDamage.DisplayName: Pollinator Bee
+PollinatorBeeHealing.DisplayName: Pollinator Bee
+SkeletoidBandit.DisplayName: Skeletoid Bandit
 Smelly.DisplayName: Smelly
-Sunny.DisplayName: Sunny
-Toothy.DisplayName: Toothy
+Sunflower1.DisplayName: Stalking Sunflower
+Sunflower3.DisplayName: Stalking Sunflower
+Sunflower2.DisplayName: Stalking Sunflower
 //pandora's box
 PandoraBox.DisplayName: Pandora's Box
 Bobbert.DisplayName: Bobbert
@@ -125,26 +171,40 @@ StitchWand.DisplayName: Stitch
 //cemetery
 BloatGhostBig.DisplayName: Bloated Ghost
 BloatGhostSmall.DisplayName: Ghost
-Possessor.DisplayName: Possessor
-PossessorEvil.DisplayName: Possessor
-ZomboidCasket.DisplayName: Zomboid Casket
-ZomboidGremlin.DisplayName: Zombino
-MistGhost.DisplayName: Mist Ghost
 FeralRat1.DisplayName: Feral Rat
 FeralRat2.DisplayName: Feral Rat
-TinyRat1.DisplayName: Tiny Rat
-TinyRat2.DisplayName: Tiny Rat
+HungryGhost.DisplayName: Hungry Ghost
+MistGhost.DisplayName: Mist Ghost
+MistGhostFaces.DisplayName: Mist Ghost
+MistGhostWiggle.DisplayName: Mist Ghost
+Possessor.DisplayName: Devious Ghost
+PossessorEvil.DisplayName: Devious Ghost
 SadGhostBig.DisplayName: Sad Ghost
 SadGhostSmall.DisplayName: Sad Ghost
+SmileGhost.DisplayName: Happy Ghost
+SmileGhostSmall1.DisplayName: Happy Ghost
+SmileGhostSmall2.DisplayName: Happy Ghost
+SmileGhostSmall3.DisplayName: Happy Ghost
+TinyRat1.DisplayName: Tiny Rat
+TinyRat2.DisplayName: Tiny Rat
+ZomboidCasket.DisplayName: Zomboid Casket
+ZomboidGremlin.DisplayName: Zombino
 //egg event
-Crux.DisplayName: Crux
-Glutinous.DisplayName: Glutinous
-Ventricle.DisplayName: Ventricle
-Vesicator.DisplayName: Vesicator
-Vigilante.DisplayName: Vigilante
+Biojetter.DisplayName: Biojetter
+BiojetterEye.DisplayName: Biojetter
+CoughLungs.DisplayName: Coughing Lungs
+CruxBat.DisplayName: Crux Bat
+EarWorm.DisplayName: Ear Worm
+EarWormBase.DisplayName: ""
+ExplodingAppendix.DisplayName: Exploding Appendix
+FleshBolster.DisplayName: Flesh Bolster
+GooSlug.DisplayName: Goo Slug
+HoppingHeart.DisplayName: Hopping Heart
+HoverBrain.DisplayName: Hovering Brain
+TongueBiter.DisplayName: Tongue Biter
+OrroboroEgg.DisplayName: ""
 //friendly
 DumbZomboid.DisplayName: Dumb Zomboid
-GiantWeb.DisplayName: Giant Web
 GiantWebAnimationBase.DisplayName: ""
 GiantWebAnimationPiece.DisplayName: ""
 LittleBone.DisplayName: Little Bone
@@ -178,7 +238,7 @@ OldHunter: {
 		LoveBiome: Ahh the good ol' {BiomeName}. Still love this place despite them ugly ass spiders wandering around!
 		LikeBiome: The {BiomeName} is my type of biome. Nothin' says home quite like fending off venomous bugs and bats!
 		DislikeBiome: Not really likin' {BiomeName}, too peaceful and calm for me.
-		HateBiome: What the hell is this so-called Hallowed? I ain't wanna live in fairytale land!
+		HateBiome: What the hell is this so-called Hallowed? I ain't gonna live in some fairytale land!
 		LoveNPC: "{NPCName} is awesome! Glad there's some hard-core dudes out there!"
 		LikeNPC: I like {NPCName}. Honestly I'm just glad I got someone old to talk with haha!
 		DislikeNPC: "{NPCName}? Seems way too hoity-toity for me."
@@ -186,6 +246,11 @@ OldHunter: {
 		Princess_LovesNPC: ""
 		LikeNPC_Princess: ""
 	}
+}
+
+GiantWeb: {
+	DisplayName: Giant Web
+	DisplayNameAlt: Right click to insert old hunter piece
 }
 
 //spooky biome
@@ -218,20 +283,32 @@ TinyGhostBoof.DisplayName: Tiny Ghost
 TinyGhostRare.DisplayName: Spooky Ghost
 TinyMushroom.DisplayName: Tiny Mushroom
 Witch.DisplayName: Evil Witch
+ZomboidArmored.DisplayName: Armored Zomboid
+ZomboidClarinet.DisplayName: Zomboid
 ZomboidFungus.DisplayName: Zomboid
 ZomboidPumpkin.DisplayName: Rooted Zomboid
 ZomboidPumpkinFire.DisplayName: Flaming Root Zomboid
+ZomboidRain.DisplayName: Leaky Zomboid
 ZomboidThorn.DisplayName: Zomboid
-ZomboidWind.DisplayName: Zomboid
+ZomboidTomatoMold.DisplayName: Tomato Zomboid
+ZomboidTomato.DisplayName: Tomato Zomboid
 ZomboidWarlock.DisplayName: Zomboid Warlock
+ZomboidWind.DisplayName: Zomboid
 //valley of eyes
 EyeBat.DisplayName: Bat n' Eye
+EyeBatFleshy.DisplayName: Bat n' Eye
 ManHole.DisplayName: Man Hole
-ManHoleBig.DisplayName: Man Hole
-ManHoleEye.DisplayName: Stalking Eye
-MrHandy.DisplayName: Mr. Handy
+ManHoleFleshy.DisplayName: Man Hole
+ManHoleEye.DisplayName: Eye
+ManHoleBig.DisplayName: Man Hole Big
+MrHandy.DisplayName: Mister Handy
+MrHandyFleshy.DisplayName: Mister Handy
 Tortumor.DisplayName: Tortumor
+TortumorFleshy.DisplayName: Tortumor
 TortumorGiant.DisplayName: Giant Tortumor
+TortumorGiantFleshy.DisplayName: Giant Tortumor
+Mocling.DisplayName: Mocling
+MoclingSwarm.DisplayName: ""
 ValleyFish.DisplayName: Peeper Fish
 ValleyNautilus.DisplayName: Claret Cephalopod
 ValleySquid.DisplayName: Clot Squid
@@ -281,3 +358,39 @@ TrapdoorSpiderIdle1.DisplayName: Trapdoor Spider
 TrapdoorSpiderIdle2.DisplayName: Trapdoor Spider
 WhipSpider.DisplayName: Whip Spider
 WhipSpiderTongue.DisplayName: Whip Spider
+//nose cult
+MocoIdol1.DisplayName: ""
+MocoIdol2.DisplayName: ""
+MocoIdol3.DisplayName: ""
+MocoIdol4.DisplayName: ""
+MocoIdol5.DisplayName: ""
+MocoIdol6.DisplayName: ""
+NoseBallPurple.DisplayName: Nolegam
+NoseBallRed.DisplayName: Nolegam
+NoseCultistBruteIdle.DisplayName: ""
+NoseCultistBrute.DisplayName: Cultist Brute
+NoseCultistGruntIdle.DisplayName: ""
+NoseCultistGrunt.DisplayName: Cultist Grunt
+NoseCultistGunnerIdle.DisplayName: ""
+NoseCultistGunner.DisplayName: Cultist Gunner
+NoseCultistMageIdle.DisplayName: ""
+NoseCultistMage.DisplayName: Cultist Conjurer
+NoseCultistWingedIdle.DisplayName: ""
+NoseCultistWinged.DisplayName: Cultist Flier
+NoseCultistLeaderIdle.DisplayName: ""
+NoseCultistLeader.DisplayName: Noseferatu
+SnotMonster.DisplayName: Snot Monster
+SnotSlime.DisplayName: Snot Slime
+//quest minibosses
+BanditBook.DisplayName: Tome of Spirits
+BanditBruiser.DisplayName: Rarg
+BanditWizard.DisplayName: Greeny
+BanditPriest.DisplayName: Blueford
+EyeWizard.DisplayName: Bigger Eye
+EyeWizardClone.DisplayName: Bigger Eye Phantom
+EyeWizardOrb.DisplayName: Eye Orb
+FrankenGoblin.DisplayName: Frank the Goblin
+FrankenGoblinHandFront.DisplayName: Frank's Hand
+FrankenGoblinHandBack.DisplayName: Frank's Hand
+FrankenGoblinEye.DisplayName: Monster Eye
+StitchSpider.DisplayName: Stitches
