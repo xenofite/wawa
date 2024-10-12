@@ -3,26 +3,6 @@ BustlingGlowshroomHeal: {
 	Description: Скороть регенерации вашего здоровья значительно увеличена
 }
 
-CandyBuff1: {
-	DisplayName: Конфета призывателя
-	Description: 5%-ное увеличение урона призывателя
-}
-
-CandyBuff2: {
-	DisplayName: Конфета призывателя
-	Description: Максимальное число миньонов увеличено на 1
-}
-
-CandyBuff3: {
-	DisplayName: Конфета призывателя
-	Description: Длина хлыстов немного увеличена
-}
-
-CandyBuff4: {
-	DisplayName: Конфета кпризывателя
-	Description: Максимальное число стражей увеличено на 1
-}
-
 DaffodilHairpinCooldown: {
 	DisplayName: Thorn Petal Cooldown
 	Description: Your petal ring is regrowing
@@ -44,11 +24,7 @@ FlyBuff: {
 
 SkullFrenzyBuff: {
 	DisplayName: Некромантическое безумие
-	Description:
-		'''
-		Вас пронизывает сила некромантии
-		Увеличение урона, шанса нанести критический удар, отбрасывание и скорости передвижения
-		'''
+	Description: Увеличение урона, шанса нанести критический удар, отбрасывание и скорости передвижения
 }
 
 SnottySchnozCooldown: {
@@ -63,11 +39,7 @@ BouncerDeathmark: {
 
 CatacombDebuff: {
 	DisplayName: Проклятье катакомб 
-	Description:
-		'''
-		Вы не можете ставить блоки и использовать инструменты
-		Поле зрения сильно ограничено
-		'''
+	Description: Проклятье ограничевает ваше поле зрения
 }
 
 CrossCooldown: {
@@ -80,18 +52,18 @@ EmbryoCooldown: {
 	Description:
 		'''
 		The embryo's revival must recharge
-		Increases all damage and critical strike chance by 8%
+		Increases all damage and critical strike chance
 		'''
 }
 
 EnsnaredCooldown: {
 	DisplayName: Ensnared Cooldown
-	Description: Mods.Spooky.BuffDescription.EnsnaredCooldown
+	Description: ""
 }
 
 EnsnaredDebuff: {
 	DisplayName: Ensnared
-	Description: Mods.Spooky.BuffDescription.EnsnaredDebuff
+	Description: ""
 }
 
 HallucinationDebuff1: {
@@ -116,17 +88,17 @@ HallucinationDebuff4: {
 
 FleshWhipCooldown: {
 	DisplayName: Eye Lasher Cooldown
-	Description: Mods.Spooky.BuffDescription.FleshWhipCooldown
+	Description: ""
 }
 
 FleshWhipDefense: {
 	DisplayName: Eye Lasher Defense
-	Description: Mods.Spooky.BuffDescription.FleshWhipDefense
+	Description: ""
 }
 
 FleshWhipDefense2: {
 	DisplayName: Eye Lasher Defense
-	Description: Mods.Spooky.BuffDescription.FleshWhipDefense2
+	Description: ""
 }
 
 FlowerArmorCooldown: {
@@ -141,7 +113,7 @@ FlyCooldown: {
 
 GourdDecay: {
 	DisplayName: Rotting
-	Description: Mods.Spooky.BuffDescription.GourdDecay
+	Description: ""
 }
 
 PandoraCrossCooldown: {
@@ -166,7 +138,7 @@ SadDebuff: {
 
 ThornMark: {
 	DisplayName: Thorn Mark
-	Description: Mods.Spooky.BuffDescription.ThornMark
+	Description: ""
 }
 
 BrainyBuff: {
@@ -226,12 +198,7 @@ SoulSkullBuff: {
 
 SkullTotemBuff: {
 	DisplayName: Skull Idol Empowerment
-	Description:
-		'''
-		12% increased summon damage
-		50% increased whip range
-		+2 max minions
-		'''
+	Description: Increased summon damage, whip range, and +2 max minions
 }
 
 TortumorMinionBuff: {
@@ -272,11 +239,6 @@ GhostPetBuff: {
 MocoPetBuff: {
 	DisplayName: Baby Moco
 	Description: Sniffle... Achooo!
-}
-
-OrroboroMountBuff: {
-	DisplayName: Eye Worm
-	Description: The eye worm will help you travel
 }
 
 PandoraBeanBuff: {
@@ -354,21 +316,6 @@ MonumentMythosShatter: {
 	Description: You take 2x damage from all attacks
 }
 
-GuineaPigBuff: {
-	DisplayName: Spooky Guinea Pig
-	Description: A magical little guinea pig
-}
-
-GooSlimeBuff: {
-	DisplayName: Goo Slime
-	Description: A gooey little sludge blob
-}
-
-BatBuff: {
-	DisplayName: Creepy Bat
-	Description: It likes to drink blood
-}
-
 InchwormBuff: {
 	DisplayName: Pet Inchworm
 	Description: It wants your apple
@@ -389,7 +336,7 @@ SpiderArmorStealth: {
 	Description:
 		'''
 		Enemies will not target you
-		20% increased damage reduction
+		12% increased damage reduction
 		'''
 }
 
@@ -423,7 +370,117 @@ HunterScarfMark: {
 	Description: ""
 }
 
+BeeDamageBuff: {
+	DisplayName: Pollenation Damage
+	Description: ""
+}
+
+BeeHealingBuff: {
+	DisplayName: Pollenation Healing
+	Description: ""
+}
+
+BeePollinationProcessBuff: {
+	DisplayName: Bee Pollination Process Buff
+	Description: ""
+}
+
+BlueberryFrost: {
+	DisplayName: Blueberry Frost
+	Description: ""
+}
+
+StrawberryBoostBuff: {
+	DisplayName: Strawberry Boost
+	Description: Increase to damage, crit chance, and knockback
+}
+
+LeechBuff: {
+	DisplayName: Leech
+	Description: The leech will fight with you
+}
+
 ToothyDebuff: {
-	DisplayName: Chomped
-	Description: The plant monster is latched onto you!
+	DisplayName: Toothy Debuff
+	Description: ""
+}
+
+SentientKeybrandDebuff: {
+	DisplayName: Sentient Keybrand Debuff
+	Description: ""
+}
+
+WingedBiomassBuff: {
+	DisplayName: Winged Biomass
+	Description: The winged biomass is looking out for you
+}
+
+BillyBuff: {
+	DisplayName: Billy-Bone
+	Description: Billy-Bone the raven protects you!
+}
+
+GooseberryBoostBuff: {
+	DisplayName: Gooseberry Boost
+	Description: Increased life regeneration and movement
+}
+
+PeptoDebuff: {
+	DisplayName: Pepto Debuff
+	Description: ""
+}
+
+SmokerLungCooldown: {
+	DisplayName: Smoker's Lungs Cooldown
+	Description: Cannot use your cough ability
+}
+
+SmokerCoughDebuff: {
+	DisplayName: Smoker Cough Debuff
+	Description: ""
+}
+
+NoseBlessingDebuff: {
+	DisplayName: Nose Blessing Debuff
+	Description: ""
+}
+
+NoseBlessingDebuffCooldown: {
+	DisplayName: Nose Blessing Debuff Cooldown
+	Description: ""
+}
+
+NoseBlessingBuff: {
+	DisplayName: Noseferatu's Blessing
+	Description: Attacking enemies will damage them with boogers
+}
+
+GhostBanditDefense: {
+	DisplayName: Blueford's Holy Shield
+	Description: 15 extra defense
+}
+
+GlassEyeDebuff: {
+	DisplayName: Glass Eye Debuff
+	Description: ""
+}
+
+GlassEyeCooldown: {
+	DisplayName: Glass Eye Shattered
+	Description: Your glass eye has been shattered
+}
+
+StitchedCloakCooldown: {
+	DisplayName: Stitched Cloak Cooldown
+	Description: You cannot use your stitched cloak dash
+}
+
+StitchedCloakWebSlow: {
+	DisplayName: Stitched Cloak Web Slow
+	Description: ""
+}
+
+OrroboroPetBuff: {
+	DisplayName: Orroboro Ring
+	Description: The worms are slowly consuming each other
 }
