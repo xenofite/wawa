@@ -1,5 +1,188 @@
+StrawberryBoost: {
+	DisplayName: Mountain Strawberry
+	Tooltip: ""
+}
+DandelionHerd: {
+	DisplayName: Dandelion Herd
+	Tooltip:
+		'''
+		Leave behind dandelion seed clusters while flying that can slightly home on enemies
+		The seed clusters will deal more damage the higher your maximum flight time is
+		2 minute duration
+		'''
+}
+DandelionMapleSeed: {
+	DisplayName: Whindwhirl Mapleseed
+	Tooltip:
+		'''
+		Ocassionally spawns a gliding mapleseed around you while you are flying
+		Collecting these mapleseeds will slightly boost your flight time
+		4 minute duration
+		'''
+}
+DandelionTumbleweed: {
+	DisplayName: Tumblingweed
+	Tooltip:
+		'''
+		Hitting enemies while flying may spawn damaging tumbleweeds to attack
+		5 minute duration
+		'''
+}
+Dragonfruit: {
+	DisplayName: Diva Dragon Fruit
+	Tooltip:
+		'''
+		Spawns a dragon fruit that will orbit around you and chase nearby enemies
+		After hitting an enemy the fruit will die, and will respawn after a few seconds
+		Eating multiple of this bloom while having this bloom's ability active will increase its stack
+		Each stack of this buff gives you an additional orbiting fruit, up to 10 total
+		3 minute duration
+		'''
+}
+FallGourd: {
+	DisplayName: The Squash
+	Tooltip:
+		'''
+		Increases damage by 15% while you are falling down
+		5 minute duration
+		'''
+}
+FallSoulPumpkin: {
+	DisplayName: Pumptergeist
+	Tooltip:
+		'''
+		You will sometimes spawn a ghastly pumpkin that slowly chases nearby enemies
+		The ghastly pumpkins will ignite enemies for a short time
+		4 minute duration
+		'''
+}
+FallWaterGourd: {
+	DisplayName: Watering Gourd
+	Tooltip:
+		'''
+		Fully grown bloom crops have a chance to yield an extra bloom and seed
+		10 minute duration
+		'''
+}
+FallZucchini: {
+	DisplayName: Zappy Zucchini
+	Tooltip:
+		'''
+		Occassionally zap nearby enemies with zucchini electricity for a few seconds
+		2 minute duration
+		'''
+}
+SpringHeartFlower: {
+	DisplayName: Bleeding Heart
+	Tooltip:
+		'''
+		Grants increased life regeneration for each occupied bloom slot you have, including this bloom
+		5 minute duration
+		'''
+}
+SpringIris: {
+	DisplayName: Dialated Iris
+	Tooltip:
+		'''
+		Every minute, you will spawn an iris petal and a large eye on your cursor
+		The iris petal slowly chases the eye and speeds up over time while damaging anything it touches
+		The petal and eye will both die when they collide with each other
+		5 minute duration
+		'''
+}
+SpringOrchid: {
+	DisplayName: Monkey Orchid
+	Tooltip:
+		'''
+		Weapons have a chance to shoot a spread of monkey orchid shurikens when used
+		The shurikens damage scales based on the damage of the weapon used
+		4 minute duration
+		'''
+}
+SpringRose: {
+	DisplayName: Thorn Tipped Rose
+	Tooltip:
+		'''
+		Grants you a ring of thorns that deals a small amount of damage to enemies
+		The thorn ring can also sometimes inflict bleeding for a short time
+		6 minute duration
+		'''
+}
+SummerLemon: {
+	DisplayName: Multiplemon
+	Tooltip:
+		'''
+		Using weapons will sometimes shoot bouncing lemon bombs
+		Each lemon shot consecutively will cause an extra bouncy lemon to shoot out
+		5 minute duration
+		'''
+}
+SummerOrange: {
+	DisplayName: Angry Orange
+	Tooltip:
+		'''
+		Gain an orbiting angry orange that damages enemies and burns them
+		The faster you are moving the more its speed, range, and damage increase
+		5 minute duration
+		'''
+}
+SummerPineapple: {
+	DisplayName: Poker Pineapple
+	Tooltip:
+		'''
+		Increases damage dealt from critical hits by 35% but halves your overall critical strike chance
+		Landing a critical hit will also heal a bit of your health
+		5 minute duration
+		'''
+}
+SummerSunflower: {
+	DisplayName: Sunny Side Up
+	Tooltip:
+		'''
+		Significantly increases the growth rate of all bloom crops
+		Gives you the happy sunflower buff for 2 minutes
+		5 minute duration
+		'''
+}
+WinterBlackberry: {
+	DisplayName: Blackberry Glacier
+	Tooltip:
+		'''
+		Any blooms you eat have a chance to last for double their normal duration
+		2 minute duration
+		'''
+}
+WinterBlueberry: {
+	DisplayName: Very Blues
+	Tooltip:
+		'''
+		Hitting enemies may inflict them with frozen blueberry juice which will slown them down
+		Any enemy nearby the initially hit enemy will also be inflicted with it for a shorter time
+		4 minute duration
+		'''
+}
+WinterGooseberry: {
+	DisplayName: Plump Gooseberry
+	Tooltip:
+		'''
+		Every third instance of damage you deal has a 33% chance to launch a gooseberry upward
+		Gooseberries increase life regeneration and movement acceleration by 15% for a short time when picked up 
+		Gooseberries will be destroyed upon making contact with hostile enemies or projectiles
+		5 minute duration
+		'''
+}
+WinterStrawberry: {
+	DisplayName: Mountain Strawberry
+	Tooltip:
+		'''
+		Every 40 seconds you will spawn some mountain strawberries you can pick up
+		They grant 10% increased damage, critical strike chance, and knockback for 10 seconds
+		5 minute duration
+		'''
+}
+
 BoneMask: {
-	DisplayName: Маска ученика
+	DisplayName: Ancient Skull Mask
 	Tooltip:
 		'''
 		Выпускает самонаводяхся духов во все стороны, пока вы не стоите на месте
@@ -92,14 +275,13 @@ BossBagSpookySpirit: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BabyRattle: {
-	DisplayName: Детская погремушка
-	Tooltip: Необычайно огромных размеров детская погремушка
-}
-
 Brick: {
 	DisplayName: Тяжёлый кирпич
-	Tooltip: Можно кинуть в кого-нибудь сонливого, чтобы тот очухался
+	Tooltip:
+		'''
+		Can be thrown at lazy things to wake them up
+		Awakens Daffodil if thrown at her
+		'''
 }
 
 Concoction: {
@@ -118,18 +300,13 @@ CottonSwab: {
 		'''
 		Не расходуется
 		Подозрительно большая ватная палочка
-		Призывает Моко при использовании на святыне гигантского носа
+		Begins the nose ritual when used at the nose god shrine
 		'''
 }
 
 CowBell: {
 	DisplayName: Ржавый колокольчик
 	Tooltip: Старинный колокольчик с загадочным происхождением
-}
-
-CreepyFace: {
-	DisplayName: Лицо кричащего
-	Tooltip: Оно нашёптывает свои омерзительные фразочки вам на ухо
 }
 
 EMFReader: {
@@ -142,6 +319,11 @@ EMFReader: {
 		'''
 }
 
+EMFReaderBroke: {
+	DisplayName: Сломанный измеритель ЭМП
+	Tooltip: Может быть починен, чтобы использоваться для обнаружения призраков
+}
+
 Fertilizer: {
 	DisplayName: Причудливое удобрение
 	Tooltip:
@@ -151,11 +333,6 @@ Fertilizer: {
 		'''
 }
 
-Horseshoe: {
-	DisplayName: Старая подкова
-	Tooltip: Если прислушаеться, всё ещё можно услышать клацанье копыт
-}
-
 RottenSeed: {
 	DisplayName: Прогнившее семя
 	Tooltip: Призывает Гнилую тыкву при использовании в жутком лесу
@@ -163,7 +340,7 @@ RottenSeed: {
 
 StrangeCyst: {
 	DisplayName: Странная киста
-	Tooltip: Начинает яичное вторжение при использовании на гигантском яйце
+	Tooltip: Right click the giant egg with this in your inventory to begin the egg incursion
 }
 
 FlowerBody: {
@@ -197,22 +374,32 @@ FlowerLegs: {
 
 CatacombKey1: {
 	DisplayName: Ключ от жёлтого барьера
-	Tooltip: Используется для открытия жёлтого барьера в катакомбах
+	Tooltip: Открывает жёлтый барьер в катакомбах
 }
 
 CatacombKey2: {
 	DisplayName: Ключ от красного барьера
-	Tooltip: Используется для открытия красного барьера в катакомбах
+	Tooltip: Открывает красный барьер в катакомбах
 }
 
 CatacombKey3: {
 	DisplayName: Ключ от оранжевого барьера
-	Tooltip: Используется для открытия оранжевого барьера в катакомбах
+	Tooltip: Открывает оранжевый барьер в катакомбах
 }
 
 PlantChunk: {
 	DisplayName: Комок растительности
 	Tooltip: Кусочек тканей растений
+}
+
+Slot3Unlocker: {
+	DisplayName: 2nd Place Bloom Ribbon
+	Tooltip: Unlocks your third bloom slot
+}
+
+Slot4Unlocker: {
+	DisplayName: 1st Place Bloom Ribbon
+	Tooltip: Unlocks your fourth bloom slot
 }
 
 BigBoneBow: {
@@ -259,13 +446,13 @@ CrossCharm: {
 	DisplayName: Крестик-оберег
 	Tooltip:
 		'''
-		Призывает магический крест, существенно уменьшающий получаемый урон от следующей атаки
+		Призывает магический крест, дающий 15 ед. дополнительной защиты
 		Крест пропадает после получения вами урона и восстанавливается только через 10 секунд
 		'''
 }
 
 DaffodilBlade: {
-	DisplayName: Шип-кинжал
+	DisplayName: Колючий кинжал
 	Tooltip: Быстрый кинжал, удары котором изредка могут отравить врагов
 }
 
@@ -284,11 +471,11 @@ DaffodilRod: {
 }
 
 DaffodilStaff: {
-	DisplayName: Посох стебля-борца
+	DisplayName: Посох стебля-боксёра
 	Tooltip:
 		'''
-		Призывает огромную руку-растение, бьющую ближайших врагов своим кулаком
-		Одновременно может быть призвана только одна рука
+		Призывает огромные руки-растения, бьющие ближайших врагов своим кулаком
+		Каждая рука занимает один слот под миньонов, но одновременно может существовать не более двух рук
 		'''
 }
 
@@ -306,11 +493,7 @@ FemurFracture: {
 
 FlameIdol: {
 	DisplayName: Идол пламени
-	Tooltip:
-		'''
-		Удерживайте ЛКМ, чтобы выпускать огни во все стороны
-		Однако использование идола также будет поджигать и вас самих
-		'''
+	Tooltip: Hold down to create a massive combustion aura
 }
 
 GlowBulb: {
@@ -425,8 +608,9 @@ RustyRing: {
 	DisplayName: Ржавое кольцо
 	Tooltip:
 		'''
-		Увеличивает максимальный запас здоровья на 20 ед.
-		Увеличивает скорость регенерации здоровья при нахождении в любой из темниц
+		Увеличивает максимальный запас здоровья на 60 ед.
+		Увеличивает скорость регенерации здоровья
+		Даёт эффект спелеолога при нахождении в любой из темниц
 		'''
 }
 
@@ -435,7 +619,7 @@ SkullAmulet: {
 	Tooltip:
 		'''
 		Позволяет поглощать души убитых врагов
-		После поглощения 20 душ, вы впадаете в безумие на 10 секунд
+		После поглощения 10 душ, вы впадаете в безумие на 10 секунд
 		В состоянии безумия вы получаете бонусы к различеным характеристикам
 		'''
 }
@@ -501,9 +685,9 @@ HerobrineAltar: {
 	DisplayName: Blocky Altar
 	Tooltip:
 		'''
-		Press the Accessory Hotkey to summon a powerful bolt of lighting at your cursor position
-		The lighting bolt will deal extremely fatal damage to regular enemies
-		Bosses will take 10% of their maximum life as damage
+		Press the Accessory Hotkey to summon powerful lighting from the sky at your cursor position
+		The lighting bolts will deal extremely high damage to enemies
+		Bosses will take 15% of their maximum life as damage
 		This ability has a 2 minute cooldown before it can be used again
 		'Removed Herobrine'
 		'''
@@ -536,7 +720,7 @@ MonumentMythosPyramid: {
 	Tooltip:
 		'''
 		Encases you in a protective glass pyramid 
-		The pyramid will drastically increase your defense for 3 hits, after which it will shatter
+		The pyramid will drastically increase your damage reduction for 3 hits, after which it will shatter
 		After it shatters, you will take double damage from all attacks for 10 seconds
 		The pyramid will regenerate after one minute
 		'She is only dormant now'
@@ -608,7 +792,7 @@ AnalogHorrorTape: {
 		You will sometimes spawn nature's mockery that sap life from enemies
 		Press the Accessory Hotkey to summon an alternate that slows down nearby enemies
 		Moving will spawn spores that inflict debuffs, becomes stronger if you have well fed buffs
-		Spawns a floating head that decays nearby enemies, rapidly draining their health
+		Spawns a floating head that decays nearby enemies above half health, rapidly draining their health
 		Summons an orbiting moon that can reflect weaker hostile projectiles and damage enemies
 		Grants you a glass pyramid that gives you high defense for 3 hits and then shatters
 		You will take double damage for 10 seconds after the pyramid shatters
@@ -621,11 +805,11 @@ Creepypasta: {
 		'''
 		Grants the effects of every creepypasta accessory
 		Summons a damaging blue spiral on your cursor with 5 charges that damages enemies
-		Summons a smiling puppy that attacks enemies, and attacks you every 3 minutes for 10 seconds
-		Critical hits will spawn orbiting red notes that will attack enemies
-		Summons black tentacles to attack nearby enemies, enemies killed by them drop pages that buff them
+		Summons a smiling puppy that will maul nearby enemies
+		Critical hits may spawn orbiting red notes that will attack enemies
+		Summons black tentacles to attack nearby enemies, enemies killed by them may drop pages that buff them
 		Damaging enemies has a rare chance to spawn a red apparition to deal massive damage to them
-		Press the Accessory Hotkey to summon a bolt of lighting that smites enemies and deals lots of damage to bosses
+		Press the Accessory Hotkey to summon lighting that smites enemies and deals lots of damage to bosses
 		'''
 }
 
@@ -658,7 +842,7 @@ DiscoSkull: {
 
 GraveDiggerShovel: {
 	DisplayName: Cemetery Digger's Shovel
-	Tooltip: Throw a returning shovel to bash enemies with
+	Tooltip:Bash enemies with a rusty shovel
 }
 
 PartyNailgun: {
@@ -708,6 +892,11 @@ SpiritSword: {
 BananalizardHead: {
 	DisplayName: BananaLizard's Mask
 	Tooltip: "'Great for impersonating spooky mod devs!'"
+}
+
+BanditHat: {
+	DisplayName: Bandit Hat
+	Tooltip: ""
 }
 
 BigBoneMask: {
@@ -760,13 +949,23 @@ OrroMask: {
 	Tooltip: ""
 }
 
+NoseCultistHood: {
+	DisplayName: Nose Cultist Hood
+	Tooltip: Disguise as a cultist when worn with the cultist robe
+}
+
+NoseCultistRobe: {
+	DisplayName: Nose Cultist Robe
+	Tooltip: Disguise as a cultist when worn with the cultist hood
+}
+
 PartySkeletonSkull: {
 	DisplayName: Party Skeleton Skull
 	Tooltip: ""
 }
 
-PelusaHead: {
-	DisplayName: Pelusa's Mask
+DandyHead: {
+	DisplayName: Dandy's Mask
 	Tooltip: "'Great for impersonating spooky mod devs!'"
 }
 
@@ -918,11 +1117,6 @@ VampireGummy: {
 		'''
 }
 
-BatBlood: {
-	DisplayName: Bat Blood
-	Tooltip: Summons a creepy bat
-}
-
 CatEyes: {
 	DisplayName: Зловещие глаза
 	Tooltip: Призывает чёрного котёнка
@@ -947,11 +1141,6 @@ GhostPetItem: {
 	Tooltip: Summons a little ghost to provide light
 }
 
-GooDish: {
-	DisplayName: Gooey Petri Dish
-	Tooltip: Summons a friendly goo slime
-}
-
 InchwormApple: {
 	DisplayName: Old Apple
 	Tooltip: Summons a pet Inchworm
@@ -961,7 +1150,7 @@ MocoTissue: {
 	DisplayName: Suspicious Looking Tissue
 	Tooltip:
 		'''
-		Summons a baby moco pet
+		Summons a pet mocling
 		'The most unsanitary tissue known to mankind'
 		'''
 }
@@ -975,17 +1164,12 @@ OldSaddle: {
 		'''
 }
 
-OrangeCabbage: {
-	DisplayName: Orange Cabbage
-	Tooltip: Summons a spooky little guinea pig
-}
-
-OrroboroEye: {
-	DisplayName: Eye of Orro-Boro
+OrroboroRing: {
+	DisplayName: Orroboro Ring
 	Tooltip:
 		'''
-		Summons a ridable eye serpent
-		'Hope it doesn't try to eat you'
+		Summons an orro-boro ring
+		'Very hypnotic'
 		'''
 }
 
@@ -1074,9 +1258,122 @@ YellowSpore: {
 	Tooltip: Summons a small mushroom hopper to provide light
 }
 
+BountyItem1: {
+	DisplayName: Goblin's Tongue
+	Tooltip:
+		'''
+		An abnormally long human-like tongue
+		Bounty Quest Item
+		'''
+}
+
+BountyItem2: {
+	DisplayName: Tattered Tome
+	Tooltip:
+		'''
+		Should probably never be opened ever again
+		Bounty Quest Item
+		'''
+}
+
+BountyItem3: {
+	DisplayName: Stitched Fabric
+	Tooltip:
+		'''
+		Little Eye's extremely expensive fabric
+		Bounty Quest Item
+		'''
+}
+
+BountyItem4: {
+	DisplayName: Decapitated Eye
+	Tooltip:
+		'''
+		It's Bigger Eye's... head?
+		Bounty Quest Item
+		'''
+}
+
+GhostBook: {
+	DisplayName: Tome of Spirits
+	Tooltip:
+		'''
+		Summons one of the grave-robber's spirits to fight with and protect you
+		The spirit summoned depends on the color of the book's eye
+		Use to switch the type of spirit this book summons
+		'''
+}
+
+MagicEyeOrb: {
+	DisplayName: Eyeball of Pondering
+	Tooltip:
+		'''
+		Summons a glass eye that looks at nearby enemies
+		Enemies being looked at will take more damage from your magic attacks
+		The eye will shatter if you get hit 5 times, and will respawn after 30 seconds
+		'''
+}
+
+SewingThread: {
+	DisplayName: Sewing Thread
+	Tooltip:
+		'''
+		Using items will sometimes launch out a piercing thread
+		The thread will deal more damage the more enemies it pierces
+		'''
+}
+
+StitchedCloak: {
+	DisplayName: Stitched Cloak
+	Tooltip:
+		'''
+		Increases your movement acceleration
+		Double tap Left or Right to dash horizontally
+		Double tap Up or Down to dash vertically
+		Dashing will leave behind a spider web that can trap enemies and damage them
+		You will not be able to use this dash again for a bit once used
+		'''
+}
+
+SummonItem1: {
+	DisplayName: Red Velvet Cake
+	Tooltip:
+		'''
+		It smells absolutely delectable
+		Attracts a creature in the spooky forest while in your inventory
+		'''
+}
+
+SummonItem2: {
+	DisplayName: Bag of Coins
+	Tooltip:
+		'''
+		It smells like chocolate
+		Attracts a creature in the swampy cemetery while in your inventory
+		'''
+}
+
+SummonItem3: {
+	DisplayName: Fungus Beetle
+	Tooltip:
+		'''
+		A large spider's favorite snack
+		Attracts a creature in the spider grotto while in your inventory
+		'''
+}
+
+SummonItem4: {
+	DisplayName: Eye Drops
+	Tooltip:
+		'''
+		Soothes an irritated eye
+		Attracts a creature in the valley of eyes while in your inventory
+		'''
+}
+
 RootBody: {
 	DisplayName: Нагрудная пластина из корней
-	Tooltip: Увеличивает стрелковый урона на 5 ед.
+	Tooltip: Увеличивает стрелковый урона на 12%
 }
 
 RootHead: {
@@ -1114,6 +1411,11 @@ SpiderLegs: {
 		Увеличивает скорость передвижения на 15%
 		Увеличивает скорость ускорения и высоту прыжка
 		'''
+}
+
+GrottoCompass: {
+	DisplayName: Rusted Compass
+	Tooltip: Points to the location of the spider-infested grotto when held in your hotbar
 }
 
 InchwormBlackItem: {
@@ -1192,8 +1494,8 @@ HunterScarf: {
 	DisplayName: Old Hunter's Scarf
 	Tooltip:
 		'''
-		Nearby enemies location will be revealed
-		Revealed enemies will take more damage from your ranged weapons
+		Enemies nearby you will be marked 
+		Marked enemies will take more damage from your ranged weapons
 		'''
 }
 
@@ -1234,7 +1536,7 @@ OrbWeaverShield: {
 	Tooltip:
 		'''
 		Hold out a spiked shield that deals more damage the faster you are moving
-		After 3 seconds of being held, the shield will become changed
+		After 3 seconds of being held, the shield's spikes will become charged
 		Release when charged to fire out the shield's spikes
 		'''
 }
@@ -1266,7 +1568,11 @@ SpiderCrossbow: {
 
 SpiderEggCannon: {
 	DisplayName: Spider Egg Cannon
-	Tooltip: Every 5 shots will fire a larger egg that summons an attack spider
+	Tooltip:
+		'''
+		Shoots out silky spider eggs
+		Every 5 shots will fire a larger egg that summons an attack spider
+		'''
 }
 
 SpiderLegStaff: {
@@ -1310,8 +1616,8 @@ TatantulaFlyTome: {
 	DisplayName: Grimoire of the Flies
 	Tooltip:
 		'''
-		Conjure a swarm of flies around your cursor that grows the longer you use the grimoire
-		Releasing while you have 10 or more flies will unleash them to attack enemies
+		Conjures flies that follow your cursor while continously using the grimoire
+		Releasing while having 10 flies around your cursor causes them to home in on enemies
 		'''
 }
 
@@ -1319,8 +1625,8 @@ VenomHarpoon: {
 	DisplayName: Venomous Spiderpoon
 	Tooltip:
 		'''
-		Fires out multiple venomous harpoons that can latch onto enemies and pull them towards you
-		The harpoons cannot be aimed vertically
+		Fires out a venomous harpoon that can latch onto enemies and pull them towards you
+		If an enemy is caught and dragged back to you, the spiderpoon will shoot out venom spit
 		'''
 }
 
@@ -1356,7 +1662,7 @@ OldWoodLegs: {
 
 WizardGangsterBody: {
 	DisplayName: Позолоченная туника мага
-	Tooltip: Increases your magic damage by 5
+	Tooltip: Увеличивает магический урон на 10%
 }
 
 WizardGangsterHead: {
@@ -1374,34 +1680,23 @@ WizardGangsterLegs: {
 	Tooltip: Увеличивает максимальный запас маны на 20 ед.
 }
 
-Candy1: {
-	DisplayName: Конфета призывателя
-	Tooltip: ""
-}
-
-Candy2: {
-	DisplayName: Конфета призывателя
-	Tooltip: ""
-}
-
-Candy3: {
-	DisplayName: Конфета призывателя
-	Tooltip: ""
-}
-
-Candy4: {
-	DisplayName: Конфета призывателя
-	Tooltip: ""
-}
-
 FlyBigItem: {
-	DisplayName: Giant Fly
+	DisplayName: Гигантская муха
 	Tooltip: ""
 }
 
 FlySmallItem: {
-	DisplayName: Fly
+	DisplayName: Муха
 	Tooltip: ""
+}
+
+LittleBonePot: {
+	DisplayName: Little Bone's Flower Pot
+	Tooltip:
+		'''
+		A magical flower pot that belongs to little bone
+		Use to summon Little Bone to your location
+		'''
 }
 
 LittleSpiderItem: {
@@ -1413,8 +1708,8 @@ PumpkinCarvingKit: {
 	DisplayName: Набор для вырезки тыкв
 	Tooltip:
 		'''
-		Нажмите ПКМ по тыквам из жуткого леса, имея набор в инвентаре, чтобы вырезать им лицо
-		Вы также можете разместить в них старые восковые свечи, нажав по ним ПКМ, имея свечи в инвентаре
+		Нажмите ПКМ набором по тыквам из жуткого леса, чтобы вырезать им лицо
+		Вы также можете разместить в них старые восковые свечи, чтобы зажечь их
 		'''
 }
 
@@ -1470,19 +1765,14 @@ CandyBag: {
 	DisplayName: Мешочек со сладостями
 	Tooltip:
 		'''
-		Призывает магическеский мешочек с конфетами, который будет летать над вами
-		С этого мешочка каждые 20 секунд будут выпадать по конфете
-		Подбирая эти конфеты, вы получаете различные бонусы призывателя
+		Призывает магическеский мешочек с конфетами, который будет летать за вами
+		При поподании по врагу оружием призывателя, из мешка будут вылетать самонаводящиеся конфеты
 		'''
 }
 
 CreepyCandle: {
 	DisplayName: Страшная свеча
-	Tooltip:
-		'''
-		Увеличивает магический урон на 10 ед.
-		Снаряды магического оружия могут поджечь врагов
-		'''
+	Tooltip: Снаряды магического оружия иногда будут поджигать врагов
 }
 
 ElGourdo: {
@@ -1514,7 +1804,7 @@ GourdSlingshot: {
 	Tooltip:
 		'''
 		Удерживайте, чтоба зарядить рогатку
-		Превращает замшелые камушки в заплесневевшие кусочки тыквы
+		Превращает замшелые камушки в заплесневевшие кусочки тыквы, призывающие мух при столкновении
 		'''
 }
 
@@ -1626,7 +1916,7 @@ WarlockRobe: {
 	DisplayName: Плащ колдуна
 	Tooltip:
 		'''
-		Увеличивает урон призывателя на 5 ед.
+		Увеличивает максимальное число миньонов на 1
 		Увеличивает скорость пережвижения на 5%
 		'''
 }
@@ -1635,30 +1925,30 @@ EyeBody: {
 	DisplayName: Living Flesh Chestmail
 	Tooltip:
 		'''
-		5% increased summon damage
-		Increases your max number minions and sentries by 1
+		20% increased whip range
+		Increases your max number of minions and sentries by 1
 		'''
 }
 
 EyeHead: {
 	DisplayName: Living Flesh Mask
-	Tooltip:
-		'''
-		3% increased summon damage
-		Increases your max number of minions by 1
-		'''
+	Tooltip: 8% increased summon damage
 }
 
 EyeLegs: {
 	DisplayName: Living Flesh Leggings
-	Tooltip: 5% increased movement speed
+	Tooltip:
+		'''
+		6% increased summon damage 
+		12% increased movement speed
+		'''
 }
 
 GoreBody: {
 	DisplayName: Gore Chestplate
 	Tooltip:
 		'''
-		10% increased damaged
+		10% increased damage
 		12% increased critical strike chance
 		Enemies are more likely to target you
 		'''
@@ -1696,35 +1986,37 @@ GoreLegs: {
 		'''
 }
 
-Flask1: {
-	DisplayName: Mysterious Flask I
+Biojets: {
+	DisplayName: Bio-Thrusters
 	Tooltip:
 		'''
-		A smelly substance, made from ground up plants
-		Little eye may be interested in this
+		Allows flight and slow fall
+		Hold Down to hover
+		'May create an unpleasant mess'
 		'''
 }
 
-Flask2: {
-	DisplayName: Mysterious Flask II
+GiantEar: {
+	DisplayName: Symbiotic Ear
 	Tooltip:
 		'''
-		A nasty substance, created from cold and organic materials
-		Little eye may be interested in this
+		Summons an ear companion that shoots out damaging sound blasts while you attack
+		The damage and frequency of the blasts is based on the weapon you are currently using
 		'''
 }
 
-Flask3: {
-	DisplayName: Mysterious Flask III
+GooChompers: {
+	DisplayName: Corroding Chompers
 	Tooltip:
 		'''
-		A gooey substance, made from the most sticky items
-		Little eye may be interested in this
+		Hitting enemies will sometimes give them a stomach ache which weakens them
+		Enemies that have this debuff will explode into damaging pink bubbles on death
+		These pink bubbles can also sometimes inflict stomach ache onto enemies
 		'''
 }
 
-Flask4: {
-	DisplayName: Mysterious Flask IV
+PeptoStomach: {
+	DisplayName: Peptobyssmal
 	Tooltip:
 		'''
 		A warm substance, created from hellish ingredients
@@ -1732,48 +2024,47 @@ Flask4: {
 		'''
 }
 
-FlaskMisc1: {
-	DisplayName: Flask of Night
+SmokerLung: {
+	DisplayName: Smoker's Lungs
 	Tooltip:
 		'''
-		Concocted from the souls of evil creatures
-		Little eye may be interested in this
+		Press the Accessory Hotkey to cough up a lingering cloud of smoke
+		Enemies caught in the smoke may also cough out smoke clouds randomly for a short time
+		You cannot create another smoke cloud for a minute
 		'''
 }
 
-FlaskMisc2: {
-	DisplayName: Flask of Light
+StonedKidney: {
+	DisplayName: Stoned Kidney
 	Tooltip:
 		'''
-		Concocted from the souls of light creatures
-		Little eye may be interested in this
+		While not using weapons you will charge up the stoned kidney
+		At full charge, attacking will launch a spread of high damage kidney rocks
 		'''
 }
 
-FlaskMisc3: {
-	DisplayName: Spooky Flask
+VeinChain: {
+	DisplayName: Two-Way Blood-Way
 	Tooltip:
 		'''
-		A flask of mushed up pumpkins
-		Little eye may be interested in this
+		Chance on hitting nearby enemies to attach a life-stealing vein on them
+		The chains will remain attached to enemies as long as you are close enough to that enemy
+		You can have up to 3 chains on different enemies, and this amount will lower if your health is lower
 		'''
 }
 
-FlaskMisc4: {
-	DisplayName: Aquatic Flask
+TotalOrganPackage: {
+	DisplayName: Total Organ Package
 	Tooltip:
 		'''
-		Made from materials of the sea
-		Little eye may be interested in this
-		'''
-}
-
-FlaskMisc5: {
-	DisplayName: Sandstorm Flask
-	Tooltip:
-		'''
-		A mythical substance of rare desert materials
-		Little eye may be interested in this
+		Grants the abilities of all organ accessories
+		Chance on hitting nearby enemies to attach a life-stealing vein that damages them and heals you
+		Hitting enemies may attach a set of goo jaws to them to deal additional damage
+		Hitting enemies will sometimes give them a stomach ache, on death they will explode pink bubbles
+		While not using items you will charge up a kidney rock, at full charge attacking will launch the stone
+		Press the Accessory Hotkey to cough up a lingering cloud of smoke
+		Enemies caught in the smoke will also cough smoke clouds randomly for a short time
+		Summons an ear companion that shoots out damaging sound blasts while you attack
 		'''
 }
 
@@ -1782,18 +2073,33 @@ ArteryPiece: {
 	Tooltip: Filled with strange blood
 }
 
-ChestFood: {
-	DisplayName: Chest Monster Food
-	Tooltip:
-		'''
-		Opens one monster chest in the eye valley
-		'A chest monster's favorite delicacy'
-		'''
-}
-
 CreepyChunk: {
 	DisplayName: Monster Meat
 	Tooltip: "'Looks almost edible!'"
+}
+
+EyeValleyCompass: {
+	DisplayName: Fleshy Compass
+	Tooltip: Points to the direction of a strange biome in the underworld when held in your hotbar
+}
+
+LeechWhipGore: {
+	DisplayName: Gore Food
+	Tooltip: ""
+}
+
+NoseTempleResetter: {
+	DisplayName: Nose Idol of Time Reversal
+	Tooltip:
+		'''
+		Reverses time inside of the nose temple when used, resetting all of the combat rooms
+		Cannot be used if any players are inside of the nose temple
+		'''
+}
+
+SnotGlob: {
+	DisplayName: Snot Glob
+	Tooltip: ""
 }
 
 SpookyHellKey: {
@@ -1856,7 +2162,7 @@ SentientChumCaster: {
 	Tooltip:
 		'''
 		Fish with two bobbers at once
-		Able to catch fish from the blood lake in the Valley of Eyes
+		Able to catch dangerous creatures from the blood lake
 		'It snarls at you'
 		'''
 }
@@ -1886,7 +2192,7 @@ SentientImpStaff: {
 	Tooltip:
 		'''
 		Summons Grug the gargoyle to fight with you
-		Only one can exist, and he requires two minion slots to summon
+		Only one can exist, and he requires 2 minion slots to summon
 		'He's actually a gargoyle, not a grugoyle'
 		'''
 }
@@ -1904,13 +2210,21 @@ SentientKeybrand: {
 	DisplayName: Molar Mauler
 	Tooltip:
 		'''
-		Deals more damage to enemies at low health
-		Hitting enemies below half health may create blood explosions
-		Every 5th swing will throw the mauler, which can embed its teeth into enemies it hits
+		Swing twice, then throw the mauler as a boomerang
+		Hitting enemies may permanently lower their defense by one point, up to 15 total
+		Deals more damage to enemies below half health
 		'Should be brought to a dentist regularly'
 		'''
 }
 
+SentientLeafBlower: {
+	DisplayName: Carrion Chunker
+	Tooltip:
+		'''
+		Rapidly spits out a bunch of different organic chunks that all do different things
+		'Heart healthy!'
+		'''
+}
 SentientLeatherWhip: {
 	DisplayName: Licker
 	Tooltip:
@@ -1931,13 +2245,42 @@ SentientLifeDrain: {
 		'''
 }
 
+SentientMagnetSphere: {
+	DisplayName: Necronomicon Volume II
+	Tooltip:
+		'''
+		Channel a controllable heart that zaps nearby enemies with blood lightning
+		The heart grows in size and power the longer it is channeled
+		'Caution: May bite'
+		'''
+}
+
+SentientMineLauncher: {
+	DisplayName: Eye Belcher
+	Tooltip:
+		'''
+		Fires out a giant spread of eye mines that linger on the ground and explode on contact
+		Eye mines deal significantly more damage if they are detonated while on the ground
+		'Takes great pride in its eyelashes'
+		'''
+}
+
 SentientPaladinsHammer: {
 	DisplayName: Dave & Mike
 	Tooltip:
 		'''
 		Throw a two-faced hammer that will chase a nearby enemy
 		Upon reaching the targeted enemy, it will strike it 3 times before returning to you
-		'They won't shut up'
+		'They won't stop yapping'
+		'''
+}
+SentientRavenStaff: {
+	DisplayName: Avian's Crux
+	Tooltip:
+		'''
+		Summons Billy-Bone the raven to fight with you
+		Only one can exist, and he requires 3 minion slots to summon
+		'Its heart is beating slowly'
 		'''
 }
 
@@ -1959,6 +2302,16 @@ SentientSkullBook: {
 		'''
 }
 
+SentientSphereStaff: {
+	DisplayName: Living Caduceus
+	Tooltip:
+		'''
+		Summons winged biomass chunks to attack foes
+		After attacking a single enemy for too long, the biomass will chase its target and explode
+		'Probably not a symbol of health'
+		'''
+}
+
 SentientToxikarp: {
 	DisplayName: Bubble Belcher
 	Tooltip:
@@ -1966,6 +2319,16 @@ SentientToxikarp: {
 		Spits out toxic bubbles that bounce off of surfaces
 		Sometimes spits out special colored bubbles that all do different things
 		'Killer fish from valley of eyes!'
+		'''
+}
+
+SentientVenusMagnum: {
+	DisplayName: Ooze Magnum
+	Tooltip:
+		'''
+		Fires out bile and piercing teeth abhorrently slowly, but speeds up the longer it is used
+		Releasing while at maximum fire rate will shoot a giant explosive glob of bile
+		'It oozes with power'
 		'''
 }
 
@@ -2005,7 +2368,7 @@ BoogerStaff: {
 
 EyeFlail: {
 	DisplayName: Chained Eyes
-	Tooltip: Weild two long range eye flails
+	Tooltip: Wield two long range eye flails
 }
 
 EyeRocketLauncher: {
@@ -2017,9 +2380,8 @@ LeechStaff: {
 	DisplayName: Swarm Scepter
 	Tooltip:
 		'''
-		Casts leeches that will swarm nearby enemies at the cost of 10 life
-		Leeches cannot be summoned when below half health, and they do not take up minion slots
-		If you are below half health, leeches will sometimes heal you on enemy hits
+		Summons weak but agile leeches that rapidly damage enemies
+		Leeches only take up half of a minion slot
 		'''
 }
 
@@ -2034,7 +2396,7 @@ LeechWhip: {
 }
 
 MouthFlamethrower: {
-	DisplayName: Venom Gasser
+	DisplayName: Venom Sprayer
 	Tooltip: Spews out a stream of venomous gas breath
 }
 
@@ -2121,7 +2483,6 @@ LivingFleshWhip: {
 	Tooltip:
 		'''
 		Your summons will focus struck enemies
-		Quickly lashes out two different flesh whips with varying range
 		Hitting enemies may halve their defense for a short time
 		'''
 }
@@ -2144,19 +2505,76 @@ NerveWhip: {
 		'''
 }
 
+Sneezer: {
+	DisplayName: Sneezer
+	Tooltip:
+		'''
+		Fires out boogers at a constant rate
+		Every 10 shots will fire out a larger and faster booger
+		'The booger blaster's younger cousin'
+		'''
+}
+
+SnotArrow: {
+	DisplayName: Booger Arrow
+	Tooltip: Bounces off of surfaces and enemies
+}
+
+SnotBullet: {
+	DisplayName: Mucus Bullet
+	Tooltip: Ricochets to another nearby enemy on hit
+}
+
+SnotMedication: {
+	DisplayName: Allergy Medication
+	Tooltip:
+		'''
+		Grants immunity to the oozed debuff
+		Getting inflicted with the oozed debuff will turn it into a positive buff
+		'''
+}
+SnotR
+ocket: {
+	DisplayName: Snot Rocket
+	Tooltip:
+		'''
+		Accelerates rapidly as it travels
+		Explodes into lingering snot on direct enemy hits
+		'''
+}
+
+SnotWings: {
+	DisplayName: Snot Bug Wings
+	Tooltip:
+		'''
+		Allows flight and slow fall
+		'Gross...'
+		'''
+}
+
 TortumorStaff: {
 	DisplayName: Gore Staff
 	Tooltip: Summons friendly tortumors that shoot blood globs at enemies
 }
 
+TortumorYoyo: {
+	DisplayName: Tumor Throw
+	Tooltip: Generates damaging chunks around it while used
+}
+
 RaveyardDisc1: {
 	DisplayName: Raveyard Vinyl #1
-	Tooltip: "[c/6FE4A5:Graveyard Without The G] by BananaLizard & Lurak"
+	Tooltip: "[c/6FE4A5:Graveyard Without The G] by BananaLizard"
 }
 
 RaveyardDisc2: {
 	DisplayName: Raveyard Vinyl #2
-	Tooltip: "[c/6FE4A5:Deathrattlin' Raving] by Luxcapacitor"
+	Tooltip: "[c/6FE4A5:Deathrattlin' Raving (Legacy Version)] by Luxcapacitor"
+}
+
+RaveyardDisc3: {
+	DisplayName: Raveyard Vinyl #3
+	Tooltip: "[c/6FE4A5:Graveyard Without The G (Legacy Version)] by BananaLizard & Lurak"
 }
 
 VinylAlley: {
@@ -2184,17 +2602,73 @@ VinylSneaky: {
 	Tooltip: ""
 }
 
-LittleBonePot: {
-	DisplayName: Little Bone's Flower Pot
+BloomSoilItem: {
+	DisplayName: Bloom Soil
+	Tooltip: Allows blooms to be planted and grown on it
+}
+
+DandelionSeed: {
+	DisplayName: Dandelion Seed
 	Tooltip:
 		'''
-		A magical flower pot that belongs to little bone
-		Use to summon Little Bone to your location
+		Places a plant that grows various dandelion seed blooms
+		Requires a flat ground of Bloom Soil to be planted on
 		'''
 }
 
-LeechWhipGore: {
-	DisplayName: Gore Food
+DragonfruitSeed: {
+	DisplayName: Diva Sprout
+	Tooltip:
+		'''
+		Places an invasive plant that grows a strange bloom
+		Requires a flat ground of Bloom Soil to be planted on
+		Will convert other nearby planted blooms into itself as it grows
+		'''
+}
+
+FallSeed: {
+	DisplayName: Pumpkin Guts
+	Tooltip:
+		'''
+		Places a plant that grows various gourd blooms
+		Requires a flat ground of Bloom Soil to be planted on
+		'''
+}
+
+SpringSeed: {
+	DisplayName: Puff of Pollen
+	Tooltip:
+		'''
+		Places a plant that grows various flower blooms
+		Requires a flat ground of Bloom Soil to be planted on
+		'''
+}
+
+SummerSeed: {
+	DisplayName: Solar Sunflower Seed
+	Tooltip:
+		'''
+		Places a plant that grows various tropical blooms
+		Requires a flat ground of Bloom Soil to be planted on
+		'''
+}
+
+WinterSeed: {
+	DisplayName: Snow Berry Shrub
+	Tooltip:
+		'''
+		Places a plant that grows various berry blooms
+		Requires a flat ground of Bloom Soil to be planted on
+		'''
+}
+
+CatacombBrickPlatform1Item: {
+	DisplayName: Gray Catacomb Brick Platform
+	Tooltip: ""
+}
+
+CatacombBrickPlatform2Item: {
+	DisplayName: Brown Catacomb Brick Platform
 	Tooltip: ""
 }
 
@@ -2208,8 +2682,58 @@ CatacombCrate2: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
+GiantCoffinItem: {
+	DisplayName: Old Wood Casket
+	Tooltip: ""
+}
+
+GoldenPotItem: {
+	DisplayName: Pot of Avarice
+	Tooltip: ""
+}
+
+GoldStatue1Item: {
+	DisplayName: Gilded Evil Face Statue
+	Tooltip: ""
+}
+
+GoldStatue2Item: {
+	DisplayName: Gilded Mouth Statue
+	Tooltip: ""
+}
+
+GoldStatue3Item: {
+	DisplayName: Gilded Skull Statue
+	Tooltip: ""
+}
+
+GoldStatue4Item: {
+	DisplayName: Gilded Soul Statue
+	Tooltip: ""
+}
+
 MoyaiItem: {
 	DisplayName: Golden Moyai
+	Tooltip: ""
+}
+
+PottedPlant1Item: {
+	DisplayName: Potted Mouth Flower
+	Tooltip: ""
+}
+
+PottedPlant2Item: {
+	DisplayName: Potted Petal Plant
+	Tooltip: ""
+}
+
+PottedPlant3Item: {
+	DisplayName: Potted Eye Flower
+	Tooltip: ""
+}
+
+PottedPlant4Item: {
+	DisplayName: Potted Skull Plant
 	Tooltip: ""
 }
 
@@ -2223,12 +2747,12 @@ CatacombBrick2Item: {
 	Tooltip: ""
 }
 
-CatacombBrickWall1SafeItem: {
+CatacombBrickWall1Item: {
 	DisplayName: Gray Catacomb Brick Wall
 	Tooltip: ""
 }
 
-CatacombBrickWall2SafeItem: {
+CatacombBrickWall2Item: {
 	DisplayName: Brown Catacomb Brick Wall
 	Tooltip: ""
 }
@@ -2236,6 +2760,11 @@ CatacombBrickWall2SafeItem: {
 CatacombFlooringItem: {
 	DisplayName: Catacomb Floor Brick
 	Tooltip: ""
+}
+
+CatacombGrassSeeds: {
+	DisplayName: Catacomb Moss Seeds
+	Tooltip: Plats moss on gray and brown catacomb bricks
 }
 
 GildedBrickItem: {
@@ -2298,6 +2827,11 @@ MocoBox: {
 	Tooltip: "[c/4DDE17:And Yet The Snot-Nosed Bug Remains] by BananaLizard"
 }
 
+NoseTempleBox: {
+	DisplayName: Music Box (Temple of Moco)
+	Tooltip: "[c/EF5145:Grand Sinus Corridors] by BananaLizard"
+}
+
 OrroboroBox: {
 	DisplayName: Music Box (Orro & Boro)
 	Tooltip: "[c/A17CFF:The All Is One] by BananaLizard"
@@ -2305,7 +2839,7 @@ OrroboroBox: {
 
 PandoraEventBox: {
 	DisplayName: Music Box (Pandora's Box)
-	Tooltip: "[c/33C0A4:Pandora's Box] by ENNWAY"
+	Tooltip: "[c/33C0A4:You Should Know Better] by BananaLizard"
 }
 
 RaveyardBox: {
@@ -2313,9 +2847,7 @@ RaveyardBox: {
 	Tooltip:
 		'''
 		Placeable on ceilings and provides rainbow party light when turned on
-		Cycles through both raveyard songs
-		[c/6FE4A5:Graveyard Without The G] by BananaLizard & Lurak
-		[c/6FE4A5:Deathrattlin' Raving] by Luxcapacitor
+		[c/6FE4A5:Graveyard Without The G] by BananaLizard
 		'''
 }
 
@@ -2369,6 +2901,203 @@ SpookySpiritBox: {
 	Tooltip: "[c/B6ABFF:«Groovy Geist»] от BananaLizard"
 }
 
+CultistBathtubItem: {
+	DisplayName: Occultist Bathtub
+	Tooltip: ""
+}
+
+CultistBedItem: {
+	DisplayName: Occultist Bed
+	Tooltip: ""
+}
+
+CultistBookcaseItem: {
+	DisplayName: Occultist Bookcase
+	Tooltip: ""
+}
+
+CultistCandelabraItem: {
+	DisplayName: Occultist Candelabra
+	Tooltip: ""
+}
+
+CultistCandleItem: {
+	DisplayName: Occultist Candle
+	Tooltip: ""
+}
+
+CultistChairItem: {
+	DisplayName: Occultist Chair
+	Tooltip: ""
+}
+
+CultistChandelierItem: {
+	DisplayName: Occultist Chandelier
+	Tooltip: ""
+}
+
+CultistChestItem: {
+	DisplayName: Occultist Chest
+	Tooltip: ""
+}
+
+CultistClockItem: {
+	DisplayName: Occultist Clock
+	Tooltip: ""
+}
+
+CultistDoorItem: {
+	DisplayName: Occultist Door
+	Tooltip: ""
+}
+
+CultistDresserItem: {
+	DisplayName: Occultist Dresser
+	Tooltip: ""
+}
+
+CultistLampItem: {
+	DisplayName: Occultist Lamp
+	Tooltip: ""
+}
+
+CultistLanternItem: {
+	DisplayName: Occultist Lantern
+	Tooltip: ""
+}
+
+CultistSinkItem: {
+	DisplayName: Occultist Sink
+	Tooltip: ""
+}
+
+CultistSofaItem: {
+	DisplayName: Occultist Sofa
+	Tooltip: ""
+}
+
+CultistTableItem: {
+	DisplayName: Occultist Table
+	Tooltip: ""
+}
+
+CultistWorkBenchItem: {
+	DisplayName: Occultist Work Bench
+	Tooltip: ""
+}
+
+NoseTemplePlatformGreenItem: {
+	DisplayName: Green Occultist Platform
+	Tooltip: ""
+}
+
+NoseTemplePlatformPurpleItem: {
+	DisplayName: Purple Occultist Platform
+	Tooltip: ""
+}
+
+NoseTemplePlatformGrayItem: {
+	DisplayName: Gray Occultist Platform
+	Tooltip: ""
+}
+
+NoseTemplePlatformRedItem: {
+	DisplayName: Red Occultist Platform
+	Tooltip: ""
+}
+AmbushPaintingItem: {
+	DisplayName: Ambush
+	Tooltip: "'Hat in a River'"
+}
+BaxterPaintingItem: {
+	DisplayName: Portrait of Baxter
+	Tooltip: "'Waasephi'"
+}
+FireExitSignItem: {
+	DisplayName: Fire Exit Sign
+	Tooltip: ""
+}
+LuigiPaintingItem: {
+	DisplayName: Luigi
+	Tooltip: "'Waasephi'"
+}
+MonalumboItem: {
+	DisplayName: The Mona-Lumbo
+	Tooltip: "'Waasephi'"
+}
+RedMistPaintingItem: {
+	DisplayName: Red Mist
+	Tooltip: "'RocketLauncher'"
+}
+ShadowEyePaintingItem: {
+	DisplayName: The Eye
+	Tooltip: "'???'"
+}
+NoseTempleBrickGreenItem: {
+	DisplayName: Green Occultist Brick
+	Tooltip: ""
+}
+NoseTempleBrickPurpleItem: {
+	DisplayName: Purple Occultist Brick
+	Tooltip: ""
+}
+NoseTempleBrickGrayItem: {
+	DisplayName: Gray Occultist Brick
+	Tooltip: ""
+}
+NoseTempleBrickRedItem: {
+	DisplayName: Red Occultist Brick
+	Tooltip: ""
+}
+NoseTempleFancyBrickGreenItem: {
+	DisplayName: Green Occultist Slab
+	Tooltip: ""
+}
+NoseTempleFancyBrickPurpleItem: {
+	DisplayName: Purple Occultist Slab
+	Tooltip: ""
+}
+NoseTempleFancyBrickGrayItem: {
+	DisplayName: Gray Occultist Slab
+	Tooltip: ""
+}
+NoseTempleFancyBrickRedItem: {
+	DisplayName: Red Occultist Slab
+	Tooltip: ""
+}
+NoseTempleFancyWallGreenItem: {
+	DisplayName: Green Occultist Slab Wall
+	Tooltip: ""
+}
+NoseTempleFancyWallPurpleItem: {
+	DisplayName: Purple Occultist Slab Wall
+	Tooltip: ""
+}
+NoseTempleFancyWallGrayItem: {
+	DisplayName: Gray Occultist Slab Wall
+	Tooltip: ""
+}
+NoseTempleFancyWallRedItem: {
+	DisplayName: Red Occultist Slab Wall
+	Tooltip: ""
+}
+NoseTempleWallGreenItem: {
+	DisplayName: Green Occultist Brick Wall
+	Tooltip: ""
+}
+NoseTempleWallPurpleItem: {
+	DisplayName: Purple Occultist Brick Wall
+	Tooltip: ""
+}
+NoseTempleWallGrayItem: {
+	DisplayName: Gray Occultist Brick Wall
+	Tooltip: ""
+}
+NoseTempleWallRedItem: {
+	DisplayName: Red Occultist Brick Wall
+	Tooltip: ""
+}
+
 CemeteryPylonItem: {
 	DisplayName: Swampy Cemetery Pylon
 	Tooltip:
@@ -2405,6 +3134,11 @@ SpookyHellPylonItem: {
 		'''
 }
 
+BanditBookRelicItem: {
+	DisplayName: Tome of Spirits Relic
+	Tooltip: ""
+}
+
 BigBoneRelicItem: {
 	DisplayName: Big Bone Relic
 	Tooltip: ""
@@ -2412,6 +3146,16 @@ BigBoneRelicItem: {
 
 DaffodilRelicItem: {
 	DisplayName: Daffodil Relic
+	Tooltip: ""
+}
+
+EyeWizardRelicItem: {
+	DisplayName: Bigger Eye Relic
+	Tooltip: ""
+}
+
+FrankenGoblinRelicItem: {
+	DisplayName: Frank the Goblin Relic
 	Tooltip: ""
 }
 
@@ -2432,6 +3176,11 @@ RotGourdRelicItem: {
 
 SpookySpiritRelicItem: {
 	DisplayName: Реликвия Жуткого духа
+	Tooltip: ""
+}
+
+StitchSpiderRelicItem: {
+	DisplayName: Stitches Relic
 	Tooltip: ""
 }
 
@@ -2465,57 +3214,12 @@ WebBlockItem: {
 	Tooltip: ""
 }
 
-GourdGiantItem: {
-	DisplayName: Red Carved Gourd
-	Tooltip: ""
-}
-
-GourdGiantLitItem: {
-	DisplayName: Red Gourd O' Lantern
-	Tooltip: ""
-}
-
-GourdLargeItem: {
-	DisplayName: Orange Carved Gourd
-	Tooltip: ""
-}
-
-GourdLargeLitItem: {
-	DisplayName: Orange Gourd O' Lantern
-	Tooltip: ""
-}
-
-GourdMediumItem: {
-	DisplayName: Yellow Carved Gourd
-	Tooltip: ""
-}
-
-GourdMediumLitItem: {
-	DisplayName: Yellow Gourd O' Lantern
-	Tooltip: ""
-}
-
-GourdSmallItem: {
-	DisplayName: Green Carved Gourd
-	Tooltip: ""
-}
-
-GourdSmallLitItem: {
-	DisplayName: Green Gourd O' Lantern
-	Tooltip: ""
-}
-
-HalloweenChestItem: {
-	DisplayName: Сундук из старого дерева
-	Tooltip: ""
-}
-
 CandleItem: {
 	DisplayName: Старая восковая свеча
 	Tooltip:
 		'''
 		Излучает небольшое количество света
-		Нажмите ПКМ по вырезанной тыкве в вашем инвентаре, чтобы положить в неё свечу
+		Нажмите ПКМ свечой по вырезанной тыкве, чтобы пзажечь её
 		'''
 }
 
@@ -2554,6 +3258,11 @@ OldWoodChairItem: {
 	Tooltip: ""
 }
 
+OldWoodChestItem: {
+	DisplayName: Сундук из старого дерева
+	Tooltip: ""
+}
+
 OldWoodDoorItem: {
 	DisplayName: Дверь из старого деерева
 	Tooltip: ""
@@ -2589,7 +3298,7 @@ OldWoodWorkBenchItem: {
 }
 
 SpookyBiomeChestItem: {
-	DisplayName: Spooky Biome Chest
+	DisplayName: Сундук жуткого леса
 	Tooltip: ""
 }
 
@@ -2600,6 +3309,106 @@ SpookyCrate: {
 
 SwoleMushroomStatueItem: {
 	DisplayName: Статуя грибного Бога
+	Tooltip: ""
+}
+
+TinyGhostJarItem: {
+	DisplayName: Tiny Ghost Jar
+	Tooltip: ""
+}
+
+TinyMushroomCageItem: {
+	DisplayName: Tiny Mushroom Cage
+	Tooltip: ""
+}
+
+GourdGreenCarvedItem: {
+	DisplayName: Green Carved Gourd
+	Tooltip: ""
+}
+
+GourdGreenCarvedLitItem: {
+	DisplayName: Green Gourd 'O Lantern
+	Tooltip: ""
+}
+
+GourdLimeCarvedItem: {
+	DisplayName: Lime Carved Gourd
+	Tooltip: ""
+}
+
+GourdLimeCarvedLitItem: {
+	DisplayName: Lime Gourd 'O Lantern
+	Tooltip: ""
+}
+
+GourdLimeOrangeCarvedItem: {
+	DisplayName: Lime-Orange Carved Gourd
+	Tooltip: ""
+}
+
+GourdLimeOrangeCarvedLitItem: {
+	DisplayName: Lime-Orange Gourd 'O Lantern
+	Tooltip: ""
+}
+Gou
+rdOrangeCarvedItem: {
+	DisplayName: Orange Carved Gourd
+	Tooltip: ""
+}
+
+GourdOrangeCarvedLitItem: {
+	DisplayName: Orange Gourd 'O Lantern
+	Tooltip: ""
+}
+
+GourdRedCarvedItem: {
+	DisplayName: Red Carved Gourd
+	Tooltip: ""
+}
+
+GourdRedCarvedLitItem: {
+	DisplayName: Red Gourd 'O Lantern
+	Tooltip: ""
+}
+
+GourdRottenCarvedItem: {
+	DisplayName: Rotten Carved Gourd
+	Tooltip: ""
+}
+
+GourdRottenCarvedLitItem: {
+	DisplayName: Rotten Gourd 'O Lantern
+	Tooltip: ""
+}
+
+GourdWhiteCarvedItem: {
+	DisplayName: White Carved Gourd
+	Tooltip: ""
+}
+
+GourdWhiteCarvedLitItem: {
+	DisplayName: White Gourd 'O Lantern
+	Tooltip: ""
+}
+
+GourdYellowCarvedItem: {
+	DisplayName: Yellow Carved Gourd
+	Tooltip: ""
+}
+
+GourdYellowCarvedLitItem: {
+	DisplayName: Yellow Gourd 'O Lantern
+	Tooltip: ""
+}
+
+GourdYellowGreenCarvedItem: {
+	DisplayName: Yellow-Green Carved Gourd
+	Tooltip: ""
+}
+
+GourdYellowGreenCarvedLitItem: {
+	DisplayName: Yellow-Green Gourd 'O Lantern
 	Tooltip: ""
 }
 
@@ -2666,6 +3475,16 @@ EyeChestItem: {
 SpookyHellChestItem: {
 	DisplayName: Eye Valley Chest
 	Tooltip: ""
+}
+
+SpookyHellCrate: {
+	DisplayName: Living Flesh Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SpookyHellCrate2: {
+	DisplayName: Biomass Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 EyeBlockItem: {
@@ -2763,6 +3582,36 @@ EyeWorkBenchItem: {
 	Tooltip: ""
 }
 
+IconPainting1Item: {
+	DisplayName: Pumpkin Face
+	Tooltip: "'DylanDoe21'"
+}
+
+IconPainting2Item: {
+	DisplayName: Scary Logo
+	Tooltip: "'Honda'"
+}
+
+IconPainting3Item: {
+	DisplayName: Spooky Midnight
+	Tooltip: "'Hugekraken'"
+}
+
+IconPainting4Item: {
+	DisplayName: Spooky Sunrise
+	Tooltip: "'Hugekraken'"
+}
+
+IconPainting5Item: {
+	DisplayName: Nose Cultist Portrait
+	Tooltip: "'Hugekraken'"
+}
+
+LittleEyePaintingItem: {
+	DisplayName: Little Eye's Self Portrait
+	Tooltip: "'Waasephi'"
+}
+
 LivingFleshItem: {
 	DisplayName: Living Flesh
 	Tooltip: ""
@@ -2837,12 +3686,20 @@ RaveStarter: {
 		'''
 }
 
-LittleEyePaintingItem: {
-	DisplayName: Little Eye's Self Portrait
-	Tooltip: "'Waasephi'"
+CatacombWeedKiller: {
+	DisplayName: Catacomb Weed Killer
+	Tooltip:
+		'''
+		Deletes all catacomb ambient weed tiles
+		Testing Item
+		'''
 }
 
-BaxterPaintingItem: {
-	DisplayName: Baxter Portrait
-	Tooltip: "'Waasephi'"
+Bestiary: {
+	DisplayName: Bestiary Completer
+	Tooltip:
+		'''
+		Completes the bestiary
+		Testing Item
+		'''
 }
