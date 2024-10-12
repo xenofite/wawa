@@ -1,110 +1,129 @@
 CemeteryBiomeChest: {
-	// MapEntry0: Swampy Cemetery Chest
-	// MapEntry1: Locked Swampy Cemetery Chest
+	MapEntry0: Swampy Cemetery Chest
+	MapEntry1: Locked Swampy Cemetery Chest
 }
 
 SpiderCaveChest: {
-	// MapEntry0: Spider Grotto Chest
-	// MapEntry1: Locked Spider Grotto Chest
-}
-
-HalloweenChest: {
-	// MapEntry0: Old Wood Chest
-	// MapEntry1: Locked Old Wood Chest
+	MapEntry0: Spider Grotto Chest
+	MapEntry1: Locked Spider Grotto Chest
 }
 
 SpookyBiomeChest: {
-	// MapEntry0: Spooky Forest Chest
-	// MapEntry1: Locked Spooky Forest Chest
-}
-
-EyeChest: {
-	// MapEntry0: Monster Chest
-	// MapEntry1: Sleeping Monster Chest
+	MapEntry0: Spooky Forest Chest
+	MapEntry1: Locked Spooky Forest Chest
 }
 
 SpookyHellChest: {
-	// MapEntry0: Eye Chest
-	// MapEntry1: Locked Eye Chest
+	MapEntry0: Eye Chest
+	MapEntry1: Locked Eye Chest
 }
 
 EyeDresser: {
-	// ContainerName: Living Flesh Dresser
-	// MapEntry: Dresser
+	ContainerName: Living Flesh Dresser
+	MapEntry: Dresser
 }
 
-// SpiritAltar.MapEntry: Spirit Altar
-// CemeterySapling.MapEntry: Sapling
-// BigBoneBoxTile.MapEntry: Music Box
-// CatacombBoxTile.MapEntry: Music Box
-// CatacombBox2Tile.MapEntry: Music Box
-// CemeteryBoxTile.MapEntry: Music Box
-// DaffodilBoxTile.MapEntry: Music Box
-// EggEventBoxTile.MapEntry: Music Box
-// MocoBoxTile.MapEntry: Music Box
-// PandoraEventBoxTile.MapEntry: Music Box
-// RaveyardBoxTile.MapEntry: Music Box
-// RotGourdBoxTile.MapEntry: Music Box
-// SpiderCaveBoxTile.MapEntry: Music Box
-// SpookyBiomeDayBoxTile.MapEntry: Music Box
-// SpookyBiomeNightBoxTile.MapEntry: Music Box
-// SpookyBiomeRainBoxTile.MapEntry: Music Box
-// SpookyBiomeUGBoxTile.MapEntry: Music Box
-// OrroboroBoxTile.MapEntry: Music Box
-// SpookyHellBoxTile.MapEntry: Music Box
-// SpookyMenuBoxTile.MapEntry: Music Box
-// SpookySpiritBoxTile.MapEntry: Music Box
-// CemeteryPylon.MapEntry: Swampy Cemetery Pylon
-// SpiderCavePylon.MapEntry: Spider Grotto Pylon
-// SpookyBiomePylon.MapEntry: Spooky Forest Pylon
-// SpookyHellPylon.MapEntry: Eye Valley Pylon
-// FlyBigJar.MapEntry: Big Fly Jar
-// FlySmallJar.MapEntry: Fly Jar
-// OldWoodBathtub.MapEntry: Bathtub
-// OldWoodBed.MapEntry: Bed
-// OldWoodBookcase.MapEntry: Bookcase
-// OldWoodCandle.MapEntry: Candle
-// OldWoodChair.MapEntry: Chair
-// OldWoodDoorClosed.MapEntry: Door
-// OldWoodDoorOpen.MapEntry: Door
-// OldWoodOrgan.MapEntry: Organ
-// OldWoodSofa.MapEntry: Sofa
-// OldWoodTable.MapEntry: Table
-// OldWoodWorkBench.MapEntry: Work Bench
-// GiantShroom.MapEntry: Giant Shroom
-// SpookySapling.MapEntry: Sapling
-// SpookySaplingGreen.MapEntry: Sapling
-// EyeChest_Sleeping.MapEntry: Sleeping Monster Chest
-// SpookyHellChest_Locked.MapEntry: Locked Eye Chest
-// Cauldron.MapEntry: Creepy Cauldron
-// EyeBathtub.MapEntry: Bathtub
-// EyeBed.MapEntry: Bed
-// EyeBookcase.MapEntry: Bookcase
-// EyeCandelabra.MapEntry: Candelabra
-// EyeCandle.MapEntry: Candle
-// EyeChair.MapEntry: Chair
-// EyeChandelier.MapEntry: Chandelier
-// EyeClock.MapEntry: Clock
-// EyeDoorClosed.MapEntry: Door
-// EyeDoorOpen.MapEntry: Door
-// EyeLamp.MapEntry: Lamp
-// EyeLantern.MapEntry: Lantern
-// EyePiano.MapEntry: Piano
-// EyeSink.MapEntry: Sink
-// EyeSofa.MapEntry: Sofa
-// EyeTable.MapEntry: Table
-// EyeWorkBench.MapEntry: Work Bench
-// EyeSapling.MapEntry: Stalk Sapling
-// EyeTree.MapEntry: Eye Stalk
-// BigBoneTrophy.MapEntry: Trophy
-// BoroTrophy.MapEntry: Trophy
-// DaffodilTrophy.MapEntry: Trophy
-// MocoTrophy.MapEntry: Trophy
-// OrroTrophy.MapEntry: Trophy
-// RotGourdTrophy.MapEntry: Trophy
-// SpookySpiritTrophy.MapEntry: Trophy
-// BigFlower.MapEntry: Big Flower
-// MysteriousTombstone.MapEntry: Mysterious Tombstone
-// GiantRoot.MapEntry: Giant Root
-// GraveShovelTile.MapEntry: Grave Shovel Tile
-// TallMushroom.MapEntry: Tall Mushroom
+CultistDresser: {
+	ContainerName: Occultist Dresser
+	MapEntry: Dresser
+}
+
+SpiritAltar.MapEntry: Spirit Altar
+CemeterySapling.MapEntry: Sapling
+BigBoneBoxTile.MapEntry: Музыкальная шкатулка
+CatacombBoxTile.MapEntry: Музыкальная шкатулка
+CatacombBox2Tile.MapEntry: Музыкальная шкатулка
+CemeteryBoxTile.MapEntry: Музыкальная шкатулка
+DaffodilBoxTile.MapEntry: Музыкальная шкатулка
+EggEventBoxTile.MapEntry: Музыкальная шкатулка
+MocoBoxTile.MapEntry: Музыкальная шкатулка
+NoseTempleBoxTile.MapEntry: Музыкальная шкатулка
+PandoraEventBoxTile.MapEntry: Музыкальная шкатулка
+RaveyardBoxTile.MapEntry: Музыкальная шкатулка
+RotGourdBoxTile.MapEntry: Музыкальная шкатулка
+SpiderCaveBoxTile.MapEntry: Музыкальная шкатулка
+SpookyBiomeDayBoxTile.MapEntry: Музыкальная шкатулка
+SpookyBiomeNightBoxTile.MapEntry: Музыкальная шкатулка
+SpookyBiomeRainBoxTile.MapEntry: Музыкальная шкатулка
+SpookyBiomeUGBoxTile.MapEntry: Музыкальная шкатулка
+OrroboroBoxTile.MapEntry: Музыкальная шкатулка
+SpookyHellBoxTile.MapEntry: Музыкальная шкатулка
+SpookyMenuBoxTile.MapEntry: Музыкальная шкатулка
+SpookySpiritBoxTile.MapEntry: Музыкальная шкатулка
+CemeteryPylon.MapEntry: Swampy Cemetery Pylon
+SpiderCavePylon.MapEntry: Spider Grotto Pylon
+SpookyBiomePylon.MapEntry: Spooky Forest Pylon
+SpookyHellPylon.MapEntry: Eye Valley Pylon
+FlyBigJar.MapEntry: Big Fly Jar
+FlySmallJar.MapEntry: Fly Jar
+OldWoodBathtub.MapEntry: Ванна
+OldWoodBed.MapEntry: Кровать
+OldWoodBookcase.MapEntry: Книжный шкаф
+OldWoodCandle.MapEntry: Свеча
+OldWoodChair.MapEntry: Стул
+OldWoodChest.MapEntry: Сундук из старого дерева
+OldWoodDoorClosed.MapEntry: Дверь
+OldWoodDoorOpen.MapEntry: Дверь
+OldWoodOrgan.MapEntry: Organ
+OldWoodSofa.MapEntry: Диван
+OldWoodTable.MapEntry: Стол
+OldWoodWorkBench.MapEntry: Верстак
+GiantShroom.MapEntry: Giant Shroom
+SpookySapling.MapEntry: Sapling
+SpookySaplingGreen.MapEntry: Sapling
+Cauldron.MapEntry: Creepy Cauldron
+EyeBathtub.MapEntry: Ванна
+EyeBed.MapEntry: Кровать
+EyeBookcase.MapEntry: Книжный шкаф
+EyeCandelabra.MapEntry: Candelabra
+EyeCandle.MapEntry: Свеча
+EyeChair.MapEntry: Стул
+EyeChandelier.MapEntry: Chandelier
+EyeChest.MapEntry: Monster Сундук
+EyeClock.MapEntry: Часы
+EyeDoorClosed.MapEntry: Дверь
+EyeDoorOpen.MapEntry: Дверь
+EyeLamp.MapEntry: Лампа
+EyeLantern.MapEntry: Lantern
+EyePiano.MapEntry: Piano
+EyeSink.MapEntry: Sink
+EyeSofa.MapEntry: Диван
+EyeTable.MapEntry: Стол
+EyeWorkBench.MapEntry: Верстак
+EyeSapling.MapEntry: Stalk Sapling
+EyeTree.MapEntry: Eye Stalk
+BigBoneTrophy.MapEntry: Трофей
+BoroTrophy.MapEntry: Трофей
+DaffodilTrophy.MapEntry: Трофей
+MocoTrophy.MapEntry: Трофей
+OrroTrophy.MapEntry: Трофей
+RotGourdTrophy.MapEntry: Трофей
+SpookySpiritTrophy.MapEntry: Трофей
+BigFlower.MapEntry: Big Flower
+MysteriousTombstone.MapEntry: Mysterious Tombstone
+GiantRoot.MapEntry: Giant Root
+GraveShovelTile.MapEntry: Grave Shovel Tile
+TallMushroom.MapEntry: Tall Mushroom
+TinyGhostJar.MapEntry: Tiny Ghost Jar
+TinyMushroomCage.MapEntry: Tiny Mushroom Cage
+CultistBathtub.MapEntry: Ванна
+CultistBed.MapEntry: Кровать
+CultistBookcase.MapEntry: Книжный шкаф
+CultistCandelabra.MapEntry: Candelabra
+CultistCandle.MapEntry: Свеча
+CultistChair.MapEntry: Стул
+CultistChandelier.MapEntry: Chandelier
+CultistChest.MapEntry: Сундук
+CultistClock.MapEntry: Часы
+CultistDoorClosed.MapEntry: Дверь
+CultistDoorOpen.MapEntry: Дверь
+CultistLamp.MapEntry: Лампа
+CultistLantern.MapEntry: Lantern
+CultistSink.MapEntry: Sink
+CultistSofa.MapEntry: Диван
+CultistTable.MapEntry: Стол
+CultistWorkBench.MapEntry: Верстак
+TempleTrapdoor.MapEntry: Temple Trapdoor
+CatacombTrapdoor1.MapEntry: Locked Trapdoor
+CatacombTrapdoor2.MapEntry: Locked Trapdoor
+CatacombTrapdoor3.MapEntry: Locked Trapdoor
