@@ -1,35 +1,35 @@
 CemeteryBiomeChest: {
-	MapEntry0: Swampy Cemetery Chest
-	MapEntry1: Locked Swampy Cemetery Chest
+	MapEntry0: Сундук болотистого кладбища
+	MapEntry1: Закрытый сундук болотистого кладбища
 }
 
 SpiderCaveChest: {
-	MapEntry0: Spider Grotto Chest
-	MapEntry1: Locked Spider Grotto Chest
+	MapEntry0: Сундук паучьего ущелья
+	MapEntry1: Закрытый сундук паучьего ущелья
 }
 
 SpookyBiomeChest: {
-	MapEntry0: Spooky Forest Chest
-	MapEntry1: Locked Spooky Forest Chest
+	MapEntry0: Сундук жуткого леса
+	MapEntry1: Закрытый сундук жуткого леса
 }
 
 SpookyHellChest: {
-	MapEntry0: Eye Chest
-	MapEntry1: Locked Eye Chest
+	MapEntry0: Глазастый сундук
+	MapEntry1: Закрытый глазастый сундук
 }
 
 EyeDresser: {
-	ContainerName: Living Flesh Dresser
-	MapEntry: Dresser
+	ContainerName: Комод из живой плоти
+	MapEntry: Комод
 }
 
 CultistDresser: {
-	ContainerName: Occultist Dresser
-	MapEntry: Dresser
+	ContainerName: Комод оккультистов
+	MapEntry: Комод
 }
 
-SpiritAltar.MapEntry: Spirit Altar
-CemeterySapling.MapEntry: Sapling
+SpiritAltar.MapEntry: Алтарь духов
+CemeterySapling.MapEntry: Росток
 BigBoneBoxTile.MapEntry: Музыкальная шкатулка
 CatacombBoxTile.MapEntry: Музыкальная шкатулка
 CatacombBox2Tile.MapEntry: Музыкальная шкатулка
@@ -50,12 +50,12 @@ OrroboroBoxTile.MapEntry: Музыкальная шкатулка
 SpookyHellBoxTile.MapEntry: Музыкальная шкатулка
 SpookyMenuBoxTile.MapEntry: Музыкальная шкатулка
 SpookySpiritBoxTile.MapEntry: Музыкальная шкатулка
-CemeteryPylon.MapEntry: Swampy Cemetery Pylon
-SpiderCavePylon.MapEntry: Spider Grotto Pylon
-SpookyBiomePylon.MapEntry: Spooky Forest Pylon
-SpookyHellPylon.MapEntry: Eye Valley Pylon
-FlyBigJar.MapEntry: Big Fly Jar
-FlySmallJar.MapEntry: Fly Jar
+CemeteryPylon.MapEntry: Пилон болотистого кладбища
+SpiderCavePylon.MapEntry: Пилон паучьего ущелья
+SpookyBiomePylon.MapEntry: Пилон жуткого леса
+SpookyHellPylon.MapEntry: Пилон долины глаз
+FlyBigJar.MapEntry: Банка с большой мухой
+FlySmallJar.MapEntry: Банка с мухой
 OldWoodBathtub.MapEntry: Ванна
 OldWoodBed.MapEntry: Кровать
 OldWoodBookcase.MapEntry: Книжный шкаф
@@ -64,34 +64,34 @@ OldWoodChair.MapEntry: Стул
 OldWoodChest.MapEntry: Сундук из старого дерева
 OldWoodDoorClosed.MapEntry: Дверь
 OldWoodDoorOpen.MapEntry: Дверь
-OldWoodOrgan.MapEntry: Organ
+OldWoodOrgan.MapEntry: Орган
 OldWoodSofa.MapEntry: Диван
 OldWoodTable.MapEntry: Стол
 OldWoodWorkBench.MapEntry: Верстак
-GiantShroom.MapEntry: Giant Shroom
-SpookySapling.MapEntry: Sapling
-SpookySaplingGreen.MapEntry: Sapling
-Cauldron.MapEntry: Creepy Cauldron
+GiantShroom.MapEntry: Гигантский гриб
+SpookySapling.MapEntry: Росток
+SpookySaplingGreen.MapEntry: Росток
+Cauldron.MapEntry: Жуткий котёл
 EyeBathtub.MapEntry: Ванна
 EyeBed.MapEntry: Кровать
 EyeBookcase.MapEntry: Книжный шкаф
-EyeCandelabra.MapEntry: Candelabra
+EyeCandelabra.MapEntry: Канделябр
 EyeCandle.MapEntry: Свеча
 EyeChair.MapEntry: Стул
-EyeChandelier.MapEntry: Chandelier
-EyeChest.MapEntry: Monster Сундук
+EyeChandelier.MapEntry: Люстра
+EyeChest.MapEntry: Сундук-монстр
 EyeClock.MapEntry: Часы
 EyeDoorClosed.MapEntry: Дверь
 EyeDoorOpen.MapEntry: Дверь
 EyeLamp.MapEntry: Лампа
-EyeLantern.MapEntry: Lantern
-EyePiano.MapEntry: Piano
-EyeSink.MapEntry: Sink
+EyeLantern.MapEntry: Фонарь
+EyePiano.MapEntry: Пианино
+EyeSink.MapEntry: Раковина
 EyeSofa.MapEntry: Диван
 EyeTable.MapEntry: Стол
 EyeWorkBench.MapEntry: Верстак
-EyeSapling.MapEntry: Stalk Sapling
-EyeTree.MapEntry: Eye Stalk
+EyeSapling.MapEntry: Росток глазостебля
+EyeTree.MapEntry: Глазостебель
 BigBoneTrophy.MapEntry: Трофей
 BoroTrophy.MapEntry: Трофей
 DaffodilTrophy.MapEntry: Трофей
@@ -99,31 +99,31 @@ MocoTrophy.MapEntry: Трофей
 OrroTrophy.MapEntry: Трофей
 RotGourdTrophy.MapEntry: Трофей
 SpookySpiritTrophy.MapEntry: Трофей
-BigFlower.MapEntry: Big Flower
-MysteriousTombstone.MapEntry: Mysterious Tombstone
-GiantRoot.MapEntry: Giant Root
-GraveShovelTile.MapEntry: Grave Shovel Tile
-TallMushroom.MapEntry: Tall Mushroom
-TinyGhostJar.MapEntry: Tiny Ghost Jar
-TinyMushroomCage.MapEntry: Tiny Mushroom Cage
+BigFlower.MapEntry: Большой цветок
+MysteriousTombstone.MapEntry: Загадочное надгробие
+GiantRoot.MapEntry: Гигантский корень
+GraveShovelTile.MapEntry: Лопата гробовщика
+TallMushroom.MapEntry: Высокий гриб
+TinyGhostJar.MapEntry: Банка с маленьким призраком
+TinyMushroomCage.MapEntry: Террариум с маленьким грибочком
 CultistBathtub.MapEntry: Ванна
 CultistBed.MapEntry: Кровать
 CultistBookcase.MapEntry: Книжный шкаф
-CultistCandelabra.MapEntry: Candelabra
+CultistCandelabra.MapEntry: Канделябр
 CultistCandle.MapEntry: Свеча
 CultistChair.MapEntry: Стул
-CultistChandelier.MapEntry: Chandelier
+CultistChandelier.MapEntry: Люстра
 CultistChest.MapEntry: Сундук
 CultistClock.MapEntry: Часы
 CultistDoorClosed.MapEntry: Дверь
 CultistDoorOpen.MapEntry: Дверь
 CultistLamp.MapEntry: Лампа
-CultistLantern.MapEntry: Lantern
-CultistSink.MapEntry: Sink
+CultistLantern.MapEntry: Фонарь
+CultistSink.MapEntry: Раковина
 CultistSofa.MapEntry: Диван
 CultistTable.MapEntry: Стол
 CultistWorkBench.MapEntry: Верстак
-TempleTrapdoor.MapEntry: Temple Trapdoor
-CatacombTrapdoor1.MapEntry: Locked Trapdoor
-CatacombTrapdoor2.MapEntry: Locked Trapdoor
-CatacombTrapdoor3.MapEntry: Locked Trapdoor
+TempleTrapdoor.MapEntry: Люк храма
+CatacombTrapdoor1.MapEntry: Закрытый люк
+CatacombTrapdoor2.MapEntry: Закрытый люк
+CatacombTrapdoor3.MapEntry: Закрытый люк
