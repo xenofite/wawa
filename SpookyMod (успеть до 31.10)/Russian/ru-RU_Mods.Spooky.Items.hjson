@@ -2663,12 +2663,12 @@ WinterSeed: {
 }
 
 CatacombBrickPlatform1Item: {
-	DisplayName: Gray Catacomb Brick Platform
+	DisplayName: Платформа из серого кирпича катакомб
 	Tooltip: ""
 }
 
 CatacombBrickPlatform2Item: {
-	DisplayName: Brown Catacomb Brick Platform
+	DisplayName: Платформа из коричневого кирпича катакомб
 	Tooltip: ""
 }
 
@@ -2683,7 +2683,7 @@ CatacombCrate2: {
 }
 
 GiantCoffinItem: {
-	DisplayName: Old Wood Casket
+	DisplayName: Гроб из старого дерева
 	Tooltip: ""
 }
 
@@ -2738,22 +2738,22 @@ PottedPlant4Item: {
 }
 
 CatacombBrick1Item: {
-	DisplayName: Gray Catacomb Brick
+	DisplayName: Серый кирпич катакомб
 	Tooltip: ""
 }
 
 CatacombBrick2Item: {
-	DisplayName: Brown Catacomb Brick
+	DisplayName: Коричневый кирпич катакомб
 	Tooltip: ""
 }
 
 CatacombBrickWall1Item: {
-	DisplayName: Gray Catacomb Brick Wall
+	DisplayName: Стена из серого кирпича катакомб
 	Tooltip: ""
 }
 
 CatacombBrickWall2Item: {
-	DisplayName: Brown Catacomb Brick Wall
+	DisplayName: Стена из серого кирпича катакомб
 	Tooltip: ""
 }
 
@@ -2763,8 +2763,8 @@ CatacombFlooringItem: {
 }
 
 CatacombGrassSeeds: {
-	DisplayName: Catacomb Moss Seeds
-	Tooltip: Plats moss on gray and brown catacomb bricks
+	DisplayName: Семена мха катакомб
+	Tooltip: Позволяет посадить бох на серые и коричневые кирпичи катакомб камень
 }
 
 GildedBrickItem: {
