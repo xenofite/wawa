@@ -243,8 +243,8 @@ NoseWinged: {
 }
 
 PandoraBox: {
-	Button: Open
-	Dialogue: It's a strange box with a weird aura emanating from it. Will you open it?
+	Button: Открыть
+	Dialogue: Странный ящик, из которого исходит таинственная аура. Станете ли вы его открывать?
 }
 
 SentientCap: {
