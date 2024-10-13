@@ -56,13 +56,13 @@ BigBone: {
 //boss stuff
 BigFlowerPot.DisplayName: Гигантский цветочный горшок
 BigFlower.DisplayName: Солнечный цветок
-DefensiveFlower.DisplayName: Defensive Flower
+DefensiveFlower.DisplayName: Защитный цветок
 HealingFlower.DisplayName: Healing Flower
-CatacombGuardian.DisplayName: Catacomb Guardian
+CatacombGuardian.DisplayName: Страж катакомб
 BigBoneArenaBG.DisplayName: ""
 DaffodilBody.DisplayName: ""
-DaffodilHandLeft.DisplayName: Daffodil
-DaffodilHandRight.DisplayName: Daffodil
+DaffodilHandLeft.DisplayName: Нарцисс
+DaffodilHandRight.DisplayName: Нарцисс
 DaffodilArenaBG.DisplayName: ""
 MoclingMinion.DisplayName: Mocling
 MocoIntro.DisplayName: Mocling
@@ -209,7 +209,7 @@ GiantWebAnimationBase.DisplayName: ""
 GiantWebAnimationPiece.DisplayName: ""
 LittleBone.DisplayName: Little Bone
 LittleBonePotTransform.DisplayName: Little Bone
-LittleBoneSleeping.DisplayName: Sleeping Plant
+LittleBoneSleeping.DisplayName: Спящее растение
 LittleEye.DisplayName: Little Eye
 LittleEyeSleeping.DisplayName: Sleeping Eye
 Musicman.DisplayName: Musicman
@@ -223,10 +223,10 @@ PartySkeleton7.DisplayName: Party Skeleton
 PartySkeleton8.DisplayName: Party Skeleton
 SkeletonBouncer.DisplayName: Skeleton Bouncer
 SuspiciousSkeleton.DisplayName: Suspicious Skeleton
-OldHunterSleeping.DisplayName: Old Hunter
+OldHunterSleeping.DisplayName: Старый охотник
 
 OldHunter: {
-	DisplayName: Old Hunter
+	DisplayName: Старый охотник
 
 	TownNPCMood: {
 		Content: I am content.
