@@ -251,7 +251,7 @@ BossBagBigBone: {
 }
 
 BossBagDaffodil: {
-	DisplayName: Мешок с сокровищами (Daffodil)
+	DisplayName: Мешок с сокровищами (Нарцисс)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -279,8 +279,8 @@ Brick: {
 	DisplayName: Тяжёлый кирпич
 	Tooltip:
 		'''
-		Can be thrown at lazy things to wake them up
-		Awakens Daffodil if thrown at her
+		Можно бросить в кого-нибудь спящего, чтобы разбудить его
+		Пробуждает Нарцисс, если бросить кирпич в неё
 		'''
 }
 
@@ -329,7 +329,7 @@ Fertilizer: {
 	Tooltip:
 		'''
 		Воняющий мешок земли и костей
-		Призывает Большую кость при использовании у горшка с гигантским цветком
+		Призывает Big Bone при использовании рядом с гигантским цветочным горшоком
 		'''
 }
 
@@ -348,7 +348,7 @@ FlowerBody: {
 	Tooltip:
 		'''
 		Увеличивает урон и шанс критического удара на 15%
-		Наносит урон атакующим вас врагам при получении урона
+		Атакующие вас враги получают контактный урон
 		'''
 }
 
@@ -356,35 +356,35 @@ FlowerHead: {
 	DisplayName: Маска цветка
 	Tooltip:
 		'''
-		Уменьшает расход маны на 15%
+		Снижает расход маны на 15%
 		Увеличивает максимальное число миньонов на 2
 		Увеличивает максимальное число часовых на 1
 		'''
 }
 
 FlowerLegs: {
-	DisplayName: Горшок гигантского цветка
+	DisplayName: Большой цветочный горшок
 	Tooltip:
 		'''
 		Даёт невосприимчивость к отбрасыванию
-		Уменьшает получаемый урон на 8%
+		Снижает получаемый урон на 8%
 		Значительно увеличивает скорость падения
 		'''
 }
 
 CatacombKey1: {
-	DisplayName: Ключ от жёлтого барьера
-	Tooltip: Открывает жёлтый барьер в катакомбах
+	DisplayName: Ключ от жёлтого люка
+	Tooltip: Открывает люк с жёлтым замком в катакомбах
 }
 
 CatacombKey2: {
-	DisplayName: Ключ от красного барьера
-	Tooltip: Открывает красный барьер в катакомбах
+	DisplayName: Ключ от красного люка
+	Tooltip: Открывает люк с красным замком в катакомбах
 }
 
 CatacombKey3: {
-	DisplayName: Ключ от оранжевого барьера
-	Tooltip: Открывает оранжевый барьер в катакомбах
+	DisplayName: Ключ от оранжевого люка
+	Tooltip: Открывает люк с оранжевым замком в катакомбах
 }
 
 PlantChunk: {
@@ -457,17 +457,17 @@ DaffodilBlade: {
 }
 
 DaffodilBow: {
-	DisplayName: Мухобойка
+	DisplayName: Мухобой
 	Tooltip:
 		'''
-		Удерживайте ПКМ, чтобы зарядить лук, и отпустите, чтобы выстрелить залпом из мух // очень плохо
-		Чем дольше вы заряжали лук, тем больше мух выпустите
+		Превращает любые стрелы в мух, имеющих небольшую самонаводку
+		Удерживайте, чтобы зарядить лук и выпустить большее количество мух при выстреле
 		'''
 }
 
 DaffodilRod: {
 	DisplayName: Жезл подсолнуха
-	Tooltip: Выпускает самонаводящиеся цветы подсолнуха, отскакивающие от блоков
+	Tooltip: Выпускает самонаводящиеся цветы подсолнуха, отскакивающие от поверхностей
 }
 
 DaffodilStaff: {
@@ -890,12 +890,12 @@ SpiritSword: {
 }
 
 BananalizardHead: {
-	DisplayName: BananaLizard's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	DisplayName: Маска BananaLizard
+	Tooltip: "'Отлично подходит для подражания внешности разработчиков спуки мода!'"
 }
 
 BanditHat: {
-	DisplayName: Bandit Hat
+	DisplayName: Шляпа бандита
 	Tooltip: ""
 }
 
@@ -910,7 +910,7 @@ BoroMask: {
 }
 
 DaffodilMask: {
-	DisplayName: Daffodil Mask
+	DisplayName: Маска Нарцисс
 	Tooltip: ""
 }
 
@@ -1063,11 +1063,11 @@ CandyCorn: {
 }
 
 CaramelApple: {
-	DisplayName: Caramel Apple
+	DisplayName: Яблоко в карамели
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'Don't know how the apple got caramel on it'
+		{$BuffDescription.WellFed}
+		«Без понятия, как на этом яблоке появилась карамель»
 		'''
 }
 
@@ -1142,8 +1142,8 @@ GhostPetItem: {
 }
 
 InchwormApple: {
-	DisplayName: Old Apple
-	Tooltip: Summons a pet Inchworm
+	DisplayName: Старое яблоко
+	Tooltip: Призывает ручную гусеницу
 }
 
 MocoTissue: {
@@ -1217,11 +1217,11 @@ SkullSeed: {
 }
 
 SmallDaffodil: {
-	DisplayName: Daffodil Sprout
+	DisplayName: Росток нарцисса
 	Tooltip:
 		'''
-		Summons Cornelious
-		'It smells very yummy!'
+		Призывает Корнелиуса
+		«Пахнет довольно аппетитно!»
 		'''
 }
 
@@ -1414,43 +1414,43 @@ SpiderLegs: {
 }
 
 GrottoCompass: {
-	DisplayName: Rusted Compass
-	Tooltip: Points to the location of the spider-infested grotto when held in your hotbar
+	DisplayName: Проржавевший компас
+	Tooltip: Указывает на местоположение подземной пещеры, кишащей пауками, когда находится в руках
 }
 
 InchwormBlackItem: {
-	DisplayName: Black Inchworm
+	DisplayName: Чёрная гусеница
 	Tooltip: ""
 }
 
 InchwormGreenItem: {
-	DisplayName: Green Inchworm
+	DisplayName: Зелёная гусеница
 	Tooltip: ""
 }
 
 InchwormOrangeItem: {
-	DisplayName: Orange Inchworm
+	DisplayName: Оранжевая гусеница
 	Tooltip: ""
 }
 
 OldHunterHat: {
-	DisplayName: Старая охотничья шляпа
+	DisplayName: Шляпа старого охотника
 	Tooltip: Шляпа, принадлежавшая некогда жившему охотнику
 }
 
 OldHunterLegs: {
-	DisplayName: Old Hunter's Legs
-	Tooltip: Old tatterted pants with skeleton legs in them
+	DisplayName: Ноги старого охотника
+	Tooltip: Старые порванные штаны вместе с ногами скелета
 }
 
 OldHunterSkull: {
-	DisplayName: Old Hunter's Skull
-	Tooltip: A decaying skull of an ancient person
+	DisplayName: Череп старого охотника
+	Tooltip: Разрушающийся череп давно жившого человека
 }
 
 OldHunterTorso: {
-	DisplayName: Old Hunter's Torso
-	Tooltip: A shirt with an entire skeletal torso inside
+	DisplayName: Торс старого охотника
+	Tooltip: Рубашка с полным торсом скелета под ней
 }
 
 SpiderChitin: {
@@ -1491,11 +1491,11 @@ HighVelocitySlingshot: {
 }
 
 HunterScarf: {
-	DisplayName: Old Hunter's Scarf
+	DisplayName: Шарф старого охотника
 	Tooltip:
 		'''
-		Enemies nearby you will be marked 
-		Marked enemies will take more damage from your ranged weapons
+		Отмечает врагов поблизости
+		Отмеченные враги получают больше урона от стрелкового оружия
 		'''
 }
 
@@ -1509,16 +1509,16 @@ LegalShotgun: {
 }
 
 RustedBullet: {
-	DisplayName: Rusted Bullet
-	Tooltip: Splits into shrapnel on impact
+	DisplayName: Проржавевший патрон
+	Tooltip: Разлетается на осколки при столкновении
 }
 
 OrbWeaverBoomerang: {
-	DisplayName: Weaverang
+	DisplayName: Паутиноранг
 	Tooltip:
 		'''
-		Throws a returning orb weaver spike that can bounce off of surfaces
-		The boomerang will fly out for longer whenever it bounces off a surface
+		Бросает возращающийся паутинный шип, который отскакивает от поверхностей
+		Бумеранг будет возращатся по кривой линии после отскока
 		'''
 }
 
@@ -1562,30 +1562,30 @@ SphiderFlail: {
 }
 
 SpiderCrossbow: {
-	DisplayName: Venomous Crossbow
-	Tooltip: Converts arrows into piercing poisonous darts
+	DisplayName: Ядовитый арбалет
+	Tooltip: Превращает любые стрелы в пробивающие врагов дротики
 }
 
 SpiderEggCannon: {
-	DisplayName: Spider Egg Cannon
+	DisplayName: Паукояичная пушка
 	Tooltip:
 		'''
-		Shoots out silky spider eggs
-		Every 5 shots will fire a larger egg that summons an attack spider
+		Выстреливает шелковистыми паучьи яйца
+		Каждый 5-й выстрел будет выпускать более крупное яйцо, призывающие атакующего паука
 		'''
 }
 
 SpiderLegStaff: {
-	DisplayName: Arachnid Leg Wand
-	Tooltip: Casts out giant spider legs that can embed themselves in enemies
+	DisplayName: Посох ноги арахнида
+	Tooltip: Выпускает гигантские паучьи лапы, которые могут застрять во враге
 }
 
 SpiderSlingshot: {
-	DisplayName: Web Flinger
+	DisplayName: Паутинометатель
 	Tooltip:
 		'''
-		Hold down to pull back the slingshot, then release to fling ammo
-		Converts Mossy Pebbles into web balls that slow enemies
+		Удерживайте, чтоба зарядить рогатку
+		Превращает замшелые камушки в комки паутины, замедляющие врагов
 		'''
 }
 
@@ -1594,17 +1594,17 @@ SpiderSummonEgg: {
 	Tooltip:
 		'''
 		Бросает яйцо, из которого вылупляются паучки-миньоны
-		Каждый паучок занимает 0,5 слотов миньонов
+		Каждый паучок занимает 0,5 слотов под миньонов
 		'''
 }
 
 SpiderSword: {
 	DisplayName: Паучий вонзатель
-	Tooltip: Имеет шанс отравить поражённого врага
+	Tooltip: Может отравить поражённого врага
 }
 
 TarantulaHawkBow: {
-	DisplayName: Паукокрылый лук
+	DisplayName: Паукокрылый длинный лук
 	Tooltip:
 		'''
 		Стреляет крылатыми стрелами, самонаводящимеся на врагов
@@ -1613,11 +1613,11 @@ TarantulaHawkBow: {
 }
 
 TatantulaFlyTome: {
-	DisplayName: Grimoire of the Flies
+	DisplayName: Гримуар мух
 	Tooltip:
 		'''
-		Conjures flies that follow your cursor while continously using the grimoire
-		Releasing while having 10 flies around your cursor causes them to home in on enemies
+		Призывает мух, которые следуют за вашим курсором, если вы продолжаете использовать гримуар
+		Если отпустить кнопку, когда уже призвано 10 мух, они быстро влетят в ближайших врагов
 		'''
 }
 
@@ -1632,7 +1632,7 @@ VenomHarpoon: {
 
 GourdBody: {
 	DisplayName: Нагрудник прогнившей тыквы
-	Tooltip: Увеличивает урон в ближнем бою на 5%=
+	Tooltip: Увеличивает урон в ближнем бою на 5%
 }
 
 GourdHead: {
@@ -1791,7 +1791,7 @@ GourdBook: {
 }
 
 GourdFlail: {
-	DisplayName: «Ярость гнили»
+	DisplayName: Ярость гнили
 	Tooltip:
 		'''
 		Постепенно призывает вокруг вас мух, пока вы раскручиваете оружие
@@ -2079,8 +2079,8 @@ CreepyChunk: {
 }
 
 EyeValleyCompass: {
-	DisplayName: Fleshy Compass
-	Tooltip: Points to the direction of a strange biome in the underworld when held in your hotbar
+	DisplayName: Мясной компас
+	Tooltip: Указывает на местоположение странного биома в преисподней, когда находится в руках
 }
 
 LeechWhipGore: {
@@ -2563,18 +2563,18 @@ TortumorYoyo: {
 }
 
 RaveyardDisc1: {
-	DisplayName: Raveyard Vinyl #1
-	Tooltip: "[c/6FE4A5:Graveyard Without The G] by BananaLizard"
+	DisplayName: Пластинка тусоблища #1
+	Tooltip: "[c/6FE4A5:«Graveyard Without The G»] от BananaLizard"
 }
 
 RaveyardDisc2: {
-	DisplayName: Raveyard Vinyl #2
-	Tooltip: "[c/6FE4A5:Deathrattlin' Raving (Legacy Version)] by Luxcapacitor"
+	DisplayName: Пластинка тусоблища #2
+	Tooltip: "[c/6FE4A5:«Deathrattlin' Raving (cтарая версия)»] от Luxcapacitor"
 }
 
 RaveyardDisc3: {
-	DisplayName: Raveyard Vinyl #3
-	Tooltip: "[c/6FE4A5:Graveyard Without The G (Legacy Version)] by BananaLizard & Lurak"
+	DisplayName: Пластинка тусоблища #3
+	Tooltip: "[c/6FE4A5:«Graveyard Without The G (cтарая версия)»] от BananaLizard & Lurak"
 }
 
 VinylAlley: {
@@ -2603,8 +2603,8 @@ VinylSneaky: {
 }
 
 BloomSoilItem: {
-	DisplayName: Bloom Soil
-	Tooltip: Allows blooms to be planted and grown on it
+	DisplayName: Цветущая почва
+	Tooltip: Позволяет сажать и выращивать на нём цветы
 }
 
 DandelionSeed: {
@@ -2693,47 +2693,47 @@ GoldenPotItem: {
 }
 
 GoldStatue1Item: {
-	DisplayName: Gilded Evil Face Statue
+	DisplayName: Позолоченная статуя злого лица
 	Tooltip: ""
 }
 
 GoldStatue2Item: {
-	DisplayName: Gilded Mouth Statue
+	DisplayName: Позолоченная статуя рта
 	Tooltip: ""
 }
 
 GoldStatue3Item: {
-	DisplayName: Gilded Skull Statue
+	DisplayName: Позолоченная статуя черепа
 	Tooltip: ""
 }
 
 GoldStatue4Item: {
-	DisplayName: Gilded Soul Statue
+	DisplayName: Позолоченная статуя духа
 	Tooltip: ""
 }
 
 MoyaiItem: {
-	DisplayName: Golden Moyai
+	DisplayName: Золотой Моаи
 	Tooltip: ""
 }
 
 PottedPlant1Item: {
-	DisplayName: Potted Mouth Flower
+	DisplayName: Горшок с ротоцветом
 	Tooltip: ""
 }
 
 PottedPlant2Item: {
-	DisplayName: Potted Petal Plant
+	DisplayName: Горшок с лепестоцветом
 	Tooltip: ""
 }
 
 PottedPlant3Item: {
-	DisplayName: Potted Eye Flower
+	DisplayName: Горшок с глазоцветом
 	Tooltip: ""
 }
 
 PottedPlant4Item: {
-	DisplayName: Potted Skull Plant
+	DisplayName: Горшок с черепоцветом
 	Tooltip: ""
 }
 
@@ -2758,7 +2758,7 @@ CatacombBrickWall2Item: {
 }
 
 CatacombFlooringItem: {
-	DisplayName: Catacomb Floor Brick
+	DisplayName: Напольный кирпич катакомб
 	Tooltip: ""
 }
 
@@ -2778,13 +2778,13 @@ CemeteryBiomeChestItem: {
 }
 
 CemeteryDirtItem: {
-	DisplayName: Грунт болота
+	DisplayName: Почва болота
 	Tooltip: ""
 }
 
 CemeteryGrassSeeds: {
-	DisplayName: Cemetery Grass Seeds
-	Tooltip: Plants grass on Swamp Soil
+	DisplayName: Семена травы кладбища
+	Tooltip: Позволяет посадить траву на почве болота
 }
 
 CemeteryStoneItem: {
@@ -2793,61 +2793,62 @@ CemeteryStoneItem: {
 }
 
 BigBoneBox: {
-	DisplayName: Music Box (Big Bone)
-	Tooltip: "[c/D7D000:Doom Abloom] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Big Bone)
+	Tooltip: "[c/D7D000:«Doom Abloom»] от BananaLizard"
 }
 
 CatacombBox: {
-	DisplayName: Music Box (Upper Catacomb)
-	Tooltip: "[c/4A86AE:Tomb Crawlin'] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Верхние катакомбы)
+	Tooltip: "[c/4A86AE:«Tomb Crawlin'»] от BananaLizard"
 }
 
 CatacombBox2: {
-	DisplayName: Music Box (Lower Catacomb)
-	Tooltip: "[c/B35A27:Deep Dive To The Catacombs] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Нижние катакомбы)
+	Tooltip: "[c/B35A27:«Deep Dive To The Catacombs»] от BananaLizard"
 }
 
 CemeteryBox: {
-	DisplayName: Music Box (Swampy Cemetery)
-	Tooltip: "[c/6E9E3B:A Boneyard Too Far] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Болотное кладбище)
+	Tooltip: "[c/6E9E3B:«A Boneyard Too Far»] от BananaLizard"
 }
 
 DaffodilBox: {
-	DisplayName: Music Box (Daffodil)
-	Tooltip: "[c/A7CF17:To A Floral Demise] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Нарцисс)
+	Tooltip: "[c/A7CF17:«To A Floral Demise»] от BananaLizard"
 }
 
 EggEventBox: {
-	DisplayName: Music Box (Egg Incursion)
-	Tooltip: "[c/FF1515:The Evolution Of Evil] by Rockwizard5"
+	DisplayName: Музыкальная шкатулка (Egg Incursion)
+	Tooltip: "[c/FF1515:«The Evolution Of Evil»] от Rockwizard5"
 }
 
 MocoBox: {
-	DisplayName: Music Box (Moco)
-	Tooltip: "[c/4DDE17:And Yet The Snot-Nosed Bug Remains] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Moco)
+	Tooltip: "[c/4DDE17:«And Yet The Snot-Nosed Bug Remains»] от BananaLizard"
 }
 
 NoseTempleBox: {
-	DisplayName: Music Box (Temple of Moco)
-	Tooltip: "[c/EF5145:Grand Sinus Corridors] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Temple of Moco)
+	Tooltip: "[c/EF5145:«Grand Sinus Corridors»] от BananaLizard"
 }
 
 OrroboroBox: {
-	DisplayName: Music Box (Orro & Boro)
-	Tooltip: "[c/A17CFF:The All Is One] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Orro & Boro)
+	Tooltip: "[c/A17CFF:«The All Is One»] от BananaLizard"
 }
 
 PandoraEventBox: {
-	DisplayName: Music Box (Pandora's Box)
-	Tooltip: "[c/33C0A4:You Should Know Better] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ящик Пандоры)
+	Tooltip: "[c/33C0A4:«You Should Know Better»] от BananaLizard"
 }
 
 RaveyardBox: {
-	DisplayName: Music Box (Raveyard)
+	DisplayName: Музыкальная шкатулка (Тусоблище)
 	Tooltip:
 		'''
-		Placeable on ceilings and provides rainbow party light when turned on
-		[c/6FE4A5:Graveyard Without The G] by BananaLizard
+		Светится разными цветами при включении
+		Можно поставить только на потолке
+		[c/6FE4A5:«Graveyard Without The G»] от BananaLizard
 		'''
 }
 
@@ -2857,38 +2858,38 @@ RotGourdBox: {
 }
 
 SpiderCaveBox: {
-	DisplayName: Music Box (Spider Grotto)
-	Tooltip: "[c/A88554:It's Just Spider Stuff] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Паучья пещера)
+	Tooltip: "[c/A88554:«It's Just Spider Stuff»] от BananaLizard"
 }
 
 SpookyBiomeDayBox: {
-	DisplayName: Music Box (Spooky Forest Day)
-	Tooltip: "[c/FFBF00:Dead Trees...] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Дневной жуткий лес)
+	Tooltip: "[c/FFBF00:«Dead Trees...»] от BananaLizard"
 }
 
 SpookyBiomeNightBox: {
-	DisplayName: Music Box (Spooky Forest Night)
-	Tooltip: "[c/FFBF00:...And Yellow Grass] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ночной жуткий лес)
+	Tooltip: "[c/FFBF00:«...And Yellow Grass»] от BananaLizard"
 }
 
 SpookyBiomeRainBox: {
-	DisplayName: Music Box (Spooky Forest Rain)
-	Tooltip: "[c/FFBF00:Harvest Rainfall] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Дождь в жутком лесу)
+	Tooltip: "[c/FFBF00:«Harvest Rainfall»] от BananaLizard"
 }
 
 SpookyBiomeTownNightBox: {
-	DisplayName: Music Box (Spooky Forest Town Night)
-	Tooltip: "[c/AA19E3:Spooky Town Night] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ночной город в жутком лесу)
+	Tooltip: "[c/AA19E3:«Spooky Town Night»] от BananaLizard"
 }
 
 SpookyBiomeUGBox: {
-	DisplayName: Music Box (Spooky Forest Underground)
-	Tooltip: "[c/FFBF00:Spooky Spelunking] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Подземелье жуткого леса)
+	Tooltip: "[c/FFBF00:«Spooky Spelunking»] от BananaLizard"
 }
 
 SpookyHellBox: {
-	DisplayName: Music Box (Valley of Eyes)
-	Tooltip: "[c/E64565:Eyeballs] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Valley of Eyes)
+	Tooltip: "[c/E64565:«Eyeballs»] от BananaLizard"
 }
 
 SpookyMenuBox: {
@@ -3145,7 +3146,7 @@ BigBoneRelicItem: {
 }
 
 DaffodilRelicItem: {
-	DisplayName: Daffodil Relic
+	DisplayName: Реликвия Нарцисс
 	Tooltip: ""
 }
 
@@ -3653,7 +3654,7 @@ BoroTrophyItem: {
 }
 
 DaffodilTrophyItem: {
-	DisplayName: Daffodil Trophy
+	DisplayName: Трофей Нарцисс
 	Tooltip: ""
 }
 
@@ -3678,11 +3679,11 @@ SpookySpiritTrophyItem: {
 }
 
 RaveStarter: {
-	DisplayName: Rave Starter
+	DisplayName: Включатель тусовки
 	Tooltip:
 		'''
-		Starts the raveyard event when used at night
-		Testing Item
+		Начинает тусоблище при использовании ночью
+		Тестовый предмет
 		'''
 }
 
