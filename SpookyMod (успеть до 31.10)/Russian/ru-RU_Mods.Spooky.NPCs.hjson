@@ -48,14 +48,14 @@ BigBone: {
 	DisplayName: Big Bone
 
 	BossChecklistIntegration: {
-		SpawnInfo: Use [i:Spooky/Fertilizer] while standing nearby the giant flower pot in the catacombs.
+		SpawnInfo: Используйте [i:Spooky/Fertilizer] на гигантском цветочном горшке, расположенном на самом дне катакомб
 		DespawnMessage: All players have succumbed to big bone's wrath
 	}
 }
 
 //boss stuff
-BigFlowerPot.DisplayName: Giant Flower Pot
-BigFlower.DisplayName: Solar Flower
+BigFlowerPot.DisplayName: Гигантский цветочный горшок
+BigFlower.DisplayName: Солнечный цветок
 DefensiveFlower.DisplayName: Defensive Flower
 HealingFlower.DisplayName: Healing Flower
 CatacombGuardian.DisplayName: Catacomb Guardian
@@ -159,15 +159,15 @@ Sunflower1.DisplayName: Stalking Sunflower
 Sunflower3.DisplayName: Stalking Sunflower
 Sunflower2.DisplayName: Stalking Sunflower
 //pandora's box
-PandoraBox.DisplayName: Pandora's Box
-Bobbert.DisplayName: Bobbert
-Chester.DisplayName: Chester
-ChesterClub.DisplayName: Chester
-ChesterShield.DisplayName: Chester
-Sheldon.DisplayName: Sheldon
-SheldonShield.DisplayName: Sheldon
-Stitch.DisplayName: Stitch
-StitchWand.DisplayName: Stitch
+PandoraBox.DisplayName: Ящик Пандоры
+Bobbert.DisplayName: Бобберт
+Chester.DisplayName: Честер
+ChesterClub.DisplayName: Честер
+ChesterShield.DisplayName: Честер
+Sheldon.DisplayName: Шелдон
+SheldonShield.DisplayName: Шелдон
+Stitch.DisplayName: Стич
+StitchWand.DisplayName: Стич
 //cemetery
 BloatGhostBig.DisplayName: Дующийся призрак
 BloatGhostSmall.DisplayName: Призрак
