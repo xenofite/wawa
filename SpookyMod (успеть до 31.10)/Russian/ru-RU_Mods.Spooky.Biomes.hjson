@@ -9,56 +9,56 @@ SpookyBiomeUg: {
 }
 
 CemeteryBiome: {
-	DisplayName: Swampy Cemetery
-	TownNPCDialogueName: Swampy Cemetery
+	DisplayName: Болотистое кладбище
+	TownNPCDialogueName: болотистое кладбище
 }
 
 RaveyardBiome: {
-	DisplayName: Raveyard
-	TownNPCDialogueName: Raveyard
+	DisplayName: Посмертная туса //ТАКОЙ КЛЕВЫЙ КАЛАМБУР НУ ПОЧЕМУ ЕГО НЕЛЬЗЯ ПЕРЕВЕСТИ УЭЭЭ
+	TownNPCDialogueName: посмертная туса
 }
 
 CatacombBiome: {
-	DisplayName: Creepy Catacombs
-	TownNPCDialogueName: Creepy Catacombs
+	DisplayName: Катакомбы
+	TownNPCDialogueName: катакомбы
 }
 
 CatacombBiome2: {
-	DisplayName: Lower Catacombs
-	TownNPCDialogueName: Lower Catacombs
+	DisplayName: Глубины катакомб
+	TownNPCDialogueName: глубины катакомб
 }
 
 NoseTempleBiome: {
-	DisplayName: Temple of Moco
-	TownNPCDialogueName: the Temple of Moco
+	DisplayName: Храм Моко
+	TownNPCDialogueName: храм Моко
 }
 
 PandoraBoxBiome: {
-	DisplayName: Pandora's Box
-	TownNPCDialogueName: Pandora's Box
+	DisplayName: Ящик Пандоры
+	TownNPCDialogueName: Ящик Пандоры
 }
 
 SpookyHellBiome: {
-	DisplayName: Valley of Eyes
-	TownNPCDialogueName: Valley of Eyes
+	DisplayName: Долина глаз
+	TownNPCDialogueName: Долина глаз
 }
 
 SpookyHellEventBiome: {
-	DisplayName: Egg Incursion
-	TownNPCDialogueName: Egg Incursion
+	DisplayName: Яичное вторжение
+	TownNPCDialogueName: Яичное вторжение
 }
 
 SpookyHellLake: {
-	DisplayName: Lake of Blood
-	TownNPCDialogueName: Lake of Blood
+	DisplayName: Озеро крови
+	TownNPCDialogueName: озеро крови
 }
 
 SpiderCaveBiome: {
-	DisplayName: Spider Grotto
-	TownNPCDialogueName: Spider Grotto
+	DisplayName: Паучье ущелье
+	TownNPCDialogueName: паучье ущелье
 }
 
 HallucinationZone: {
-	DisplayName: Hallucination Encounter
-	TownNPCDialogueName: Hallucination Encounter
+	DisplayName: Галлюцинации
+	TownNPCDialogueName: галлюцинации
 }
