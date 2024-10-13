@@ -147,8 +147,8 @@ BrainyBuff: {
 }
 
 DaffodilHandBuff: {
-	DisplayName: Plant Hand
-	Description: The plant hand will punch your foes!
+	DisplayName: Рука-растение
+	Description: Рука-растение поразит ваших врагов!
 }
 
 EntityMinionBuff: {
@@ -222,8 +222,8 @@ ColumboBuff: {
 }
 
 FlyPetBuff: {
-	DisplayName: Cornelious the Fly
-	Description: He hovers around you menacingly
+	DisplayName: Корнелиус, муха
+	Description: Он угрожающе парит вокруг вас
 }
 
 FuzzBatPetBuff: {
@@ -317,8 +317,8 @@ MonumentMythosShatter: {
 }
 
 InchwormBuff: {
-	DisplayName: Pet Inchworm
-	Description: It wants your apple
+	DisplayName: Ручная гусеница
+	Description: Она хочет ваше яблоко
 }
 
 SlendermanPageBuff: {
