@@ -1,32 +1,32 @@
-BloomSlotLocked: This slot is currently locked!
+BloomSlotLocked: Эта ячейка заблокирована!
 
 LittleEyeBounties: {
-	Bounty1: I tried to make a wacky monster a while back to defend my lab from intruders and those other pesky creatures that live down here. But, after a few mishaps, it escaped my lab and ran off to who knows where. You should go and hunt it down... oh and bring a piece of it back for me as well!
-	Bounty2: I got bored one day and ordered a weird book from Spook-bay so I could experiment with human souls. But, the guy on the website I bought it from didn't tell me that the book was full of nefarious bandits. After opening the delivery box, the book flew up to me and unleashed those trouble-makers who proceeded to cause a bunch of property damage to my lab! I think you should go and put an end to those hooligans.
-	Bounty3: So a long time ago, I took up sewing as a hobby. I am actually really really good at it, because I'm usually just good at everything I do. I even used my finest and most luxurious felt I got on one of my special trips. The problem is I left it in my lab one day, and the next it was just completely gone. Do you think you could find it for me? That felt cost me a fortune!
-	Bounty4: Ever tried cloning yourself? It's actually really awesome, most of the time at least. What isn't so awesome is when your clone gets praised for being powerful even though I'm the one who made it! However, I am already great, so please go fight that evil horrible thing and make sure it stays dead.
-	Bounty5Locked: Defeat all three mechanical bosses to unlock the conditions for this bounty mission
-	Bounty5: Ever wonder why the giant egg has a shield on it? Its kinda my fault... I got really hungry one day and went to go look for a delicious breakfast, only to find a giant egg! Well I brought the wrong spellbook with me so instead of turning it into scrambled eggs, I empowered it and put a protective barrier over it. However, I may have found a way to destroy the barrier and I need your help...
-	Bounty1Condition: Bounty Mission: Find this monster in the Spooky Forest and defeat it
-	Bounty2Condition: Bounty Mission: Find this monster in the Swampy Cemetery and defeat it
-	Bounty3Condition: Bounty Mission: Find this monster in the Spider Grotto and defeat it
-	Bounty4Condition: Bounty Mission: Find this monster in the Valley of Eyes and defeat it
-	Bounty5Condition: Bounty Mission: Find the Giant Egg in the Valley of Eyes and open it
-	BountyAccept: Click to accept this bounty and receive an item to attract said monster
-	BountyWarning: You will not be able to accept another bounty until you finish this one!
-	Bounty5Accept: Click to accept this bounty and receive an item to open the giant egg
-	Bounty5Warning: Good Luck!
-	BountyAccepted: You cannot select another bounty until you complete your current one
-	BountyCompleted: You have completed this bounty!
-	BountyCompletedItem: Click this button to get the item to summon this monster if you'd like to rematch it
+	Bounty1: Я как-то раз пытался сделать себе монстрика, чтоб защищал мою лабораторию от гостей незваных и прочих тварей, что живут здесь. Но после некоторых... казусов... он взял и сбежал от меня куда глаза глядят! Иди, собственно, и поймай его... и принеси мне кусочек его плоти!
+	Bounty2: Мне как-то было скучно, и я заказал себе на ЖуткОзоне странноватый учебник по манипуляции человеческими душами. Жаль, что сволочи из техподдержки не предупредили меня, что вместе с книжкой в подарок идёт целая шайка бандитов! Стоило мне только открыть посылку, так на меня тут же выпрыгнула орава этих отморозков: сколько всего они мне попереломали, здесь такой бардак стоял, ты бы видел! Будь добр, найди этих хулиганов и покажи им, где раки зимуют.
+	Bounty3: В общем, недавно я нашёл себе новое хобби — вышивание. Обычно я хорош во всём, за что бы я не брался, но в вышивании... даже ты не поверишь, насколько я талантлив! Я решил даже использовать тот самый супер-пупер роскошный войлок, что я нашёл на одном из своих особых путешествий. Так к чему это я, как-то раз я на денёк вышел из своей лаборатории прогуляться, а как пришёл, смотрю: нет войлока! Сможешь помочь его найти? Он мне правда очень нужен!
+	Bounty4: Пытался когда-нибудь себя клонировать? Это реально офигеть как круто, ну, иногда... Вот что не круто, так это когда все вокруг начинают этого клона восхвалять за то, какой он сильный и всё такое. Это не смотря на то, что вообще-то я его создал, я тут самый сильный! Мне, однако, сейчас совсем не до этого, так что пойди и убей этого клона, да убедись дважды, что он мёртв, а то он, скотина, живучий.
+	Bounty5Locked: Одолейте всех механических боссов перед тем, как приступить к этому заданию.
+	Bounty5: Когда-нибудь задумывался над тем, почему это вокруг гигантского яйца такой мощный барьер? Это всё из-за меня... Однажды я проснулся голодным и вышел поискать себе чего поесть на завтрак, как тут вижу: огроменное яйцо! Но я, дурачина такая, взял с собой не ту книжку с заклинаниями. Вот и вместо того, чтобы пожарить себе вкусную яичницу, я повесил на него барьер. К счастью, я уже нашёл способ как этот барьер уничтожить, но для этого мне понадобится твоя помощь...
+	Bounty1Condition: Цель задания: найти этого монстра в жутком лесу и одолеть его.
+	Bounty2Condition: Цель задания: найти этого монстра на болотистом кладбище и одолеть его.
+	Bounty3Condition: Цель задания: найти этого монстра в паучьем ущелье и одолеть его.
+	Bounty4Condition: Цель задания: найти этого монстра в долине глаз и одолеть его.
+	Bounty5Condition: Цель задания: найти гигантское яйцо в долине глаз и растворить его барьер.
+	BountyAccept: Нажмите, чтобы начать задание и получить приманку на этого монстра
+	BountyWarning: Вы не сможете начать другое задание, пока не закончите это!
+	Bounty5Accept: Нажмите, чтобы начать задание и получить предмет, снимающий с яйца барьер
+	Bounty5Warning: Удачи!
+	BountyAccepted: Вы не можете начать другое задание, пока не закончите начатое
+	BountyCompleted: Вы успешно справились с этим заданием!
+	BountyCompletedItem: Нажмите, чтобы получить приманку на этого монстра, если хотите посражаться с ним ещё разок
 }
 
 EggEvent: {
-	EggEventBarProgress: Survive for:
-	EggEventBarDisplayName: Egg Incursion
+	EggEventBarProgress: Осталось прожить:
+	EggEventBarDisplayName: Яичное вторжение
 }
 
 PandoraBox: {
-	PandoraBoxBarDisplayName: Pandora's Box
-	PandoraBoxBarProgress: "Current Wave: "
+	PandoraBoxBarDisplayName: Ящик Пандоры
+	PandoraBoxBarProgress: "Текущая волна: "
 }
