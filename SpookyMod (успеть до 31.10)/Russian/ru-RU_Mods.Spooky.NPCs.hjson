@@ -211,7 +211,7 @@ LittleBone.DisplayName: Little Bone
 LittleBonePotTransform.DisplayName: Little Bone
 LittleBoneSleeping.DisplayName: Спящее растение
 LittleEye.DisplayName: Little Eye
-LittleEyeSleeping.DisplayName: Sleeping Eye
+LittleEyeSleeping.DisplayName: Спящий глаз
 Musicman.DisplayName: Musicman
 PartySkeleton1.DisplayName: Party Skeleton
 PartySkeleton2.DisplayName: Party Skeleton
@@ -384,8 +384,8 @@ BanditBook.DisplayName: Tome of Spirits
 BanditBruiser.DisplayName: Rarg
 BanditWizard.DisplayName: Greeny
 BanditPriest.DisplayName: Blueford
-EyeWizard.DisplayName: Bigger Eye
-EyeWizardClone.DisplayName: Bigger Eye Phantom
+EyeWizard.DisplayName: Большеглазый
+EyeWizardClone.DisplayName: Призрак Большеглазого
 EyeWizardOrb.DisplayName: Eye Orb
 FrankenGoblin.DisplayName: Frank the Goblin
 FrankenGoblinHandFront.DisplayName: Frank's Hand
