@@ -256,12 +256,12 @@ BossBagDaffodil: {
 }
 
 BossBagMoco: {
-	DisplayName: Мешок с сокровищами (Moco)
+	DisplayName: Мешок с сокровищами (Моко)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 BossBagOrroboro: {
-	DisplayName: Мешок с сокровищами (Orro & Boro)
+	DisplayName: Мешок с сокровищами (Орро и Боро)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -300,7 +300,7 @@ CottonSwab: {
 		'''
 		Не расходуется
 		Подозрительно большая ватная палочка
-		Begins the nose ritual when used at the nose god shrine
+		Начинает носовой ритуал при использовании в святилище носового бога
 		'''
 }
 
@@ -891,7 +891,7 @@ SpiritSword: {
 
 BananalizardHead: {
 	DisplayName: Маска BananaLizard
-	Tooltip: "'Отлично подходит для подражания внешности разработчиков спуки мода!'"
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 BanditHat: {
@@ -905,7 +905,7 @@ BigBoneMask: {
 }
 
 BoroMask: {
-	DisplayName: Boro Mask
+	DisplayName: Маска Боро
 	Tooltip: ""
 }
 
@@ -916,47 +916,47 @@ DaffodilMask: {
 
 DylanDoeHead: {
 	DisplayName: DylanDoe's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	Tooltip: "«Great for impersonating spooky mod devs!»"
 }
 
 FlowerPotHead: {
 	DisplayName: Flower Pot Head
-	Tooltip: "'That's not how you're supposed to use it'"
+	Tooltip: "«That's not how you're supposed to use it»"
 }
 
 HatHead: {
 	DisplayName: Hat in a River's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	Tooltip: "«Great for impersonating spooky mod devs!»"
 }
 
 KrakenHead: {
 	DisplayName: HugeKraken's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	Tooltip: "«Great for impersonating spooky mod devs!»"
 }
 
 LittleEyeHat: {
 	DisplayName: Little Eye's Wizard Hat
-	Tooltip: "'It is way too big for your head'"
+	Tooltip: "«It is way too big for your head»"
 }
 
 MocoMask: {
-	DisplayName: Moco Mask
+	DisplayName: Маска Моко
 	Tooltip: ""
 }
 
 OrroMask: {
-	DisplayName: Orro Mask
+	DisplayName: Маска Орро
 	Tooltip: ""
 }
 
 NoseCultistHood: {
-	DisplayName: Nose Cultist Hood
-	Tooltip: Disguise as a cultist when worn with the cultist robe
+	DisplayName: Капюшон носокультиста
+	Tooltip: Маскирует вас под культиста при ношении с мантией
 }
 
 NoseCultistRobe: {
-	DisplayName: Nose Cultist Robe
-	Tooltip: Disguise as a cultist when worn with the cultist hood
+	DisplayName: Мантия носокультиста
+	Tooltip: Маскирует вас под культиста при ношении с капюшоном
 }
 
 PartySkeletonSkull: {
@@ -966,7 +966,7 @@ PartySkeletonSkull: {
 
 DandyHead: {
 	DisplayName: Dandy's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	Tooltip: "«Great for impersonating spooky mod devs!»"
 }
 
 RotGourdMask: {
@@ -976,12 +976,12 @@ RotGourdMask: {
 
 SeasaltHead: {
 	DisplayName: Seasalt's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	Tooltip: "«Great for impersonating spooky mod devs!»"
 }
 
 SirenHead: {
 	DisplayName: Siren Head
-	Tooltip: "'Actual siren sounds not included'"
+	Tooltip: "«Actual siren sounds not included»"
 }
 
 SpookySpiritMask: {
@@ -991,12 +991,12 @@ SpookySpiritMask: {
 
 TacoHead: {
 	DisplayName: Taco's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	Tooltip: "«Great for impersonating spooky mod devs!»"
 }
 
 WaasephiHead: {
 	DisplayName: Waasephi's Mask
-	Tooltip: "'Great for impersonating spooky mod devs!'"
+	Tooltip: "«Great for impersonating spooky mod devs!»"
 }
 
 WarlockHood: {
@@ -1015,33 +1015,33 @@ ZomboidPyromancerHood: {
 }
 
 BoogerFish: {
-	DisplayName: Schnoz Fish
-	Tooltip: "'Caught in Valley of Eyes'"
+	DisplayName: Соплерыба
+	Tooltip: "«Водится в глазной долине»"
 }
 
 OrroEel: {
-	DisplayName: Orro Eel
-	Tooltip: "'Caught in Valley of Eyes'"
+	DisplayName: Орроугорь
+	Tooltip: "«Водится в глазной долине»"
 }
 
 GourdFish: {
 	DisplayName: Moldy Gourd Fish
-	Tooltip: "'Caught in Spooky Forest'"
+	Tooltip: "«Caught in Spooky Forest»"
 }
 
 HibiscusFish: {
 	DisplayName: Swimming Hibiscus
-	Tooltip: "'Caught in Creepy Catacombs'"
+	Tooltip: "«Caught in Creepy Catacombs»"
 }
 
 SpookySpiritFish: {
 	DisplayName: Spirit Cod
-	Tooltip: "'Caught in Swampy Cemetery'"
+	Tooltip: "«Caught in Swampy Cemetery»"
 }
 
 ZomboidFish: {
 	DisplayName: Zomboid Fish
-	Tooltip: "'Caught in Spooky Forest'"
+	Tooltip: "«Caught in Spooky Forest»"
 }
 
 BlackLicorice: {
@@ -1067,7 +1067,7 @@ CaramelApple: {
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		«Без понятия, как на этом яблоке появилась карамель»
+		«Без понятия, откуда на этом яблоке появилась карамель»
 		'''
 }
 
@@ -1147,11 +1147,11 @@ InchwormApple: {
 }
 
 MocoTissue: {
-	DisplayName: Suspicious Looking Tissue
+	DisplayName: Подозрительно выглядящий платок
 	Tooltip:
 		'''
-		Summons a pet mocling
-		'The most unsanitary tissue known to mankind'
+		Призывакт ручного мокита
+		«Самый антисанитарный кусочек ткани, известный человечеству»
 		'''
 }
 
@@ -1165,11 +1165,11 @@ OldSaddle: {
 }
 
 OrroboroRing: {
-	DisplayName: Orroboro Ring
+	DisplayName: Кольцо Орроборо
 	Tooltip:
 		'''
-		Summons an orro-boro ring
-		'Very hypnotic'
+		Призывает закольцовенных орро и боро
+		«Очень залипательно»
 		'''
 }
 
@@ -1286,11 +1286,11 @@ BountyItem3: {
 }
 
 BountyItem4: {
-	DisplayName: Decapitated Eye
+	DisplayName: Обезглавленный глаз
 	Tooltip:
 		'''
-		It's Bigger Eye's... head?
-		Bounty Quest Item
+		Это его... голова?
+		Предмет заданий по охоте
 		'''
 }
 
@@ -1895,7 +1895,7 @@ ShroomWhip: {
 }
 
 SkullWispStaff: {
-	DisplayName: Череп колудна-зомбоида
+	DisplayName: Череп колдуна-зомбоида
 	Tooltip:
 		'''
 		Призывает призрачные черепа, сражающиеся за вас
@@ -1922,25 +1922,25 @@ WarlockRobe: {
 }
 
 EyeBody: {
-	DisplayName: Living Flesh Chestmail
+	DisplayName: Нагрудник из живой плоти
 	Tooltip:
 		'''
-		20% increased whip range
-		Increases your max number of minions and sentries by 1
+		Увеличивает дальность хлыстов на 20%
+		Увеличивает максимальное число миньонов и стражей на 1
 		'''
 }
 
 EyeHead: {
-	DisplayName: Living Flesh Mask
-	Tooltip: 8% increased summon damage
+	DisplayName: Маска из живой плоти
+	Tooltip: Увеличивает урон призывателя на 8%
 }
 
 EyeLegs: {
-	DisplayName: Living Flesh Leggings
+	DisplayName: Ботинки из живой плоти
 	Tooltip:
 		'''
-		6% increased summon damage 
-		12% increased movement speed
+		Увеличивает урон призывателя на 6%
+		Увеличивает скорость передвижения на 12%
 		'''
 }
 
@@ -2069,13 +2069,13 @@ TotalOrganPackage: {
 }
 
 ArteryPiece: {
-	DisplayName: Living Artery
-	Tooltip: Filled with strange blood
+	DisplayName: Живая артерия
+	Tooltip: Наполненная странной кровью
 }
 
 CreepyChunk: {
 	DisplayName: Monster Meat
-	Tooltip: "'Looks almost edible!'"
+	Tooltip: "«Looks almost edible!»"
 }
 
 EyeValleyCompass: {
@@ -2303,12 +2303,12 @@ SentientSkullBook: {
 }
 
 SentientSphereStaff: {
-	DisplayName: Living Caduceus
+	DisplayName: Живой Кадуцей
 	Tooltip:
 		'''
-		Summons winged biomass chunks to attack foes
-		After attacking a single enemy for too long, the biomass will chase its target and explode
-		'Probably not a symbol of health'
+		Призывает комки крылатой биомассы, атакующие врагов
+		Если долго атаковать одно и того же врага, то биомасса влетит в него и взорвётся
+		«Вероятно, это не символ здоровья»
 		'''
 }
 
@@ -2604,7 +2604,7 @@ VinylSneaky: {
 
 BloomSoilItem: {
 	DisplayName: Цветущая почва
-	Tooltip: Позволяет сажать и выращивать на нём цветы
+	Tooltip: Позволяет сажать и выращивать на ней цветы
 }
 
 DandelionSeed: {
@@ -2764,7 +2764,7 @@ CatacombFlooringItem: {
 
 CatacombGrassSeeds: {
 	DisplayName: Семена мха катакомб
-	Tooltip: Позволяет посадить бох на серые и коричневые кирпичи катакомб камень
+	Tooltip: Сажает мох на серые и коричневые кирпичи катакомб
 }
 
 GildedBrickItem: {
@@ -2784,7 +2784,7 @@ CemeteryDirtItem: {
 
 CemeteryGrassSeeds: {
 	DisplayName: Семена травы кладбища
-	Tooltip: Позволяет посадить траву на почве болота
+	Tooltip: Сажает траву на почве болота
 }
 
 CemeteryStoneItem: {
@@ -2823,17 +2823,17 @@ EggEventBox: {
 }
 
 MocoBox: {
-	DisplayName: Музыкальная шкатулка (Moco)
+	DisplayName: Музыкальная шкатулка (Моко)
 	Tooltip: "[c/4DDE17:«And Yet The Snot-Nosed Bug Remains»] от BananaLizard"
 }
 
 NoseTempleBox: {
-	DisplayName: Музыкальная шкатулка (Temple of Moco)
+	DisplayName: Музыкальная шкатулка (Храм Моко)
 	Tooltip: "[c/EF5145:«Grand Sinus Corridors»] от BananaLizard"
 }
 
 OrroboroBox: {
-	DisplayName: Музыкальная шкатулка (Orro & Boro)
+	DisplayName: Музыкальная шкатулка (Орро и Боро)
 	Tooltip: "[c/A17CFF:«The All Is One»] от BananaLizard"
 }
 
@@ -2888,7 +2888,7 @@ SpookyBiomeUGBox: {
 }
 
 SpookyHellBox: {
-	DisplayName: Музыкальная шкатулка (Valley of Eyes)
+	DisplayName: Музыкальная шкатулка (Глазная долина)
 	Tooltip: "[c/E64565:«Eyeballs»] от BananaLizard"
 }
 
@@ -2903,235 +2903,223 @@ SpookySpiritBox: {
 }
 
 CultistBathtubItem: {
-	DisplayName: Occultist Bathtub
+	DisplayName: Оккультная ванна
 	Tooltip: ""
 }
 
 CultistBedItem: {
-	DisplayName: Occultist Bed
+	DisplayName: Оккультная кровать
 	Tooltip: ""
 }
 
 CultistBookcaseItem: {
-	DisplayName: Occultist Bookcase
+	DisplayName: Оккультный книжный шкаф
 	Tooltip: ""
 }
 
 CultistCandelabraItem: {
-	DisplayName: Occultist Candelabra
+	DisplayName: Оккультный подсвечник
 	Tooltip: ""
 }
 
 CultistCandleItem: {
-	DisplayName: Occultist Candle
+	DisplayName: Оккультная свеча
 	Tooltip: ""
 }
 
 CultistChairItem: {
-	DisplayName: Occultist Chair
+	DisplayName: Оккультный стул
 	Tooltip: ""
 }
 
 CultistChandelierItem: {
-	DisplayName: Occultist Chandelier
+	DisplayName: Оккультная люстра
 	Tooltip: ""
 }
 
 CultistChestItem: {
-	DisplayName: Occultist Chest
+	DisplayName: Оккультный сундук
 	Tooltip: ""
 }
 
 CultistClockItem: {
-	DisplayName: Occultist Clock
+	DisplayName: Оккультные напольные часы
 	Tooltip: ""
 }
 
 CultistDoorItem: {
-	DisplayName: Occultist Door
+	DisplayName: Оккультная дверь
 	Tooltip: ""
 }
 
 CultistDresserItem: {
-	DisplayName: Occultist Dresser
+	DisplayName: Оккультный комод
 	Tooltip: ""
 }
 
 CultistLampItem: {
-	DisplayName: Occultist Lamp
+	DisplayName: Оккультная напольная лампа
 	Tooltip: ""
 }
 
 CultistLanternItem: {
-	DisplayName: Occultist Lantern
+	DisplayName: Оккультный фонарь
 	Tooltip: ""
 }
 
 CultistSinkItem: {
-	DisplayName: Occultist Sink
+	DisplayName: Оккультная раковина
 	Tooltip: ""
 }
 
 CultistSofaItem: {
-	DisplayName: Occultist Sofa
+	DisplayName: Оккультный диван
 	Tooltip: ""
 }
 
 CultistTableItem: {
-	DisplayName: Occultist Table
+	DisplayName: Оккультный стол
 	Tooltip: ""
 }
 
 CultistWorkBenchItem: {
-	DisplayName: Occultist Work Bench
+	DisplayName: Оккультный верстак
 	Tooltip: ""
 }
 
 NoseTemplePlatformGreenItem: {
-	DisplayName: Green Occultist Platform
+	DisplayName: Зелёная оккультная платформа
 	Tooltip: ""
 }
 
 NoseTemplePlatformPurpleItem: {
-	DisplayName: Purple Occultist Platform
+	DisplayName: Фиолетовая оккультная платформа
 	Tooltip: ""
 }
 
 NoseTemplePlatformGrayItem: {
-	DisplayName: Gray Occultist Platform
+	DisplayName: Серая оккультная платформа
 	Tooltip: ""
 }
 
 NoseTemplePlatformRedItem: {
-	DisplayName: Red Occultist Platform
+	DisplayName: Красная оккультная платформа
 	Tooltip: ""
 }
 AmbushPaintingItem: {
-	DisplayName: Ambush
-	Tooltip: "'Hat in a River'"
+	DisplayName: Картина «Засада»
+	Tooltip: "«Hat in a River»"
 }
 BaxterPaintingItem: {
-	DisplayName: Portrait of Baxter
-	Tooltip: "'Waasephi'"
+	DisplayName: Картина «Портрет Бакстера»
+	Tooltip: "«Waasephi»"
 }
 FireExitSignItem: {
-	DisplayName: Fire Exit Sign
+	DisplayName: Знак пожарного выхода
 	Tooltip: ""
 }
 LuigiPaintingItem: {
-	DisplayName: Luigi
-	Tooltip: "'Waasephi'"
+	DisplayName: Картина «Луиджи»
+	Tooltip: "«Waasephi»"
 }
 MonalumboItem: {
-	DisplayName: The Mona-Lumbo
-	Tooltip: "'Waasephi'"
+	DisplayName: Картина «Моналимбо»
+	Tooltip: "«Waasephi»"
 }
 RedMistPaintingItem: {
-	DisplayName: Red Mist
-	Tooltip: "'RocketLauncher'"
+	DisplayName: Картина «Красный туман»
+	Tooltip: "«RocketLauncher»"
 }
 ShadowEyePaintingItem: {
-	DisplayName: The Eye
-	Tooltip: "'???'"
+	DisplayName: Картина «Глаз»
+	Tooltip: "«???»"
 }
 NoseTempleBrickGreenItem: {
-	DisplayName: Green Occultist Brick
+	DisplayName: Зелёный оккультный кирпич
 	Tooltip: ""
 }
 NoseTempleBrickPurpleItem: {
-	DisplayName: Purple Occultist Brick
+	DisplayName: Фиолетовый оккультный кирпич
 	Tooltip: ""
 }
 NoseTempleBrickGrayItem: {
-	DisplayName: Gray Occultist Brick
+	DisplayName: Серый оккультный кирпич
 	Tooltip: ""
 }
 NoseTempleBrickRedItem: {
-	DisplayName: Red Occultist Brick
+	DisplayName: Красный оккультный кирпич
 	Tooltip: ""
 }
 NoseTempleFancyBrickGreenItem: {
-	DisplayName: Green Occultist Slab
+	DisplayName: Зелёная оккультная плита
 	Tooltip: ""
 }
 NoseTempleFancyBrickPurpleItem: {
-	DisplayName: Purple Occultist Slab
+	DisplayName: Фиолетовая оккультная плита
 	Tooltip: ""
 }
 NoseTempleFancyBrickGrayItem: {
-	DisplayName: Gray Occultist Slab
+	DisplayName: Сера оккультная плита
 	Tooltip: ""
 }
 NoseTempleFancyBrickRedItem: {
-	DisplayName: Red Occultist Slab
+	DisplayName: Красная оккультная плита
 	Tooltip: ""
 }
 NoseTempleFancyWallGreenItem: {
-	DisplayName: Green Occultist Slab Wall
+	DisplayName: Стена из зелёной оккультной плиты
 	Tooltip: ""
 }
 NoseTempleFancyWallPurpleItem: {
-	DisplayName: Purple Occultist Slab Wall
+	DisplayName: Стена из фиолетовой оккультной плиты
 	Tooltip: ""
 }
 NoseTempleFancyWallGrayItem: {
-	DisplayName: Gray Occultist Slab Wall
+	DisplayName: Стена из серой оккультной плиты
 	Tooltip: ""
 }
 NoseTempleFancyWallRedItem: {
-	DisplayName: Red Occultist Slab Wall
+	DisplayName: Стена из красной оккультной плиты
 	Tooltip: ""
 }
 NoseTempleWallGreenItem: {
-	DisplayName: Green Occultist Brick Wall
+	DisplayName: Стена из зелёного оккультного кирпича
 	Tooltip: ""
 }
 NoseTempleWallPurpleItem: {
-	DisplayName: Purple Occultist Brick Wall
+	DisplayName: Стена из фиолетового оккультного кирпича
 	Tooltip: ""
 }
 NoseTempleWallGrayItem: {
-	DisplayName: Gray Occultist Brick Wall
+	DisplayName: Стена из серого оккультного кирпича
 	Tooltip: ""
 }
 NoseTempleWallRedItem: {
-	DisplayName: Red Occultist Brick Wall
+	DisplayName: Стена из красного оккультного кирпича
 	Tooltip: ""
 }
 
 CemeteryPylonItem: {
-	DisplayName: Swampy Cemetery Pylon
-	Tooltip:
-		'''
-		Teleport to another pylon when 2 villagers are nearby
-		You can only place one per type and in the matching biome
-		'''
+	DisplayName: Пилон болотного клидбища
+	Tooltip: "{$CommonItemTooltipTeleportationPylon}"
 }
 
 SpiderCavePylonItem: {
-	DisplayName: Spider Grotto Pylon
-	Tooltip:
-		'''
-		Teleport to another pylon when 2 villagers are nearby
-		You can only place one per type and in the matching biome
-		'''
+	DisplayName: Пилон паучей пещеры
+	Tooltip: "{$CommonItemTooltipTeleportationPylon}"
 }
 
 SpookyBiomePylonItem: {
-	DisplayName: Spooky Forest Pylon
-	Tooltip:
-		'''
-		Teleport to another pylon when 2 villagers are nearby
-		You can only place one per type and in the matching biome
-		'''
+	DisplayName: Пилон жуткого леса
+	Tooltip: "{$CommonItemTooltipTeleportationPylon}"
 }
 
 SpookyHellPylonItem: {
-	DisplayName: Valley of Eyes Pylon
+	DisplayName: Пилон глазной долины
 	Tooltip:
 		'''
-		This pylon can be teleported to regardless of how many villagers are nearby it
-		You can only place one per type and in the matching biome
+		На этот пилон можно телепортироваться независимо от количества жителей поблизости
+		Можно установить только один тип, совпадающий с биомом
 		'''
 }
 
@@ -3151,7 +3139,7 @@ DaffodilRelicItem: {
 }
 
 EyeWizardRelicItem: {
-	DisplayName: Bigger Eye Relic
+	DisplayName: Реликвия Большеглазого
 	Tooltip: ""
 }
 
@@ -3161,12 +3149,12 @@ FrankenGoblinRelicItem: {
 }
 
 MocoRelicItem: {
-	DisplayName: Moco Relic
+	DisplayName: Реликвия Моко
 	Tooltip: ""
 }
 
 OrroboroRelicItem: {
-	DisplayName: Orro & Boro Relic
+	DisplayName: Реликвия Орро и Боро
 	Tooltip: ""
 }
 
@@ -3186,13 +3174,13 @@ StitchSpiderRelicItem: {
 }
 
 SpiderCaveChestItem: {
-	DisplayName: Spider Grotto Chest
+	DisplayName: Сундук паучей пещеры
 	Tooltip: ""
 }
 
 DampGrassSeeds: {
 	DisplayName: Сырые семена травы
-	Tooltip: Позволяет посадить траву на сырую почву
+	Tooltip: Сажает траву на сырую почву
 }
 
 DampSoilItem: {
@@ -3415,7 +3403,7 @@ GourdYellowGreenCarvedLitItem: {
 
 MushroomMossSeeds: {
 	DisplayName: Семена грибного мха
-	Tooltip: Позволяет посадить грибной бох на замшелый камень
+	Tooltip: Сажает грибной мох на замшелый камень
 }
 
 SpookyDirtItem: {
@@ -3425,12 +3413,12 @@ SpookyDirtItem: {
 
 SpookySeedsGreen: {
 	DisplayName: Семена жуткой зелёной травы
-	Tooltip: Позволяет посадить зелёную траву на жуткую землю
+	Tooltip: Сажает зелёную траву на жуткую землю
 }
 
 SpookySeedsOrange: {
 	DisplayName: Семена жуткой оранжевой травы
-	Tooltip: Позволяет посадить оранжевую траву на жуткую землю
+	Tooltip: Сажает оранжевую траву на жуткую землю
 }
 
 SpookyStoneItem: {
@@ -3474,163 +3462,163 @@ EyeChestItem: {
 }
 
 SpookyHellChestItem: {
-	DisplayName: Eye Valley Chest
+	DisplayName: Сундук глазной долины
 	Tooltip: ""
 }
 
 SpookyHellCrate: {
-	DisplayName: Living Flesh Crate
+	DisplayName: Ящик живой плоти
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SpookyHellCrate2: {
-	DisplayName: Biomass Crate
+	DisplayName: Биомассовый ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 EyeBlockItem: {
-	DisplayName: Eye Block
+	DisplayName: Глазной блок
 	Tooltip: ""
 }
 
 EyeBathtubItem: {
-	DisplayName: Living Flesh Bathtub
+	DisplayName: Ванна из живой плоти
 	Tooltip: ""
 }
 
 EyeBedItem: {
-	DisplayName: Living Flesh Bed
+	DisplayName: Кровать из живой плоти
 	Tooltip: ""
 }
 
 EyeBookcaseItem: {
-	DisplayName: Living Flesh Bookcase
+	DisplayName: Книжный шкаф из живой плоти
 	Tooltip: ""
 }
 
 EyeCandelabraItem: {
-	DisplayName: Living Flesh Candelabra
+	DisplayName: Подсвечник из живой плоти
 	Tooltip: ""
 }
 
 EyeCandleItem: {
-	DisplayName: Living Flesh Candle
+	DisplayName: Свеча из живой плоти
 	Tooltip: ""
 }
 
 EyeChairItem: {
-	DisplayName: Living Flesh Chair
+	DisplayName: Стул из живой плоти
 	Tooltip: ""
 }
 
 EyeChandelierItem: {
-	DisplayName: Living Flesh Chandelier
+	DisplayName: Люстра из живой плоти
 	Tooltip: ""
 }
 
 EyeClockItem: {
-	DisplayName: Living Flesh Clock
+	DisplayName: Напольные часы из живой плоти
 	Tooltip: ""
 }
 
 EyeDoorItem: {
-	DisplayName: Living Flesh Door
+	DisplayName: Дверб из живой плоти
 	Tooltip: ""
 }
 
 EyeDresserItem: {
-	DisplayName: Living Flesh Dresser
+	DisplayName: Комод из живой плоти
 	Tooltip: ""
 }
 
 EyeLampItem: {
-	DisplayName: Living Flesh Lamp
+	DisplayName: Напольная лампа из живой плоти
 	Tooltip: ""
 }
 
 EyeLanternItem: {
-	DisplayName: Living Flesh Lantern
+	DisplayName: Фонарь из живой плоти
 	Tooltip: ""
 }
 
 EyePianoItem: {
-	DisplayName: Living Flesh Piano
+	DisplayName: Пианино из живой плоти
 	Tooltip: ""
 }
 
 EyePlatformItem: {
-	DisplayName: Living Flesh Platform
+	DisplayName: Платформа из живой плоти
 	Tooltip: ""
 }
 
 EyeSinkItem: {
-	DisplayName: Living Flesh Sink
+	DisplayName: Раковина из живой плоти
 	Tooltip: ""
 }
 
 EyeSofaItem: {
-	DisplayName: Living Flesh Sofa
+	DisplayName: Диван из живой плоти
 	Tooltip: ""
 }
 
 EyeTableItem: {
-	DisplayName: Living Flesh Table
+	DisplayName: Стол их живой плоти
 	Tooltip: ""
 }
 
 EyeWorkBenchItem: {
-	DisplayName: Living Flesh Work Bench
+	DisplayName: Верстак из живой плоти
 	Tooltip: ""
 }
 
 IconPainting1Item: {
-	DisplayName: Pumpkin Face
-	Tooltip: "'DylanDoe21'"
+	DisplayName: Картина «Лицо тыквы»
+	Tooltip: "«DylanDoe21»"
 }
 
 IconPainting2Item: {
-	DisplayName: Scary Logo
-	Tooltip: "'Honda'"
+	DisplayName: Картина «Пугающий логотип»
+	Tooltip: "«Honda»"
 }
 
 IconPainting3Item: {
-	DisplayName: Spooky Midnight
-	Tooltip: "'Hugekraken'"
+	DisplayName: Картина «Жуткая полночь»
+	Tooltip: "«Hugekraken»"
 }
 
 IconPainting4Item: {
-	DisplayName: Spooky Sunrise
-	Tooltip: "'Hugekraken'"
+	DisplayName: Картина «Жуткий рассвет»
+	Tooltip: "«Hugekraken»"
 }
 
 IconPainting5Item: {
-	DisplayName: Nose Cultist Portrait
-	Tooltip: "'Hugekraken'"
+	DisplayName: Картина «Портрет носокультиста»
+	Tooltip: "«Hugekraken»"
 }
 
 LittleEyePaintingItem: {
 	DisplayName: Little Eye's Self Portrait
-	Tooltip: "'Waasephi'"
+	Tooltip: "«Waasephi»"
 }
 
 LivingFleshItem: {
-	DisplayName: Living Flesh
+	DisplayName: Живая плоть
 	Tooltip: ""
 }
 
 LivingFleshWallItem: {
-	DisplayName: Living Flesh Wall
+	DisplayName: Стена из живой плоти
 	Tooltip: ""
 }
 
 SpookyMushItem: {
-	DisplayName: Organic Mush
+	DisplayName: Органическое месиво
 	Tooltip: ""
 }
 
 SpookyMushGrassSeeds: {
-	DisplayName: Flesh Grass Seeds
-	Tooltip: Plants flesh grass on Organic Mush
+	DisplayName: Семена мясной травы
+	Tooltip: Сажает мясную траву на органическое месиво
 }
 
 EyeSeed: {
@@ -3639,7 +3627,7 @@ EyeSeed: {
 }
 
 ValleyStoneItem: {
-	DisplayName: Valley Bone
+	DisplayName: Кость долины
 	Tooltip: ""
 }
 
@@ -3649,7 +3637,7 @@ BigBoneTrophyItem: {
 }
 
 BoroTrophyItem: {
-	DisplayName: Boro Trophy
+	DisplayName: Трофей Боро
 	Tooltip: ""
 }
 
@@ -3659,12 +3647,12 @@ DaffodilTrophyItem: {
 }
 
 MocoTrophyItem: {
-	DisplayName: Moco Trophy
+	DisplayName: Трофей Моко
 	Tooltip: ""
 }
 
 OrroTrophyItem: {
-	DisplayName: Orro Trophy
+	DisplayName: Трофей Орро
 	Tooltip: ""
 }
 
