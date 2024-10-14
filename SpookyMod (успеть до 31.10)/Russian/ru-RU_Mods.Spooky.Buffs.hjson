@@ -411,8 +411,8 @@ SentientKeybrandDebuff: {
 }
 
 WingedBiomassBuff: {
-	DisplayName: Winged Biomass
-	Description: The winged biomass is looking out for you
+	DisplayName: Крылатая биомасса
+	Description: Крылатая биомасса следит за вами
 }
 
 BillyBuff: {
