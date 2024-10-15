@@ -17,7 +17,7 @@ SpookySpirit: {
 }
 
 Moco: {
-	DisplayName: Moco
+	DisplayName: Моко
 
 	BossChecklistIntegration: {
 		SpawnInfo: Right click the nose shrine in the valley of eyes while you have a [i:Spooky/CottonSwab] in your inventory.
@@ -26,7 +26,7 @@ Moco: {
 }
 
 DaffodilEye: {
-	DisplayName: Daffodil
+	DisplayName: Нарцисс
 
 	BossChecklistIntegration: {
 		SpawnInfo: Throw a [i:Spooky/Brick] at her to wake her up.
@@ -35,10 +35,10 @@ DaffodilEye: {
 }
 
 OrroHead: {
-	DisplayName: Orro
+	DisplayName: Орро
 
 	BossChecklistIntegration: {
-		EntryName: Orro & Boro
+		EntryName: Орро и Боро
 		SpawnInfo: Right click the egg in the valley of eyes while you have the [i:Spooky/Concoction] in your inventory, after you have completed the Egg Incursion event.
 		DespawnMessage: Orro & Boro have protected their egg
 	}
@@ -48,7 +48,7 @@ BigBone: {
 	DisplayName: Big Bone
 
 	BossChecklistIntegration: {
-		SpawnInfo: Используйте [i:Spooky/Fertilizer] на гигантском цветочном горшке, расположенном на самом дне катакомб
+		SpawnInfo: Используйте [i:Spooky/Fertilizer] возле гигантского цветочного горшка, расположенного на самом дне катакомб
 		DespawnMessage: All players have succumbed to big bone's wrath
 	}
 }
@@ -64,25 +64,25 @@ DaffodilBody.DisplayName: ""
 DaffodilHandLeft.DisplayName: Нарцисс
 DaffodilHandRight.DisplayName: Нарцисс
 DaffodilArenaBG.DisplayName: ""
-MoclingMinion.DisplayName: Mocling
-MocoIntro.DisplayName: Mocling
-MocoOutro.DisplayName: Mocling
+MoclingMinion.DisplayName: Моклинок
+MocoIntro.DisplayName: Моклинок
+MocoOutro.DisplayName: Моклинок
 MocoSpawner.DisplayName: ""
-BoroBody.DisplayName: Boro
-BoroBodyConnect.DisplayName: Boro
-BoroBodyWings.DisplayName: Boro
-BoroBodyWingsP1.DisplayName: Boro
-BoroBodyP1.DisplayName: Boro
-BoroHead.DisplayName: Boro
-BoroTail.DisplayName: Boro
-BoroTailP1.DisplayName: Boro
-OrroBody.DisplayName: Orro
-OrroBodyWings.DisplayName: Orro
-OrroBodyWingsP1.DisplayName: Orro
-OrroBodyP1.DisplayName: Orro
-OrroHeadP1.DisplayName: Orro
-OrroTail.DisplayName: Orro
-BoroTongue.DisplayName: Boro's Tongue
+BoroBody.DisplayName: Боро
+BoroBodyConnect.DisplayName: Боро
+BoroBodyWings.DisplayName: Боро
+BoroBodyWingsP1.DisplayName: Боро
+BoroBodyP1.DisplayName: Боро
+BoroHead.DisplayName: Боро
+BoroTail.DisplayName: Боро
+BoroTailP1.DisplayName: Боро
+OrroBody.DisplayName: Орро
+OrroBodyWings.DisplayName: Орро
+OrroBodyWingsP1.DisplayName: Орро
+OrroBodyP1.DisplayName: Орро
+OrroHeadP1.DisplayName: Орро
+OrroTail.DisplayName: Орро
+BoroTongue.DisplayName: Язык Боро
 PhantomSkull.DisplayName: Призрачный череп
 OrbitingBooger.DisplayName: Booger Ball
 //hallucinations
@@ -213,14 +213,14 @@ LittleBoneSleeping.DisplayName: Спящее растение
 LittleEye.DisplayName: Little Eye
 LittleEyeSleeping.DisplayName: Спящий глаз
 Musicman.DisplayName: Musicman
-PartySkeleton1.DisplayName: Party Skeleton
-PartySkeleton2.DisplayName: Party Skeleton
-PartySkeleton3.DisplayName: Party Skeleton
-PartySkeleton4.DisplayName: Party Skeleton
-PartySkeleton5.DisplayName: Party Skeleton
-PartySkeleton6.DisplayName: Party Skeleton
-PartySkeleton7.DisplayName: Party Skeleton
-PartySkeleton8.DisplayName: Party Skeleton
+PartySkeleton1.DisplayName: Тусоскелет
+PartySkeleton2.DisplayName: Тусоскелет
+PartySkeleton3.DisplayName: Тусоскелет
+PartySkeleton4.DisplayName: Тусоскелет
+PartySkeleton5.DisplayName: Тусоскелет
+PartySkeleton6.DisplayName: Тусоскелет
+PartySkeleton7.DisplayName: Тусоскелет
+PartySkeleton8.DisplayName: Тусоскелет
 SkeletonBouncer.DisplayName: Skeleton Bouncer
 SuspiciousSkeleton.DisplayName: Suspicious Skeleton
 OldHunterSleeping.DisplayName: Старый охотник
@@ -274,9 +274,9 @@ PuttyPumpkinling.DisplayName: Мастичная тыковка
 PuttySlime1.DisplayName: Мастичный слизень
 PuttySlime2.DisplayName: Мастичный слизень
 PuttySlime3.DisplayName: Мастичный слизень
-ScarecrowShotgunner.DisplayName: Possessed Scarecrow
-ShroomHopper.DisplayName: Shroom Hopper
-SpookyDance.DisplayName: Spooky Dance Ghost
+ScarecrowShotgunner.DisplayName: Одержимое пугало
+ShroomHopper.DisplayName: Грибной прыгунчик
+SpookyDance.DisplayName: Жуткий тансующий призрак
 TinyGhost1.DisplayName: Приведеньеце
 TinyGhost2.DisplayName: Приведеньеце
 TinyGhostBoof.DisplayName: Приведеньеце
@@ -337,10 +337,10 @@ Mosquito2.DisplayName: Москит
 Mosquito3.DisplayName: Москит
 Moth1.DisplayName: Моль
 Moth2.DisplayName: Моль
-OrbWeaver1.DisplayName: Шаровой ткач
-OrbWeaver2.DisplayName: Шаровой ткач
-OrbWeaver3.DisplayName: Шаровой ткач
-OrbWeaverGiant.DisplayName: Гигантский шаровой ткач
+OrbWeaver1.DisplayName: Шароткач
+OrbWeaver2.DisplayName: Шароткач
+OrbWeaver3.DisplayName: Шароткач
+OrbWeaverGiant.DisplayName: Гигантский шароткач
 TarantulaHawk1.DisplayName: Тарантуловый ястреб
 TarantulaHawk2.DisplayName: Тарантуловый ястреб
 TarantulaHawk3.DisplayName: Тарантуловый ястреб
@@ -363,24 +363,24 @@ MocoIdol3.DisplayName: ""
 MocoIdol4.DisplayName: ""
 MocoIdol5.DisplayName: ""
 MocoIdol6.DisplayName: ""
-NoseBallPurple.DisplayName: Nolegam
-NoseBallRed.DisplayName: Nolegam
+NoseBallPurple.DisplayName: Нелегам
+NoseBallRed.DisplayName: Нелегам
 NoseCultistBruteIdle.DisplayName: ""
-NoseCultistBrute.DisplayName: Cultist Brute
+NoseCultistBrute.DisplayName: Культист-палач
 NoseCultistGruntIdle.DisplayName: ""
-NoseCultistGrunt.DisplayName: Cultist Grunt
+NoseCultistGrunt.DisplayName: Культист-пехотинец
 NoseCultistGunnerIdle.DisplayName: ""
-NoseCultistGunner.DisplayName: Cultist Gunner
+NoseCultistGunner.DisplayName: Культист-стрелок
 NoseCultistMageIdle.DisplayName: ""
-NoseCultistMage.DisplayName: Cultist Conjurer
+NoseCultistMage.DisplayName: Культист-заклинатель
 NoseCultistWingedIdle.DisplayName: ""
-NoseCultistWinged.DisplayName: Cultist Flier
+NoseCultistWinged.DisplayName: Культист-лётчик
 NoseCultistLeaderIdle.DisplayName: ""
-NoseCultistLeader.DisplayName: Noseferatu
-SnotMonster.DisplayName: Snot Monster
-SnotSlime.DisplayName: Snot Slime
+NoseCultistLeader.DisplayName: Нософерат
+SnotMonster.DisplayName: Соплевой монстр
+SnotSlime.DisplayName: Соплевой слизень
 //quest minibosses
-BanditBook.DisplayName: Tome of Spirits
+BanditBook.DisplayName: Том духов
 BanditBruiser.DisplayName: Rarg
 BanditWizard.DisplayName: Greeny
 BanditPriest.DisplayName: Blueford
@@ -391,4 +391,4 @@ FrankenGoblin.DisplayName: Frank the Goblin
 FrankenGoblinHandFront.DisplayName: Frank's Hand
 FrankenGoblinHandBack.DisplayName: Frank's Hand
 FrankenGoblinEye.DisplayName: Monster Eye
-StitchSpider.DisplayName: Stitches
+StitchSpider.DisplayName: Сшиватель
