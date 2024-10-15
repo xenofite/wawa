@@ -4,8 +4,8 @@ CemeteryBiomeChest: {
 }
 
 SpiderCaveChest: {
-	MapEntry0: Сундук паучьего ущелья
-	MapEntry1: Закрытый сундук паучьего ущелья
+	MapEntry0: Сундук паучей пещеры
+	MapEntry1: Закрытый сундук паучей пещеры
 }
 
 SpookyBiomeChest: {
@@ -14,8 +14,8 @@ SpookyBiomeChest: {
 }
 
 SpookyHellChest: {
-	MapEntry0: Глазастый сундук
-	MapEntry1: Закрытый глазастый сундук
+	MapEntry0: Cундук глазной долины
+	MapEntry1: Закрытый сундук глазной долины
 }
 
 EyeDresser: {
@@ -24,7 +24,7 @@ EyeDresser: {
 }
 
 CultistDresser: {
-	ContainerName: Комод оккультистов
+	ContainerName: Оккультный камод
 	MapEntry: Комод
 }
 
@@ -75,12 +75,12 @@ Cauldron.MapEntry: Жуткий котёл
 EyeBathtub.MapEntry: Ванна
 EyeBed.MapEntry: Кровать
 EyeBookcase.MapEntry: Книжный шкаф
-EyeCandelabra.MapEntry: Канделябр
+EyeCandelabra.MapEntry: Подсвечник
 EyeCandle.MapEntry: Свеча
 EyeChair.MapEntry: Стул
 EyeChandelier.MapEntry: Люстра
 EyeChest.MapEntry: Сундук-монстр
-EyeClock.MapEntry: Часы
+EyeClock.MapEntry: Напольные часы
 EyeDoorClosed.MapEntry: Дверь
 EyeDoorOpen.MapEntry: Дверь
 EyeLamp.MapEntry: Лампа
@@ -105,16 +105,16 @@ GiantRoot.MapEntry: Гигантский корень
 GraveShovelTile.MapEntry: Лопата гробовщика
 TallMushroom.MapEntry: Высокий гриб
 TinyGhostJar.MapEntry: Банка с маленьким призраком
-TinyMushroomCage.MapEntry: Террариум с маленьким грибочком
+TinyMushroomCage.MapEntry: Террариум с грибочком
 CultistBathtub.MapEntry: Ванна
 CultistBed.MapEntry: Кровать
 CultistBookcase.MapEntry: Книжный шкаф
-CultistCandelabra.MapEntry: Канделябр
+CultistCandelabra.MapEntry: Подсвечник
 CultistCandle.MapEntry: Свеча
 CultistChair.MapEntry: Стул
 CultistChandelier.MapEntry: Люстра
 CultistChest.MapEntry: Сундук
-CultistClock.MapEntry: Часы
+CultistClock.MapEntry: Напольные часы
 CultistDoorClosed.MapEntry: Дверь
 CultistDoorOpen.MapEntry: Дверь
 CultistLamp.MapEntry: Лампа
