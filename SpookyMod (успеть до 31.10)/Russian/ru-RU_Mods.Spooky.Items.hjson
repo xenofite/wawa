@@ -2804,7 +2804,7 @@ CatacombBox2: {
 }
 
 CemeteryBox: {
-	DisplayName: Музыкальная шкатулка (Болотное кладбище)
+	DisplayName: Музыкальная шкатулка (Болотистое кладбище)
 	Tooltip: "[c/6E9E3B:«A Boneyard Too Far»] от BananaLizard"
 }
 
@@ -3096,7 +3096,7 @@ NoseTempleWallRedItem: {
 }
 
 CemeteryPylonItem: {
-	DisplayName: Пилон болотного клидбища
+	DisplayName: Пилон болотистого клидбища
 	Tooltip: "{$CommonItemTooltipTeleportationPylon}"
 }
 
