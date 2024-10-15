@@ -1,8 +1,8 @@
 SpookyConfig: {
-	DisplayName: Spooky Mod Client Config
+	DisplayName: Клиентские настройки
 
 	SpookyForestSpawn: {
-		Label: Spooky Forest at Spawn
+		Label: Жуткий лес в центре мира
 		Tooltip:
 			'''
 			Changes the location of where the spooky forest is placed during world generation
@@ -48,10 +48,10 @@ SpookyConfig: {
 }
 
 SpookyServerConfig: {
-	DisplayName: Spooky Mod Server Config
+	DisplayName: Серверные настройки
 
 	HalloweenEnabled: {
-		Label: Halloween Season
+		Label: Сезон Хэллоуина
 		Tooltip:
 			'''
 			Spooky mod, by default, makes terraria's halloween seasonal event always active as a quality of life feature
