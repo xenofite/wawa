@@ -24,8 +24,8 @@ CatacombBiome: {
 }
 
 CatacombBiome2: {
-	DisplayName: Глубины катакомб
-	TownNPCDialogueName: глубины катакомб
+	DisplayName: Нижние катакомбы
+	TownNPCDialogueName: нижние катакомбы
 }
 
 NoseTempleBiome: {
@@ -39,23 +39,23 @@ PandoraBoxBiome: {
 }
 
 SpookyHellBiome: {
-	DisplayName: Долина глаз
-	TownNPCDialogueName: Долина глаз
+	DisplayName: Глазная долина
+	TownNPCDialogueName: глазная долина
 }
 
 SpookyHellEventBiome: {
-	DisplayName: Яичное вторжение
-	TownNPCDialogueName: Яичное вторжение
+	DisplayName: Яичное нашествие
+	TownNPCDialogueName: яичное нашествие
 }
 
 SpookyHellLake: {
-	DisplayName: Озеро крови
-	TownNPCDialogueName: озеро крови
+	DisplayName: Кровавое озеро
+	TownNPCDialogueName: кровавое озеро
 }
 
 SpiderCaveBiome: {
-	DisplayName: Паучье ущелье
-	TownNPCDialogueName: паучье ущелье
+	DisplayName: Паучья пещера
+	TownNPCDialogueName: паучья пещера
 }
 
 HallucinationZone: {
