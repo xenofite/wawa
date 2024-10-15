@@ -814,11 +814,11 @@ Creepypasta: {
 }
 
 CemeteryKey: {
-	DisplayName: Swampy Cemetery Key
+	DisplayName: Кладбищенский ключ
 	Tooltip:
 		'''
-		Unlocks a cemetery chest in the dungeon
-		Cannot be used until plantera has been defeated
+		Отпирает клабещенский ключ в темнице
+		Не может быть использован до победы над Плантерой
 		'''
 }
 
@@ -915,8 +915,8 @@ DaffodilMask: {
 }
 
 DylanDoeHead: {
-	DisplayName: DylanDoe's Mask
-	Tooltip: "«Great for impersonating spooky mod devs!»"
+	DisplayName: Маска DylanDoe
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 FlowerPotHead: {
@@ -925,13 +925,13 @@ FlowerPotHead: {
 }
 
 HatHead: {
-	DisplayName: Hat in a River's Mask
-	Tooltip: "«Great for impersonating spooky mod devs!»"
+	DisplayName: Маска Hat in a River
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 KrakenHead: {
-	DisplayName: HugeKraken's Mask
-	Tooltip: "«Great for impersonating spooky mod devs!»"
+	DisplayName: Маска HugeKraken
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 LittleEyeHat: {
@@ -965,8 +965,8 @@ PartySkeletonSkull: {
 }
 
 DandyHead: {
-	DisplayName: Dandy's Mask
-	Tooltip: "«Great for impersonating spooky mod devs!»"
+	DisplayName: Маска Dandy
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 RotGourdMask: {
@@ -975,8 +975,8 @@ RotGourdMask: {
 }
 
 SeasaltHead: {
-	DisplayName: Seasalt's Mask
-	Tooltip: "«Great for impersonating spooky mod devs!»"
+	DisplayName: Маска Seasalt
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 SirenHead: {
@@ -990,13 +990,13 @@ SpookySpiritMask: {
 }
 
 TacoHead: {
-	DisplayName: Taco's Mask
-	Tooltip: "«Great for impersonating spooky mod devs!»"
+	DisplayName: Маска Taco
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 WaasephiHead: {
-	DisplayName: Waasephi's Mask
-	Tooltip: "«Great for impersonating spooky mod devs!»"
+	DisplayName: Маска Waasephi
+	Tooltip: "«Отлично подходит для подражания внешности разработчиков спуки мода!»"
 }
 
 WarlockHood: {
@@ -1072,11 +1072,11 @@ CaramelApple: {
 }
 
 EyeChocolate: {
-	DisplayName: Eye Chocolate
+	DisplayName: Глаз из шоколада
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'Very soft and chewy'
+		{$BuffDescription.WellFed}
+		«Мягкая жевательная конфетка»
 		'''
 }
 
@@ -1094,17 +1094,17 @@ FrankenMarshmallow: {
 	DisplayName: Франкеншмэллоу
 	Tooltip:
 		'''
-		{$BuffDescription.WellFed_Expert}
+		{$BuffDescription.WellFed}
 		«Жевательная мерзость»
 		'''
 }
 
 GoofyPretzel: {
-	DisplayName: Goofy Pretzel
+	DisplayName: Странный крендель
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'It looks disturbed, hope it isn't alive'
+		{$BuffDescription.WellFed}
+		«Выглядит неправильно. Надеюсь, оно не живое»
 		'''
 }
 
@@ -1156,12 +1156,8 @@ MocoTissue: {
 }
 
 OldSaddle: {
-	DisplayName: Old Saddle
-	Tooltip:
-		'''
-		Summons a rideable trapdoor spider mount
-		Allows you to traverse on walls and ceilings
-		'''
+	DisplayName: Старое седло
+	Tooltip: Призывает ездового тарантула, который может ползать по стенам и потолку
 }
 
 OrroboroRing: {
@@ -1203,8 +1199,8 @@ RottenGourd: {
 }
 
 SkullKey: {
-	DisplayName: Skull Key
-	Tooltip: Summons a pet skull to float above you
+	DisplayName: Черепной ключ
+	Tooltip: Призывает ручной череп, который будет летать за вами
 }
 
 SkullSeed: {
@@ -1249,8 +1245,8 @@ SuspiciousBrownie: {
 }
 
 ValleyNautilusShell: {
-	DisplayName: Claret Shell
-	Tooltip: Summons a baby cephalopod pet
+	DisplayName: Винно-кровавая ракушка
+	Tooltip: Призывает маленького моллюска
 }
 
 YellowSpore: {
@@ -1259,29 +1255,29 @@ YellowSpore: {
 }
 
 BountyItem1: {
-	DisplayName: Goblin's Tongue
+	DisplayName: Язык гоблина
 	Tooltip:
 		'''
-		An abnormally long human-like tongue
-		Bounty Quest Item
+		Ненормально длинный человекоподобный язык
+		Предмет заданий по охоте
 		'''
 }
 
 BountyItem2: {
-	DisplayName: Tattered Tome
+	DisplayName: Порванная книга
 	Tooltip:
 		'''
-		Should probably never be opened ever again
-		Bounty Quest Item
+		Наверное, её стоит больше никогда не открывать
+		Предмет заданий по охоте
 		'''
 }
 
 BountyItem3: {
-	DisplayName: Stitched Fabric
+	DisplayName: Сшитый платок
 	Tooltip:
 		'''
-		Little Eye's extremely expensive fabric
-		Bounty Quest Item
+		Очень дорогой платок Глазика
+		Предмет заданий по охоте
 		'''
 }
 
@@ -1324,14 +1320,13 @@ SewingThread: {
 }
 
 StitchedCloak: {
-	DisplayName: Stitched Cloak
+	DisplayName: Сшитый плащ
 	Tooltip:
 		'''
-		Increases your movement acceleration
-		Double tap Left or Right to dash horizontally
-		Double tap Up or Down to dash vertically
-		Dashing will leave behind a spider web that can trap enemies and damage them
-		You will not be able to use this dash again for a bit once used
+		Увеличивает скорость ускорения
+		Нажмите дважды в нужном направлении, чтобы сделать рывок по горизонтали или вертикали
+		Рывки оставляют за собой паутину, которая зацепляет врагов, нанося им урон
+		Рывок плаща имеет 9 секунд перезарядки
 		'''
 }
 
@@ -1459,17 +1454,17 @@ SpiderChitin: {
 }
 
 SpiderKey: {
-	DisplayName: Spider Grotto Key
+	DisplayName: Паучий ключ
 	Tooltip:
 		'''
-		Unlocks a spider chest in the dungeon
-		Cannot be used until plantera has been defeated
+		Отпирает паучий сундук в темнице
+		Не может быть использован до победы над Плантерой
 		'''
 }
 
 BoneBow: {
-	DisplayName: Bone Bender
-	Tooltip: Fires piercing bones that ignore 50% of enemy defense
+	DisplayName: Костоправ
+	Tooltip: Стреляют костями, которые пробивают врагов и игнорируют 50% их защиты
 }
 
 GodGun: {
@@ -1542,8 +1537,8 @@ OrbWeaverShield: {
 }
 
 OrbWeaverStaff: {
-	DisplayName: Staff of the Weaver
-	Tooltip: Summons an orb weaver spider sentry to shoot spikes around it
+	DisplayName: Посох ткача
+	Tooltip: Призывает стража-шароткача, который будет разбрасывать шипы во все стороны
 }
 
 PheromoneWhip: {
@@ -1557,8 +1552,8 @@ PheromoneWhip: {
 }
 
 SphiderFlail: {
-	DisplayName: Swingable Sphider
-	Tooltip: Spits out web blobs while being swung
+	DisplayName: Раскручивающийся пауг
+	Tooltip: Раскидывает комки паутины во все стороны при раскрутке
 }
 
 SpiderCrossbow: {
@@ -1632,12 +1627,12 @@ VenomHarpoon: {
 
 GourdBody: {
 	DisplayName: Нагрудник прогнившей тыквы
-	Tooltip: Увеличивает урон в ближнем бою на 5%
+	Tooltip: Увеличивает урон ближнего боя на 5%
 }
 
 GourdHead: {
 	DisplayName: Голова прогнившей тыквы
-	Tooltip: Увеличивает шанс критического удара в ближнем бою на 5%
+	Tooltip: Увеличивает шанс критического удара ближнего боя на 5%
 }
 
 GourdLegs: {
@@ -1724,11 +1719,11 @@ ShroomHopperItem: {
 }
 
 SpookyBiomeKey: {
-	DisplayName: Spooky Forest Key
+	DisplayName: Жуткий ключ
 	Tooltip:
 		'''
-		Unlocks a spooky chest in the dungeon
-		Cannot be used until plantera has been defeated
+		Отпирает жуткий сундук в темнице
+		Не может быть использован до победы над Плантерой
 		'''
 }
 
@@ -1945,44 +1940,44 @@ EyeLegs: {
 }
 
 GoreBody: {
-	DisplayName: Gore Chestplate
+	DisplayName: Нагрудник запёкшейся крови
 	Tooltip:
 		'''
-		10% increased damage
-		12% increased critical strike chance
-		Enemies are more likely to target you
+		Увеличивает урон на 10%
+		Увеличивает шанс критичского удара на 12%
+		Враги чаще выбирают вас в качестве цели
 		'''
 }
 
 GoreHoodEye: {
-	DisplayName: Gore Mask
+	DisplayName: Маска запёкшейся крови
 	Tooltip:
 		'''
-		20% increased magic and summon damage
-		10% reduced mana usage 
-		Increases your max minions by 2
-		Enemies are more likely to target you
+		Увеличивает магический урон и урона призывателя на 20%
+		Снижает расход маны на 10%
+		Увеличивает максимальное число миньонов на 2
+		Враги чаще выбирают вас в качестве цели
 		'''
 }
 
 GoreHoodMouth: {
-	DisplayName: Gore Hood
+	DisplayName: Капюшон запёкшейся крови
 	Tooltip:
 		'''
-		20% increased melee and ranged damage
-		12% increased melee speed 
-		10% chance to save ammo
-		Enemies are more likely to target you
+		Увеличивает урон ближнего боя и стрелковый урон на 20%
+		Увеличивает скорость ближнего боя на 12%
+		Увеличивает шанс не потратить боеприпасы на 10%
+		Враги чаще выбирают вас в качестве цели
 		'''
 }
 
 GoreLegs: {
-	DisplayName: Gore Robe
+	DisplayName: Мантия запёкшейся крови
 	Tooltip:
 		'''
-		20% increased movement speed
-		5% increased critical strike chance
-		Enemies are more likely to target you
+		Увеличивает скорость передвижения на 20%
+		Увеличивает шанс критического удара на 5%
+		Враги чаще выбирают вас в качестве цели
 		'''
 }
 
@@ -2074,8 +2069,8 @@ ArteryPiece: {
 }
 
 CreepyChunk: {
-	DisplayName: Monster Meat
-	Tooltip: "«Looks almost edible!»"
+	DisplayName: Мясо монстра
+	Tooltip: "«Выглядит почти съедобно!»"
 }
 
 EyeValleyCompass: {
@@ -2103,11 +2098,11 @@ SnotGlob: {
 }
 
 SpookyHellKey: {
-	DisplayName: Eye Valley Key
+	DisplayName: Глазной ключ
 	Tooltip:
 		'''
-		Unlocks an eye chest in the dungeon
-		Cannot be used until plantera has been defeated
+		Отпирает глазной ключ в темнице
+		Не может быть использован до победы над Плантерой
 		'''
 }
 
@@ -2158,12 +2153,12 @@ SentientChik: {
 }
 
 SentientChumCaster: {
-	DisplayName: Goblin Shark Rod
+	DisplayName: Акулогоблинская удочка
 	Tooltip:
 		'''
-		Fish with two bobbers at once
-		Able to catch dangerous creatures from the blood lake
-		'It snarls at you'
+		Запускает два поплавка за раз
+		Способна вылавливать чудовищ из кровавого озера
+		«Она рычит на вас»
 		'''
 }
 
@@ -2417,73 +2412,74 @@ BrainJar: {
 }
 
 FleshAxe: {
-	DisplayName: Flesh Mincer
-	Tooltip: Deals more damage to enemies at low health
+	DisplayName: Мясоизмельчитель
+	Tooltip: Наносит больше урона врагам с низким показателем здоровья
 }
 
 FleshBow: {
-	DisplayName: Seer
+	DisplayName: Ясновидящий
 	Tooltip:
 		'''
-		Converts arrows into clots of blood
-		Every 10th shot will fire out a homing eye
+		Превращает любые стрелы в сгустки крови
+		Каждый десятый выстрел будет выпускать самонаводящийся глаз
 		'''
 }
 
 FleshStaff: {
-	DisplayName: Retina Staff
+	DisplayName: Посох сетчатки
 	Tooltip:
 		'''
-		Casts eyes that follow your cursor while holding left click
-		Release left click to fling the eyes, dealing double their original damage
-		Only up to 5 eyes can be active at once
+		Выпускают летающие глаза, которые собираются возле курсора при зажатии ЛКМ
+		Отпустив ЛКМ, вылетевшие глаза нанесут удвоенный урон
+		Одновременно может быть выпущено только 5 глаз
 		'''
 }
 
 FleshWhip: {
-	DisplayName: Eye Lasher
+	DisplayName: Глазной лазер
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Hitting enemies may lower their defense for a short time
+		{$CommonItemTooltip.Whips}
+		Попадание по врагу может ненадолго снизить его защиту
 		'''
 }
 
 LivingFleshAxe: {
-	DisplayName: Living Flesh Mincer
+	DisplayName: Живой «Мясоизмельчитель»
 	Tooltip:
 		'''
-		Deals far more damage to enemies below half health
-		Striking enemies will fling a bunch of eyes upward
+		Наносит намного больше урона врагам с низким показателем здоровья
+		Попадания по врагам вызывают всплески из наносящих урон глаз
 		'''
 }
 
 LivingFleshBow: {
-	DisplayName: Living Seer
+	DisplayName: Живой «Ясновидящий»
 	Tooltip:
 		'''
-		Converts arrows into clots of blood
-		Every 20th shot will fire multiple homing eyes
+		Превращает любые стрелы в сгустки крови
+		Каждый двадцатый выстрел будет выпускать несколько самонаводящихся глаз
 		'''
 }
 
 LivingFleshStaff: {
-	DisplayName: Living Retina Staff
+	DisplayName: Живой «Посох сетчатки»
 	Tooltip:
 		'''
-		Summon eyes that follow your cursor while holding down left click
-		Release left click to fling the eyes, dealing double their original damage
-		Releasing left click with maximum eyes active will explode them, dealing massive damage
-		Only up to 8 eyes can be active at once
+		Одновременно может быть выпущено только 5 глаз
+		Выпускают летающие глаза, которые собираются возле курсора при зажатии ЛКМ
+		Отпустив ЛКМ, вылетевшие глаза нанесут удвоенный урон
+		Если в этот момент было призывано максимальное количество глаз, то они взорвутся на месте, нанося огромный урон
+		Одновременно может быть выпущено только 8 глаз
 		'''
 }
 
 LivingFleshWhip: {
-	DisplayName: Living Eye Lasher
+	DisplayName: Живой «Глазной лазер»
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Hitting enemies may halve their defense for a short time
+		{$CommonItemTooltip.Whips}
+		Попадание по врагу может ненадолго снизить его защиту в двое
 		'''
 }
 
@@ -3124,7 +3120,7 @@ SpookyHellPylonItem: {
 }
 
 BanditBookRelicItem: {
-	DisplayName: Tome of Spirits Relic
+	DisplayName: Реликвия тома духов
 	Tooltip: ""
 }
 
@@ -3169,7 +3165,7 @@ SpookySpiritRelicItem: {
 }
 
 StitchSpiderRelicItem: {
-	DisplayName: Stitches Relic
+	DisplayName: Реликвия Сшивателя
 	Tooltip: ""
 }
 
@@ -3622,8 +3618,8 @@ SpookyMushGrassSeeds: {
 }
 
 EyeSeed: {
-	DisplayName: Eye Stalk Seed
-	Tooltip: Plants eye stalk saplings
+	DisplayName: Семена глазного стебя
+	Tooltip: Сажает сажанец глазного стебля
 }
 
 ValleyStoneItem: {
