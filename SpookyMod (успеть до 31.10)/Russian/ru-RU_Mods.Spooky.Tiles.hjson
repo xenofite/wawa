@@ -24,7 +24,7 @@ EyeDresser: {
 }
 
 CultistDresser: {
-	ContainerName: Оккультный камод
+	ContainerName: Оккультный комод
 	MapEntry: Комод
 }
 
