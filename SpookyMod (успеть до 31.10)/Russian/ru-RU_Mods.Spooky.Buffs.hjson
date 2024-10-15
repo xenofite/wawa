@@ -292,8 +292,8 @@ StickyEyeBuff: {
 }
 
 ValleyNautilusBuff: {
-	DisplayName: Baby Cephalopod
-	Description: A friendly little cephalopod follows you
+	DisplayName: Маленький моллюск
+	Description: Вас приследует маленький и дружелюбный моллюск
 }
 
 AlternateCooldown: {
@@ -356,8 +356,8 @@ PheromoneWhipDebuff: {
 }
 
 TrapdoorSpiderMountBuff: {
-	DisplayName: Trapdoor Spider Mount
-	Description: Arachnophobes beware!
+	DisplayName: Ездовой тарантул
+	Description: Арахнофобы, бегите!
 }
 
 SpiderBabyBuff: {
