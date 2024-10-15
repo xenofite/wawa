@@ -357,7 +357,7 @@ PheromoneWhipDebuff: {
 
 TrapdoorSpiderMountBuff: {
 	DisplayName: Ездовой тарантул
-	Description: Арахнофобы, бегите!
+	Description: Берегитесь, арахнофобы!
 }
 
 SpiderBabyBuff: {
