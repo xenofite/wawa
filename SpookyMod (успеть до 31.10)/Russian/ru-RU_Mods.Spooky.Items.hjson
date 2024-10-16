@@ -814,10 +814,10 @@ Creepypasta: {
 }
 
 CemeteryKey: {
-	DisplayName: Кладбищенский ключ
+	DisplayName: Ключ болотистого кладбища
 	Tooltip:
 		'''
-		Отпирает клабещенский ключ в темнице
+		Отпирает сундук болотистого кладбища в темнице
 		Не может быть использован до победы над Плантерой
 		'''
 }
@@ -1454,10 +1454,10 @@ SpiderChitin: {
 }
 
 SpiderKey: {
-	DisplayName: Паучий ключ
+	DisplayName: Ключ паучей пещеры
 	Tooltip:
 		'''
-		Отпирает паучий сундук в темнице
+		Отпирает сундук паучей пещеры в темнице
 		Не может быть использован до победы над Плантерой
 		'''
 }
@@ -1719,10 +1719,10 @@ ShroomHopperItem: {
 }
 
 SpookyBiomeKey: {
-	DisplayName: Жуткий ключ
+	DisplayName: Ключ жуткого леса
 	Tooltip:
 		'''
-		Отпирает жуткий сундук в темнице
+		Отпирает сундук жуткого леса в темнице
 		Не может быть использован до победы над Плантерой
 		'''
 }
@@ -2098,10 +2098,10 @@ SnotGlob: {
 }
 
 SpookyHellKey: {
-	DisplayName: Глазной ключ
+	DisplayName: Ключ глазной долины
 	Tooltip:
 		'''
-		Отпирает глазной ключ в темнице
+		Отпирает ключ глазной долины в темнице
 		Не может быть использован до победы над Плантерой
 		'''
 }
@@ -3007,7 +3007,7 @@ AmbushPaintingItem: {
 	Tooltip: "«Hat in a River»"
 }
 BaxterPaintingItem: {
-	DisplayName: Картина «Портрет Бакстера»
+	DisplayName: Портрет Бакстера
 	Tooltip: "«Waasephi»"
 }
 FireExitSignItem: {
@@ -3209,12 +3209,12 @@ CandleItem: {
 }
 
 FlyBigJarItem: {
-	DisplayName: Big Fly Jar
+	DisplayName: Гигантская муха в банке
 	Tooltip: ""
 }
 
 FlySmallJarItem: {
-	DisplayName: Fly Jar
+	DisplayName: Муха в банке
 	Tooltip: ""
 }
 
@@ -3298,12 +3298,12 @@ SwoleMushroomStatueItem: {
 }
 
 TinyGhostJarItem: {
-	DisplayName: Tiny Ghost Jar
+	DisplayName: Приведеньеце в банке
 	Tooltip: ""
 }
 
 TinyMushroomCageItem: {
-	DisplayName: Tiny Mushroom Cage
+	DisplayName: Грибочек в террариуме
 	Tooltip: ""
 }
 
@@ -3593,7 +3593,7 @@ IconPainting5Item: {
 }
 
 LittleEyePaintingItem: {
-	DisplayName: Little Eye's Self Portrait
+	DisplayName: Автопортрет Глазика
 	Tooltip: "«Waasephi»"
 }
 
@@ -3618,8 +3618,8 @@ SpookyMushGrassSeeds: {
 }
 
 EyeSeed: {
-	DisplayName: Семена глазного стебя
-	Tooltip: Сажает сажанец глазного стебля
+	DisplayName: Семена глазостебя
+	Tooltip: Сажает сажанец глазостебля
 }
 
 ValleyStoneItem: {
