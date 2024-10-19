@@ -1,0 +1,14 @@
+MaxLifeCrystal: {
+	DisplayName: Max Life Crystal
+	Tooltip: Automatically uses the maximum number of life crystals
+}
+
+MaxLifeFruit: {
+	DisplayName: Max Life Fruit
+	Tooltip: Automatically uses the maximum number of life fruits
+}
+
+MaxManaCrystal: {
+	DisplayName: Max Mana Crystal
+	Tooltip: Automatically uses the maximum number of mana crystals
+}
