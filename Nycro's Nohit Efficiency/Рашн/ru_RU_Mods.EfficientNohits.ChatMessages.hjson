@@ -1,0 +1,14 @@
+CantToggle: You cannot toggle instant death or wing flight while a boss is alive!
+AttemptNumber: Attempt {0}
+FightTime: Fight Time: {0}
+BossHealth: Boss Health: {0}%
+Slowdown: Fight speed: {0}% ({1}% slowdown - {2} avg. FPS - {3} RTA)
+Nohit: NoHit
+WingsDisabled: No Wing Flight
+FlightDisabled: No Flight
+ListBosses: Boss - Attempts
+TotalAttempts: Attempts for {0} by {1}: {2}
+CounterModified: Attempt counter modified!
+Removed: Removed
+SingularAttempt: attempt
+MultipleAttempts: attempts
