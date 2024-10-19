@@ -1,263 +1,273 @@
 Config: {
-	DisplayName: Nohit Efficiency Mod Config
+	DisplayName: Настройки мода Nycro's Nohit Efficiency
 
 	Headers: {
-		Despawns: Despawns
-		Toggleables: Toggleables
-		Respawn: Respawn Config
-		Gameplay: Gameplay Tweaks
-		FightStats: Fight Statistics
-		Anti-Lag: Anti-Lag
-		Presets: Presets
+		Despawns: Деспавн
+		Toggleables: Отключение механик
+		Respawn: Возрождение игрока
+		Gameplay: Геймплейные изменения
+		FightStats: Статистика боя
+		Anti-Lag: Анти-лаг
+		Presets: Предустановленные настройки
 	}
 
 	DespawnCycles: {
-		Label: Despawn Cycles
-		Tooltip: The number of consecutive frames to despawn the specified entities for
+		Label: Время для деспавна
+		Tooltip: Количество кадров, по прошествии которых выбранные объекты в настройках ниже будет деспавниться
 	}
 
 	DespawnHostileProjectiles: {
-		Label: Hostile Projectiles
-		Tooltip: All hostile projectiles
+		Label: Враждебные снаряды
+		Tooltip: Все враждебные снаряды
 	}
 
 	DespawnFriendlyProjectiles: {
-		Label: Friendly Projectiles
-		Tooltip: All friendly projectiles
+		Label: Дружественные снаряды
+		Tooltip: Все дружественные снаряды
 	}
 
 	DespawnBosses: {
-		Label: Bosses
-		Tooltip: All bosses
+		Label: Боссы
+		Tooltip: Все боссы
 	}
 
 	DespawnHostileNPCs: {
-		Label: Hostile NPCs
-		Tooltip: All hostile NPCs, excluding bosses
+		Label: Враждебные существа
+		Tooltip: Все враждебные существа кроме боссов
 	}
 
 	DespawnFriendlyNPCs: {
-		Label: Friendly NPCs
-		Tooltip: All friendly NPCs
+		Label: Дружественные существа
+		Tooltip: Все дружественные существа
 	}
 
 	DespawnDusts: {
-		Label: Dusts
-		Tooltip: All dusts
+		Label: Частицы
+		Tooltip: Все визуальные частицы
 	}
 
 	DespawnItems: {
-		Label: Grounded Items
-		Tooltip: All grounded items
+		Label: Предметы на земле
+		Tooltip: Все предметы, лежащие на земле
 	}
 
 	DisableEvents: {
-		Label: Disable Events
-		Tooltip: Disables events from occuring
+		Label: Отключить события
+		Tooltip: Отключает все события
 	}
 
 	DisableRain: {
-		Label: Disable Rain
-		Tooltip: Disables rain from occuring
+		Label: Отключить дождь
+		Tooltip: Отключает дождь и все погодные явления, связанные с ним
 	}
 
 	DisableNPCSpawns: {
-		Label: Disable NPC Spawns
+		Label: Отключить появление существ
 		Tooltip:
 			'''
-			Disables NPCs from naturally spawning
-			Does not prevent forced spawns from things like summon items, events, etc.
+			Отключает естественное появление существ
+			Не влияет на принудительный призыв существ, например на призывалки, события, чит-моды и т.д.
 			'''
 	}
 
 	DisableFallenStars: {
-		Label: Disable Fallen Stars
-		Tooltip: Disables fallen stars from spawning
+		Label: Отключить падающие звёзды
+		Tooltip: Отключает появление падающих звёзд
 	}
 
 	DisableTombstones: {
-		Label: Disable Tombstones
-		Tooltip: Disables tombstones from appearing when the player dies
+		Label: Отключить надгробия
+		Tooltip: Отключает появление надгробий после смерти игрока
 	}
 
 	DestroyGroundedItems: {
-		Label: Destroy Grounded Items
-		Tooltip: Automatically destroys all grounded items, excluding coins, pickup hearts, and mana stars
+		Label: Отключить предметы на земле
+		Tooltip: Автоматически уничтожает все выпадающие на землю предметы кроме монет, сердец и звёзд маны
 	}
 
 	DestroyDroppedHearts: {
-		Label: Destroy Dropped Hearts
-		Tooltip: Automatically destroys all pickup hearts
+		Label: Отключить выпадение сердец
+		Tooltip: Автоматически уничтожает все выпадающие сердца
 	}
 
 	DestroyManaStars: {
-		Label: Destroy Mana Stars
-		Tooltip: Automatically destroys all mana stars
+		Label: Отключить выпадение звёзд маны
+		Tooltip: Автоматически уничтожает все выпадающие звёзды маны
 	}
 
 	DestroyCoins: {
-		Label: Destroy Coins
-		Tooltip: Automatically destroys all dropped coins
+		Label: Отключить выпадение монет
+		Tooltip: Автоматически уничтожает все выпадающие монеты
 	}
 
 	OverrideRespawnHP: {
-		Label: Override Respawn HP
-		Tooltip: Override the player HP on respawn
+		Label: Перезаписывать здоровье игрока при возрождении
+		Tooltip: Если эта настройка выключена, настройка ниже работать не будет
 	}
 
 	RespawnHP: {
-		Label: Respawn HP
-		Tooltip: The HP the player should have on respawn
+		Label: Здоровье при возрождении
+		Tooltip: Количество здоровья, которое будет у игрока сразу после возрождения
 	}
 
 	ClearChatOnRespawn: {
-		Label: Clear Chat On Respawn
-		Tooltip: Clear out the chat on respawn
+		Label: Очищать чат при возрождении
+		Tooltip: Полностью очищает чат после возрождения
 	}
 
 	FramesBeforeChatClear: {
-		Label: Frames Before Chat Clear
-		Tooltip: The number of frames before chat gets cleared after respawn
+		Label: Время для очистки чата
+		Tooltip: Количество кадров, по прошествии которых чат очистится после возрождения
 	}
 
 	ShowAttemptNumber: {
-		Label: Show Attempt Number
-		Tooltip: Shows the session attempt number above the player's head on respawn
+		Label: Показывать номер попытки во всплывающем сообщении
+		Tooltip: Отображает порядковый номер попытки победить босса за текущую сессию в виде всплывающего сообщения над головой игрока после возрождения
 	}
 
 	FramesToShowAttemptNumber: {
-		Label: Frames To Show Attempt Number
-		Tooltip: The number of frames the attempt number should be shown
+		Label: Время отображения номера попытки
+		Tooltip: Количество кадров, на протяжении которых над головой игрока будет отображаться номер попытки
 	}
 
 	ResetMusicOnRespawn: {
-		Label: Reset Music On Respawn
-		Tooltip: Immediately stop the boss music on respawn
+		Label: Сбрасывать музыку при возрождении
+		Tooltip: Начинает проигрывать текущую музыку с начала после возрождения
 	}
 
 	ResetLightingOnRespawn: {
-		Label: Reset Lighting On Respawn
-		Tooltip: Reset all in game lighting on respawn
+		Label: Сбрасывать шейдеры освещения при возрождении
+		Tooltip: Перезагружает всё освещение в игре после возрождения
 	}
 
 	StatColor: {
-		Label: Chat Color Override
-		Tooltip: Override the color used in this mod's chat messages. If none is set, the default is Aquamarine.
+		Label: Измененить цвет сообщений в чате
+		Tooltip: Изменяет цвет сообщений этого мода в чате. По умолчанию используется аквамариновый.
 	}
 
 	OverrideRespawnTimer: {
-		Label: Override Respawn Timer
-		Tooltip: Override how long it takes to respawn
+		Label: Перезаписывать время для возрождения
+		Tooltip: Если эта настройка выключена, настройка ниже не будет работать
 	}
 
 	RespawnTimer: {
-		Label: Respawn Timer
-		Tooltip: How long it should take to respawn, in frames
+		Label: Время для возрождения
+		Tooltip: Количество кадров, по прошествии которых игрок возродится
 	}
 
 	InstantDeath: {
-		Label: Instant Death
+		Label: Мгновенная смерть
 		Tooltip:
 			'''
-			Instantly die on hit
-			"Bosses" will only enable instant death when a boss is alive, "Always" will always have instant death active
+			Любые полученные удары будет смертельными для вас
+			Режим «Отключена» — мгновенная смерть будет неактивна
+			Режим «Боссы» — мгновенная смерть будет работать только во время битв с боссами
+			Режим «Всегда» — мгновенная смерть будет активна всегда
 			'''
 	}
 
 	Flight: {
-		Label: Flight
+		Label: Полёт
 		Tooltip:
 			'''
-			Configure flight time
-			"Enabled" leaves flight enabled, "Wings Disabled" disables wing flight, and "All Disabled" disables all forms of flight
+			Ограничивает ваши возможности полёта
+			Режим «Включён» — вы сможете летать как обычно
+			Режим «Крылья отключены» — вы не сможете летать на крыльях
+			Режим «Отключиь всё» — вы не сможете как-либо летать вообще
 			'''
 	}
 
 	AutoBuffs: {
-		Label: Auto-Buffs
-		Tooltip: Quick buff on respawn or permanently enable buffs from your inventory that are in stacks of 30 or greater
+		Label: Автоматические баффы
+		Tooltip:
+			'''
+			Делает использование баффов удобнее
+			Режим «Отключены» — не делает с баффами ничего
+			Режим «При возрождении» — баффы будут использоваться автоматически после возрождения
+			Режим «Перманентные» — баффы будут иметь бесконечную длительность, пока в вашем инвентаре есть 30 соответствующих зелий/станций
+			'''
 	}
 
 	InfiniteAmmo: {
-		Label: Infinite Ammo
-		Tooltip: Choose whether or not to disable ammo consumption on stacks of 999 or greater
+		Label: Бесконечные боеприпасы
+		Tooltip: Боеприпасы не будут расходоваться, пока в вашем инвентаре есть 999 соответствующих боеприпасов 
 	}
 
 	InfiniteWeapons: {
-		Label: Infinite Weapons
-		Tooltip: Choose whether or not to disable the consumption of weapons in stacks of 999 or greater
+		Label: Бесконечное оружие
+		Tooltip: Расходуемое оружие не будет расходоваться, пока в вашем инвентаре есть 999 соответствующего оружия
 	}
 
 	InfiniteConsumables: {
-		Label: Infinite Consumables
-		Tooltip: Choose whether or not to disable consumable item consumption on stacks of 999 or greater
+		Label: Бесконечные расходники
+		Tooltip: Расходники не будут расходоваться, пока в вашем инвентаре есть 999 соответствующих предметов
 	}
 
 	InfiniteHealingPotions: {
-		Label: Infinite Healing Potions
-		Tooltip: Choose whether or not to disable healing potion consumption on stacks of 999 or greater
+		Label: Бесконечные лечебные зелья
+		Tooltip: Лечебные зелья не будут расходоваться, пока в вашем инвентаре есть 999 соответствующих зелий
 	}
 
 	InfiniteManaPotions: {
-		Label: Infinite Mana Potions
-		Tooltip: Choose whether or not to disable mana potion consumption on stacks of 999 or greater
+		Label: Бесконечные зелья маны
+		Tooltip: Зелья маны не будут расходоваться, пока в вашем инвентаре есть 999 соответствующих зелий
 	}
 
 	FightStatsAttemptNumber: {
-		Label: Attempt Number
-		Tooltip: Show the attempt number in the stat message
+		Label: Количество попыток в чате
+		Tooltip: Показывать количество попыток победить босса в сообщении со статистикой боя
 	}
 
 	FightStatsTime: {
-		Label: Fight Time
-		Tooltip: Show how long the fight lasted
+		Label: Время боя в чате
+		Tooltip: Показывать длительность битвы с боссом в сообщении со статистикой боя
 	}
 
 	FightStatsBossHealth: {
-		Label: Boss Health
-		Tooltip: Show the bosses health percentage at the end of the attempt
+		Label: Здоровье босса в чате
+		Tooltip: Показывать оставшееся здоровье босса в процентах в сообщении со статистикой боя
 	}
 
 	FightStatsSlowdownStats: {
-		Label: Slowdown Stats
-		Tooltip: Show the average slowdown percentage due to lag
+		Label: Замедление по техническим причинам в чате
+		Tooltip: Показывать среднее отставание игры от нормальной скорости из-за лагов в сообщении со статистикой боя
 	}
 
 	CapDustLifetime: {
-		Label: Cap Dust Lifetime
+		Label: Перезаписывать длительность существования частиц
 		Tooltip:
 			'''
-			Modify the maximum lifespan of dusts to reduce the time that they exist
-			The less time they exist, the less lag will occur
+			Чем быстрее частицы будут пропадать с экрана, тем лучше будет производительность
+			Если эта настройка выключена, настройка ниже не будет работать
 			'''
 	}
 
 	DustLifetimeModifier: {
-		Label: Dust Lifetime Modifier
-		Tooltip: The max number of frames the dust should exist for
+		Label: Длительность существования частиц
+		Tooltip: Максимальное количество кадров, которое частицы будут находиться на экране
 	}
 
 	CapGoreLifetime: {
-		Label: Cap Gore Lifetime
+		Label: Перезаписывать длительность существования останков
 		Tooltip:
 			'''
-			Modify the maximum lifespan of gores to reduce the time that they exist
-			The less time they exist, the less lag will occur
+			Чем быстрее останки будут пропадать с экрана, тем лучше будет производительность
+			Если эта настройка выключена, настройка ниже не будет работать
 			'''
 	}
 
 	GoreLifetimeModifier: {
-		Label: Gore Lifetime Modifier
-		Tooltip: The max number of frames the gore should exist for
+		Label: Длительность существования останков
+		Tooltip: Максимальное количество кадров, которое останки существ будут находиться на экране после их смерти
 	}
 
 	PresetNohitSettings: {
-		Label: Recommended Nohit Settings
-		Tooltip: Turn this on to use the preset recommended settings for nohitting
+		Label: Рекомендуемые настройки для ноухита
+		Tooltip: Включите эту настройку, чтобы использовать предустановленные настройки, рекомендуемые для выполнения ноухит челленджей
 	}
 
 	PresetStandardSettings: {
-		Label: Recommended Standard Settings
-		Tooltip: Turn this on to use the preset recommended settings for normally playing the game
+		Label: Рекомендуемые настройки для обычного прохождения
+		Tooltip: Включите эту настройку, чтобы использовать предустановленные настройки, рекомендуемые для классических прохождений игры
 	}
 }
