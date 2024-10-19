@@ -1,14 +1,14 @@
 MaxLifeCrystal: {
-	DisplayName: Max Life Crystal
-	Tooltip: Automatically uses the maximum number of life crystals
+	DisplayName: Кристалл максимальной жизни
+	Tooltip: Даёт максимальное количество здоровья, которые можно получить с помощью кристаллов жизни
 }
 
 MaxLifeFruit: {
-	DisplayName: Max Life Fruit
-	Tooltip: Automatically uses the maximum number of life fruits
+	DisplayName: Фрукт максимальной жизни
+	Tooltip: Даёт максимальное количество здоровья, которые можно получить с помощью фруктов жизни
 }
 
 MaxManaCrystal: {
-	DisplayName: Max Mana Crystal
-	Tooltip: Automatically uses the maximum number of mana crystals
+	DisplayName: Кристалл максимальной маны
+	Tooltip: Даёт максимальное количество здоровья, которые можно получить с помощью кристаллов маны
 }
