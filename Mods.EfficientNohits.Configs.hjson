@@ -1,0 +1,263 @@
+Config: {
+	DisplayName: Nohit Efficiency Mod Config
+
+	Headers: {
+		Despawns: Despawns
+		Toggleables: Toggleables
+		Respawn: Respawn Config
+		Gameplay: Gameplay Tweaks
+		FightStats: Fight Statistics
+		Anti-Lag: Anti-Lag
+		Presets: Presets
+	}
+
+	DespawnCycles: {
+		Label: Despawn Cycles
+		Tooltip: The number of consecutive frames to despawn the specified entities for
+	}
+
+	DespawnHostileProjectiles: {
+		Label: Hostile Projectiles
+		Tooltip: All hostile projectiles
+	}
+
+	DespawnFriendlyProjectiles: {
+		Label: Friendly Projectiles
+		Tooltip: All friendly projectiles
+	}
+
+	DespawnBosses: {
+		Label: Bosses
+		Tooltip: All bosses
+	}
+
+	DespawnHostileNPCs: {
+		Label: Hostile NPCs
+		Tooltip: All hostile NPCs, excluding bosses
+	}
+
+	DespawnFriendlyNPCs: {
+		Label: Friendly NPCs
+		Tooltip: All friendly NPCs
+	}
+
+	DespawnDusts: {
+		Label: Dusts
+		Tooltip: All dusts
+	}
+
+	DespawnItems: {
+		Label: Grounded Items
+		Tooltip: All grounded items
+	}
+
+	DisableEvents: {
+		Label: Disable Events
+		Tooltip: Disables events from occuring
+	}
+
+	DisableRain: {
+		Label: Disable Rain
+		Tooltip: Disables rain from occuring
+	}
+
+	DisableNPCSpawns: {
+		Label: Disable NPC Spawns
+		Tooltip:
+			'''
+			Disables NPCs from naturally spawning
+			Does not prevent forced spawns from things like summon items, events, etc.
+			'''
+	}
+
+	DisableFallenStars: {
+		Label: Disable Fallen Stars
+		Tooltip: Disables fallen stars from spawning
+	}
+
+	DisableTombstones: {
+		Label: Disable Tombstones
+		Tooltip: Disables tombstones from appearing when the player dies
+	}
+
+	DestroyGroundedItems: {
+		Label: Destroy Grounded Items
+		Tooltip: Automatically destroys all grounded items, excluding coins, pickup hearts, and mana stars
+	}
+
+	DestroyDroppedHearts: {
+		Label: Destroy Dropped Hearts
+		Tooltip: Automatically destroys all pickup hearts
+	}
+
+	DestroyManaStars: {
+		Label: Destroy Mana Stars
+		Tooltip: Automatically destroys all mana stars
+	}
+
+	DestroyCoins: {
+		Label: Destroy Coins
+		Tooltip: Automatically destroys all dropped coins
+	}
+
+	OverrideRespawnHP: {
+		Label: Override Respawn HP
+		Tooltip: Override the player HP on respawn
+	}
+
+	RespawnHP: {
+		Label: Respawn HP
+		Tooltip: The HP the player should have on respawn
+	}
+
+	ClearChatOnRespawn: {
+		Label: Clear Chat On Respawn
+		Tooltip: Clear out the chat on respawn
+	}
+
+	FramesBeforeChatClear: {
+		Label: Frames Before Chat Clear
+		Tooltip: The number of frames before chat gets cleared after respawn
+	}
+
+	ShowAttemptNumber: {
+		Label: Show Attempt Number
+		Tooltip: Shows the session attempt number above the player's head on respawn
+	}
+
+	FramesToShowAttemptNumber: {
+		Label: Frames To Show Attempt Number
+		Tooltip: The number of frames the attempt number should be shown
+	}
+
+	ResetMusicOnRespawn: {
+		Label: Reset Music On Respawn
+		Tooltip: Immediately stop the boss music on respawn
+	}
+
+	ResetLightingOnRespawn: {
+		Label: Reset Lighting On Respawn
+		Tooltip: Reset all in game lighting on respawn
+	}
+
+	StatColor: {
+		Label: Chat Color Override
+		Tooltip: Override the color used in this mod's chat messages. If none is set, the default is Aquamarine.
+	}
+
+	OverrideRespawnTimer: {
+		Label: Override Respawn Timer
+		Tooltip: Override how long it takes to respawn
+	}
+
+	RespawnTimer: {
+		Label: Respawn Timer
+		Tooltip: How long it should take to respawn, in frames
+	}
+
+	InstantDeath: {
+		Label: Instant Death
+		Tooltip:
+			'''
+			Instantly die on hit
+			"Bosses" will only enable instant death when a boss is alive, "Always" will always have instant death active
+			'''
+	}
+
+	Flight: {
+		Label: Flight
+		Tooltip:
+			'''
+			Configure flight time
+			"Enabled" leaves flight enabled, "Wings Disabled" disables wing flight, and "All Disabled" disables all forms of flight
+			'''
+	}
+
+	AutoBuffs: {
+		Label: Auto-Buffs
+		Tooltip: Quick buff on respawn or permanently enable buffs from your inventory that are in stacks of 30 or greater
+	}
+
+	InfiniteAmmo: {
+		Label: Infinite Ammo
+		Tooltip: Choose whether or not to disable ammo consumption on stacks of 999 or greater
+	}
+
+	InfiniteWeapons: {
+		Label: Infinite Weapons
+		Tooltip: Choose whether or not to disable the consumption of weapons in stacks of 999 or greater
+	}
+
+	InfiniteConsumables: {
+		Label: Infinite Consumables
+		Tooltip: Choose whether or not to disable consumable item consumption on stacks of 999 or greater
+	}
+
+	InfiniteHealingPotions: {
+		Label: Infinite Healing Potions
+		Tooltip: Choose whether or not to disable healing potion consumption on stacks of 999 or greater
+	}
+
+	InfiniteManaPotions: {
+		Label: Infinite Mana Potions
+		Tooltip: Choose whether or not to disable mana potion consumption on stacks of 999 or greater
+	}
+
+	FightStatsAttemptNumber: {
+		Label: Attempt Number
+		Tooltip: Show the attempt number in the stat message
+	}
+
+	FightStatsTime: {
+		Label: Fight Time
+		Tooltip: Show how long the fight lasted
+	}
+
+	FightStatsBossHealth: {
+		Label: Boss Health
+		Tooltip: Show the bosses health percentage at the end of the attempt
+	}
+
+	FightStatsSlowdownStats: {
+		Label: Slowdown Stats
+		Tooltip: Show the average slowdown percentage due to lag
+	}
+
+	CapDustLifetime: {
+		Label: Cap Dust Lifetime
+		Tooltip:
+			'''
+			Modify the maximum lifespan of dusts to reduce the time that they exist
+			The less time they exist, the less lag will occur
+			'''
+	}
+
+	DustLifetimeModifier: {
+		Label: Dust Lifetime Modifier
+		Tooltip: The max number of frames the dust should exist for
+	}
+
+	CapGoreLifetime: {
+		Label: Cap Gore Lifetime
+		Tooltip:
+			'''
+			Modify the maximum lifespan of gores to reduce the time that they exist
+			The less time they exist, the less lag will occur
+			'''
+	}
+
+	GoreLifetimeModifier: {
+		Label: Gore Lifetime Modifier
+		Tooltip: The max number of frames the gore should exist for
+	}
+
+	PresetNohitSettings: {
+		Label: Recommended Nohit Settings
+		Tooltip: Turn this on to use the preset recommended settings for nohitting
+	}
+
+	PresetStandardSettings: {
+		Label: Recommended Standard Settings
+		Tooltip: Turn this on to use the preset recommended settings for normally playing the game
+	}
+}
