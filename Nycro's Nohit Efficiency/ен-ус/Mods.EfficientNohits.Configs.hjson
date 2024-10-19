@@ -261,3 +261,31 @@ Config: {
 		Tooltip: Turn this on to use the preset recommended settings for normally playing the game
 	}
 }
+
+DespawnTrigger: {
+	Disabled.Label: Disabled
+	OnHit.Label: On Hit
+	OnDeath.Label: On Death
+	Tooltip: ""
+}
+
+InstantDeath: {
+	Disabled.Label: Disabled
+	Bosses.Label: Bosses
+	Always.Label: Always
+	Tooltip: ""
+}
+
+Flight: {
+	Enabled.Label: Enabled
+	WingsDisabled.Label: Wings Disabled
+	AllDisabled.Label: All Disabled
+	Tooltip: ""
+}
+
+AutoBuffs: {
+	Disabled.Label: Disabled
+	Respawn.Label: Respawn
+	Permanent.Label: Permanent
+	Tooltip: ""
+}
