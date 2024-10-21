@@ -2599,63 +2599,43 @@ VinylSneaky: {
 }
 
 BloomSoilItem: {
-	DisplayName: Цветущая почва
-	Tooltip: Позволяет сажать и выращивать на ней цветы
+	DisplayName: Благородная почва
+	Tooltip: На ней можно сажать и выращивать уникальные цветы
 }
 
 DandelionSeed: {
-	DisplayName: Dandelion Seed
-	Tooltip:
-		'''
-		Places a plant that grows various dandelion seed blooms
-		Requires a flat ground of Bloom Soil to be planted on
-		'''
+	DisplayName: Семена одуванчика
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных одуванчековых растений
 }
 
 DragonfruitSeed: {
-	DisplayName: Diva Sprout
+	DisplayName: Дивный росток
 	Tooltip:
 		'''
-		Places an invasive plant that grows a strange bloom
-		Requires a flat ground of Bloom Soil to be planted on
-		Will convert other nearby planted blooms into itself as it grows
+		Инвазивное растение, цветущее необычным образом
+		Сажается на ровной поверхности из благородной почвы
+		По мере роста предваращет близрастущие растения в 
 		'''
 }
 
 FallSeed: {
-	DisplayName: Pumpkin Guts
-	Tooltip:
-		'''
-		Places a plant that grows various gourd blooms
-		Requires a flat ground of Bloom Soil to be planted on
-		'''
+	DisplayName: Внутренности тыквы
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных тыквенных растений
 }
 
 SpringSeed: {
-	DisplayName: Puff of Pollen
-	Tooltip:
-		'''
-		Places a plant that grows various flower blooms
-		Requires a flat ground of Bloom Soil to be planted on
-		'''
+	DisplayName: Цветочная пыльца
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных цветочных растений
 }
 
 SummerSeed: {
-	DisplayName: Solar Sunflower Seed
-	Tooltip:
-		'''
-		Places a plant that grows various tropical blooms
-		Requires a flat ground of Bloom Soil to be planted on
-		'''
+	DisplayName: Солнечное семя подсолнуха
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных тропических растений
 }
 
 WinterSeed: {
-	DisplayName: Snow Berry Shrub
-	Tooltip:
-		'''
-		Places a plant that grows various berry blooms
-		Requires a flat ground of Bloom Soil to be planted on
-		'''
+	DisplayName: Заснеженный ягодный кустарник
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных ягодных растений
 }
 
 CatacombBrickPlatform1Item: {
