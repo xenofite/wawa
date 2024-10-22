@@ -3,29 +3,29 @@ StrawberryBoost: {
 	Tooltip: ""
 }
 DandelionHerd: {
-	DisplayName: Dandelion Herd
+	DisplayName: Горстка одуванчиков
 	Tooltip:
 		'''
-		Leave behind dandelion seed clusters while flying that can slightly home on enemies
-		The seed clusters will deal more damage the higher your maximum flight time is
-		2 minute duration
+		Вы будете оставлять за собой падающие одуванчики во время полёта
+		Эти одуванчики имеют небольшую самонаводку на врагов, а их урон зависит от максимального времени полёта крыльев
+		Длительность действия эффекта: 2 мин.
 		'''
 }
 DandelionMapleSeed: {
-	DisplayName: Whindwhirl Mapleseed
+	DisplayName: Кленовый вертолётик
 	Tooltip:
 		'''
-		Ocassionally spawns a gliding mapleseed around you while you are flying
-		Collecting these mapleseeds will slightly boost your flight time
-		4 minute duration
+		Вы будете иногда оставлять за собой парящее семя клёна во время полёта
+		Подбор этих семян немного увеличивает оставшееся время полёта крыльев
+		Длительность действия эффекта: 4 мин.
 		'''
 }
 DandelionTumbleweed: {
-	DisplayName: Tumblingweed
+	DisplayName: Перекати-поле
 	Tooltip:
 		'''
-		Hitting enemies while flying may spawn damaging tumbleweeds to attack
-		5 minute duration
+		Удары по врагам, когда вы находитесь в полёте, могут вызвать атакующие перекати-поля
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 Dragonfruit: {
@@ -36,7 +36,7 @@ Dragonfruit: {
 		After hitting an enemy the fruit will die, and will respawn after a few seconds
 		Eating multiple of this bloom while having this bloom's ability active will increase its stack
 		Each stack of this buff gives you an additional orbiting fruit, up to 10 total
-		3 minute duration
+		Длительность действия эффекта: 3 мин.
 		'''
 }
 FallGourd: {
@@ -44,7 +44,7 @@ FallGourd: {
 	Tooltip:
 		'''
 		Increases damage by 15% while you are falling down
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 FallSoulPumpkin: {
@@ -53,7 +53,7 @@ FallSoulPumpkin: {
 		'''
 		You will sometimes spawn a ghastly pumpkin that slowly chases nearby enemies
 		The ghastly pumpkins will ignite enemies for a short time
-		4 minute duration
+		Длительность действия эффекта: 4 мин.
 		'''
 }
 FallWaterGourd: {
@@ -61,7 +61,7 @@ FallWaterGourd: {
 	Tooltip:
 		'''
 		Fully grown bloom crops have a chance to yield an extra bloom and seed
-		10 minute duration
+		Длительность действия эффекта: 10 мин.
 		'''
 }
 FallZucchini: {
@@ -69,7 +69,7 @@ FallZucchini: {
 	Tooltip:
 		'''
 		Occassionally zap nearby enemies with zucchini electricity for a few seconds
-		2 minute duration
+		Длительность действия эффекта: 2 мин.
 		'''
 }
 SpringHeartFlower: {
@@ -77,7 +77,7 @@ SpringHeartFlower: {
 	Tooltip:
 		'''
 		Grants increased life regeneration for each occupied bloom slot you have, including this bloom
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 SpringIris: {
@@ -87,7 +87,7 @@ SpringIris: {
 		Every minute, you will spawn an iris petal and a large eye on your cursor
 		The iris petal slowly chases the eye and speeds up over time while damaging anything it touches
 		The petal and eye will both die when they collide with each other
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 SpringOrchid: {
@@ -96,7 +96,7 @@ SpringOrchid: {
 		'''
 		Weapons have a chance to shoot a spread of monkey orchid shurikens when used
 		The shurikens damage scales based on the damage of the weapon used
-		4 minute duration
+		Длительность действия эффекта: 4 мин.
 		'''
 }
 SpringRose: {
@@ -105,7 +105,7 @@ SpringRose: {
 		'''
 		Grants you a ring of thorns that deals a small amount of damage to enemies
 		The thorn ring can also sometimes inflict bleeding for a short time
-		6 minute duration
+		Длительность действия эффекта: 6 мин.
 		'''
 }
 SummerLemon: {
@@ -114,7 +114,7 @@ SummerLemon: {
 		'''
 		Using weapons will sometimes shoot bouncing lemon bombs
 		Each lemon shot consecutively will cause an extra bouncy lemon to shoot out
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 SummerOrange: {
@@ -123,7 +123,7 @@ SummerOrange: {
 		'''
 		Gain an orbiting angry orange that damages enemies and burns them
 		The faster you are moving the more its speed, range, and damage increase
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 SummerPineapple: {
@@ -132,7 +132,7 @@ SummerPineapple: {
 		'''
 		Increases damage dealt from critical hits by 35% but halves your overall critical strike chance
 		Landing a critical hit will also heal a bit of your health
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 SummerSunflower: {
@@ -141,7 +141,7 @@ SummerSunflower: {
 		'''
 		Significantly increases the growth rate of all bloom crops
 		Gives you the happy sunflower buff for 2 minutes
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 WinterBlackberry: {
@@ -149,7 +149,7 @@ WinterBlackberry: {
 	Tooltip:
 		'''
 		Any blooms you eat have a chance to last for double their normal duration
-		2 minute duration
+		Длительность действия эффекта: 2 мин.
 		'''
 }
 WinterBlueberry: {
@@ -158,7 +158,7 @@ WinterBlueberry: {
 		'''
 		Hitting enemies may inflict them with frozen blueberry juice which will slown them down
 		Any enemy nearby the initially hit enemy will also be inflicted with it for a shorter time
-		4 minute duration
+		Длительность действия эффекта: 4 мин.
 		'''
 }
 WinterGooseberry: {
@@ -168,7 +168,7 @@ WinterGooseberry: {
 		Every third instance of damage you deal has a 33% chance to launch a gooseberry upward
 		Gooseberries increase life regeneration and movement acceleration by 15% for a short time when picked up 
 		Gooseberries will be destroyed upon making contact with hostile enemies or projectiles
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 WinterStrawberry: {
@@ -177,7 +177,7 @@ WinterStrawberry: {
 		'''
 		Every 40 seconds you will spawn some mountain strawberries you can pick up
 		They grant 10% increased damage, critical strike chance, and knockback for 10 seconds
-		5 minute duration
+		Длительность действия эффекта: 5 мин.
 		'''
 }
 
@@ -2609,12 +2609,12 @@ DandelionSeed: {
 }
 
 DragonfruitSeed: {
-	DisplayName: Дивный росток
+	DisplayName: Диваросток
 	Tooltip:
 		'''
 		Инвазивное растение, цветущее необычным образом
 		Сажается на ровной поверхности из благородной почвы
-		По мере роста предваращет близрастущие растения в 
+		По мере роста предваращет близрастущие растения в себе подобных
 		'''
 }
 
