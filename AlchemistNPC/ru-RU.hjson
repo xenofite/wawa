@@ -770,192 +770,192 @@ Mods: {
 				DisplayName: Алхимик
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Alchemist.LikeNPC_Princess}"
+					Princess_LovesNPC: Мне очень нравится {NPCName}.
 				}
 
-				// Census.SpawnCondition: Defeat Eye of Cthulhu
+				Census.SpawnCondition: Необходимо победить Глаз Ктулху
 			}
 
 			Architect: {
-				// DisplayName: Architect
+				DisplayName: Архитектор
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Architect.LikeNPC_Princess}"
+					Princess_LovesNPC: Мне очень нравится {NPCName}.
 				}
 
-				// Census.SpawnCondition: Have at least 3 NPCs
+				Census.SpawnCondition: Необходимо наличие минимум 3 заселившихся в мире НИПов
 			}
 
 			Brewer: {
-				DisplayName: Варщица Зелий
+				DisplayName: Варщица
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Brewer.LikeNPC_Princess}"
+					Princess_LovesNPC: Мне очень нравится {NPCName}.
 				}
 
-				// Census.SpawnCondition: Defeat Eye of Cthulhu
+				Census.SpawnCondition: Необходимо победить Глаз Ктулху
 			}
 
 			Jeweler: {
 				DisplayName: Ювелир
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Jeweler.LikeNPC_Princess}"
+					Princess_LovesNPC: Мне очень нравится {NPCName}.
 				}
 
-				// Census.SpawnCondition: Defeat Eye of Cthulhu
+				Census.SpawnCondition: Необходимо победить Глаз Ктулху
 			}
 
 			Musician: {
 				DisplayName: Музыкант
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Musician.LikeNPC_Princess}"
+					Princess_LovesNPC: Мне очень нравится {NPCName}.
 				}
 
-				// Census.SpawnCondition: Defeat Skeletron
+				Census.SpawnCondition: Необходимо победить Скелетрона
 			}
 
 			Operator: {
 				DisplayName: Оператор
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Operator.LikeNPC_Princess}"
+					Princess_LovesNPC: Моё отношение {NPCName} строго положительное.
 				}
 
-				// Census.SpawnCondition: Defeat Eater of Worlds/Brain of Cthulhu
+				Census.SpawnCondition: Необходимо победить Пожирателя Миров или Мозга Ктулху
 			}
 
 			Tinkerer: {
-				DisplayName: Инженер
+				DisplayName: Изобретатель
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.Tinkerer.LikeNPC_Princess}"
+					Princess_LovesNPC: Мне очень нравится {NPCName}.
 				}
 
-				// Census.SpawnCondition: Defeat Eye of Cthulhu
+				Census.SpawnCondition: Необходимо победить Глаз Ктулху
 			}
 
 			YoungBrewer: {
-				DisplayName: Юный зельевар
+				DisplayName: Юный химик
 
 				TownNPCMood: {
-					// Content: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.Content}"
-					// NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.NoHome}"
-					// FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.FarFromHome}"
-					// LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LoveSpace}"
-					// DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.DislikeCrowded}"
-					// HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.HateCrowded}"
-					// LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LoveBiome}"
-					// LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LikeBiome}"
-					// DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.DislikeBiome}"
-					// LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LoveNPC}"
-					// LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LikeNPC}"
-					// DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LikeNPC_Princess}"
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.Content}"
+					NoHome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.NoHome}"
+					FarFromHome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.FarFromHome}"
+					LoveSpace: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LoveSpace}"
+					DislikeCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.DislikeCrowded}"
+					HateCrowded: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.HateCrowded}"
+					LoveBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LoveBiome}"
+					LikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LikeBiome}"
+					DislikeBiome: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.DislikeBiome}"
+					LoveNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LoveNPC}"
+					LikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LikeNPC}"
+					DislikeNPC: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.AlchemistNPCLite.TownNPCMood.YoungBrewer.LikeNPC_Princess}"
+					Princess_LovesNPC: Мне очень нравится {NPCName}.
 				}
 
-				// Census.SpawnCondition: World is in hardmode state
+				Census.SpawnCondition: Необходимо победить Стену плоти
 			}
 		}
 
 		Projectiles: {
-			// CorrosiveFlask.DisplayName: Corrosive Flask
-			// CorrosiveFlaskCloud.DisplayName: Corrosive Flask Cloud
-			// Gemstone.DisplayName: Gemstone
-			// LocatorProjectile.DisplayName: Locator Projectile
+			CorrosiveFlask.DisplayName: Коррозийная склянка
+			CorrosiveFlaskCloud.DisplayName: Облако коррозийной склянки
+			Gemstone.DisplayName: Драгоценный камень
+			LocatorProjectile.DisplayName: Локатор
 		}
 
 		// DiscordBuffTeleportation: Discord Buff Teleportation
@@ -1111,22 +1111,22 @@ Mods: {
 		Edward: Эдвард
 		Severus: Северус
 		Horace: Гораций
-		Tilyorn: Тильорн
+		Tilyorn: Тильёрн
 		Nicolas: Николас
 		Gregg: Грег
-		EntryA1: Мои лечебные зелья излечат твои глубочайшие раны.
-		EntryA2: Мои зелья маны восстановят твою магическую силу.
-		EntryA3: Зелья Восстановления... Не уверен, могу ли я доверять им...
-		EntryA4: Существует Легендарное Йо-йо, известное как Сасскад.
-		EntryA5: Странное Варево, что я купил у Скелета-торговца пахнет просто ужасно, но его эффект восстановления маны потрясает.
-		EntryA6: Привет, *кашель*... Это определённо было не зелье Телепортации.
-		EntryA7: Ты не видел Механических Черепов поблизости?
-		EntryA8: Ты слышал об Ультра Грибах? Если ты найдёшь такой, я уверен что я смогу помочь тебе его усилить.
+		EntryA1: Мои лечебные зелья излечат даже самые глубокие твои раны.
+		EntryA2: Мои зелья маны сполна восстановят твою магическую силу.
+		EntryA3: Зелья восстановления... Я бы на них не полагался...
+		EntryA4: Легенды гласят о неком йо-йо, и имя ему - Сасскад. Что бы это могло значить?
+		EntryA5: Странное варево, что я приобрёл у скелета-торговца, пахнет просто ужасно, но на ноги ставит за пару секунд.
+		EntryA6: Привет, *кхе кхе*... Похоже, я выпил совсем не зелье телепортации...
+		EntryA7: Ты, случаем, не находил поблизости парочку механических черепов?
+		EntryA8: Ты слышал про ультра грибы? Если найдёшь один такой - неси ко мне, я смогу помочь его усилить.
 		EntryA9: "Я попросил у "
-		EntryA10: " рецепт Кактусового Экстракта. Он ответил нет, поскольку, я процитирую ''Даже идиот догадается.''"
+		EntryA10: " рецепт экстракта из кактусов, но он нагрубил мне, сказав, что, цитирую, "Даже идиот догадается"."
 		EntryA11: И только подумать... Она выбрала зелья, а не меня. Хотя тут и не поспоришь.
 		EntryA12: "Как его зовут? "
-		EntryA13: ? Так... Учитель здесь? Лучше отойди с дороги!
+		EntryA13: ? Стой... учитель здесь? Ну наконец-то, пора научиться уму-разуму!
 		EntryA14: Слава богу, что я добыл эти кусочки из Скелетрона? Не желаешь посмотреть?
 		EntryA15: "Можешь попросить "
 		EntryA16: " перестать дразнить меня? Я знаю, что мои зелья не сделают тебя сильнее, но их хотя бы не столь опасно пить."
@@ -1195,7 +1195,7 @@ Mods: {
 		EntryB1: Хочешь попробовать это зелье? Оно должно дать тебе крылья.
 		EntryB2: Не думаю, что это было зелье Шахтера...
 		EntryB3: Я получила своё образование в Университете Загадок.
-		EntryB4: Существует Легендарное Йо-йо, известное как Сасскад.
+		EntryB4: Легенды гласят о неком йо-йо, и имя ему - Сасскад. Что бы это могло значить?
 		EntryB5: Ох, хлебные крошки и слюни бобра!
 		EntryB6: Привет, *кашель* это точно не было зельем Инферно!
 		EntryB7: Ты не видел пару Механических Глаз поблизости?
@@ -1325,7 +1325,7 @@ Mods: {
 		Entry1: Я продаю зелья, сделанные моими родителями.
 		Entry2: У есть несколько зелий, которые я могу продать тебе.
 		Entry3: Так или иначе, это я придумал Боевую Комбинацию.
-		Entry4: Существует Легендарное Йо-йо, известное как Сасскад.
+		Entry4: Легенды гласят о неком йо-йо, и имя ему - Сасскад. Что бы это могло значить?
 		Entry5: Странное варево от Торговца-Скелета пахнет просто ужасно, но оно потрясающе восстанавливает ману.
 		Entry6: Привет, *кашель*.. Это определённо был не лимонад.
 		Entry7: Ты не видел Механического Червя поблизости?
