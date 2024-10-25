@@ -1,9 +1,9 @@
 Mods: {
 	TheConfectionRebirth: {
 		Common: {
-			Impersonate: "'Great for impersonating Confection Creators'"
-			Banner: " Banner"
-			Banner2: Nearby players get a bonus against:
+			Impersonate: "«Отлично подходит для подражания внешности разработчиков!»"
+			Banner: ""
+			Banner2: Увеличены урон и защита в бою против:
 			CaughtInConfection: Caught anywhere in the Confection
 			CaughtInConfectionSF: Caught anywhere in the Confection Surface
 			CaughtInConfectionUG: Caught anywhere in the Confection Underground
@@ -12,10 +12,10 @@ Mods: {
 			R3: III
 			R4: IV
 			R5: V
-			VanillaValor: Vanilla Valor
+			VanillaValor: Ванильная отвага
 			SwirlySwarm: Swirly Swarm
-			StrawberryStrike: Strawberry Strike
-			ChocolateCharge: Chocolate Charge
+			StrawberryStrike: Клубничный выпад
+			ChocolateCharge: Шоколадный рывок
 		}
 
 		Projectiles: {
@@ -29,17 +29,17 @@ Mods: {
 			SugarPowder.DisplayName: "{$Mods.TheConfectionRebirth.Items.SugarPowder.DisplayName}"
 			SucrosaSlash2.DisplayName: "{$Mods.TheConfectionRebirth.Items.Sucrosa.DisplayName}"
 			SucrosaSlash.DisplayName: "{$Mods.TheConfectionRebirth.Items.Sucrosa.DisplayName}"
-			StrawberryStrike.DisplayName: Strawberry
-			SprinklingBall.DisplayName: Sprinkling Ball
+			StrawberryStrike.DisplayName: Клубничка
+			SprinklingBall.DisplayName: Шарик посыпки
 			SpearofCavendesProj.DisplayName: "{$Mods.TheConfectionRebirth.Items.SpearofCavendes.DisplayName}"
-			SpearofCavendesBannana.DisplayName: Banana
+			SpearofCavendesBannana.DisplayName: Банан
 			SacchariteLash.DisplayName: "{$Mods.TheConfectionRebirth.Items.SacchariteLash.DisplayName}"
 			SacchariteDartPro.DisplayName: "{$Mods.TheConfectionRebirth.Items.SacchariteDart.DisplayName}"
 			SacchariteBullet.DisplayName: "{$Mods.TheConfectionRebirth.Items.SacchariteBullet.DisplayName}"
 			SacchariteArrow.DisplayName: "{$Mods.TheConfectionRebirth.Items.SacchariteArrow.DisplayName}"
 			RollercycleTrail.DisplayName: Rollercycle
 			RockCandyShard.DisplayName: "{$Mods.TheConfectionRebirth.Projectiles.RockCandy.DisplayName}"
-			RockCandy.DisplayName: Rock Candy
+			RockCandy.DisplayName: Кандис
 			PopSodaProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Items.PopSoda.DisplayName}"
 			PopRocket.DisplayName: "{$Mods.TheConfectionRebirth.Items.PopRocket.DisplayName}"
 			PeelWarp2.DisplayName: "{$Mods.TheConfectionRebirth.Projectiles.PeelWarp.DisplayName}"
@@ -47,96 +47,96 @@ Mods: {
 			NeapoliniteJoustingLanceProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Items.NeapolinitesJoustingLance.DisplayName}"
 			LickWarp2.DisplayName: "{$Mods.TheConfectionRebirth.Projectiles.LickWarp.DisplayName}"
 			LickWarp.DisplayName: Lickity Dimensional Warp
-			IcecreamStar.DisplayName: Icecream Star
+			IcecreamStar.DisplayName: Мороженное-звёздочка
 			IcecreamBall.DisplayName: "{$Mods.TheConfectionRebirth.Items.IcecreamBell.DisplayName}"
 			HallowedGlobe.DisplayName: "{$Mods.TheConfectionRebirth.Items.HallowedGlobe.DisplayName}"
 			GummyWormWhipPro.DisplayName: "{$Mods.TheConfectionRebirth.Items.GummyWormWhip.DisplayName}"
 			Drixer.DisplayName: "{$Mods.TheConfectionRebirth.Items.Drixer.DisplayName}"
 			DimWarp2.DisplayName: "{$Mods.TheConfectionRebirth.Projectiles.DimWarp.DisplayName}"
 			DimWarp.DisplayName: Dimensional Warp
-			CreamySpray.DisplayName: Spray
+			CreamySpray.DisplayName: Брызги крема
 			CreamSolution.DisplayName: "{$Mods.TheConfectionRebirth.Items.CreamSolution.DisplayName}"
 			CreamsandProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Items.Creamsand.DisplayName}"
-			CreamofKickinMeatball.DisplayName: Meatball
-			CreamofKickinCookie.DisplayName: Cookie
-			CreamBolt.DisplayName: Cream Bolt
-			CosmicCookie.DisplayName: Cosmic Cookie
+			CreamofKickinMeatball.DisplayName: Тефтеля
+			CreamofKickinCookie.DisplayName: Печенька
+			CreamBolt.DisplayName: Кремовый заряд
+			CosmicCookie.DisplayName: Космическая печенька
 			CookiePikelet.DisplayName: "{$Mods.TheConfectionRebirth.Items.CookieCrumbler.DisplayName}"
-			ChocolateChip.DisplayName: Chocolate Chip
+			ChocolateChip.DisplayName: Шоколадная крошка
 			ChipArrow.DisplayName: "{$Mods.TheConfectionRebirth.Items.ChipArrow.DisplayName}"
-			CherryShard.DisplayName: Cherry Shard
+			CherryShard.DisplayName: Вишнёвый осколок
 			CherryGrenade.DisplayName: "{$Mods.TheConfectionRebirth.Items.CherryGrenade.DisplayName}"
 			CherryBurstArrow.DisplayName: "{$Mods.TheConfectionRebirth.Items.CherryBurstArrow.DisplayName}"
-			CandleFlames.DisplayName: Candle Flames
+			CandleFlames.DisplayName: Пламя свечи
 			BearClaw.DisplayName: "{$Mods.TheConfectionRebirth.Items.BearClaw.DisplayName}"
 			BananawarpPeel.DisplayName: "{$Mods.TheConfectionRebirth.Items.BananawarpPeel.DisplayName}"
 			BakersDozen.DisplayName: "{$Mods.TheConfectionRebirth.Items.BakersDozen.DisplayName}"
 			RollerCookiePetProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Buffs.RollerCookiePet.DisplayName}"
 			MeawzerPetProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Buffs.MeawzerPet.DisplayName}"
 			DudlingPetProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Buffs.DudlingPet.DisplayName}"
-			FoxPetProjectile.DisplayName: Delete Later
+			FoxPetProjectile.DisplayName: Потом удалю
 			CreamsandWitchPetProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Buffs.CreamsandWitchPetBuff.DisplayName}"
 			CookiestBlockPro.DisplayName: "{$Mods.TheConfectionRebirth.Buffs.CookiestBlockBuff.DisplayName}"
 			BirdnanaLightPetProjectile.DisplayName: "{$Mods.TheConfectionRebirth.Buffs.BirdnanaLightPetBuff.DisplayName}"
-			MeowzerBeam.DisplayName: Meowzer Beam
-			RollerCookieSummonProj.DisplayName: Roller Cookie
-			MiniRollerCookieSummonersShine.DisplayName: Extra Cookie
-			MeawzerSummonProj.DisplayName: Meowzer
-			MeawzerSummonLazer.DisplayName: Rainbow Laser
-			GastropodSummonProj.DisplayName: Mini Gastropod
-			GastropodSummonPinkLazer.DisplayName: Pink Laser
-			DuchessPrincessRockCandy.DisplayName: Rock Candy
-			DuchessPrincess.DisplayName: Candy Fairy
-			DuchessCrystal.DisplayName: Rock Candy
-			DeathsSlash.DisplayName: Deaths Slash
-			TrueDeathsSlash.DisplayName: True Deaths Slash
+			MeowzerBeam.DisplayName: Луч мурлыкала
+			RollerCookieSummonProj.DisplayName: Перекати-печенье
+			MiniRollerCookieSummonersShine.DisplayName: Печенье-добавка
+			MeawzerSummonProj.DisplayName: Мурлыкало
+			MeawzerSummonLazer.DisplayName: Радужный лазер
+			GastropodSummonProj.DisplayName: Мини-брюхоног
+			GastropodSummonPinkLazer.DisplayName: Розовый лазер
+			DuchessPrincessRockCandy.DisplayName: Кандис
+			DuchessPrincess.DisplayName: Конфейка
+			DuchessCrystal.DisplayName: Кандис
+			DeathsSlash.DisplayName: Взмах смерти
+			TrueDeathsSlash.DisplayName: Взмах истинной смерти
 			SprinklingBallLarge.DisplayName: "{$Mods.TheConfectionRebirth.Projectiles.SprinklingBall.DisplayName}"
 			SprinklingBallSmall.DisplayName: "{$Mods.TheConfectionRebirth.Projectiles.SprinklingBall.DisplayName}"
 			DefenciveSprinkle.DisplayName: "{$Mods.TheConfectionRebirth.Projectiles.SprinklingBall.DisplayName}"
-			HangingBatSpawner.DisplayName: Hanging Bat Spawner
-			ParfaitBlueberry.DisplayName: Parfait Blueberry
-			ParfaitStrawberry.DisplayName: Parfait Strawberry
-			RootbeerSpray.DisplayName: Rootbeer Spray
-			YoyoCookieKiss.DisplayName: Yoyo Cookie Kiss
-			CreamsandSandgunProjectile.DisplayName: Creamsand Sandgun Projectile
-			SherbetFlare.DisplayName: Sherbet Flare
+			HangingBatSpawner.DisplayName: Висящий спавнер летучих мышей
+			ParfaitBlueberry.DisplayName: Парфе с голубикой
+			ParfaitStrawberry.DisplayName: Парфе с клубникой
+			RootbeerSpray.DisplayName: Брызги корневого пива
+			YoyoCookieKiss.DisplayName: Йо-йо-печенье
+			CreamsandSandgunProjectile.DisplayName: Крем-песок
+			SherbetFlare.DisplayName: Сорбетовая вспышка
 		}
 
 		NPCs: {
-			WildWilly.DisplayName: Wild Willy
-			TheUnfirm.DisplayName: The Unfirm
-			SweetGummy.DisplayName: Sweet Gummy
-			SugarGhoul.DisplayName: Sugar Ghoul
-			StripedPigron.DisplayName: Striped Pigron
-			Sprinkling.DisplayName: Sprinkling
-			Sprinkler.DisplayName: Sprinkler
-			SherbetSlime.DisplayName: Sherbet Slime
-			Rollercookie.DisplayName: Rollercookie
-			Prickster.DisplayName: Prickster
-			ParfaitSlime.DisplayName: Parfait Slime
-			MintJr.DisplayName: Mint Jr.
-			MeowzerCannonHitbox.DisplayName: Meowzer Tail
-			Meowzer.DisplayName: Meowzer
-			Iscreamer.DisplayName: Iscreamer
-			IcecreamGal.DisplayName: Icecream Gal
-			Hunger.DisplayName: Hunger
-			FoaminFloat.DisplayName: Foamin' Float
-			Dudley.DisplayName: Dudley
-			CrookedCookie.DisplayName: Crooked Cookie
-			Pip.DisplayName: Pip
-			GummyWorm.DisplayName: Gummy Worm
-			GrumbleBee.DisplayName: Gumble Bee
-			ChocolateFrog.DisplayName: Chocolate Frog
-			ChocolateBunny.DisplayName: Chocolate Bunny
-			CherryBug.DisplayName: Cherry Bug
-			Birdnana.DisplayName: Birdnana
-			CreamSwollower.DisplayName: Saccharite Sharpnose
+			WildWilly.DisplayName: Дикий Уилли
+			TheUnfirm.DisplayName: Нечто
+			SweetGummy.DisplayName: Мамеладная мумия
+			SugarGhoul.DisplayName: Сахарный упырь
+			StripedPigron.DisplayName: Полосатый пигрон
+			Sprinkling.DisplayName: Посыпка
+			Sprinkler.DisplayName: Посыпатель
+			SherbetSlime.DisplayName: Сорбетный слизень
+			Rollercookie.DisplayName: Перекати-печенье
+			Prickster.DisplayName: Колючка
+			ParfaitSlime.DisplayName: Слизень-парфе
+			MintJr.DisplayName: Конфетка
+			MeowzerCannonHitbox.DisplayName: Хвост мурлыкала
+			Meowzer.DisplayName: Мурлыкало
+			Iscreamer.DisplayName: Мороженщик
+			IcecreamGal.DisplayName: Девчонка с мороженым
+			Hunger.DisplayName: Сладкоежка
+			FoaminFloat.DisplayName: Парящая сладкая вата
+			Dudley.DisplayName: Чувачок
+			CrookedCookie.DisplayName: Злобная вафля
+			Pip.DisplayName: Пискун
+			GummyWorm.DisplayName: Мармеладный червь
+			GrumbleBee.DisplayName: Мармеладная пчёлка
+			ChocolateFrog.DisplayName: Шоколадная лягушка
+			ChocolateBunny.DisplayName: Шоколадный заяц
+			CherryBug.DisplayName: Вишнежук
+			Birdnana.DisplayName: Банан-баклан
+			CreamSwollower.DisplayName: Сахаритовый остронос
 			CreamsandWitchPhase2.DisplayName: "{$Mods.TheConfectionRebirth.NPCs.CreamsandWitchPhase1.DisplayName}"
 			CreamsandWitchPhase1.DisplayName: Creamsand Witch
-			CrazyCone.DisplayName: Crazy Cone
-			BigMimicConfection.DisplayName: Confection Mimic
-			RoyalCherryBug.DisplayName: Royal Cherry Bug
-			GummyWyrmBody.DisplayName: Gummy Wyrm
+			CrazyCone.DisplayName: Безумный рожок
+			BigMimicConfection.DisplayName: Ослащённый подражатель
+			RoyalCherryBug.DisplayName: Королевский вишнежук
+			GummyWyrmBody.DisplayName: Мармеладный змей
 			GummyWyrmHead.DisplayName: "{$Mods.TheConfectionRebirth.NPCs.GummyWyrmBody.DisplayName}"
 			GummyWyrmTail.DisplayName: "{$Mods.TheConfectionRebirth.NPCs.GummyWyrmBody.DisplayName}"
 		}
@@ -1824,7 +1824,7 @@ Mods: {
 
 		Tiles: {
 			CreamSnowSapling.MapEntry: "{$Mods.TheConfectionRebirth.Tiles.CreamSapling.MapEntry}"
-			CreamSapling.MapEntry: Cream Sapling
+			CreamSapling.MapEntry: Саженец мороженого
 			SoulofDelightinaBottle.MapEntry: "{$Mods.TheConfectionRebirth.Items.SoulofDelightinaBottleItem.DisplayName}"
 			SherbetTorch.MapEntry: "{$ItemName.Torch}"
 			SherbetCampfire.MapEntry: "{$ItemName.Campfire}"
@@ -1878,11 +1878,11 @@ Mods: {
 			CreamwoodBath.MapEntry: "{$Mods.TheConfectionRebirth.Items.CreamwoodBath.DisplayName}"
 			ConfectionUGMusicBox.MapEntry: "{$Mods.TheConfectionRebirth.Tiles.ConfectionMusicBox.MapEntry}"
 			ConfectionTorch.MapEntry: "{$ItemName.Torch}"
-			ConfectionMusicBox.MapEntry: Music Box
+			ConfectionMusicBox.MapEntry: Музыкальная шкатулка
 			ConfectionCampfire.MapEntry: "{$ItemName.Campfire}"
 
 			ConfectionBiomeChestTile: {
-				MapEntry1: Locked "{$Mods.TheConfectionRebirth.Items.ConfectionBiomeChestItem.DisplayName}"
+				MapEntry1: Закрытый "{$Mods.TheConfectionRebirth.Items.ConfectionBiomeChestItem.DisplayName}"
 				MapEntry: "{$Mods.TheConfectionRebirth.Items.ConfectionBiomeChestItem.DisplayName}"
 			}
 
@@ -1890,10 +1890,10 @@ Mods: {
 			ChocolateFrogCage.MapEntry: "{$Mods.TheConfectionRebirth.Items.ChocolateFrogCageItem.DisplayName}"
 			ChocolateBunnyCage.MapEntry: "{$Mods.TheConfectionRebirth.Items.ChocolateBunnyCageItem.DisplayName}"
 			CherryBugBottle.MapEntry: "{$Mods.TheConfectionRebirth.Items.CherryBugBottleItem.DisplayName}"
-			EnchantedSacchariteBlock.MapEntry: Enchanted Saccharite
+			EnchantedSacchariteBlock.MapEntry: Зачарованный сахарит
 			SoulofSpiteinaBottle.MapEntry: "{$Mods.TheConfectionRebirth.Items.SoulofSpiteinaBottleItem.DisplayName}"
-			RoyalCherryBugBottle.MapEntry: Royal Cherry Bug Bottle
-			CreamTree.MapEntry: Tree
+			RoyalCherryBugBottle.MapEntry: Королевский вишнежук в бутылке
+			CreamTree.MapEntry: Дерево
 		}
 
 		SetBonus: {
@@ -1965,27 +1965,27 @@ Mods: {
 			Sprinklefish: Remember those piles of sprinkles in the confection? Well turns out sometimes some of those sprinkles grow fins and swim away. Go catch me one so I can eat it!
 		}
 
-		PlayerDeathReason.ChokedOutByRootbeer: "{0} was choked to death by rootbeer."
+		PlayerDeathReason.ChokedOutByRootbeer: "{0} захлебнулся корневым пивом."
 
 		Biomes: {
 			SandConfectionUndergroundBiome: {
-				TownNPCDialogueName: the Sand Confection Underground Biome
-				DisplayName: Confection Cave Desert
+				TownNPCDialogueName: подземная ослащённая пустыня
+				DisplayName: Подземная пустыня ослащения
 			}
 
 			SandConfectionSurfaceBiome: {
-				TownNPCDialogueName: the Sand Confection Surface Biome
-				DisplayName: Confection Desert
+				TownNPCDialogueName: ослащённая пустыня
+				DisplayName: Пустыня ослащения
 			}
 
 			IceConfectionUndergroundBiome: {
-				TownNPCDialogueName: the Ice Confection Underground Biome
-				DisplayName: Confection Ice
+				TownNPCDialogueName: подземная ослащённая тундра
+				DisplayName: Подземный снежный биом ослащения
 			}
 
 			IceConfectionSurfaceBiome: {
-				TownNPCDialogueName: the Ice Confection Surface Biome
-				DisplayName: Confection Snow
+				TownNPCDialogueName: ослащённая тундра
+				DisplayName: Снежный биом ослащения
 			}
 
 			DesertOverlayBiome: {
@@ -1994,30 +1994,30 @@ Mods: {
 			}
 
 			ConfectionUndergroundBiome: {
-				TownNPCDialogueName: the Confection Underground Biome
-				DisplayName: Underground Confection
+				TownNPCDialogueName: подземное ослащение
+				DisplayName: Подземное ослащение
 			}
 
 			ConfectionBiome: {
-				TownNPCDialogueName: the Confection
-				DisplayName: The Confection
+				TownNPCDialogueName: ослащение
+				DisplayName: Ослащение
 			}
 		}
 
 		HallowSelection: {
 			Random: {
-				Title: Random
-				Description: Let nature decide whether hallow or confection defends your world.
+				Title: Случайно
+				Description: Доверить выбор между освящением и ослащением воле случая.
 			}
 
 			Hallow: {
-				Title: Hallow
-				Description: Fairy-tale like Hallow is guaranteed to be present in your world.
+				Title: Освящение
+				Description: Сказочный, волшебный биом освещения гарантированно появится в вашем мире.
 			}
 
 			Confection: {
-				Title: Confection
-				Description: Cookies n' cream filled Confection is guaranteed to be present in your world.
+				Title: Ослащение
+				Description: Пропитанный кремом и сделанный из печенья биом ослащения гарантированно появится в вашем мире.
 			}
 		}
 
@@ -2033,11 +2033,11 @@ Mods: {
 			WorldDescriptionSweeterAir: The air we breathe has become a lot sweeter.
 		}
 
-		TheConfection: Confection
+		TheConfection: Ослащение
 
 		Conditions: {
-			InConfection: In Confection
-			NotInConfection: Not in Confection
+			InConfection: В биоме ослащения
+			NotInConfection: Не в биоме ослащения
 		}
 
 		Configs: {
