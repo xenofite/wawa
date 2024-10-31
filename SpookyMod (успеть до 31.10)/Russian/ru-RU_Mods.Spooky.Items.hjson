@@ -340,7 +340,7 @@ RottenSeed: {
 
 StrangeCyst: {
 	DisplayName: Странная киста
-	Tooltip: Right click the giant egg with this in your inventory to begin the egg incursion
+	Tooltip: Кликните ПКМ по гигантскому яйцу, держа странную кисту в инвентаре, чтобы начать яичное нашествие.
 }
 
 FlowerBody: {
@@ -393,13 +393,13 @@ PlantChunk: {
 }
 
 Slot3Unlocker: {
-	DisplayName: 2nd Place Bloom Ribbon
-	Tooltip: Unlocks your third bloom slot
+	DisplayName: Ленточка 2-го места растения
+	Tooltip: Открывает третий слот под баффы растений
 }
 
 Slot4Unlocker: {
-	DisplayName: 1st Place Bloom Ribbon
-	Tooltip: Unlocks your fourth bloom slot
+	DisplayName: Ленточка 1-го места растения
+	Tooltip: Открывает четвёртый слот под баффы растений
 }
 
 BigBoneBow: {
@@ -493,7 +493,7 @@ FemurFracture: {
 
 FlameIdol: {
 	DisplayName: Идол пламени
-	Tooltip: Hold down to create a massive combustion aura
+	Tooltip: Удерживайте ЛКМ, чтобы создать сильную огненную ауру
 }
 
 GlowBulb: {
@@ -1382,7 +1382,7 @@ RootLegs: {
 }
 
 SpiderBody: {
-	DisplayName: Пси-учая нагрудная пластина
+	DisplayName: Нагрудная пластина паук-опера
 	Tooltip:
 		'''
 		Увеличивает шанс критического удара на 3%
@@ -1391,7 +1391,7 @@ SpiderBody: {
 }
 
 SpiderHead: {
-	DisplayName: Пси-учий визор
+	DisplayName: Визор паук-опера
 	Tooltip:
 		'''
 		Увеличивает урон на 10%
@@ -1400,7 +1400,7 @@ SpiderHead: {
 }
 
 SpiderLegs: {
-	DisplayName: Пси-учие ботинки
+	DisplayName: Ботинки паук-опера
 	Tooltip:
 		'''
 		Увеличивает скорость передвижения на 15%
