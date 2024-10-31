@@ -1362,291 +1362,292 @@ Items: {
 		DisplayName: Мегалодон
 		Tooltip:
 			'''
-			Every third shot will launch an additional shark
-			10% chance to conserve ammunition
-			"We successfully fit a shark in there, just be careful not to get your finger bitten off"
+			Каждый третий выстрел выпускает акулу
+			10% шанс не использовать боеприпасы
+			"Мы еле-еле натянули живую акулу на эту пушку, так что береги свои пальцы"
 			'''
 	}
 
 	MidasPrimeEcType: {
-		DisplayName: Midas Prime
+		DisplayName: Мидас Прайм
 		Tooltip:
 			'''
-			Fire the marksman bullet
-			Right-click to toss a gold or silver coin into the air
-			Bullets that hit the coin will aim towards the nearest enemy
-			You can throw up to 4 coins, and bullets will bounce between multiple coins if possible
-			Bouncing bullets are guaranteed to be critical hits and will increase in damage based on the number of bounces
-			"Money is power."
+			Нажмите ПКМ, чтобы подбросить золотую или серебряную монету в воздух
+			При попадании по монете, пуля отрикошетит в ближайшего врага
+			Можно подбросить до четырёх монет за раз, пули будут стараться рикошетить от всех подброшенных монет
+			Урон пули будет увеличиваться с каждым рикошетом
+			Отрикошетившая хотя бы от одной монеты пуля гарантированно нанесёт критический удар
 			'''
 	}
 
 	NeedlerEcType: {
-		DisplayName: Needler
+		DisplayName: Игольник
 		Tooltip:
 			'''
-			Converts musket bullets into needle-like leaves that stick to enemies and explode
-			"Pine Needle Rainstorm?"
+			Превращает мушкетные пули в игловидные листья, которые застревают во врагах и взрываются спустя некоторое время
+			"Хотел когда-нибудь устроить дождь из еловых иголок?"
 			'''
 	}
 
 	PlagueTaintedSMGEcType: {
-		DisplayName: Plague Tainted SMG
+		DisplayName: ПП «Чумная гибель»
 		Tooltip:
 			'''
-			Left-click to fire plague bullets that spawn plague self-destruct drones on critical hits
-			Drones have a high critical hit rate when hitting enemies infected with plague
-			Right-click to launch a swarm of drones
-			"Aim and shoot, aim and shoot."
+			Стреляет чумными пулями, критические попадания которыми призывают самоуничтожающихся дронов, преследующих ваших врагов
+			Дроны с большей вероятностью наносят критический удар по врагам с дебаффом "Чума"
+			Нажмите ПКМ, чтобы выпустить сразу уйму дронов
+			"Жми и молись"
 			'''
 	}
 
 	ScorpioEcType: {
-		DisplayName: Scorpio
-		Tooltip: “BOOM”
+		DisplayName: Скорпион
+		Tooltip: "БАБАХ"
 	}
 
 	ArcherfishEcType: {
-		DisplayName: Archerfish
-		Tooltip: Converts musket bullets into a jet of water
+		DisplayName: Брызгун
+		Tooltip: Превращает мушкетные пули в смертоносные струи воды
 	}
 
 	AstralBlasterEcType: {
-		DisplayName: Astral Blaster
-		Tooltip: Converts musket bullets into tracking phantom star bullets
+		DisplayName: Астральный бластер
+		Tooltip: Превращает мушкетные пули в самонаводящиеся пули умирающих звёзд
 	}
 
 	AuralisEcType: {
-		DisplayName: Auralis
+		DisplayName: Ауралис
 		Tooltip:
 			'''
-			Fires high-speed flash bullets that reduce enemy defenses
-			Standing still provides a damage bonus, up to 25%
-			Standing still and aiming with the right-click for 5 seconds or more will generate auroras around you
-			The auroras will reduce the damage of your next incoming bullets by 100 points
-			This effect lasts for up to 20 seconds and has a 30-second cooldown
+			Стреляет высокоскоростными световыми пулями, накладывающими дебафф "Отмеченный на смерть", снижающий защиту врага
+			Стояние на месте постепенно накапливает бонус к урону следующего выстрела, вплоть до прибавки в 25%
 			'''
 	}
 
 	AuroraBlazerEcType: {
-		DisplayName: Aurora Blazer
+		DisplayName: Испепелитель авроры
 		Tooltip:
 			'''
-			Sprays nebula flames that move in a star-shaped trajectory
-			Uses gel as ammunition
-			"The fury within the starlight burns"
+			Выпускает поток в форме звезды из огней туманности
+			Использует гель в качестве боеприпасов
+			"Пламя ярости звёздного света ещё не затухло"
 			'''
 	}
 
 	BarracudaGunEcType: {
-		DisplayName: Barracuda Gun
-		Tooltip: Launch two barracudas to latch onto enemies and shred them apart
+		DisplayName: Пушка барракуды
+		Tooltip: 
+			'''
+			Выпускает двух кровожадных барракуд в ближайшего врага
+			Удерживайте ЛКМ, чтобы заставить барракуд вцепиться в вашего врага зубами
+			Отпустите ЛКМ, чтобы отозвать барракуд
+			'''
 	}
 
 	BlissfulBombardierEcType: {
-		DisplayName: Blissful Bombardier
-		Tooltip:
-			'''
-			Fires holy fire rockets
-			Rockets will destroy blocks when using ammunition capable of doing so
-			'''
+		DisplayName: Блаженный бомбардир
+		Tooltip: Стреляет ракетами святого огня
 	}
 
 	ChickenCannonEcType: {
-		DisplayName: Chicken Cannon
+		DisplayName: Куриная пушка
 		Tooltip:
 			'''
-			Fires chicken rockets that create huge explosions
-			Right-click to detonate all flying rockets
+			Стреляет куриными ракетами-фейерверками, отскакивающими вертикально вверх при столкновении с блоками
+			Нажмите ПКМ, чтобы взорвать все выпущенные ракеты
 			'''
 	}
 
 	ClamorRifleEcType: {
-		DisplayName: Clamor Rifle
-		Tooltip: Converts musket bullets into tracking energy beam
+		DisplayName: Шумовая винтовка
+		Tooltip: Превращает мушкетные пули в призматические лучи, самонаводящиеся после столкновения с блоками или врагами
 	}
 
 	GunkShotEcType: {
-		DisplayName: Gunk Shot
-		Tooltip: Fires several bullets
+		DisplayName: Липкий выстрел
+		Tooltip: Стреляет дробью из пуль
 	}
 
 	NorfleetEcType: {
-		DisplayName: Norfleet
-		Tooltip: Perfect balance, suitable for all...
+		DisplayName: Разрыв
+		Tooltip:
+			'''
+			Стреляет тремя энергетическими зарядами, каждый из которых накладывает свой дебафф
+			После каждого третьего выстрела, оружию потребуется долгая перезарядка
+			'''
 	}
 
 	ShroomerEcType: {
-		DisplayName: Shroomer
-		Tooltip: Fires bullets along with powerful tracking mushrooms
+		DisplayName: Грибник
+		Tooltip: Дополнительно выпускает самонаводящийся гриб с каждым выстрелом
 	}
 
 	StarfleetEcType: {
-		DisplayName: Starfleet
-		Tooltip: Fires several plasma star bullets
+		DisplayName: Звёздный флот
+		Tooltip: Стреляет шквалом из звёзд, заряженных плазмой
 	}
 
 	StarmadaEcType: {
-		DisplayName: Starmada
-		Tooltip: Fires stars and plasma star bullets
+		DisplayName: Стармада
+		Tooltip: Стреляет потоком из звёзд и плазменных зарядов
 	}
 
 	SulphuricAcidCannonEcType: {
-		DisplayName: Sulphuric Acid Cannon
-		Tooltip: Fires a sulfuric acid barrage that sticks to enemies and dissolves them
+		DisplayName: Пушкая серной кислоты
+		Tooltip: Стреляет залпами серной кислоты, прилипающими к врагам
 	}
 
 	UniversalGenesisEcType: {
-		DisplayName: Universal Genesis
+		DisplayName: Вселенское начало
 		Tooltip:
 			'''
-			Fires a cluster of bullets from the muzzle, causing a shower of falling stars to descend towards the mouse cursor
-			Converts musket bullets into star-summoning bullets that summon additional falling stars upon impact
-			"Let the stars fall upon our enemies"
+			Превращает мушкетные пули в падшие звёзды, призывающие ещё больше звёзд с неба при попадании по врагу
+			Дополнительно призывает заряженные плазмой звёзды при каждом выстреле, падающие в сторону курсора
+			"Да обрушится же на врагов твоих сила космоса бескрайнего"
 			'''
 	}
 
 	VoidragonEcType: {
-		DisplayName: Voidragon
+		DisplayName: Пустотный дракон
 		Tooltip:
 			'''
-			Every six shots will trigger a Void Burst. 
-			Upon hitting an enemy, bullets will spawn Void Touches on the spot. 
-			"This fish comes from the stars, but it is neither Omnisiah nor Void Dragon. It is just a fish."
+			Попадания по врагу вызывают пустотные языки 
+			Каждый седьмой выстрел выпускает шквал из взрывающихся пустотных зарядов
 			'''
 	}
 
 	AcesHighEcType: {
-		DisplayName: Aces High
+		DisplayName: Старшинство тузов
 		Tooltip:
 			'''
-			Fires a string of playing cards, each with different effects
-			Hearts have a blood-sucking effect
-			Spades can penetrate infinitely and ignore enemy invincibility frames
-			Diamonds cause explosions
-			Clubs split into three small playing cards
+			Стреляет колодой карт разных мастей, каждая из которых обладает уникальными эффектами
+			Червы обладают эффектом похищения здоровья
+			Пики пронзают врагов насквозь и игнорируют их кадры неуязвимости
+			Бубны взрываются
+			Трефы разделяются на три самонаводящиеся карты
 			'''
 	}
 
 	ConferenceCallEcType: {
-		DisplayName: Conference Call
+		DisplayName: Вызов обществу
 		Tooltip:
 			'''
-			Fires dense bullets while summoning even more bullets from the sky
-			[c/768EE6:@All]
+			Стреляет дробью из пуль
+			Дополнительно обрушает с неба на ближайшего врага ещё одну дробь из пуль при каждом выстреле
+			[c/768EE6:@everyone]
 			'''
 	}
 
 	MineralMortarEcType: {
-		DisplayName: Mineral Mortar
+		DisplayName: Минеральная мортира
 		Tooltip:
 			'''
-			Fires a onyx rocket that causes widespread damage when it explodes
-			"It can't create a sandstorm, but it can blast everyone into the sky"
+			Удерживайте ЛКМ, чтобы выстрелить мощной ониксовой ракетой
+			"Удивительным образом ракетница умудряется не оставлять от врагов и мокрого места и в то же время не сдувать с места ни песчинки"
 			'''
 	}
 
 	MolecularManipulatorEcType: {
-		DisplayName: Molecular Manipulatore
+		DisplayName: Молекулярный манипулятор
 		Tooltip:
 			'''
-			Fires a "blank" round that twists the properties of monsters
-			“Object reference not set to an instance of an object”
+			Попадания по врагам случайным образом изменяют некоторые их характеристики
+			"Object reference not set to an instance of an object"
 			'''
 	}
 
 	NullificationRifleEcType: {
-		DisplayName: Nullification Rifle
+		DisplayName: Пистолет обнуления
 		Tooltip:
 			'''
-			Fires a "blank" round that twists the properties of monsters
-			“Object reference not set to an instance of an object”
+			Попадания по врагам случайным образом изменяют некоторые их характеристики
+			"Object reference not set to an instance of an object"
 			'''
 	}
 
 	OnyxChainBlasterEcType: {
-		DisplayName: Onyx Chain Blaster
+		DisplayName: Ониксовый цепной бластер
 		Tooltip:
 			'''
-			Fires several bullets and a onyxgrenade
-			10% chance to conserve ammunition
-			"This thing has a magazine shorter than a joke, but at least it can make you laugh when you're out of ammo."
+			Стреляет дробью из пуль и ониксового осколка
+			10% шанс не использовать боеприпасы
+			"Так и хочется маниакально засмеяться, пока перезаряжаешь магазин этой пушки"
 			'''
 	}
 
 	OnyxiaEcType: {
-		DisplayName: Onyxia
+		DisplayName: Ониксия
 		Tooltip:
 			'''
-			Unleash a hail of bullets and onyx shards upon your enemies
-			"The incarnation of the Black Dragon"
+			Стреляет шквалом пуль и ониксовых осколков
+			"Перерождение чёрного дракона"
 			'''
 	}
 
 	PestilentDefilerEcType: {
-		DisplayName: Pestilent Defiler
-		Tooltip: Converts musket bullets into plague bullets that burst into fragments of plague.
+		DisplayName: Пагубный осквернитель
+		Tooltip: Превращает мушкетные пули в чумные пули, разделяющиеся на самонаводящиеся очумлённые осколки при столкновении с блоками или врагами
 	}
 
 	RealmRavagerEcType: {
-		DisplayName: Realm Ravager
+		DisplayName: Опустошитель царств
 		Tooltip:
 			'''
-			Fires three to four bullets at once
-			Converts musket bullets into explosive rounds
-			"Beware of the secrets buried within this weapon, as the previous owner would never reveal them. Even ghosts would laugh if they knew."
+			Превращает мушкетные пули в разрывные пули
+			Стреляет дробью из пуль
+			"Бывший владелец этого оружия унёс с собой в могилу кое-какой секрет, внушающий ужас даже мертвецам"
 			'''
 	}
 
 	RubicoPrimeEcType: {
-		DisplayName: Rubico Prime
+		DisplayName: Рубико Прайм
 		Tooltip:
 			'''
-			When held idle, it automatically shoots at nearby enemies
-			The ammunition fired has a higher critical hit multiplier
-			"A true automatic rifle should know how to shoot enemies by itself."
+			НЕ нажимайте ЛКМ, чтобы оружие автоматически начало стрелять в ближайших врагов с уменьшенной скорострельностью
+			Выстрелы наносят увеличенный критический урон 
+			"Хорошая винтовка и сама во врагов пострелять может, правда ведь?"
 			'''
 	}
 
 	SandstormGunEcType: {
-		DisplayName: Sandstorm Gune
+		DisplayName: Песчаная буря
 		Tooltip:
 			'''
-			Fires Sand Sprites at the cursor's height, throwing numerous sandballs into the air
-			Uses sand blocks as ammunition
+			Выпускает песчаных духов, подбрасывающих вверх множество осколков песчаника
+			Использует блоки песка в качестве боеприпасов
 			'''
 	}
 
 	SepticSkewerEcType: {
-		DisplayName: Septic Skewer
+		DisplayName: Гнилостный штык
 		Tooltip:
 			'''
-			Fires all sticky venomous harpoons at once
-			Releases bacteria when they fly back to the player
+			Стреляет штормом из ядовитых гарпунов
+			Гарпуны выпускают смертносные бактерии, пока летят обратно к вам
 			'''
 	}
 
 	ShredderEcType: {
-		DisplayName: Shredder
+		DisplayName: Измельчитель
 		Tooltip:
 			'''
-			Fires a cluster of energy bullets that ricochet and split
-			Right-click to fire a volley of bullets
-			"We should be grateful that most bullets appear out of nowhere, otherwise we'd have a hefty arms bill to pay."
+			Стреляет шквалом энергетических снарядов, рикошетящих и разделяющихся при столкновении с блоками или врагами
+			Нажмите ПКМ, чтоб выстрелить веером из пуль с крайне ограниченной дальностью
+			"Слава богу, что за разделяющиеся пули доплачивать не нужно"
 			'''
 	}
 
 	SomaPrimeEcType: {
-		DisplayName: Soma Prime
+		DisplayName: Сома Прайм
 		Tooltip:
 			'''
-			If this weapon's critical hit rate exceeds 100%, it can cause overkill
-			All fired bullets cause dissociative and stackable bleeding debuffs
-			The dissociative debuff causes 150 points of damage per second, which is affected by your ranged attribute
-			Each time the dissociative debuff causes damage, there is a chance for a critical hit or overkill to trigger
-			Converts musket bullets into high-speed bullets
-			30%几率节省弹药
-			"Market forces dictate that you need to evolve or die."
+			Превращает мушкетные пули в высокоскоростные пули
+			Если шанс критического удара этого оружия превышает 100%, оно сможет наносить суперкритические удары
+			Каждое попадание по врагу накладывает дебафф «Шинковка», накапливающий эффект кровотечения
+			Каждый стак кровотечения наносит 150 единиц урона в секунду, это значние увеличивается от ваших бонусов к стрелковому урону
+			Кровотечение также может наносить критические и суперкритические удары
+			30% шанс не использовать боеприпасы
+			"Эволюционируй или умри, таковы правила рынка"
 			'''
 	}
 
