@@ -36,11 +36,11 @@ Mods: {
 		}
 
 		FavoritedUI: {
-			Close: Закрыть ({0})
+			Close: Скрыть ({0})
 			ToggleHint: Нажмите {0}, чтобы переключить
-			ToggleUnboundHint: Установить горячую клавишу для переключения
+			ToggleUnboundHint: установите горячую клавишу для переключения
 			AlwaysShow: Показывать всегда
-			ShowWhenInventory: Показывать при нахождении в инвентаре
+			ShowWhenInventory: Показывать при открытом инвентаре
 		}
 
 		CraftUI: {
