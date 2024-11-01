@@ -12,12 +12,12 @@ Mods: {
 		}
 
 		Common: {
-			DayTimeSet: Установлено утреннее время суток
-			NightTimeSet: Установлено вечернее время суток
-			SandstormStarted: Начата песчаная буря
-			SandstormStopped: Песчаная буря прекратилась
-			RainStarted: Начался дождь
-			RainStopped: Дождь прекратился
+			DayTimeSet: Установлено утреннее время суток.
+			NightTimeSet: Установлено вечернее время суток.
+			SandstormStarted: Начата песчаная буря.
+			SandstormStopped: Песчаная буря прекратилась.
+			RainStarted: Начался дождь.
+			RainStopped: Дождь прекратился.
 		}
 
 		#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
@@ -175,7 +175,7 @@ Mods: {
 
 			Blurring: {
 				DisplayName: Размытие
-				Description: Враги едва могут видеть вас; каждые 30 секунд, даёт эффект святой защиты на 10 секунд.
+				Description: Враги едва могут видеть вас; каждые 30 секунд, даёт эффект святой защиты на 10 секунд
 			}
 
 			BuilderComb: {
@@ -562,7 +562,7 @@ Mods: {
 				Tooltip:
 					'''
 					Мешки с сокровищами пока недоступны
-					Победите Скелетрона, чтобы разблокировать первый набор.
+					Победите Скелетрона, чтобы разблокировать первый набор
 					'''
 			}
 
@@ -644,7 +644,7 @@ Mods: {
 
 			APMC: {
 				DisplayName: Исходный код ИИ и модуль памяти
-				Tooltip: Резервная копия Анджелы.
+				Tooltip: Резервная копия Анджелы
 			}
 
 			ArchitectHorcrux: {
@@ -1404,7 +1404,7 @@ Mods: {
 				}
 
 				TinkererSpawn: {
-					Tooltip: Включает появление изобретателя, продающего различные аксессуары.
+					Tooltip: Включает появление изобретателя, продающего различные аксессуары
 					Label: Изобретатель
 				}
 
