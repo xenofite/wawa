@@ -81,7 +81,7 @@ Mods: {
 			OnlyShowCraftedItems: Показывать только создаваемые предметы
 			Loot: Добыча
 			ShowOnlyLootItems: Показывать только предметы, выпадающие с существ
-			Unobtained: Неполучен.
+			Unobtained: Неполуч.
 			OnlyUnobtainedItems: Показывать только ранее не полученные предметы
 			BottomInstructions: Двойное ЛКМ: показать рецепты  ---  Двойное ПКМ: показать, с кого выпадает
 		}
