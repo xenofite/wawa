@@ -90,7 +90,7 @@ Configs: {
 		Headers: {
 			FPSControl: FPS
 			SpeedControl: Тикрейт
-			Optimizations: Оптимизация — [c/FFD890:Эти настройки работают лучше всего с «Цветным» освещением]
+			Optimizations: Оптимизация — [c/FFD890:эти настройки работают лучше всего с «Цветным» освещением]
 		}
 
 		uiSpeedLimit: {
