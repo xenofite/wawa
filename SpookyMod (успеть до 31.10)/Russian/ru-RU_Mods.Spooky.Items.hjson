@@ -182,7 +182,7 @@ WinterStrawberry: {
 }
 
 BoneMask: {
-	DisplayName: Ancient Skull Mask
+	DisplayName: Древняя маска черепа
 	Tooltip:
 		'''
 		Выпускает самонаводяхся духов во все стороны, пока вы не стоите на месте
@@ -246,7 +246,7 @@ SpiritAmulet: {
 }
 
 BossBagBigBone: {
-	DisplayName: Мешок с сокровищами (Big Bone)
+	DisplayName: Мешок с сокровищами (Исполинский череп)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -329,7 +329,7 @@ Fertilizer: {
 	Tooltip:
 		'''
 		Воняющий мешок земли и костей
-		Призывает Big Bone при использовании рядом с гигантским цветочным горшоком
+		Призывает Исполинский череп при использовании рядом с гигантским цветочным горшоком
 		'''
 }
 
@@ -446,14 +446,14 @@ CrossCharm: {
 	DisplayName: Крестик-оберег
 	Tooltip:
 		'''
-		Призывает магический крест, дающий 15 ед. дополнительной защиты
+		Призывает магический крест, увеличивающий защиту на 15 ед.
 		Крест пропадает после получения вами урона и восстанавливается только через 10 секунд
 		'''
 }
 
 DaffodilBlade: {
 	DisplayName: Колючий кинжал
-	Tooltip: Быстрый кинжал, удары котором изредка могут отравить врагов
+	Tooltip: Быстрый кинжал, удары которым изредка могут отравить врагов
 }
 
 DaffodilBow: {
@@ -538,7 +538,7 @@ NineTails: {
 	Tooltip:
 		'''
 		Размахивает множеством коротких, но очень больно бьющих хлыстов
-		'Нет никакого стоп-слова'
+		«Нет никакого стоп-слова»
 		'''
 }
 
@@ -548,59 +548,59 @@ OldRifle: {
 }
 
 PandoraAmalgam: {
-	DisplayName: Amalghoul
+	DisplayName: Амальгуль
 	Tooltip:
 		'''
-		Grants the effects of every pandora's box accessory
-		Spawns blobs of ectoplasm when you restore mana that deal more damage the more you restore
-		Press the Accessory hotkey to release sound that damages you and enemies
-		You will spawn hands every few seconds that will home in on you and heal you when hit
-		Occasionally fire out a cuff at a nearby enemy, enemies attatched to it will take more damage
+		Дарует эффекты от всех аксессуаров Ящика Пандоры
+		Призывает сгустки эктоплазмы во время восстановления маны, которые наносят тем больше урона, чем больше маны восстановили
+		Нажмите горячую кливишу, чтобы выпустить ряд звуковых волн, наносящих урон вам и врагам
+		Каждые 5 секунд вокруг вас будую появляются летающие руки, восстанавливающие ваше здоровье при поподании по врагу
+		Переодически прицепляет кандалы к ближайшему врагу; прицеплённые враги получают больше урона
 		'''
 }
 
 PandoraChalice: {
-	DisplayName: Unholy Grail
+	DisplayName: Несвятой Грааль
 	Tooltip:
 		'''
-		You will spawn a blob of ectoplasm whenever you restore mana, up to 6 total
-		The ectoplasm blobs will fly away and home in on nearby enemies after a few seconds
-		The damage of each blob scales based on how much mana you restored
-		'Don't drive after this!'
+		Призывает сгустки эктоплазмы во время восстановления маны, до 6 за раз
+		Сгустки эктоплазмы разлетаются через некоторое время и самонаводятся на ближайших врагов
+		Урон каждого сгустка зависит от количества восстановленной маны
+		«Вам не стоит садится за руль после этого»
 		'''
 }
 
 PandoraCross: {
-	DisplayName: The Cross
+	DisplayName: Крест
 	Tooltip:
 		'''
-		Press the Accessory Hotkey to release powerful sound around you for 5 seconds
-		The sound will deal damage to surrounding enemies, but will also damage you a little bit
-		This ability has a 40 second cooldown before it can be used again
-		'Heart-crushing Bass'
+		Нажмите горячую клавишу, чтобы выпускать ряд звуковых волн в течении 5 секунд
+		Звуковые волны наносят урон врагам, но также наносят немного урона и вам
+		Эта способность имеет 40 минуты перезарядки
+		«Душераздирающий бас»
 		'''
 }
 
 PandoraCuffs: {
-	DisplayName: Samson's Cuffs
+	DisplayName: Кандалы Самсона
 	Tooltip:
 		'''
-		Reduces your damage and movement speed by 10%
-		Every 15 seconds, a chain will attach itself to a nearby enemy for 5 seconds
-		Enemies attached to the chain will take 50% more damage
-		The chain will also prioritize bosses over normal enemies
-		'Suffering builds character'
+		Снижает наносимый урон и скорость передвижения на 10%
+		Каждые 15 секунд, цепь прицепляется к ближайшему врагу на 5 секунд
+		Прицеплённые враги получают на 50% больше урона
+		Цепь будет чаще прицеплятся в боссам, чем обычным врагам, даже если они находятся немного дальше
+		«Страдания закаляют характер»
 		'''
 }
 
 PandoraRosary: {
-	DisplayName: Ghastly Rosary
+	DisplayName: Мерзкий розарий
 	Tooltip:
 		'''
-		You will spawn ghost hands around you every few seconds, up to 5 total
-		When you are damaged, the hands will chase you, and will heal your life when they touch you
-		After being hit, the hands cannot respawn again for 12 seconds
-		'Spooky sundays'
+		Каждые 5 секунд, вокруг вас будую появлятся летающие руки, до 5 за раз
+		После получения урона, руки устремлятся к вам чтобы восстановить здоровье
+		Руки не смогут появлятся ещё 12 секунд после получения удара
+		«Жуткие воскресенья»
 		'''
 }
 
@@ -625,12 +625,12 @@ SkullAmulet: {
 }
 
 ThornStaff: {
-	DisplayName: Rod of Ensnaring
+	DisplayName: Жезл ловчего
 	Tooltip:
 		'''
-		Casts thorn clumps that will ensnare and poison non-boss enemies
-		Enemies cannot be ensnared again for 15 seconds
-		Bosses will be poisoned for longer
+		Выпускает комки шипов, которые отправляют и ловят врагов, не являющихся боссами
+		Пойманные враги не могут передвигатся, а также быть повторно пойманы в течении 15 сукунд
+		Эффект отравления длится дольше на боссах
 		'''
 }
 
@@ -645,7 +645,7 @@ SpiritHorsemanHead: {
 }
 
 SpiritHorsemanLegs: {
-	DisplayName: Поножи 
+	DisplayName: Поножи духа-наездника
 	Tooltip: Увеличивает скорость передвижение на 12%
 }
 
@@ -896,7 +896,7 @@ BanditHat: {
 }
 
 BigBoneMask: {
-	DisplayName: Big Bone Mask
+	DisplayName: Маска Исполинского черепа
 	Tooltip: ""
 }
 
@@ -2546,22 +2546,22 @@ SnotRocket: {
 }
 
 SnotWings: {
-	DisplayName: Snot Bug Wings
+	DisplayName: Крылья соплежука
 	Tooltip:
 		'''
-		Allows flight and slow fall
-		'Gross...'
+		Позволяет летать и парить
+		«Ужас...»
 		'''
 }
 
 TortumorStaff: {
-	DisplayName: Gore Staff
-	Tooltip: Summons friendly tortumors that shoot blood globs at enemies
+	DisplayName: Посох запёкшейся крови
+	Tooltip: Призывает дружелюбные опухоли, стреляющие кровавыми сгустками по врага
 }
 
 TortumorYoyo: {
-	DisplayName: Tumor Throw
-	Tooltip: Generates damaging chunks around it while used
+	DisplayName: Бросок опухоли
+	Tooltip: При использовании, создаёт вокруг себя теневые шары
 }
 
 RaveyardDisc1: {
@@ -2575,27 +2575,27 @@ RaveyardDisc2: {
 }
 
 VinylAlley: {
-	DisplayName: Виниловая пластинка (Alley)
+	DisplayName: Виниловая пластинка (Долина)
 	Tooltip: ""
 }
 
 VinylLazy: {
-	DisplayName: Виниловая пластинка (Lazy)
+	DisplayName: Виниловая пластинка (Ленивая)
 	Tooltip: ""
 }
 
 VinylMysterious: {
-	DisplayName: Виниловая пластинка (Mysterious)
+	DisplayName: Виниловая пластинка (Загадочная)
 	Tooltip: ""
 }
 
 VinylSleepy: {
-	DisplayName: Виниловая пластинка (Sleepy)
+	DisplayName: Виниловая пластинка (Сонная)
 	Tooltip: ""
 }
 
 VinylSneaky: {
-	DisplayName: Виниловая пластинка (Sneaky)
+	DisplayName: Виниловая пластинка (Хитрая)
 	Tooltip: ""
 }
 
@@ -2650,12 +2650,12 @@ CatacombBrickPlatform2Item: {
 }
 
 CatacombCrate: {
-	DisplayName: Bone Crate
+	DisplayName: Костяной ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CatacombCrate2: {
-	DisplayName: Skull Crate
+	DisplayName: Черепной ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -2770,7 +2770,7 @@ CemeteryStoneItem: {
 }
 
 BigBoneBox: {
-	DisplayName: Музыкальная шкатулка (Big Bone)
+	DisplayName: Музыкальная шкатулка (Исполинский череп)
 	Tooltip: "[c/D7D000:«Doom Abloom»] от BananaLizard"
 }
 
@@ -3083,17 +3083,17 @@ NoseTempleWallRedItem: {
 
 CemeteryPylonItem: {
 	DisplayName: Пилон болотистого клидбища
-	Tooltip: "{$CommonItemTooltipTeleportationPylon}"
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 SpiderCavePylonItem: {
 	DisplayName: Пилон паучей пещеры
-	Tooltip: "{$CommonItemTooltipTeleportationPylon}"
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 SpookyBiomePylonItem: {
 	DisplayName: Пилон жуткого леса
-	Tooltip: "{$CommonItemTooltipTeleportationPylon}"
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 SpookyHellPylonItem: {
@@ -3111,7 +3111,7 @@ BanditBookRelicItem: {
 }
 
 BigBoneRelicItem: {
-	DisplayName: Big Bone Relic
+	DisplayName: Реликвия Исполинского черепа
 	Tooltip: ""
 }
 
@@ -3126,7 +3126,7 @@ EyeWizardRelicItem: {
 }
 
 FrankenGoblinRelicItem: {
-	DisplayName: Frank the Goblin Relic
+	DisplayName: Реликвия гоблина Фрэнка
 	Tooltip: ""
 }
 
@@ -3294,92 +3294,92 @@ TinyMushroomCageItem: {
 }
 
 GourdGreenCarvedItem: {
-	DisplayName: Green Carved Gourd
+	DisplayName: Зелёная вырезанная тыква
 	Tooltip: ""
 }
 
 GourdGreenCarvedLitItem: {
-	DisplayName: Green Gourd 'O Lantern
+	DisplayName: Фонарь из зелёной тыквы
 	Tooltip: ""
 }
 
 GourdLimeCarvedItem: {
-	DisplayName: Lime Carved Gourd
+	DisplayName: Салатовая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdLimeCarvedLitItem: {
-	DisplayName: Lime Gourd 'O Lantern
+	DisplayName: Фонарь из салатовой тыквы
 	Tooltip: ""
 }
 
 GourdLimeOrangeCarvedItem: {
-	DisplayName: Lime-Orange Carved Gourd
+	DisplayName: Салатово-оранжевая тыква
 	Tooltip: ""
 }
 
 GourdLimeOrangeCarvedLitItem: {
-	DisplayName: Lime-Orange Gourd 'O Lantern
+	DisplayName: Фонарь из салатово-оранжевой тыквы
 	Tooltip: ""
 }
-Gou
-rdOrangeCarvedItem: {
-	DisplayName: Orange Carved Gourd
+
+GourdOrangeCarvedItem: {
+	DisplayName: Оранжевая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdOrangeCarvedLitItem: {
-	DisplayName: Orange Gourd 'O Lantern
+	DisplayName: Фонарь из оранжевой тыквы
 	Tooltip: ""
 }
 
 GourdRedCarvedItem: {
-	DisplayName: Red Carved Gourd
+	DisplayName: Красная вырезанная тыква
 	Tooltip: ""
 }
 
 GourdRedCarvedLitItem: {
-	DisplayName: Red Gourd 'O Lantern
+	DisplayName: Фонарь из красной тыквы
 	Tooltip: ""
 }
 
 GourdRottenCarvedItem: {
-	DisplayName: Rotten Carved Gourd
+	DisplayName: Прогнившая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdRottenCarvedLitItem: {
-	DisplayName: Rotten Gourd 'O Lantern
+	DisplayName: Фонарь из прогнившей тыквы
 	Tooltip: ""
 }
 
 GourdWhiteCarvedItem: {
-	DisplayName: White Carved Gourd
+	DisplayName: Белая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdWhiteCarvedLitItem: {
-	DisplayName: White Gourd 'O Lantern
+	DisplayName: Фонарь из белой тыквы
 	Tooltip: ""
 }
 
 GourdYellowCarvedItem: {
-	DisplayName: Yellow Carved Gourd
+	DisplayName: Жёлтая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdYellowCarvedLitItem: {
-	DisplayName: Yellow Gourd 'O Lantern
+	DisplayName: Фонарь из жёлтой тыквы
 	Tooltip: ""
 }
 
 GourdYellowGreenCarvedItem: {
-	DisplayName: Yellow-Green Carved Gourd
+	DisplayName: Жёлто-зелёная вырезанная тыква
 	Tooltip: ""
 }
 
 GourdYellowGreenCarvedLitItem: {
-	DisplayName: Yellow-Green Gourd 'O Lantern
+	DisplayName: Фонарь из жёлто-зелёной тыквы
 	Tooltip: ""
 }
 
@@ -3614,7 +3614,7 @@ ValleyStoneItem: {
 }
 
 BigBoneTrophyItem: {
-	DisplayName: Big Bone Trophy
+	DisplayName: Трофей Исполинского черепа
 	Tooltip: ""
 }
 
@@ -3658,20 +3658,20 @@ RaveStarter: {
 }
 
 CatacombWeedKiller: {
-	DisplayName: Catacomb Weed Killer
+	DisplayName: Уничтожитель сорняков катакомб
 	Tooltip:
 		'''
-		Deletes all catacomb ambient weed tiles
-		Testing Item
+		Удаляет все тайлы растущих растений в катакомбах
+		Тестовый предмет
 		'''
 }
 
 Bestiary: {
-	DisplayName: Bestiary Completer
+	DisplayName: Завершитель бестиария
 	Tooltip:
 		'''
-		Completes the bestiary
-		Testing Item
+		Открывает все записи в бестиарии
+		Тестовый предмет
 		'''
 }
 
