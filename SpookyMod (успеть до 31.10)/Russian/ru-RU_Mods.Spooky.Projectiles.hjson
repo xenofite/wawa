@@ -36,7 +36,6 @@ PhantomExplosion.DisplayName: Phantom Explosion
 PhantomSeed.DisplayName: Phantom Seed
 PhantomSkullProj.DisplayName: Phantom Skull
 CruxAura.DisplayName: Crux Aura
-WarlockSkull.DisplayName: Magic Skull
 SalivaBall.DisplayName: Toxic Spit
 TumorOrb.DisplayName: Flesh Chunk
 BigBoneHammerProj.DisplayName: Skull Smasher
@@ -446,3 +445,14 @@ ZomboidArmoredLightning.DisplayName: Lightning
 EntityMinion1.DisplayName: Mini Entity
 EntityMinion2.DisplayName: Mini Entity
 EntityMinion3.DisplayName: Mini Entity
+FleshBolsterBuffer.DisplayName: Flesh Bolster Buffer
+ZombieCultistPet.DisplayName: Zombie Cultist
+BeePet.DisplayName: Pollinator Bee
+RatPet.DisplayName: Albino Rat
+PuttyPet1.DisplayName: Putty Slime
+PuttyPet2.DisplayName: Putty Slime
+PuttyPet3.DisplayName: Putty Slime
+PuttyPetDisplay.DisplayName: Putty Display
+FleshAxeProj.DisplayName: Flesh Mincer
+LivingFleshAxeProj.DisplayName: Living Flesh Mincer
+BouncingBone.DisplayName: Bouncing Bone
