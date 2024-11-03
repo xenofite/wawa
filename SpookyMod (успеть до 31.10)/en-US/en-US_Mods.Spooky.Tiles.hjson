@@ -8,19 +8,9 @@ SpiderCaveChest: {
 	MapEntry1: Locked Spider Grotto Chest
 }
 
-HalloweenChest: {
-	MapEntry0: Old Wood Chest
-	MapEntry1: Locked Old Wood Chest
-}
-
 SpookyBiomeChest: {
 	MapEntry0: Spooky Forest Chest
 	MapEntry1: Locked Spooky Forest Chest
-}
-
-EyeChest: {
-	MapEntry0: Monster Chest
-	MapEntry1: Sleeping Monster Chest
 }
 
 SpookyHellChest: {
@@ -33,6 +23,11 @@ EyeDresser: {
 	MapEntry: Dresser
 }
 
+CultistDresser: {
+	ContainerName: Occultist Dresser
+	MapEntry: Dresser
+}
+
 SpiritAltar.MapEntry: Spirit Altar
 CemeterySapling.MapEntry: Sapling
 BigBoneBoxTile.MapEntry: Music Box
@@ -42,6 +37,7 @@ CemeteryBoxTile.MapEntry: Music Box
 DaffodilBoxTile.MapEntry: Music Box
 EggEventBoxTile.MapEntry: Music Box
 MocoBoxTile.MapEntry: Music Box
+NoseTempleBoxTile.MapEntry: Music Box
 PandoraEventBoxTile.MapEntry: Music Box
 RaveyardBoxTile.MapEntry: Music Box
 RotGourdBoxTile.MapEntry: Music Box
@@ -51,6 +47,7 @@ SpookyBiomeNightBoxTile.MapEntry: Music Box
 SpookyBiomeRainBoxTile.MapEntry: Music Box
 SpookyBiomeUGBoxTile.MapEntry: Music Box
 OrroboroBoxTile.MapEntry: Music Box
+SpookyBloodmoonBoxTile.MapEntry: Music Box
 SpookyHellBoxTile.MapEntry: Music Box
 SpookyMenuBoxTile.MapEntry: Music Box
 SpookySpiritBoxTile.MapEntry: Music Box
@@ -65,6 +62,7 @@ OldWoodBed.MapEntry: Bed
 OldWoodBookcase.MapEntry: Bookcase
 OldWoodCandle.MapEntry: Candle
 OldWoodChair.MapEntry: Chair
+OldWoodChest.MapEntry: Old Wood Chest
 OldWoodDoorClosed.MapEntry: Door
 OldWoodDoorOpen.MapEntry: Door
 OldWoodOrgan.MapEntry: Organ
@@ -74,8 +72,6 @@ OldWoodWorkBench.MapEntry: Work Bench
 GiantShroom.MapEntry: Giant Shroom
 SpookySapling.MapEntry: Sapling
 SpookySaplingGreen.MapEntry: Sapling
-EyeChest_Sleeping.MapEntry: Sleeping Monster Chest
-SpookyHellChest_Locked.MapEntry: Locked Eye Chest
 Cauldron.MapEntry: Creepy Cauldron
 EyeBathtub.MapEntry: Bathtub
 EyeBed.MapEntry: Bed
@@ -84,6 +80,7 @@ EyeCandelabra.MapEntry: Candelabra
 EyeCandle.MapEntry: Candle
 EyeChair.MapEntry: Chair
 EyeChandelier.MapEntry: Chandelier
+EyeChest.MapEntry: Monster Chest
 EyeClock.MapEntry: Clock
 EyeDoorClosed.MapEntry: Door
 EyeDoorOpen.MapEntry: Door
@@ -108,3 +105,26 @@ MysteriousTombstone.MapEntry: Mysterious Tombstone
 GiantRoot.MapEntry: Giant Root
 GraveShovelTile.MapEntry: Grave Shovel Tile
 TallMushroom.MapEntry: Tall Mushroom
+TinyGhostJar.MapEntry: Tiny Ghost Jar
+TinyMushroomCage.MapEntry: Tiny Mushroom Cage
+CultistBathtub.MapEntry: Bathtub
+CultistBed.MapEntry: Bed
+CultistBookcase.MapEntry: Bookcase
+CultistCandelabra.MapEntry: Candelabra
+CultistCandle.MapEntry: Candle
+CultistChair.MapEntry: Chair
+CultistChandelier.MapEntry: Chandelier
+CultistChest.MapEntry: Chest
+CultistClock.MapEntry: Clock
+CultistDoorClosed.MapEntry: Door
+CultistDoorOpen.MapEntry: Door
+CultistLamp.MapEntry: Lamp
+CultistLantern.MapEntry: Lantern
+CultistSink.MapEntry: Sink
+CultistSofa.MapEntry: Sofa
+CultistTable.MapEntry: Table
+CultistWorkBench.MapEntry: Work Bench
+TempleTrapdoor.MapEntry: Temple Trapdoor
+CatacombTrapdoor1.MapEntry: Locked Trapdoor
+CatacombTrapdoor2.MapEntry: Locked Trapdoor
+CatacombTrapdoor3.MapEntry: Locked Trapdoor
