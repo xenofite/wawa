@@ -61,7 +61,7 @@ OldWoodBed.MapEntry: Кровать
 OldWoodBookcase.MapEntry: Книжный шкаф
 OldWoodCandle.MapEntry: Свеча
 OldWoodChair.MapEntry: Стул
-OldWoodChest.MapEntry: Сундук из старого дерева
+OldWoodChest.MapEntry:  из старого дерева
 OldWoodDoorClosed.MapEntry: Дверь
 OldWoodDoorOpen.MapEntry: Дверь
 OldWoodOrgan.MapEntry: Орган
@@ -79,7 +79,7 @@ EyeCandelabra.MapEntry: Подсвечник
 EyeCandle.MapEntry: Свеча
 EyeChair.MapEntry: Стул
 EyeChandelier.MapEntry: Люстра
-EyeChest.MapEntry: Сундук-монстр
+EyeChest.MapEntry: Монстр-сундук
 EyeClock.MapEntry: Напольные часы
 EyeDoorClosed.MapEntry: Дверь
 EyeDoorOpen.MapEntry: Дверь
