@@ -340,7 +340,7 @@ RottenSeed: {
 
 StrangeCyst: {
 	DisplayName: Странная киста
-	Tooltip: Кликните ПКМ по гигантскому яйцу, держа странную кисту в инвентаре, чтобы начать яичное нашествие.
+	Tooltip: Нажмите ПКМ по гигантскому яйцу, держа странную кисту в инвентаре, чтобы начать яичное нашествие.
 }
 
 FlowerBody: {
@@ -833,16 +833,12 @@ CemeterySolution: {
 
 DiscoSkull: {
 	DisplayName: Disco Skull
-	Tooltip:
-		'''
-		Fires out homing rainbow party skulls
-		Enemies killed by the skulls may sometimes turn into skeletons
-		'''
+	Tooltip: Fires out homing rainbow party skulls
 }
 
 GraveDiggerShovel: {
 	DisplayName: Cemetery Digger's Shovel
-	Tooltip:Bash enemies with a rusty shovel
+	Tooltip: Bash enemies with a rusty shovel
 }
 
 PartyNailgun: {
@@ -895,7 +891,7 @@ BananalizardHead: {
 }
 
 BanditHat: {
-	DisplayName: Шляпа бандита
+	DisplayName: Бандитская шляпа
 	Tooltip: ""
 }
 
@@ -1131,8 +1127,13 @@ DissolvedBone: {
 		'''
 }
 
-FuzzBatWing: {
-	DisplayName: Крыло летучей плюшомыши
+ExpiredCheese: {
+	DisplayName: Expired Cheese
+	Tooltip: Summons a pet albino rat
+}
+
+FuzzBall: {
+	DisplayName: Плюшошарик
 	Tooltip: Призывает ручную плюшомышь
 }
 
@@ -1153,6 +1154,11 @@ MocoTissue: {
 		Призывакт ручного мокита
 		«Самый антисанитарный кусочек ткани, известный человечеству»
 		'''
+}
+
+OddBrain: {
+	DisplayName: Oddly Shaped Brain
+	Tooltip: Summons a zombie nose cultist
 }
 
 OldSaddle: {
@@ -1187,6 +1193,11 @@ PetscopTool2: {
 PetscopTool3: {
 	DisplayName: Pink tool
 	Tooltip: Summons Tiara
+}
+
+PuttyCup: {
+	DisplayName: Tub of Putty
+	Tooltip: Summons a squad of putty slimes
 }
 
 RottenGourd: {
@@ -1918,11 +1929,7 @@ WarlockRobe: {
 
 EyeBody: {
 	DisplayName: Нагрудник из живой плоти
-	Tooltip:
-		'''
-		Увеличивает дальность хлыстов на 20%
-		Увеличивает максимальное число миньонов и стражей на 1
-		'''
+	Tooltip: Увеличивает максимальное число миньонов и стражей на 1
 }
 
 EyeHead: {
@@ -2529,8 +2536,7 @@ SnotMedication: {
 		Getting inflicted with the oozed debuff will turn it into a positive buff
 		'''
 }
-SnotR
-ocket: {
+SnotRocket: {
 	DisplayName: Snot Rocket
 	Tooltip:
 		'''
@@ -2559,42 +2565,37 @@ TortumorYoyo: {
 }
 
 RaveyardDisc1: {
-	DisplayName: Пластинка тусоблища #1
-	Tooltip: "[c/6FE4A5:«Graveyard Without The G»] от BananaLizard"
+	DisplayName: Пластинка посмертной тусы
+	Tooltip: "[c/6FE4A5:«Deathrattlin' Raving» (cтарая версия)] от Luxcapacitor"
 }
 
 RaveyardDisc2: {
-	DisplayName: Пластинка тусоблища #2
-	Tooltip: "[c/6FE4A5:«Deathrattlin' Raving (cтарая версия)»] от Luxcapacitor"
-}
-
-RaveyardDisc3: {
-	DisplayName: Пластинка тусоблища #3
-	Tooltip: "[c/6FE4A5:«Graveyard Without The G (cтарая версия)»] от BananaLizard & Lurak"
+	DisplayName: Пластинка посмертной тусы
+	Tooltip: "[c/6FE4A5:«Graveyard Without The G» (cтарая версия)] от BananaLizard и Lurak"
 }
 
 VinylAlley: {
-	DisplayName: Vinyl Disc (Alley)
+	DisplayName: Виниловая пластинка (Alley)
 	Tooltip: ""
 }
 
 VinylLazy: {
-	DisplayName: Vinyl Disc (Lazy)
+	DisplayName: Виниловая пластинка (Lazy)
 	Tooltip: ""
 }
 
 VinylMysterious: {
-	DisplayName: Vinyl Disc (Mysterious)
+	DisplayName: Виниловая пластинка (Mysterious)
 	Tooltip: ""
 }
 
 VinylSleepy: {
-	DisplayName: Vinyl Disc (Sleepy)
+	DisplayName: Виниловая пластинка (Sleepy)
 	Tooltip: ""
 }
 
 VinylSneaky: {
-	DisplayName: Vinyl Disc (Sneaky)
+	DisplayName: Виниловая пластинка (Sneaky)
 	Tooltip: ""
 }
 
@@ -2794,7 +2795,7 @@ DaffodilBox: {
 }
 
 EggEventBox: {
-	DisplayName: Музыкальная шкатулка (Egg Incursion)
+	DisplayName: Музыкальная шкатулка (Яичное нашествие)
 	Tooltip: "[c/FF1515:«The Evolution Of Evil»] от Rockwizard5"
 }
 
@@ -2819,7 +2820,7 @@ PandoraEventBox: {
 }
 
 RaveyardBox: {
-	DisplayName: Музыкальная шкатулка (Тусоблище)
+	DisplayName: Музыкальная шкатулка (Посмертная туса)
 	Tooltip:
 		'''
 		Светится разными цветами при включении
@@ -2861,6 +2862,11 @@ SpookyBiomeTownNightBox: {
 SpookyBiomeUGBox: {
 	DisplayName: Музыкальная шкатулка (Подземелье жуткого леса)
 	Tooltip: "[c/FFBF00:«Spooky Spelunking»] от BananaLizard"
+}
+
+SpookyBloodmoonBox: {
+	DisplayName: Музыкальная шкатулка (Жуткая кровавая луна)
+	Tooltip: "[c/B60038:«Too Groovy, Very Spooky»] от BananaLizard"
 }
 
 SpookyHellBox: {
@@ -3268,7 +3274,7 @@ SpookyBiomeChestItem: {
 }
 
 SpookyCrate: {
-	DisplayName: Spooky Wood Crate
+	DisplayName: Ящик из жуткого дерева
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -3443,7 +3449,7 @@ SpookyHellChestItem: {
 }
 
 SpookyHellCrate: {
-	DisplayName: Ящик живой плоти
+	DisplayName: Ящик из живой плоти
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -3646,7 +3652,7 @@ RaveStarter: {
 	DisplayName: Включатель тусовки
 	Tooltip:
 		'''
-		Начинает тусоблище при использовании ночью
+		Начинает Посмертную тусу при использовании ночью
 		Тестовый предмет
 		'''
 }
@@ -3667,4 +3673,34 @@ Bestiary: {
 		Completes the bestiary
 		Testing Item
 		'''
+}
+
+CatacombTorch1Item: {
+	DisplayName: Факел жутких катакомб
+	Tooltip: ""
+}
+
+CatacombTorch2Item: {
+	DisplayName: Факел нижних катакомб
+	Tooltip: ""
+}
+
+CemeteryBiomeTorchItem: {
+	DisplayName: Факел болотистого кладюища
+	Tooltip: ""
+}
+
+SpiderBiomeTorchItem: {
+	DisplayName: Факел паучьей пещеры
+	Tooltip: ""
+}
+
+SpookyBiomeTorchItem: {
+	DisplayName: Факел жуткого леса
+	Tooltip: ""
+}
+
+SpookyHellTorchItem: {
+	DisplayName: Факел глазной долины
+	Tooltip: ""
 }
