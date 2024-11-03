@@ -69,23 +69,7 @@ LittleBone: {
 }
 
 LittleEye: {
-	Awaken: Whoa there, I was trying to take a nap! You must be a pretty curious adventurer to have found your way down here.
-	Quest1: So, there are four different flasks you can make that I can combine into something that will be helpful later. However, I am unable to gather the needed ingredients, so I'll need your help to find them, and then craft the flask with them. To make this first flask, you'll need the following.
-	Quest1Rewards: You made that potion faster than expected. I'll be holding onto this for later use, take this stuff as a reward for your troubles.
-	Quest2: This next flask is similar, but my inability to move still prevents me from getting the ingredients, so I'll need you to craft the next flask with the following.
-	Quest2Rewards: You're getting the hang of this! Here, since I know how much you love my magical little hat, you can have this bootleg version!
-	Quest3: At this point I assume you understand what to do. For this next flask, you'll need the following materials.
-	Quest3Rewards: Good work! I've heard that this giant cotton swab can be used at a shrine somewhere around here to summon a rare creature. Truth is, I just wanna see you fight it because I heard it looks really funny.
-	Quest4: So, now that you only have one last substance to make for me, I've got a special reward for you if you can bring me it. As usual you'll need some materials to make it.
-	Quest4Rewards: Alright, that was the final flask I need! As a reward, you can have this magic pylon that allows you teleport back here whenever you like! Eventually, I'll need you to bring me a special ingredient so I can cook up a special concoction for you.
-	Quest5: In order for me to combine all four flasks, you'll need to bring me some special souls. Since you defeated that giant flesh wall, you should be able to get them now.
-	Quest5Rewards: Here, take this nasty concoction. With it, you should be able to break that giant egg over there. I am not responsible for what happens, or any injuries sustained if something bad does happen.
-	RandomQuest: If you want, I can bring you more of those sentient hearts... if you can craft this flask for me. You'll need these materials to make the one I need right now.
-	RandomQuestReward: Thanks, here take these silly little rewards.
-	NoQuests1: I don't need you to get another flask for me right now, stop by later and I may need something then.
-	NoQuests2: You're gonna have to give me some time before I'll need another flask from you.
-	NoQuests3: Sorry, I don't have anything else for you to gather at the moment.
-	Upgrades: So you've never heard about my cauldron huh? Well, if you obtain a sentient heart, you can combine it with specific weapons to turn them into something a little crazy. Sentient hearts are dropped by large and strong creatures, so make sure to look out for them!
+	Awaken: Whoa there, I was trying to take a nap! You must be a pretty curious adventurer to have found your way down here. Anyway, make yourself at home I guess, I've given up on trying to repair this giant lab of mine. Oh and take this weird crystal doohickey I found, It might be of use to you.
 	Default1: This place is really funky. I love watching those weird floating flesh creatures crash into stuff!
 	Default2: Did you know there's a strange giant egg somewhere around here? That'd make enough scrambled eggs to last for weeks!
 	Default3: You may call me an alchemist, I call it making nasty concoctions that I give to others for laughs.
@@ -94,10 +78,20 @@ LittleEye: {
 	Default6: The alchemy I do down here is not really science. Nothing says alchemy more than throwing random things into a cauldron and saying gibberish afterward!
 	Default7: If your alchemy creation doesn't completely blow up in your face, you're probably doing something wrong.
 	Default8: Have you seen that giant pit of blood over there? I've seen some nasty things in there, but you can't just use any regular fishing rod in it.
-	EggEventAdvice: So, you must be trying to open that egg, huh? Well then, just be careful and follow my favorite saying, 'Bloody red, you'll be dead, purplish blue, cripple you!'
-	OrroBoro: Hey there's two giant serpents chasing you right now. Maybe go worry about that?
-	Button1: Quest
-	Button2: Cauldron?
+	OrroBoro: Hey, there's like a giant worm chasing you right now. Maybe go deal with that?
+	Upgrades: So, you've never heard about my cauldron? Well, if you obtain a sentient heart, you can combine it with specific weapons to turn them into something a little crazy. Sentient hearts are dropped by large and strong creatures, so make sure to look out for them! I have also heard rumors that killing a pair of serpents will also attract a strong creature in the blood lake which possesses them.
+	Quest1Accepted: Ok, so if you want to find the gremlin it'll probably be hungry. Take this yummy scrumptious slice of cake I've had saved and hopefully you'll be able to lure it out.
+	Quest2Accepted: With this bag of gold you should be able to attract those devious ghost bandits. Find them and show them what happens when you cause minor property damage to the lab I spent so much time making!
+	Quest3Accepted: Alright, since my sewing project is partially a spider, this dead fungus-covered beetle should do the trick! Just wait around and it'll probably smell it... or maybe detect it with whatever computer I put inside of it.
+	Quest4Accepted: Here's a container of my favorite eye drops, and since my clone is just me it should attract him as well. Be quick, I want him as dead as possible, as soon as possible.
+	Quest5Accepted: Take this special flask I made, which is constructed with materials you couldn't begin to comprehend. This should hopefully revert the barrier spell on the egg, but there's no telling what might happen when you use it. Always prepare for the worst!
+	Quest1Complete: You found that giant goblin much faster than expected! Also yay wow cool you survived somehow too!!! Anyways, here's this thread I used to sew the goblin together. I think it might be cursed so there's no telling what'll happen. I'm sure you'll get more use out of it anyway though.
+	Quest2Complete: Wow those chocola... I mean real gold coins worked! Anyways this book really scares me and spook-bay won't let me refund it, so I think maybe you should take it... and please don't bring it back here.
+	Quest3Complete: Yay you've managed to bring back my expensive felt I ho... What do you mean this is the only piece that didn't get destroyed? Ugh this is so small, I can't get anything from this... ok, here's this cloak I just made in a second for you, hope it can somehow help you in your adventures.
+	Quest4Complete: You have finally killed that dastardly evil-doer. For your efforts, please take this magical crystal ball to ponder and increase your power.
+	//buttons
+	Button1: Bounties
+	Button2: Cauldron
 }
 
 OldHunter: {
@@ -146,11 +140,12 @@ PartySkeleton: {
 SkeletonBouncer: {
 	Dialogue1: You must be new around here. I don't wanna see you getting into any trouble, these parties take a lot of time and effort to set up.
 	Dialogue2: Move along, go have fun and party. Just don't go bothering anyone.
-	Dialogue3: ...
+	Dialogue3: These parties are super fun. Just don't go around comitting crimes or I'll have to murder you with my machine pistol.
+	Dialogue4: Companies been supplying us with these new otherworldy guns. They claim its better than what we had before but I don't know, I swear I heard it scream.
+	Dialogue5: ...
 }
 
 SuspiciousSkeleton: {
-	ShopButton: Contraband
 	Dialogue1: Ey kid, you want some of em nightmare fuel? Hits the spot just right.
 	Dialogue2: My brother Tony's the supplier. Apperantly it's easier to get the stuff whenever them big guys ye've been fighting get beaten to a pulp. Don't ask me how it works, cuz I don't know.
 	Dialogue3: Ey kid! Yer too slow! Just sold someone a big golden ring earlier. Haven't heard from em in a minute though
@@ -174,7 +169,7 @@ SuspiciousSkeleton: {
 	Dialogue21: The real horror would be not buying the goods while ye got the chance to.
 }
 
-DumbZombie: {
+DumbZomboid: {
 	Dialogue1: Uurrgghh...
 	Dialogue2: Gurhhh?
 	Dialogue3: Huurgg?!
@@ -198,14 +193,63 @@ Daffodil: {
 	BackToSleep: Nah...
 }
 
+NoseBrute: {
+	Dialogue1: Hrnnngg...
+	Dialogue2: Grunt...
+	Dialogue3: Snoooort...
+}
+
+NoseGrunt: {
+	Dialogue1: Sniffle...
+	Dialogue2: Moco... The great one...
+	Dialogue3: All hail Moco!
+	Dialogue4: The great one will arrive if we keep up these rituals.
+	Dialogue5: I don't know what our leader does with the snot we give him, but it is probably for the greater good.
+}
+
+NoseGunner: {
+	Dialogue1: My gun speaks to me and tells me the holy nose will come soon. I am grateful.
+	Dialogue2: The great one's snot has allowed us to make and use these weapons, and together we will repay the favor.
+	Dialogue3: Being sacrificed into a booger blaster is the greatest experience one could ever imagine. I hope one day Noseferatu will let me become one.
+	Dialogue4: Jealous? Maybe if you keep up your rituals, you can wield a booger blaster yourself.
+}
+
+NoseLeader: {
+	Button: Blessing (Give Snot Glob)
+	NoseBlessing: Here my little follower, for you a blessing straight from my nose. Use it wisely...
+	NoseBlessingBroke: Did you come to me and expect to yield results with no sacred snot? Shameful.
+	Dialogue1: My little disciple, have you come to sacrifice yourself for the holy one?
+	Dialogue2: I am out of holy booger blasters. I can make you into one, though.
+	Dialogue3: What are you doing away from the shrine? It is worshipping hour.
+	Dialogue4: Sniffle... you know, you look like you could use more snot. on your cloak.
+	Dialogue5: Our rituals have allowed us to turn those sacred moclings back into the great one. Only those who are worthy may witness it in all its glory.
+	Dialogue6: The nose that sneezed out the nose that sneezed out the nose. This is the process that created our kind and this world.
+}
+
+NoseMage: {
+	Dialogue1: I am trying to focus on my magic, I cannot talk now.
+	Dialogue2: We are worshipping, I am channeling my power, and you will ascend with us someday.
+	Dialogue3: Leave me to my arcane practices, please.
+	Dialogue4: Moco is the great one. It is the being that first brought snot to our land, and for that we thank it with our praise.
+	Dialogue5: Perhaps you yourself could harvest the arcane power and ascend further to become a snot mage.
+	Dialogue6: You look weak. A disciplined disciple of the nose will eventually be given the blessing of snot magic.
+}
+
+NoseWinged: {
+	Dialogue1: Our wings allow us to get closer to the great moco.
+	Dialogue2: The cult is powerful, and our rituals are increasing the great one's power.
+	Dialogue3: The great moco allows us to use its snot to further our power, as long as we return the favor with our rituals.
+	Dialogue4: These wings took me years to obtain. After getting in favor with our leader, he created them for me.
+}
+
 PandoraBox: {
 	Button: Open
 	Dialogue: It's a strange box with a weird aura emanating from it. Will you open it?
 }
 
 SentientCap: {
-	Dialogue1: Hi Hi Hi Hi!
-	Dialogue2: NIGHTMARE NIGHTMARE NIGHTMARE
+	Dialogue1: Hi Hi Hi!
+	Dialogue2: NIGHTMARE
 	Dialogue3: I love sitting on your head
 	Dialogue4: I'm cappin!
 	Dialogue5: Isn't this so silly?
@@ -221,9 +265,3 @@ TheMan: {
 }
 
 TheHorse: How hungry?
-
-CatacombKeys: {
-	Key1: The yellow barrier has been opened!
-	Key2: The red barrier has been opened!
-	Key3: The orange barrier has been opened!
-}
