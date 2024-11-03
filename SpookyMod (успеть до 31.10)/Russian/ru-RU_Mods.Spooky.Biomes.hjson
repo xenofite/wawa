@@ -14,7 +14,7 @@ CemeteryBiome: {
 }
 
 RaveyardBiome: {
-	DisplayName: Посмертная туса //ТАКОЙ КЛЕВЫЙ КАЛАМБУР НУ ПОЧЕМУ ЕГО НЕЛЬЗЯ ПЕРЕВЕСТИ УЭЭЭ
+	DisplayName: Посмертная туса
 	TownNPCDialogueName: посмертная туса
 }
 
