@@ -1,0 +1,34 @@
+Configs: {
+	DebugConfig: {
+		DisplayName: Debugging Config (Modders)
+
+		debug_ViewAllLoadedModAmbiences: {
+			Label: Display all Mod.Call Items
+			Tooltip: ""
+		}
+
+		debug_AsmNames: {
+			Label: Display Mod.Call Mod Names
+			Tooltip: ""
+		}
+	}
+
+	PlayerConfig: {
+		DisplayName: Player Config
+
+		player_FadeAmbienceOnFocusLost: {
+			Label: Fade Ambience on Focus Lost
+			Tooltip: ""
+		}
+
+		footstepVolumes: {
+			Tooltip: ""
+			Label: footstep Volumes
+		}
+
+		Headers: {
+			Footsteps: Footsteps Header
+			Ambience: Ambience Header
+		}
+	}
+}
