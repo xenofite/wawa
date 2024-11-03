@@ -9,18 +9,22 @@ GourdArmor:
 RootArmor: Попадания по противникам стрелковыми снарядами имеют шанс исцелить вас
 SpiderArmor:
 	'''
-	Нажатие горячей клавишы вводит вас в паучью скрытность на 10 секунд
+	Нажмите горячую клавишу, чтобы войти в состояние паучей скрытности на 10 секунд
 	Переход в паучью скрытность ненадолго оглушает ближайших врагов
 	Паучья скрытность увеличивает сопротивление урону на 12%
 	Эта способность имеет 2 минуты перезарядки
 	'''
-SpiritHorsemanArmor: Your own head will now fight with you!
-EyeArmor: Hitting enemies with whips will sometimes spawn eyes to deal additional damage
+SpiritHorsemanArmor: Ваша же голова будет сражатся за вас!
+EyeArmor:
+	'''
+	Увеличивает длину хлыста на 10%
+	Попадания по врагам могут вызвать глаза, наносящие дополнительный урон
+	'''
 FlowerArmor:
 	'''
-	Greatly increases your life regeneration
-	Press the Armor Bonus Hotkey to summon a large amount of pollen to attack your enemies
-	This ability has a 30 second cooldown before it can be used again
+	Значительно увеличивает регенерацию здоровья
+	Нажмите горячую клавишу, чтобы вызвать сгустки пыльцы, атакующие врагов
+	Эта способность имеет 30 секунд перезарядки
 	'''
-GoreArmorOrro: Summons a baby orro to fight with you!
-GoreArmorBoro: Summons a baby boro to fight with you!
+GoreArmorOrro: Призывает маленького Орро сражаться за вас!
+GoreArmorBoro: Призывает маленького Боро сражаться за вас!
