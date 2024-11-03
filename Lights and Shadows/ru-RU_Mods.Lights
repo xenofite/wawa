@@ -1,55 +1,55 @@
 Configs: {
 	LightsConfig: {
-		DisplayName: Client Config
+		DisplayName: Конфигурация
 
 		UseLight: {
-			Label: Use Lighting
+			Label: Включить освещение Lights and Shadows
 			Tooltip: ""
 		}
 
 		lightIntensity: {
-			Label: Light intensity
+			Label: Интенсивность света
 			Tooltip: ""
 		}
 
 		dayColor: {
-			Label: Daylight Color
+			Label: Цвет солнечного света
 			Tooltip:
 				'''
-				Classic: Midday light is yellow
-				Alternate: Midday light is white
+				Классический — жёлтый цвет
+				Альтернативный — белый цвет
 				'''
 		}
 
 		moonlightIntensity: {
-			Label: Moon Light intensity
+			Label: Интенсивность лунного света
 			Tooltip: ""
 		}
 
 		shadowIntensity: {
-			Label: Shadow intensity
+			Label: Интенсивность теней
 			Tooltip: ""
 		}
 
 		UseBloom: {
-			Label: Use Bloom
+			Label: Рассеивание света
 			Tooltip: ""
 		}
 
 		BloomIntensity: {
-			Label: Bloom Intensity
+			Label: Интенсивность рассеивания света
 			Tooltip: ""
 		}
 
 		BloomCounts: {
-			Label: Bloom Count
+			Label: Плавность рассеивания света
 			Tooltip: ""
 		}
 
 		Headers: {
-			Lighting: Lighting & Shadows
-			Bloom: Bloom
-			Presets: Presets Header
+			Lighting: Свет и тени
+			Bloom: Рассеивание света
+			Presets: Предустановленные настройки
 		}
 	}
 }
