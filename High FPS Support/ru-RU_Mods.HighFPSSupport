@@ -1,148 +1,152 @@
 Configs: {
 	Config: {
-		DisplayName: Config
+		DisplayName: Конфигурация
 
 		motionInterpolation: {
-			Label: Motion Smoothing
-			Tooltip: Smooths the motion of most entities in the world, animating them at your monitor's refresh rate.
+			Label: Сглаживание движения
+			Tooltip: 
+				'''
+				Интерполирует движение большинства существ, подстраивая их анимации под частоту обновления монитора,
+ 				благодаря чему анимации станут плавнее на высоком FPS
+				'''
 		}
 
 		mouseEveryFrame: {
-			Label: Responsive Mouse
-			Tooltip:
+			Label: Увеличенная отзывчивость мыши
+			Tooltip: 
 				'''
-				Updates the position of the mouse every frame instead of every tick.
-				Allows the mouse to move at your monitor's FPS.
+				Положение курсора мыши будет обновляться каждый кадр, а не каждый тик,
+				благодаря чему он будет двигаться плавнее на высоком FPS
 				'''
 		}
 
 		limitFPS: {
-			Label: Limit FPS
+			Label: Ограничивать FPS
 			Tooltip:
 				'''
-				Limits your frame rate to the value specified below.
-				It is recommended to cap frame rate your monitor's refresh rate as doing so can reduce input latency and stuttering.
-				[c/FF8000:Requires Frame Skip: Off to work properly.]
+				Ограничивает максимальное количество кадров в секунду
+				Рекомендуется установить значение, соответствующее частоте обновления монитора, чтобы снизить задержку системы и уменьшить количество микрофризов
+				[c/FF8000:Выключите пропуск кадров для нормальной работы этой настройки]
 				'''
 		}
 
 		fpsLimit: {
-			Label: FPS Limit
+			Label: Максимальное количество FPS
 			Tooltip: ""
 		}
 
 		allowTickRateModification: {
-			Label: Modify Tick Rate
+			Label: Изменить тикрейт
 			Tooltip:
 				'''
-				Forces the game to run at the tick rate specified below.
-				The game will function similarly to [c/80C0F0:Frame Skip: On/Subtle], but will only skip frames if your FPS drops below the specified value.
+				Принудительно меняет тикрейт игры
+				Настройка работает почти как [c/80C0F0:включенный или планый пропуск кадров], однако кадры будут пропускаться только если FPS опустится ниже тикрейта
 				'''
 		}
 
 		tickRate: {
-			Label: Tick Rate
+			Label: Тикрейт
 			Tooltip:
 				'''
-				Changes the rate at which the game updates, affecting the speed at which everything moves.
-				[c/FF8000:Highly experimental. UI inputs will often miss at values below 60, and more often the lower this is set.]
-				[c/FF8000:This setting must remain at 60 in multiplayer.]
+				Устанавливает частоту, с которой обновляется игра, что влияет на скорость, с которой всё происходит
+				[c/FF8000:Экспериментальная настройка. Интерфейс иногда будет игнорировать ваши нажатия при значениях ниже 60]
+				[c/FF8000:Эта настройка обязательно должна быть установлена на 60 в мультиплеере]
 				'''
 		}
 
 		soundPitchAdjustment: {
-			Label: Sound Pitch Adjustment
-			Tooltip: Causes changes in Tick Rate to affect the pitch of sounds.
+			Label: Подстраивание тона звуков под тикрейт
+			Tooltip: Изменение тикрейта будет также менять и высоту тона звуков, поддерживая между ними баланс
 		}
 
 		backgroundTileOptimization: {
-			Label: Background Tile Optimization
+			Label: Оптимизация заднего фона
 			Tooltip:
 				'''
-				Optimizes the particularly slow background rendering when underground.
-				[c/FFD890:Fastest on 'Color' lighting, not supported on Retro/Trippy.]
+				Улучшает оптимизацию особо медленного рендеринга задних фонов под землёй
+				[c/FFD890:Работает лучше всего на настройке освещения «Color», не работает вообще на настройках освещения «Ретро» и «Глюки»]
 				'''
 		}
 
 		blackTileOptimization: {
-			Label: Black Tile Optimization
-			Tooltip: Optimizes black tile rendering. Improves performance on the surface and in the underworld.
+			Label: Оптимизация чёрных тайлов
+			Tooltip: Улучшает оптимизацию рендеринга тайлов без освещения, что существенно повышает производительность на поверхности и в преисподней
 		}
 
 		blackTileGPUOptimization: {
-			Label: Black Tile GPU Optimization
+			Label: Оптимизация нагрузки чёрных тайлов на видеокарту
 			Tooltip:
 				'''
-				Optimizes black tile rendering further.
-				[c/FF8000:May cause flickering around moving lights.]
+				Ещё больше улучшает оптимизацию рендеринга тайлов без освещения
+				[c/FF8000:Может заставить некоторые двигающиеся источники света «мигать»]
 				'''
 		}
 
 		lightingPhase3Optimization: {
-			Label: Lighting Phase 3 Optimization
-			Tooltip: Optimizes Lighting Phase 3. May or may not provide a performance increase.
+			Label: Оптимизация третьего этапа освещения
+			Tooltip: Улучшает оптимизацию третьего этапа освещения, что может немного повысить производительность
 		}
 
 		Headers: {
-			FPSControl: FPS Control
-			SpeedControl: Speed Control
-			Optimizations: Optimizations - [c/FFD890:Most stable/fastest on 'Color' lighting]
+			FPSControl: FPS
+			SpeedControl: Тикрейт
+			Optimizations: Оптимизация - [c/FFD890:Эти настройки работают лучше всего с цветовым освещением]
 		}
 
 		uiSpeedLimit: {
-			Label: UI Speed Limit
+			Label: Ограничение скорости интерфейса
 			Tooltip:
 				'''
-				The speed at which items are crafted, purchased, stacks are split and the crafting UI scrolls all scales with framerate.
-				Because of this, very high framerates can cause these actions to be uncontrollably fast.
-				This setting enforces a limit on how fast these actions can be performed.
+				Изменяет скорость создания, покупки и перемещения предметов, скорость пролистывания меню создания предметов, подстраивая всё это под частоту обновления монитора
+				На особо высоких значениях FPS, все эти действия могут стать неконтроллируемо быстрыми
+				Эта настройка позволяет ограничить их максимальную скорость
 
-				[c/80C0F0:Default:] Identical to [c/80C0F0:Frame Skip: On].
-				[c/80A0F0:Double:] Twice as fast as [c/80C0F0:Default] (similar to [c/80A0F0:Frame Skip: Off] when running at 120 FPS.)
-				[c/80A0F0:No Limit:] Identical to [c/80A0F0:Frame Skip: Off] in vanilla.
+				[c/80C0F0:ОБыное:] работает в точности как [c/80C0F0:включённый пропуск кадров]
+				[c/80A0F0:Двойное:] вдвое быстрее, чем [c/80C0F0:обычное ограничение], работает почти как [c/80A0F0:выключенный пропуск кадров] на 120 FPS
+				[c/80A0F0:Нет:] работает в точности как [c/80A0F0:выключенный пропуск кадров]
 				'''
 		}
 
 		solidTileOptimization: {
-			Label: Solid Tile Optimization
+			Label: Оптимизация блоков
 			Tooltip:
 				'''
-				Optimizes solid tile rendering. Significantly improves performance when tiles are on screen.
-				[c/FFD890:Color lighting only!]
-				[c/FF8000:Highly experimental. Can cause visual issues.]
+				Улучшает оптимизацию рендеринга твёрдых блоков, что значительно повышает производительность
+				[c/FFD890:Работает только с цветовым освещением]
+				[c/FF8000:Экспериментальная настройка. Может вызвать визуальные артефакты.]
 				'''
 		}
 
 		fixCharacterMovement: {
-			Label: Fix Character Movement
+			Label: Фикс передвижения персонажа
 			Tooltip: ""
 		}
 	}
 
 	UISpeedLimitType: {
 		Tooltip: ""
-		Default.Label: Default
-		Double.Label: Double
-		NoLimit.Label: No Limit
+		Default.Label: обычное
+		Double.Label: двойное
+		NoLimit.Label: нет
 	}
 }
 
 Common: {
 	InterpolationError:
 		'''
-		An error was encountered with Motion Smoothing. It has been disabled to prevent crashing.
-		The log file contains the original error message for reporting purposes.
+		Произошла ошибка в работе настройки «Сглаживание движения». Она была автоматически выключена в целях избежания вылетов.
+		На случай, если вы захотите доложить об ошибке разработчикам, оригинальное сообщение об ошибке можно найти в файле с логом.
 		'''
 	CannotReachTargetTPSUnmodified:
 		'''
-		Simulating the world is too expensive to reach {0}tps!
-		The game will run slower than normal (currently {1}tps)
+		Произошла ошибка при попытке достичь значение в {0} тиков в секунду.
+		Тикрейт был автоматически снижен (на текущий момент тикрейт составляет {1} TPS).
 		'''
 	CannotReachTargetTPS:
 		'''
-		Simulating the world is too expensive to reach {0}tps!
-		The game will run slower than specified (currently {1}tps)
+		Произошла ошибка при попытке достичь значение в {0} тиков в секунду.
+		Тикрейт был автоматически снижен (на текущий момент тикрейт составляет {1} TPS).
 		'''
-	SolidTileOptimizationUnsupported: Solid Tile Optimization is not supported outside of Color lighting. It has been disabled.
-	InterpolationRequiresFrameSkipOff: Frame skip must remain "Off" to allow Motion Smoothing to work properly.
+	SolidTileOptimizationUnsupported: Настройка «Оптимизация блоков» работает только с цветовым освещением. Она была автоматически выключена.
+	InterpolationRequiresFrameSkipOff: Для нормальной работы настройки «Сглаживание движения» рекомендуется отключить пропуск кадров.
 }
