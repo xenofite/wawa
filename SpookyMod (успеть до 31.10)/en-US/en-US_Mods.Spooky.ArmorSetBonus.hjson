@@ -23,11 +23,15 @@ SpiderArmor:
 	This ability has a 2 minute cooldown before you can use it again
 	'''
 SpiritHorsemanArmor: Your own head will now fight with you!
-EyeArmor: Hitting enemies with whips will sometimes spawn eyes to deal additional damage
+EyeArmor:
+	'''
+	10% increased whip range
+	Hitting enemies with whips will sometimes spawn eyes to deal additional damage
+	'''
 FlowerArmor:
 	'''
 	Greatly increases your life regeneration
-	Press the Armor Bonus Hotkey to summon a large amount of pollen to attack your enemies
+	Press the Armor Bonus Hotkey to summon clumps of pollen to attack your enemies
 	This ability has a 30 second cooldown before it can be used again
 	'''
 GoreArmorOrro: Summons a baby orro to fight with you!
