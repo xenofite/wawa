@@ -1,0 +1,148 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		motionInterpolation: {
+			Label: Motion Smoothing
+			Tooltip: Smooths the motion of most entities in the world, animating them at your monitor's refresh rate.
+		}
+
+		mouseEveryFrame: {
+			Label: Responsive Mouse
+			Tooltip:
+				'''
+				Updates the position of the mouse every frame instead of every tick.
+				Allows the mouse to move at your monitor's FPS.
+				'''
+		}
+
+		limitFPS: {
+			Label: Limit FPS
+			Tooltip:
+				'''
+				Limits your frame rate to the value specified below.
+				It is recommended to cap frame rate your monitor's refresh rate as doing so can reduce input latency and stuttering.
+				[c/FF8000:Requires Frame Skip: Off to work properly.]
+				'''
+		}
+
+		fpsLimit: {
+			Label: FPS Limit
+			Tooltip: ""
+		}
+
+		allowTickRateModification: {
+			Label: Modify Tick Rate
+			Tooltip:
+				'''
+				Forces the game to run at the tick rate specified below.
+				The game will function similarly to [c/80C0F0:Frame Skip: On/Subtle], but will only skip frames if your FPS drops below the specified value.
+				'''
+		}
+
+		tickRate: {
+			Label: Tick Rate
+			Tooltip:
+				'''
+				Changes the rate at which the game updates, affecting the speed at which everything moves.
+				[c/FF8000:Highly experimental. UI inputs will often miss at values below 60, and more often the lower this is set.]
+				[c/FF8000:This setting must remain at 60 in multiplayer.]
+				'''
+		}
+
+		soundPitchAdjustment: {
+			Label: Sound Pitch Adjustment
+			Tooltip: Causes changes in Tick Rate to affect the pitch of sounds.
+		}
+
+		backgroundTileOptimization: {
+			Label: Background Tile Optimization
+			Tooltip:
+				'''
+				Optimizes the particularly slow background rendering when underground.
+				[c/FFD890:Fastest on 'Color' lighting, not supported on Retro/Trippy.]
+				'''
+		}
+
+		blackTileOptimization: {
+			Label: Black Tile Optimization
+			Tooltip: Optimizes black tile rendering. Improves performance on the surface and in the underworld.
+		}
+
+		blackTileGPUOptimization: {
+			Label: Black Tile GPU Optimization
+			Tooltip:
+				'''
+				Optimizes black tile rendering further.
+				[c/FF8000:May cause flickering around moving lights.]
+				'''
+		}
+
+		lightingPhase3Optimization: {
+			Label: Lighting Phase 3 Optimization
+			Tooltip: Optimizes Lighting Phase 3. May or may not provide a performance increase.
+		}
+
+		Headers: {
+			FPSControl: FPS Control
+			SpeedControl: Speed Control
+			Optimizations: Optimizations - [c/FFD890:Most stable/fastest on 'Color' lighting]
+		}
+
+		uiSpeedLimit: {
+			Label: UI Speed Limit
+			Tooltip:
+				'''
+				The speed at which items are crafted, purchased, stacks are split and the crafting UI scrolls all scales with framerate.
+				Because of this, very high framerates can cause these actions to be uncontrollably fast.
+				This setting enforces a limit on how fast these actions can be performed.
+
+				[c/80C0F0:Default:] Identical to [c/80C0F0:Frame Skip: On].
+				[c/80A0F0:Double:] Twice as fast as [c/80C0F0:Default] (similar to [c/80A0F0:Frame Skip: Off] when running at 120 FPS.)
+				[c/80A0F0:No Limit:] Identical to [c/80A0F0:Frame Skip: Off] in vanilla.
+				'''
+		}
+
+		solidTileOptimization: {
+			Label: Solid Tile Optimization
+			Tooltip:
+				'''
+				Optimizes solid tile rendering. Significantly improves performance when tiles are on screen.
+				[c/FFD890:Color lighting only!]
+				[c/FF8000:Highly experimental. Can cause visual issues.]
+				'''
+		}
+
+		fixCharacterMovement: {
+			Label: Fix Character Movement
+			Tooltip: ""
+		}
+	}
+
+	UISpeedLimitType: {
+		Tooltip: ""
+		Default.Label: Default
+		Double.Label: Double
+		NoLimit.Label: No Limit
+	}
+}
+
+Common: {
+	InterpolationError:
+		'''
+		An error was encountered with Motion Smoothing. It has been disabled to prevent crashing.
+		The log file contains the original error message for reporting purposes.
+		'''
+	CannotReachTargetTPSUnmodified:
+		'''
+		Simulating the world is too expensive to reach {0}tps!
+		The game will run slower than normal (currently {1}tps)
+		'''
+	CannotReachTargetTPS:
+		'''
+		Simulating the world is too expensive to reach {0}tps!
+		The game will run slower than specified (currently {1}tps)
+		'''
+	SolidTileOptimizationUnsupported: Solid Tile Optimization is not supported outside of Color lighting. It has been disabled.
+	InterpolationRequiresFrameSkipOff: Frame skip must remain "Off" to allow Motion Smoothing to work properly.
+}
