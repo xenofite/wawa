@@ -29,54 +29,53 @@ DandelionTumbleweed: {
 		'''
 }
 Dragonfruit: {
-	DisplayName: Diva Dragon Fruit
+	DisplayName: Дивадраконий фрукт
 	Tooltip:
 		'''
-		Spawns a dragon fruit that will orbit around you and chase nearby enemies
-		After hitting an enemy the fruit will die, and will respawn after a few seconds
-		Eating multiple of this bloom while having this bloom's ability active will increase its stack
-		Each stack of this buff gives you an additional orbiting fruit, up to 10 total
+		Призывает драконий фрукт, которой будет вращатся возле вас и самонаводится на ближайших врагов
+		После попаданию по врагу, фрукт ломается и не может появится ещё в течении нескольких секунд
+		При использовании несколько раз, позволяет призывть призывать несколько фруктов за раз, вплоть до 10
 		Длительность действия эффекта: 3 мин.
 		'''
 }
 FallGourd: {
-	DisplayName: The Squash
+	DisplayName: Сквош
 	Tooltip:
 		'''
-		Increases damage by 15% while you are falling down
+		Увеличивает урон на 15% во время падения
 		Длительность действия эффекта: 5 мин.
 		'''
 }
 FallSoulPumpkin: {
-	DisplayName: Pumptergeist
+	DisplayName: Тыквопризрак
 	Tooltip:
 		'''
-		You will sometimes spawn a ghastly pumpkin that slowly chases nearby enemies
-		The ghastly pumpkins will ignite enemies for a short time
+		Иногда призывает возле вас мерзкую тыковку, медленно самонаводящуюся на ближайших врагов
+		Мерзкие тыковки поджигают атакованных врагов на короткое время
 		Длительность действия эффекта: 4 мин.
 		'''
 }
 FallWaterGourd: {
-	DisplayName: Watering Gourd
+	DisplayName: Тыкволейка
 	Tooltip:
 		'''
-		Fully grown bloom crops have a chance to yield an extra bloom and seed
+		Плоды полностью созревших растений имеют шанс дать дополнительный плод и семена
 		Длительность действия эффекта: 10 мин.
 		'''
 }
 FallZucchini: {
-	DisplayName: Zappy Zucchini
+	DisplayName: Электроцукини
 	Tooltip:
 		'''
-		Occassionally zap nearby enemies with zucchini electricity for a few seconds
+		При нахождении рядом с врагом, из вас иногда будут исходить самонаводящиеся цукини-молнии
 		Длительность действия эффекта: 2 мин.
 		'''
 }
 SpringHeartFlower: {
-	DisplayName: Bleeding Heart
+	DisplayName: Истекающие сердце
 	Tooltip:
 		'''
-		Grants increased life regeneration for each occupied bloom slot you have, including this bloom
+		Увеличивает регенерацию за каждую занятую ячейку бафф-растений, включая себя
 		Длительность действия эффекта: 5 мин.
 		'''
 }
@@ -650,24 +649,24 @@ SpiritHorsemanLegs: {
 }
 
 BackroomsCorpse: {
-	DisplayName: Severed Head
+	DisplayName: Отрубленная голова
 	Tooltip:
 		'''
-		Spawns a floating head above you that decays nearby enemies
-		Decay will rapidly drain enemies health, but won't effect enemies below half health
-		Deals less damage over time to bosses
-		'It's like portions of the body stopped decaying'
+		Призывает летающую голову, разлагающую ближайших врагов
+		Разложение наносит переодический урон врагу, но не действует если у него осталось менее половины здоровья
+		Разложение также наносит меньше урона боссам
+		«Словно части тела перестали разлагаться»
 		'''
 }
 
 CarnisFlavorEnhancer: {
-	DisplayName: Flavor Enhancer
+	DisplayName: Усилитель вкуса
 	Tooltip:
 		'''
-		While moving, you will create a trail of spores that can inflict random debuffs
-		if you have the Well Fed buff, the trail debuffs will become more potent and powerful
-		This also scales further based on the tier of Well Fed you have
-		'Required for every meal'
+		Вы оставляете след из спор при передвижении, которые наклажывают различные дебаффы на врагов
+		Дебаффы станут сильнее, если вы находитесь под действием баффа еды
+		Уровень усиления зависит от уровня баффа, находящемся на вас
+		«Необходим при каждом приёме пищи»
 		'''
 }
 
