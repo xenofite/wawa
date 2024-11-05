@@ -1,93 +1,95 @@
 Configs: {
 	AmbientConfigServer: {
-		DisplayName: Ambient Config (Server)
+		DisplayName: Конфигурация сервера
 
 		chestSounds: {
-			Label: Chest Open/Close Sounds
+			Label: Звук открытия и закрытия сундука
 			Tooltip:
 				'''
-				Toggle on to turn chest sounds on. Toggle off to turn them off.
-				Turned on by default.
-				This config is shared with everyone in the server.
+				Включает звук открытия сундука для всех на сервере
+				Включён по умолчанию
 				'''
 		}
 
 		newSplashSounds: {
-			Label: Toggle New Water Sounds
+			Label: Новые звуки воды
 			Tooltip:
 				'''
-				Toggle on to turn this mod's new water interaction sounds on. Toggle off to turn them off.
-				Turned on by default.
-				This config is shared with everyone in the server.
+				Включает новые звуки при взаимодействии с водой для всех на сервере
+				Включён по умолчанию
 				'''
 		}
 	}
 
 	AudioAdditionsConfig: {
-		DisplayName: Audio Additions Config
+		DisplayName: Конфигурация новых аудиоэффектов
 
 		slimySounds: {
-			Label: Slimy Sounds
-			Tooltip: Toggle the sounds that slimes create when jumping and landing.
+			Label: Звуки слизи
+			Tooltip: Включает звуки, воспроизводящиеся при прыжках и приземлении слизней
 		}
 
 		woodCreaks: {
-			Label: Wood Creaks
+			Label: Скрип дерева
 			Tooltip:
 				'''
-				Toggle the sounds that slightly unsupported wood make.
+				Toggle the sounds that slightly unsupported wood make. Я не понял условий скрипа
 				Do note that this can potentially increase FPS, as this can be a hefty process.
 				'''
 		}
 
 		dynamicAnimalSounds: {
-			Label: Various Animal Sounds
+			Label: Фоновые звуки животных
 			Tooltip: Toggle the (somewhat loud) sounds that play and have dynamic sound updating based on location-to-player panning.
 		}
 
-		Headers.SoundFilters: Sound Filters
+		Headers.SoundFilters: Звуковые фильтры
 
 		isReverbEnabled: {
-			Label: Reverb
-			Tooltip: Makes sounds have a reverberation factor depending on environment or depth, depending on what settings for reverb you have enabled.
+			Label: Реверберация
+			Tooltip: Делает коэффициент ревебрации звуков зависимым от окружения или глубины, в зависимости от того, какие настройки реверберации включены
 		}
 
 		ugReverbCalculation: {
-			Label: Enhanced Reverb Calculation (Underground)
+			Label: Улучшенный расчёт реверберации в пещерах
 			Tooltip:
 				'''
-				In the cavern layer, the math for calculating reverb is changed a little bit.
-				Having this enabled can be a problem for lower-end CPUs.
+				Изменяет расчёт ревибрации в пещерах
+				Включение этой настройки может вызвать проблемы у слабых процессоров.
 				'''
 		}
 
 		surfaceReverbCalculation: {
-			Label: Enhanced Reverb Calculation (Surface)
-			Tooltip: Toggle surface audio reverb calculations.
+			Label: Улучшенный расчёт ревибрации на поверхности
+			Tooltip: Включает расчёт ревибрации на поверхности
 		}
 
 		advancedReverbCalculation: {
-			Label: Advanced Reverb Calculation
+			Label: Расширенный расчёт реверберации
 			Tooltip:
 				'''
-				Toggle advanced audio reverb calculation algorithms.
-				Disabling this will increase your reverb factor by how deep you are into the world.
+				Улучшает расчёт алогиритмов ревибрации
+				Отключение этой настройки increase your reverb factor by how deep you are into the world.
 				'''
 		}
 
 		isSoundDampeningEnabled: {
-			Label: Sound Dampening
-			Tooltip: Makes sounds sound dampened when underwater.
+			Label: Шумоподавление
+			Tooltip: Приглушает звук при нахождении под водой
 		}
 
 		isSoundOcclusionEnabled: {
-			Label: Sound Occlusion
-			Tooltip: Makes sounds muffled when the Line-of-Sight to the player is blocked, depending on distance and density of the blockage.
+			Label: Затенение звука
+			Tooltip:
+				'''
+				Приглушает звуки, воспроизводимые в местах без прямой видимости игрока
+				Степень приглушённости зависит от расстояния и плотности блоков между игроком и источником звука //какая нахуй плотность я ебал
+				'''
 		}
 	}
 
 	GeneralConfig: {
-		DisplayName: General Config
+		DisplayName: Общая конфигурация
 
 		Headers: {
 			AmbienceAndSounds: Ambience And Sounds
@@ -96,20 +98,20 @@ Configs: {
 		}
 
 		footsteps: {
-			Label: Toggle Footsteps
+			Label: Звук шагов
 			Tooltip:
 				'''
-				Toggle on to turn on footsteps. Toggle off to turn them off.
-				Enabled by default.
+				Добавляет звуки топанья при передвижении
+				Включён по умолчанию
 				'''
 		}
 
 		campfireSounds: {
-			Label: Toggle Campfire Volumetric Sound
+			Label: Объёмные звуки костра
 			Tooltip:
 				'''
-				Toggle on to turn campfire sounds on. Toggle off to turn them off.
-				Turned on by default.
+				Добавляет реальностичные звуки костра
+				Включён по умолчанию
 				'''
 		}
 
