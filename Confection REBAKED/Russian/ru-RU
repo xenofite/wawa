@@ -4,9 +4,9 @@ Mods: {
 			Impersonate: "«Отлично подходит для подражания внешности разработчиков!»"
 			Banner: ""
 			Banner2: Увеличены урон и защита в бою против:
-			CaughtInConfection: Caught anywhere in the Confection
-			CaughtInConfectionSF: Caught anywhere in the Confection Surface
-			CaughtInConfectionUG: Caught anywhere in the Confection Underground
+			CaughtInConfection: Водится в ослащении
+			CaughtInConfectionSF: Водится на поверхности ослащения
+			CaughtInConfectionUG: Водится в подземном ослащении
 			R1: I
 			R2: II
 			R3: III
@@ -143,13 +143,13 @@ Mods: {
 
 		Items: {
 			SoulofDelightinaBottle: {
-				DisplayName: Soul of Delight in a Bottle
+				DisplayName: Эссенция восхищения в банке
 				Tooltip: ""
 			}
 
 			SoulofDelight: {
-				Tooltip: "'The essence of sweet creatures'"
-				DisplayName: Soul of Delight
+				Tooltip: "'Эссенция сладких созданий'"
+				DisplayName: Эссенция восхищения
 			}
 
 			PipCageItem: {
