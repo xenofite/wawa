@@ -1,6 +1,6 @@
 Configs: {
 	AmbientConfigServer: {
-		DisplayName: Конфигурация сервера
+		DisplayName: Серверная конфигурация
 
 		chestSounds: {
 			Label: Звук открытия и закрытия сундука
