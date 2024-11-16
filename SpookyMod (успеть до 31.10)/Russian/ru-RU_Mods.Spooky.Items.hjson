@@ -2499,48 +2499,44 @@ MonsterBloodVial: {
 }
 
 NerveWhip: {
-	DisplayName: Exposed Nerve
+	DisplayName: Открытый нерв
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Deals more damage the more enemies it hits, caps after 5 enemies are hit
+		{$CommonItemTooltip.Whips}
+		Deals more damage the more enemies it hits, caps after 5 enemies are hit. На самом деле оно нихуя не делает это наёб.
 		'''
 }
 
 Sneezer: {
-	DisplayName: Sneezer
+	DisplayName: Чихатель
 	Tooltip:
 		'''
-		Fires out boogers at a constant rate
-		Every 10 shots will fire out a larger and faster booger
-		'The booger blaster's younger cousin'
+		Стреляет козявками, не подверженными гравитации
+		Каждый 10 выстрел выпускает более большую и быстру козявку
+		«Младший двоюродный брат козявочного бластера»
 		'''
 }
 
 SnotArrow: {
-	DisplayName: Booger Arrow
-	Tooltip: Bounces off of surfaces and enemies
+	DisplayName: Козявочная стрела
+	Tooltip: Отскакивает от твёрдых поверхностей и врагов
 }
 
 SnotBullet: {
-	DisplayName: Mucus Bullet
-	Tooltip: Ricochets to another nearby enemy on hit
+	DisplayName: Соплевая пуля
+	Tooltip: Рикошетирует в другого врага поблизости при попадании
 }
 
 SnotMedication: {
-	DisplayName: Allergy Medication
-	Tooltip:
-		'''
-		Grants immunity to the oozed debuff
-		Getting inflicted with the oozed debuff will turn it into a positive buff
-		'''
+	DisplayName: Антигистаминные таблетки
+	Tooltip: Каждое получение дебаффа «Оклеен» заменяет его на «Железную кожу», «Регенерацию» или «Стремительность»
 }
 SnotRocket: {
-	DisplayName: Snot Rocket
+	DisplayName: Соплерокета
 	Tooltip:
 		'''
-		Accelerates rapidly as it travels
-		Explodes into lingering snot on direct enemy hits
+		Ускоряется по мере полёта
+		Вызывает всплески соплей при прямом поподании по врагу
 		'''
 }
 
@@ -3189,7 +3185,7 @@ CandleItem: {
 	Tooltip:
 		'''
 		Излучает небольшое количество света
-		Нажмите ПКМ свечой по вырезанной тыкве, чтобы пзажечь её
+		Нажмите ПКМ свечой по вырезанной тыкве, чтобы зажечь её
 		'''
 }
 
