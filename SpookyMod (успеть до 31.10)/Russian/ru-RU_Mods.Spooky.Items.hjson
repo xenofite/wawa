@@ -1255,8 +1255,8 @@ SuspiciousBrownie: {
 }
 
 ValleyNautilusShell: {
-	DisplayName: Винокровавая раковина
-	Tooltip: Призывает маленького моллюска
+	DisplayName: Кроваво-красная раковина
+	Tooltip: Призывает маленького цефалопода
 }
 
 YellowSpore: {
