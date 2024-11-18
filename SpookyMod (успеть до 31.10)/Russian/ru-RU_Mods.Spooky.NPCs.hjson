@@ -57,16 +57,16 @@ BigBone: {
 BigFlowerPot.DisplayName: Гигантский цветочный горшок
 BigFlower.DisplayName: Солнечный цветок
 DefensiveFlower.DisplayName: Защитный цветок
-HealingFlower.DisplayName: Healing Flower
+HealingFlower.DisplayName: Исцеляющий цветок
 CatacombGuardian.DisplayName: Страж катакомб
 BigBoneArenaBG.DisplayName: ""
 DaffodilBody.DisplayName: ""
 DaffodilHandLeft.DisplayName: Нарцисс
 DaffodilHandRight.DisplayName: Нарцисс
 DaffodilArenaBG.DisplayName: ""
-MoclingMinion.DisplayName: Моклинок
-MocoIntro.DisplayName: Моклинок
-MocoOutro.DisplayName: Моклинок
+MoclingMinion.DisplayName: Моксит
+MocoIntro.DisplayName: Моксит
+MocoOutro.DisplayName: Моксит
 MocoSpawner.DisplayName: ""
 BoroBody.DisplayName: Боро
 BoroBodyConnect.DisplayName: Боро
@@ -84,9 +84,9 @@ OrroHeadP1.DisplayName: Орро
 OrroTail.DisplayName: Орро
 BoroTongue.DisplayName: Язык Боро
 PhantomSkull.DisplayName: Призрачный череп
-OrbitingBooger.DisplayName: Booger Ball
+OrbitingBooger.DisplayName: Козявочный шар
 //hallucinations
-TheMan.DisplayName: The Man
+TheMan.DisplayName: Человек
 //catacombs layer 1
 Skeletoid1.DisplayName: Скелетоид
 Skeletoid2.DisplayName: Скелетоид
@@ -190,29 +190,29 @@ TinyRat2.DisplayName: Крысёныш
 ZomboidCasket.DisplayName: Зомбоид в гробу
 ZomboidGremlin.DisplayName: Зомбу
 //egg event
-Biojetter.DisplayName: Biojetter
-BiojetterEye.DisplayName: Biojetter
-CoughLungs.DisplayName: Coughing Lungs
+Biojetter.DisplayName: Биоструй
+BiojetterEye.DisplayName: Биоструй
+CoughLungs.DisplayName: Кашляющие лёгкие
 CruxBat.DisplayName: Crux Bat
-EarWorm.DisplayName: Ear Worm
+EarWorm.DisplayName: Ушной червь
 EarWormBase.DisplayName: ""
-ExplodingAppendix.DisplayName: Exploding Appendix
-FleshBolster.DisplayName: Flesh Bolster
-GooSlug.DisplayName: Goo Slug
-HoppingHeart.DisplayName: Hopping Heart
-HoverBrain.DisplayName: Hovering Brain
-TongueBiter.DisplayName: Tongue Biter
+ExplodingAppendix.DisplayName: Взрывной апендикс
+FleshBolster.DisplayName: Мясное укрепление
+GooSlug.DisplayName: Слизеслизь
+HoppingHeart.DisplayName: Сердце-попрыгунчик
+HoverBrain.DisplayName: Летающий мозг
+TongueBiter.DisplayName: Язык-кусатель
 OrroboroEgg.DisplayName: ""
 //friendly
-DumbZomboid.DisplayName: Dumb Zomboid
+DumbZomboid.DisplayName: Безмозглый зомби
 GiantWebAnimationBase.DisplayName: ""
 GiantWebAnimationPiece.DisplayName: ""
-LittleBone.DisplayName: Little Bone
-LittleBonePotTransform.DisplayName: Little Bone
+LittleBone.DisplayName: Черепок
+LittleBonePotTransform.DisplayName: Черепок
 LittleBoneSleeping.DisplayName: Спящее растение
-LittleEye.DisplayName: Little Eye
+LittleEye.DisplayName: Глазик
 LittleEyeSleeping.DisplayName: Спящий глаз
-Musicman.DisplayName: Musicman
+Musicman.DisplayName: Музыкант
 PartySkeleton1.DisplayName: Тусоскелет
 PartySkeleton2.DisplayName: Тусоскелет
 PartySkeleton3.DisplayName: Тусоскелет
@@ -221,28 +221,28 @@ PartySkeleton5.DisplayName: Тусоскелет
 PartySkeleton6.DisplayName: Тусоскелет
 PartySkeleton7.DisplayName: Тусоскелет
 PartySkeleton8.DisplayName: Тусоскелет
-SkeletonBouncer.DisplayName: Skeleton Bouncer
-SuspiciousSkeleton.DisplayName: Suspicious Skeleton
+SkeletonBouncer.DisplayName: Скелет-вышибала
+SuspiciousSkeleton.DisplayName: Подозрительный скелет
 OldHunterSleeping.DisplayName: Старый охотник
 
 OldHunter: {
 	DisplayName: Старый охотник
 
 	TownNPCMood: {
-		Content: I am content.
-		NoHome: You know, I was wonderin' if you had a cozy place to live.
-		FarFromHome: I am too far from home.
-		LoveSpace: The amount of space here is real nice!
-		DislikeCrowded: Ain't liking how many people are around me right now.
+		Content: Я доволен.
+		NoHome: Знаешь, я подумал о том, не найдётся у тебя уютного местечка.
+		FarFromHome: Я нахожусь слишком далеко от дома.
+		LoveSpace: Количества свободного места тут действительно хорошее!
+		DislikeCrowded: Мне не нравятся такое количество людей здесь. 
 		HateCrowded: It's too damn crowded here. Way too much yip-yapping!
-		LoveBiome: Ahh the good ol' {BiomeName}. Still love this place despite them ugly ass spiders wandering around!
-		LikeBiome: The {BiomeName} is my type of biome. Nothin' says home quite like fending off venomous bugs and bats!
-		DislikeBiome: Not really likin' {BiomeName}, too peaceful and calm for me.
-		HateBiome: What the hell is this so-called Hallowed? I ain't gonna live in some fairytale land!
-		LoveNPC: "{NPCName} is awesome! Glad there's some hard-core dudes out there!"
-		LikeNPC: I like {NPCName}. Honestly I'm just glad I got someone old to talk with haha!
-		DislikeNPC: "{NPCName}? Seems way too hoity-toity for me."
-		HateNPC: "{NPCName} can screw off. Don't think I ever seen such a terrible attitude before!"
+		LoveBiome: Ах, {BiomeName}. Люблю это место, несмотря на этих херовых пауков повсюду.
+		LikeBiome: "{BiomeName} это мой биом. Ничто так не напоминает о доме, как отбитие от кучи ядовитых пауков и летучих мышей!"
+		DislikeBiome: Мне не нравится океан. Такие места слишком мирны и спокойны для меня.
+		HateBiome: Что ещё за грёбанное «освящение»? Я не собираюсь жить в этой стране радуги!
+		LoveNPC: "{NPCName} крут! Я рад, что ещё есть такие жёсткие чуваки."
+		LikeNPC: Мне нравится {NPCName}. На самом деле, я просто рад что тут есть кто-то более приблежённый ко мне по возрасту, чтобы с ним поговорить.
+		DislikeNPC: "{NPCName}? Она слишком величественная, как по мне."
+		HateNPC: Пусть {NPCName} отвалит. Не думаю, что когда-либо видел такое ужасное отношение!
 		Princess_LovesNPC: ""
 		LikeNPC_Princess: ""
 	}
@@ -296,28 +296,28 @@ ZomboidWarlock.DisplayName: Колдун-зомбоид
 WarlockSkull.DisplayName: Колдун-скелет
 ZomboidWind.DisplayName: Зомбоид
 //valley of eyes
-EyeBatFleshy.DisplayName: Bat n' Eye
-ManHoleFleshy.DisplayName: Man Hole
-ManHoleEye.DisplayName: Eye
-ManHoleBig.DisplayName: Man Hole Big
-MrHandy.DisplayName: Mister Handy
-MrHandyFleshy.DisplayName: Mister Handy
-Tortumor.DisplayName: Tortumor
-TortumorFleshy.DisplayName: Tortumor
-TortumorGiant.DisplayName: Giant Tortumor
-TortumorGiantFleshy.DisplayName: Giant Tortumor
-Mocling.DisplayName: Mocling
+EyeBatFleshy.DisplayName: Летучая глазомышь
+ManHoleFleshy.DisplayName: Мясное отверстие
+ManHoleEye.DisplayName: Глаз
+ManHoleBig.DisplayName: Большое мясное отверстие
+MrHandy.DisplayName: Мистер Руки
+MrHandyFleshy.DisplayName: Мистер Руки
+Tortumor.DisplayName: Неоплазм
+TortumorFleshy.DisplayName: Неоплазм
+TortumorGiant.DisplayName: Гигантский неоплазм
+TortumorGiantFleshy.DisplayName: Гигантский неоплазм
+Mocling.DisplayName: Моксит
 MoclingSwarm.DisplayName: ""
-ValleyFish.DisplayName: Peeper Fish
-ValleyNautilus.DisplayName: Claret Cephalopod
-ValleySquid.DisplayName: Clot Squid
-ValleySquidClone.DisplayName: Clot Squid
-ValleyEelBody.DisplayName: Aortic Eel
-ValleyEelHead.DisplayName: Aortic Eel
-ValleyEelTail.DisplayName: Aortic Eel
-ValleyShark.DisplayName: Hemostasis Beast
-ValleySharkMouth.DisplayName: Hemostasis Beast
-ValleyMerman.DisplayName: Flesh Merman
+ValleyFish.DisplayName: Подглядывающая рыба
+ValleyNautilus.DisplayName: Кроваво-красный цефалопод
+ValleySquid.DisplayName: Тромбный кальмар
+ValleySquidClone.DisplayName: Тромбный кальмар
+ValleyEelBody.DisplayName: Аортный угорь
+ValleyEelHead.DisplayName: Аортный угорь
+ValleyEelTail.DisplayName: Аортный угорь
+ValleyShark.DisplayName: Чудище-гемотромб
+ValleySharkMouth.DisplayName: Чудище-гемотромб
+ValleyMerman.DisplayName: Мясной тритон
 //spider cave
 Ant1.DisplayName: Муровей
 Ant2.DisplayName: Муровей
@@ -382,14 +382,14 @@ SnotMonster.DisplayName: Соплевой монстр
 SnotSlime.DisplayName: Соплевой слизень
 //quest minibosses
 BanditBook.DisplayName: Том духов
-BanditBruiser.DisplayName: Rarg
-BanditWizard.DisplayName: Greeny
-BanditPriest.DisplayName: Blueford
+BanditBruiser.DisplayName: Крастантин
+BanditWizard.DisplayName: Зелёнтий
+BanditPriest.DisplayName: Синерин
 EyeWizard.DisplayName: Большеглазый
 EyeWizardClone.DisplayName: Призрак Большеглазого
-EyeWizardOrb.DisplayName: Eye Orb
-FrankenGoblin.DisplayName: Frank the Goblin
-FrankenGoblinHandFront.DisplayName: Frank's Hand
-FrankenGoblinHandBack.DisplayName: Frank's Hand
-FrankenGoblinEye.DisplayName: Monster Eye
+EyeWizardOrb.DisplayName: Глазное яблоко
+FrankenGoblin.DisplayName: Гоблин Франк
+FrankenGoblinHandFront.DisplayName: Рука Франка
+FrankenGoblinHandBack.DisplayName: Рука Франка
+FrankenGoblinEye.DisplayName: Глаз монстра
 StitchSpider.DisplayName: Сшиватель
