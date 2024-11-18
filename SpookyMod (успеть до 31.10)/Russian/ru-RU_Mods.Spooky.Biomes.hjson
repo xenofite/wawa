@@ -9,8 +9,8 @@ SpookyBiomeUg: {
 }
 
 CemeteryBiome: {
-	DisplayName: Болотистое кладбище
-	TownNPCDialogueName: болотистое кладбище
+	DisplayName: Заболоченное кладбище
+	TownNPCDialogueName: заболоченное кладбище
 }
 
 RaveyardBiome: {
@@ -59,6 +59,6 @@ SpiderCaveBiome: {
 }
 
 HallucinationZone: {
-	DisplayName: Галлюцинации
-	TownNPCDialogueName: галлюцинации
+	DisplayName: Галлюцинация
+	TownNPCDialogueName: галлюцинация
 }
