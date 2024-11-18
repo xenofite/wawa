@@ -813,10 +813,10 @@ Creepypasta: {
 }
 
 CemeteryKey: {
-	DisplayName: Ключ болотистого кладбища
+	DisplayName: Ключ заболоченного кладбища
 	Tooltip:
 		'''
-		Отпирает сундук болотистого кладбища в темнице
+		Отпирает сундук заболоченного кладбища в темнице
 		Не может быть использован до победы над Плантерой
 		'''
 }
@@ -2780,7 +2780,7 @@ CatacombBox2: {
 }
 
 CemeteryBox: {
-	DisplayName: Музыкальная шкатулка (Болотистое кладбище)
+	DisplayName: Музыкальная шкатулка (Заболоченное кладбище)
 	Tooltip: "[c/6E9E3B:«A Boneyard Too Far»] от BananaLizard"
 }
 
@@ -3077,7 +3077,7 @@ NoseTempleWallRedItem: {
 }
 
 CemeteryPylonItem: {
-	DisplayName: Пилон болотистого клидбища
+	DisplayName: Пилон заболоченного клидбища
 	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
@@ -3121,7 +3121,7 @@ EyeWizardRelicItem: {
 }
 
 FrankenGoblinRelicItem: {
-	DisplayName: Реликвия гоблина Фрэнка
+	DisplayName: Реликвия гоблина Франк
 	Tooltip: ""
 }
 
@@ -3681,7 +3681,7 @@ CatacombTorch2Item: {
 }
 
 CemeteryBiomeTorchItem: {
-	DisplayName: Факел болотистого кладюища
+	DisplayName: Факел заболоченого кладюища
 	Tooltip: ""
 }
 
