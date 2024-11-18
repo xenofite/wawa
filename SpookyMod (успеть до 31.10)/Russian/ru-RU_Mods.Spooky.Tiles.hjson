@@ -1,6 +1,6 @@
 CemeteryBiomeChest: {
-	MapEntry0: Сундук болотистого кладбища
-	MapEntry1: Закрытый сундук болотистого кладбища
+	MapEntry0: Сундук заболоченного кладбища
+	MapEntry1: Закрытый сундук заболоченного кладбища
 }
 
 SpiderCaveChest: {
@@ -50,7 +50,7 @@ OrroboroBoxTile.MapEntry: Музыкальная шкатулка
 SpookyHellBoxTile.MapEntry: Музыкальная шкатулка
 SpookyMenuBoxTile.MapEntry: Музыкальная шкатулка
 SpookySpiritBoxTile.MapEntry: Музыкальная шкатулка
-CemeteryPylon.MapEntry: Пилон болотистого кладбища
+CemeteryPylon.MapEntry: Пилон заболоченного кладбища
 SpiderCavePylon.MapEntry: Пилон паучьего ущелья
 SpookyBiomePylon.MapEntry: Пилон жуткого леса
 SpookyHellPylon.MapEntry: Пилон долины глаз
