@@ -72,7 +72,7 @@ FallZucchini: {
 		'''
 }
 SpringHeartFlower: {
-	DisplayName: Истекающие сердце
+	DisplayName: Кровоточащее сердце
 	Tooltip:
 		'''
 		Увеличивает регенерацию за каждую занятую ячейку бафф-растений, включая себя
@@ -80,30 +80,30 @@ SpringHeartFlower: {
 		'''
 }
 SpringIris: {
-	DisplayName: Dialated Iris
+	DisplayName: Анютины глазки
 	Tooltip:
 		'''
-		Every minute, you will spawn an iris petal and a large eye on your cursor
-		The iris petal slowly chases the eye and speeds up over time while damaging anything it touches
-		The petal and eye will both die when they collide with each other
+		Каждую минуту рядом с вами будет появлятся лепесток цветка, а также глаз, прикреплённый к курсору
+		Лепесток цветка медленно летит за глазом, постепенно ускоряясь и нанося урон врагам по пути
+		Лепесток и глаз исчезнут после столкновения друг с другом
 		Длительность действия эффекта: 5 мин.
 		'''
 }
 SpringOrchid: {
-	DisplayName: Monkey Orchid
+	DisplayName: Обезьянья орхидея
 	Tooltip:
 		'''
-		Weapons have a chance to shoot a spread of monkey orchid shurikens when used
-		The shurikens damage scales based on the damage of the weapon used
+		Оружие при использовании имеют шанс метнуть сюрикен обезьяней орхидеи
+		Урон сюрикена зависит от используемого оружия
 		Длительность действия эффекта: 4 мин.
 		'''
 }
 SpringRose: {
-	DisplayName: Thorn Tipped Rose
+	DisplayName: Остроколючая роза
 	Tooltip:
 		'''
-		Grants you a ring of thorns that deals a small amount of damage to enemies
-		The thorn ring can also sometimes inflict bleeding for a short time
+		Создаёт вокруг вас кольцо из колючек, наносящее небольшой урон врагам
+		Колько колючек также может наложить дебафф «Кровотечение» на короткое время
 		Длительность действия эффекта: 6 мин.
 		'''
 }
@@ -2770,12 +2770,12 @@ BigBoneBox: {
 }
 
 CatacombBox: {
-	DisplayName: Музыкальная шкатулка (Верхние катакомбы)
+	DisplayName: Музыкальная шкатулка (Мрачные катакомбы)
 	Tooltip: "[c/4A86AE:«Tomb Crawlin'»] от BananaLizard"
 }
 
 CatacombBox2: {
-	DisplayName: Музыкальная шкатулка (Нижние катакомбы)
+	DisplayName: Музыкальная шкатулка (Мрачнейшие катакомбы)
 	Tooltip: "[c/B35A27:«Deep Dive To The Catacombs»] от BananaLizard"
 }
 
@@ -3648,7 +3648,7 @@ RaveStarter: {
 	Tooltip:
 		'''
 		Начинает Посмертную тусу при использовании ночью
-		Тестовый предмет
+		Предмет тестировки
 		'''
 }
 
@@ -3657,7 +3657,7 @@ CatacombWeedKiller: {
 	Tooltip:
 		'''
 		Удаляет все тайлы растущих растений в катакомбах
-		Тестовый предмет
+		Предмет тестировки
 		'''
 }
 
@@ -3666,22 +3666,22 @@ Bestiary: {
 	Tooltip:
 		'''
 		Открывает все записи в бестиарии
-		Тестовый предмет
+		Предмет тестировки
 		'''
 }
 
 CatacombTorch1Item: {
-	DisplayName: Факел жутких катакомб
+	DisplayName: Факел мрачных катакомб
 	Tooltip: ""
 }
 
 CatacombTorch2Item: {
-	DisplayName: Факел нижних катакомб
+	DisplayName: Факел мрачнейших катакомб
 	Tooltip: ""
 }
 
 CemeteryBiomeTorchItem: {
-	DisplayName: Факел заболоченого кладюища
+	DisplayName: Факел заболоченого кладбища
 	Tooltip: ""
 }
 
