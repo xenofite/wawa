@@ -11,8 +11,8 @@ SpookySpirit: {
 	DisplayName: Жуткий дух
 
 	BossChecklistIntegration: {
-		SpawnInfo: Нажмите ПКМ по проклятой статуи на болотном кладбище ночью имея [i:Spooky/EMFReader] в инвентаре.
-		DespawnMessage: Жуткий дух запугал всех игроков!
+		SpawnInfo: Нажмите ПКМ по проклятой статуи на заболоченном кладбище ночью, имея [i:Spooky/EMFReader] в своём инвентаре.
+		DespawnMessage: Жуткий дух запугал всех игроков.
 	}
 }
 
@@ -20,8 +20,8 @@ Moco: {
 	DisplayName: Моко
 
 	BossChecklistIntegration: {
-		SpawnInfo: Right click the nose shrine in the valley of eyes while you have a [i:Spooky/CottonSwab] in your inventory.
-		DespawnMessage: Moco has sneezed on all players
+		SpawnInfo: Нажмите ПКМ по святыне носового бога, имея [i:Spooky/CottonSwab] в своём инвентаре.
+		DespawnMessage: Моко зачихал всех игроков.
 	}
 }
 
@@ -29,8 +29,8 @@ DaffodilEye: {
 	DisplayName: Нарцисс
 
 	BossChecklistIntegration: {
-		SpawnInfo: Throw a [i:Spooky/Brick] at her to wake her up.
-		DespawnMessage: Daffodil has ended your catacomb expedition
+		SpawnInfo: Бросьте в неё [i:Spooky/Brick], чтобы разбудить.
+		DespawnMessage: Нарцисс завершает вашу экспедицию в катакомбы.
 	}
 }
 
@@ -39,17 +39,17 @@ OrroHead: {
 
 	BossChecklistIntegration: {
 		EntryName: Орро и Боро
-		SpawnInfo: Right click the egg in the valley of eyes while you have the [i:Spooky/Concoction] in your inventory, after you have completed the Egg Incursion event.
-		DespawnMessage: Orro & Boro have protected their egg
+		SpawnInfo: Нажмите ПКМ по гигантскому яйцу в глазастой долине, имея [i:Spooky/Concoction] в своём инвентаре, после завершения события Яичного нашествия.
+		DespawnMessage: Орро и Боро защитили свои яйца.
 	}
 }
 
 BigBone: {
-	DisplayName: Big Bone
+	DisplayName: Исполинский череп
 
 	BossChecklistIntegration: {
 		SpawnInfo: Используйте [i:Spooky/Fertilizer] возле гигантского цветочного горшка, расположенного на самом дне катакомб
-		DespawnMessage: All players have succumbed to big bone's wrath
+		DespawnMessage: Все игроки стали жертвой гнева Иполинского черепа.
 	}
 }
 
