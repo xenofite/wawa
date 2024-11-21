@@ -15,7 +15,7 @@ CemeteryBiome: {
 
 RaveyardBiome: {
 	DisplayName: Посмертная туса
-	TownNPCDialogueName: посмертная туса
+	TownNPCDialogueName: Посмертная туса
 }
 
 CatacombBiome: {
@@ -39,8 +39,8 @@ PandoraBoxBiome: {
 }
 
 SpookyHellBiome: {
-	DisplayName: Глазная долина
-	TownNPCDialogueName: глазная долина
+	DisplayName: Глазастая долина
+	TownNPCDialogueName: глазастая долина
 }
 
 SpookyHellEventBiome: {
