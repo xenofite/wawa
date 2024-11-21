@@ -373,17 +373,17 @@ FlowerLegs: {
 
 CatacombKey1: {
 	DisplayName: Ключ от жёлтого люка
-	Tooltip: Открывает люк с жёлтым замком в катакомбах
+	Tooltip: Открывает люк с жёлтым замком в ах
 }
 
 CatacombKey2: {
 	DisplayName: Ключ от красного люка
-	Tooltip: Открывает люк с красным замком в катакомбах
+	Tooltip: Открывает люк с красным замком в ах
 }
 
 CatacombKey3: {
 	DisplayName: Ключ от оранжевого люка
-	Tooltip: Открывает люк с оранжевым замком в катакомбах
+	Tooltip: Открывает люк с оранжевым замком в ах
 }
 
 PlantChunk: {
@@ -1011,40 +1011,40 @@ ZomboidPyromancerHood: {
 
 BoogerFish: {
 	DisplayName: Соплерыба
-	Tooltip: "«Водится в глазной долине»"
+	Tooltip: "«Водится в глазастой долине»"
 }
 
 OrroEel: {
 	DisplayName: Орроугорь
-	Tooltip: "«Водится в глазной долине»"
+	Tooltip: "«Водится в глазастой долине»"
 }
 
 GourdFish: {
-	DisplayName: Moldy Gourd Fish
-	Tooltip: "«Caught in Spooky Forest»"
+	DisplayName: Проплесневевшая тыкворыба
+	Tooltip: "«Водится в жутком лесу»"
 }
 
 HibiscusFish: {
-	DisplayName: Swimming Hibiscus
-	Tooltip: "«Caught in Creepy Catacombs»"
+	DisplayName: Плавающий гибискус
+	Tooltip: "«Водится в мрачных катакомбах»"
 }
 
 SpookySpiritFish: {
-	DisplayName: Spirit Cod
-	Tooltip: "«Caught in Swampy Cemetery»"
+	DisplayName: Дух-рыба
+	Tooltip: "«Водится на заболоченном кладбище»"
 }
 
 ZomboidFish: {
-	DisplayName: Zomboid Fish
-	Tooltip: "«Caught in Spooky Forest»"
+	DisplayName: Рыба-зомбоид
+	Tooltip: "«Водится в жутком лесу»"
 }
 
 BlackLicorice: {
-	DisplayName: Black Licorice
+	DisplayName: Чёрная лакрица
 	Tooltip:
 		'''
-		Minor deterioration to all stats
-		'Why would you eat this?'
+		Немного снижает все характеристики
+		«Почему это вообще едят?»
 		'''
 }
 
@@ -1076,12 +1076,12 @@ EyeChocolate: {
 }
 
 EyeFruit: {
-	DisplayName: Eye Fruit
+	DisplayName: Глазное яблоко
 	Tooltip:
 		'''
-		Can grant you night vision or dangersense when eaten
-		However, it may sometimes poison you
-		'No, it does not taste good'
+		Дарует эффект ночного зрения или чувства опасности
+		Однако, оно может и отравить вас
+		«И нет, оно не вкусное»
 		'''
 }
 
@@ -2104,10 +2104,10 @@ SnotGlob: {
 }
 
 SpookyHellKey: {
-	DisplayName: Ключ глазной долины
+	DisplayName: Ключ глазастой долины
 	Tooltip:
 		'''
-		Отпирает сундук глазной долины в темнице
+		Отпирает сундук глазастой долины в темнице
 		Не может быть использован до победы над Плантерой
 		'''
 }
@@ -2865,7 +2865,7 @@ SpookyBloodmoonBox: {
 }
 
 SpookyHellBox: {
-	DisplayName: Музыкальная шкатулка (Глазная долина)
+	DisplayName: Музыкальная шкатулка (Глазастая долина)
 	Tooltip: "[c/E64565:«Eyeballs»] от BananaLizard"
 }
 
@@ -3092,7 +3092,7 @@ SpookyBiomePylonItem: {
 }
 
 SpookyHellPylonItem: {
-	DisplayName: Пилон глазной долины
+	DisplayName: Пилон глазастой долины
 	Tooltip:
 		'''
 		На этот пилон можно телепортироваться независимо от количества жителей поблизости
@@ -3439,7 +3439,7 @@ EyeChestItem: {
 }
 
 SpookyHellChestItem: {
-	DisplayName: Сундук глазной долины
+	DisplayName: Сундук глазастой долины
 	Tooltip: ""
 }
 
@@ -3454,7 +3454,7 @@ SpookyHellCrate2: {
 }
 
 EyeBlockItem: {
-	DisplayName: Глазной блок
+	DisplayName: Глазастый блок
 	Tooltip: ""
 }
 
@@ -3696,6 +3696,6 @@ SpookyBiomeTorchItem: {
 }
 
 SpookyHellTorchItem: {
-	DisplayName: Факел глазной долины
+	DisplayName: Факел глазастой долины
 	Tooltip: ""
 }
