@@ -19,12 +19,12 @@ RaveyardBiome: {
 }
 
 CatacombBiome: {
-	DisplayName: Катакомбы
+	DisplayName: Мрачные катакомбы
 	TownNPCDialogueName: катакомбы
 }
 
 CatacombBiome2: {
-	DisplayName: Нижние катакомбы
+	DisplayName: Мрачнейшие катакомбы
 	TownNPCDialogueName: нижние катакомбы
 }
 
