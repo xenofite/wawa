@@ -14,8 +14,8 @@ SpookyBiomeChest: {
 }
 
 SpookyHellChest: {
-	MapEntry0: Cундук глазной долины
-	MapEntry1: Закрытый сундук глазной долины
+	MapEntry0: Cундук глазастой долины
+	MapEntry1: Закрытый сундук глазастой долины
 }
 
 EyeDresser: {
@@ -51,9 +51,9 @@ SpookyHellBoxTile.MapEntry: Музыкальная шкатулка
 SpookyMenuBoxTile.MapEntry: Музыкальная шкатулка
 SpookySpiritBoxTile.MapEntry: Музыкальная шкатулка
 CemeteryPylon.MapEntry: Пилон заболоченного кладбища
-SpiderCavePylon.MapEntry: Пилон паучьего ущелья
+SpiderCavePylon.MapEntry: Пилон паучьей пещеры
 SpookyBiomePylon.MapEntry: Пилон жуткого леса
-SpookyHellPylon.MapEntry: Пилон долины глаз
+SpookyHellPylon.MapEntry: Пилон глазной долины
 FlyBigJar.MapEntry: Банка с большой мухой
 FlySmallJar.MapEntry: Банка с мухой
 OldWoodBathtub.MapEntry: Ванна
@@ -61,7 +61,7 @@ OldWoodBed.MapEntry: Кровать
 OldWoodBookcase.MapEntry: Книжный шкаф
 OldWoodCandle.MapEntry: Свеча
 OldWoodChair.MapEntry: Стул
-OldWoodChest.MapEntry:  из старого дерева
+OldWoodChest.MapEntry: Сундук из старого дерева
 OldWoodDoorClosed.MapEntry: Дверь
 OldWoodDoorOpen.MapEntry: Дверь
 OldWoodOrgan.MapEntry: Орган
