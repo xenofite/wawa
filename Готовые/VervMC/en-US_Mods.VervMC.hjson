@@ -1,0 +1,77 @@
+Items: {
+	Sword: {
+		DisplayName: Diamond Sword
+		Tooltip: "'1.6 Attack Speed'"
+	}
+
+	Trident: {
+		Tooltip: Rick click to throw
+		DisplayName: Prismarine Trident
+	}
+
+	Mace: {
+		DisplayName: Breeze Mace
+		Tooltip: Damage increases with fall distance
+	}
+
+	ShortswordExposed: {
+		DisplayName: Exposed Copper Shortsword
+		Tooltip: ""
+	}
+
+	ShortswordOxidized: {
+		DisplayName: Oxidized Copper Shortsword
+		Tooltip: ""
+	}
+
+	ShortswordWheathered: {
+		DisplayName: Weathered Copper Shortsword
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	SwordProjectile.DisplayName: Diamond Sword
+	TridentProjectile.DisplayName: Prismarine Trident
+	TridentProjectilePrep.DisplayName: Prismarine Trident
+	TridentProjectileThrow.DisplayName: Prismarine Trident
+	MaceProjectile.DisplayName: Breeze Mace
+	ShortswordExposedProjectile.DisplayName: Exposed Copper Shortsword
+	ShortswordOxidizedProjectile.DisplayName: Oxidized Copper Shortsword
+	ShortswordWheatheredProjectile.DisplayName: Wheathered Copper Shortsword
+}
+
+Buffs: {
+	TridentBuff: {
+		DisplayName: Thrown Trident
+		Description: Pick up your Prismarine Trident!
+	}
+
+	MaceBuff: {
+		DisplayName: Breeze Safeguard
+		Description: Immune to fall damage
+	}
+}
+
+Tiles.SpawnerTile.MapEntry: Spawner Tile
+
+Configs: {
+	MCConfig: {
+		DisplayName: Minecraft Mod Config
+
+		Headers: {
+			Spawners: Mob Spawners
+			Oxidation: Copper Oxidation
+		}
+
+		Spawners: {
+			Label: Adjusts the number of Mob Spawners
+			Tooltip: Value in %
+		}
+
+		Oxidation: {
+			Label: Oxidation
+			Tooltip: Allows Copper Oxidation
+		}
+	}
+}
