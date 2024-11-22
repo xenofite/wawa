@@ -48,15 +48,15 @@ Mods: {
 		}
 
 		LightHack: {
-			LightHackDisabled: Хак освещения: Отключён
-			LightHack25%: Хак освещения: 25%
-			LightHack50%: Хак освещения: 50%
-			LightHack100%: Хак освещения: 100%
+			LightHackDisabled: Глобальное освещение: отключено
+			LightHack25%: Глобальное освещение: 25%
+			LightHack50%: Глобальное освещение: 50%
+			LightHack100%: Глобальное освещение: 100%
 		}
 
 		GodMode: {
-			GodModeDisabled: Режим бога: Отключён
-			GodModeEnabled: Режим бога: Включён
+			GodModeDisabled: Режим бога: отключён
+			GodModeEnabled: Режим бога: включён
 		}
 
 		MinionSlot: {
@@ -84,7 +84,7 @@ Mods: {
 			SpawnRate: Множитель появления существ
 			Vacuum: Магнит предметов
 			Waypoints: Точки телепортации
-			LightHack: Хак освещения
+			LightHack: Глабальное освещение
 			GodMode: Режим бога
 		}
 
@@ -104,7 +104,7 @@ Mods: {
 			NetIDNPCs: Разновидности одного существа
 			FilteredNPCs: Отсортированные существа
 			CycleModSpecificNPCs: Существа из модов
-			SpawnNPCNotification: Игрок {1} призвал {0}
+			SpawnNPCNotification: Игрок {1} призвал существо «{0}»
 			NoNPCHaveBeenAddedByMods: Ни один из модов не добавляет новых существ.
 		}
 
@@ -140,14 +140,14 @@ Mods: {
 			SnapBottomRight: Взять выделенное за нижний правый угол
 			PaintTiles: Вставить
 			EyeDropper: Выделить
-			Undo: Отменить последнюю вставку (ПКМ: Последние 10 вставок) [
+			Undo: Отменить последнюю вставку (ПКМ: последние 10 вставок) [
 			Undo2: " действий]"
 			NoUndo: Не осталось действий, которые можно было бы отменить.
 			UndoLeft: " действий осталось, которые можно отменить."
 			FlipHorizontal: Отразить по горизонтали
 			FlipVertical: Отразить по вертикали
-			TransparentSelectionOn: Прозрачное выделение: Отключено
-			TransparentSelectionOff: Прозрачное выделение: Включено
+			TransparentSelectionOn: Прозрачное выделение: отключено
+			TransparentSelectionOff: Прозрачное выделение: включено
 			PriorBrush: Сначала используйте выделение, перед тем как что-либо вставлять.
 			DataExport: "Экспортировано по пути "
 			Current: "Текущ.: "
@@ -177,7 +177,7 @@ Mods: {
 
 		Configs: {
 			CheatSheetClientConfig: {
-				DisplayName: Клиентские настройки
+				DisplayName: Клиентская конфигурация
 
 				HotbarShownByDefault: {
 					Label: Отображать панель в открытом виде по умолчанию
@@ -186,11 +186,11 @@ Mods: {
 			}
 
 			CheatSheetServerConfig: {
-				DisplayName: Серверные настройки
+				DisplayName: Серверная конфигурация
 
 				DisableCheatsForNonHostUsers: {
 					Label: Отключить панель для гостей сервера
-					Tooltip: Отключить функции этого мода для всех игроков в мультиплеере, кроме хоста.
+					Tooltip: Отключить функции этого мода для всех игроков в мультиплеере, кроме хоста
 				}
 			}
 		}
