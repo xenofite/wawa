@@ -4,8 +4,8 @@ CemeteryBiomeChest: {
 }
 
 SpiderCaveChest: {
-	MapEntry0: Сундук паучей пещеры
-	MapEntry1: Закрытый сундук паучей пещеры
+	MapEntry0: Сундук паучьего грота
+	MapEntry1: Закрытый сундук паучьего грота
 }
 
 SpookyBiomeChest: {
@@ -51,7 +51,7 @@ SpookyHellBoxTile.MapEntry: Музыкальная шкатулка
 SpookyMenuBoxTile.MapEntry: Музыкальная шкатулка
 SpookySpiritBoxTile.MapEntry: Музыкальная шкатулка
 CemeteryPylon.MapEntry: Пилон заболоченного кладбища
-SpiderCavePylon.MapEntry: Пилон паучьей пещеры
+SpiderCavePylon.MapEntry: Пилон паучьего грота
 SpookyBiomePylon.MapEntry: Пилон жуткого леса
 SpookyHellPylon.MapEntry: Пилон глазной долины
 FlyBigJar.MapEntry: Банка с большой мухой
