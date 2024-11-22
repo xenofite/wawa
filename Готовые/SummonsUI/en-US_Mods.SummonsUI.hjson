@@ -1,0 +1,89 @@
+Configs: {
+	SummonsUIConfig: {
+		DisplayName: Summons UI Config
+
+		UIStyle: {
+			Label: UI Style
+			Tooltip: Set this to the same style as your hp/mana bars
+		}
+
+		AutoOffset: {
+			Label: Enable Auto-Offset
+			Tooltip: Enables automatic offset for Fancy/Classic UI styles. Disable this if you're repositioning the UI and don't want the minion/sentry slots to automatically reposition each other.
+		}
+
+		AutoOffset2: {
+			Label: Enable Life Offset
+			Tooltip: Offsets the y position of the UI when under 200 max life when enables.
+		}
+
+		ShowUI: {
+			Label: Show Summoner UI
+			Tooltip: Turning this off hides the UI. Can be toggled by a keybind.
+		}
+
+		SummonsUIAltLayer: {
+			Label: UI Layer
+			Tooltip: Changes the layer that the UI is drawn on
+		}
+
+		MaxDisplayLength: {
+			Label: Minions Max Display Length
+			Tooltip: Limits the size of the UI to this many slots
+		}
+
+		XOffset: {
+			Label: Minion Slot X-Offset
+			Tooltip: Offsets the UI by this many pixels
+		}
+
+		YOffset: {
+			Label: Minion Slot Y-Offset
+			Tooltip: Offsets the UI by this many pixels
+		}
+
+		DisplaySentries: {
+			Label: Display Sentry Slots
+			Tooltip: ""
+		}
+
+		MaxDisplayLength2: {
+			Label: Sentries Max Display Length
+			Tooltip: Limits the size of the UI to this many slots
+		}
+
+		XOffset2: {
+			Label: Sentry Slot X-Offset
+			Tooltip: Offsets the UI by this many pixels
+		}
+
+		YOffset2: {
+			Label: Sentry Slot Y-Offset
+			Tooltip: Offsets the UI by this many pixels
+		}
+
+		Headers: {
+			GeneralOptions: General Options
+			MinionSlotOptions: Minion Slot Options
+			SentrySlotOptions: Sentry Slot Options
+		}
+
+		SummonsUILayer: {
+			Label: UI Layer
+			Tooltip: Changes the layer that the UI is drawn on
+		}
+	}
+}
+
+Keybinds: {
+	"Nudge Sentry UI Right.DisplayName": Nudge Sentry UI Right
+	"Nudge Sentry UI Left.DisplayName": Nudge Sentry UI Left
+	"Nudge Sentry UI Down.DisplayName": Nudge Sentry UI Down
+	"Nudge Sentry UI Up.DisplayName": Nudge Sentry UI Up
+	"Nudge Minion UI Right.DisplayName": Nudge Minion UI Right
+	"Nudge Minion UI Left.DisplayName": Nudge Minion UI Left
+	"Nudge Minion UI Down.DisplayName": Nudge Minion UI Down
+	"Nudge Minion UI Up.DisplayName": Nudge Minion UI Up
+	"Toggle Summoner UI Layer.DisplayName": Toggle Summoner UI Layer
+	"Toggle Summoner UI Visibilty.DisplayName": Toggle Summoner UI Visibilty
+}
