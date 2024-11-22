@@ -232,10 +232,10 @@ Mods: {
 		DedicatedServerAutoMessage: HERO's Mod: Создайте аккаунт, войдите в него и введите /auth {0}, чтобы стать администратором.
 		YouDoNotHavePermissionToBuildHere: У вас нет прав на строительство здесь
 		YouDoNotHavePermissionToSpawnBosses: У вас нет разрешения на призыв боссов
-		LightHackDisabled: Глобально освещение: отключено
-		LightHack25%: Глобально освящение: 25%
-		LightHack50%: Глобально освящение: 50%
-		LightHack100%: Глобально освящение: 100%
+		LightHackDisabled: Глобальное освещение: отключено
+		LightHack25%: Глобальное освящение: 25%
+		LightHack50%: Глобальное освящение: 50%
+		LightHack100%: Глобальное освящение: 100%
 		CheckTileForLastModification: Кликните по блоку для просмотра последних изменений
 		AccountAlreadyLoggedIn: Данный аккаунт уже находится на этом сервере
 		LoggedInSuccessfully: Вы успешно вошли. Вы находитесь в группе {0}.
@@ -280,7 +280,7 @@ Mods: {
 			Flycam: Свободная камера
 			ClearItems: Очищать предметы на земле
 			RevealMap: Открывать карту
-			LightHack: Регулировать глобальное освящение
+			LightHack: Вкл./Выкл. глобальное освящение
 			SpawnNPCs: Призывать существ
 			SpawnBosses: Призывать боссов
 			Kick: Выгонять игроков
