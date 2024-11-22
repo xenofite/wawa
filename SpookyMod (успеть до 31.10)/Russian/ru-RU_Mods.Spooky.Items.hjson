@@ -1420,7 +1420,7 @@ SpiderLegs: {
 
 GrottoCompass: {
 	DisplayName: Проржавевший компас
-	Tooltip: Указывает на местоположение подземной пещеры, кишащей пауками, когда находится в руках
+	Tooltip: Указывает на местоположение подземного грота, кашащего пауками, когда находится в руках
 }
 
 InchwormBlackItem: {
@@ -1464,10 +1464,10 @@ SpiderChitin: {
 }
 
 SpiderKey: {
-	DisplayName: Ключ паучей пещеры
+	DisplayName: Ключ паучьего грота
 	Tooltip:
 		'''
-		Отпирает сундук паучей пещеры в темнице
+		Отпирает сундук паучьего грота в темнице
 		Не может быть использован до победы над Плантерой
 		'''
 }
@@ -2830,7 +2830,7 @@ RotGourdBox: {
 }
 
 SpiderCaveBox: {
-	DisplayName: Музыкальная шкатулка (Паучья пещера)
+	DisplayName: Музыкальная шкатулка (Паучий грот)
 	Tooltip: "[c/A88554:«It's Just Spider Stuff»] от BananaLizard"
 }
 
@@ -3082,7 +3082,7 @@ CemeteryPylonItem: {
 }
 
 SpiderCavePylonItem: {
-	DisplayName: Пилон паучей пещеры
+	DisplayName: Пилон паучьего грота
 	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
@@ -3151,7 +3151,7 @@ StitchSpiderRelicItem: {
 }
 
 SpiderCaveChestItem: {
-	DisplayName: Сундук паучей пещеры
+	DisplayName: Сундук паучьего грота
 	Tooltip: ""
 }
 
@@ -3686,7 +3686,7 @@ CemeteryBiomeTorchItem: {
 }
 
 SpiderBiomeTorchItem: {
-	DisplayName: Факел паучьей пещеры
+	DisplayName: Факел паучьего грота
 	Tooltip: ""
 }
 
