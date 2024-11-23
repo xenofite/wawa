@@ -3288,6 +3288,131 @@ TinyMushroomCageItem: {
 	Tooltip: ""
 }
 
+GourdBlockGreenItem: {
+	DisplayName: Блок зелёной тыквы
+	Tooltip: ""
+}
+
+GourdBlockGreenPlatformItem: {
+	DisplayName: Платформа из зелёной тыквы
+	Tooltip: ""
+}
+
+GourdBlockGreenWallItem: {
+	DisplayName: Стена из зелёной тыквы
+	Tooltip: ""
+}
+
+GourdBlockLimeItem: {
+	DisplayName: Блок салатовой тыквы
+	Tooltip: ""
+}
+
+GourdBlockLimePlatformItem: {
+	DisplayName: Платформа из салатовой тыквы
+	Tooltip: ""
+}
+
+GourdBlockLimeWallItem: {
+	DisplayName: Стена из салатовой тыквы
+	Tooltip: ""
+}
+
+GourdBlockLimeOrangeItem: {
+	DisplayName: Блок салатово-оранжевой тыквы
+	Tooltip: ""
+}
+
+GourdBlockLimeOrangePlatformItem: {
+	DisplayName: Платформа из салатово-оранжевой тыквы
+	Tooltip: ""
+}
+
+GourdBlockLimeOrangeWallItem: {
+	DisplayName: Стена из салатово-оранжевой тыквы
+	Tooltip: ""
+}
+
+GourdBlockOrangeItem: {
+	DisplayName: Блок оранжевой тыквы
+	Tooltip: ""
+}
+
+GourdBlockOrangePlatformItem: {
+	DisplayName: Платформа из оранжевой тыквы
+	Tooltip: ""
+}
+
+GourdBlockOrangeWallItem: {
+	DisplayName: Стена из оранжевой тыквы
+	Tooltip: ""
+}
+
+GourdBlockRedItem: {
+	DisplayName: Блок красной тыквы
+	Tooltip: ""
+}
+
+GourdBlockRedPlatformItem: {
+	DisplayName: Платформа из красной тыквы
+	Tooltip: ""
+}
+
+GourdBlockRedWallItem: {
+	DisplayName: Стена из красной тыквы
+	Tooltip: ""
+}
+
+GourdBlockWhiteItem: {
+	DisplayName: Блок белой тыквы
+	Tooltip: ""
+}
+
+GourdBlockWhitePlatformItem: {
+	DisplayName: Платформа из белой тыквы
+	Tooltip: ""
+}
+
+GourdBlockWhiteWallItem: {
+	DisplayName: Стена из белой тыквы
+	Tooltip: ""
+}
+
+GourdBlockYellowGreenItem: {
+	DisplayName: Блок жёлто-зелёной тыквы
+	Tooltip: ""
+}
+
+GourdBlockYellowGreenPlatformItem: {
+	DisplayName: Платформа из жёлто-зелёной тыквы
+	Tooltip: ""
+}
+
+GourdBlockYellowGreenWallItem: {
+	DisplayName: Стена из жёлто-зелёной тыквы
+	Tooltip: ""
+}
+
+GourdBlockYellowItem: {
+	DisplayName: Блок жёлтой тыквы
+	Tooltip: ""
+}
+
+GourdBlockYellowPlatformItem: {
+	DisplayName: Платформа из жёлтой тыквы
+	Tooltip: ""
+}
+
+GourdBlockYellowWallItem: {
+	DisplayName: Стена из жёлтой тыквы
+	Tooltip: ""
+}
+
+GourdGreenCarvedItem: {
+	DisplayName: Стена из жёлтой тыквы
+	Tooltip: ""
+}
+
 GourdGreenCarvedItem: {
 	DisplayName: Зелёная вырезанная тыква
 	Tooltip: ""
@@ -3309,7 +3434,7 @@ GourdLimeCarvedLitItem: {
 }
 
 GourdLimeOrangeCarvedItem: {
-	DisplayName: Салатово-оранжевая тыква
+	DisplayName: Салатово-оранжевая вырезанная тыква
 	Tooltip: ""
 }
 
