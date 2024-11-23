@@ -3,87 +3,79 @@ Configs: {
 		DisplayName: Серверная конфигурация
 
 		chestSounds: {
-			Label: Звук открытия и закрытия сундука
-			Tooltip:
-				'''
-				Включает звук открытия сундука для всех на сервере
-				Включён по умолчанию
-				'''
+			Label: Звуки открытия и закрытия сундуков
+			Tooltip: Добавляет звуки открытия и закрытия сундуков, проигрываемые для всех на сервере
 		}
 
 		newSplashSounds: {
-			Label: Новые звуки воды
-			Tooltip:
-				'''
-				Включает новые звуки при взаимодействии с водой для всех на сервере
-				Включён по умолчанию
-				'''
+			Label: Звуки воды
+			Tooltip: Добавляет новые звуки для взаимодействий с водой, проигрываемые для всех на сервере
 		}
 	}
 
 	AudioAdditionsConfig: {
-		DisplayName: Конфигурация новых аудиоэффектов
+		DisplayName: Клиентская конфигурация
 
 		slimySounds: {
 			Label: Звуки слизи
-			Tooltip: Включает звуки, воспроизводящиеся при прыжках и приземлении слизней
+			Tooltip: Добавляет звуки прыжков и приземлений слизней
 		}
 
 		woodCreaks: {
 			Label: Скрип дерева
 			Tooltip:
 				'''
-				Toggle the sounds that slightly unsupported wood make. Я не понял условий скрипа
-				Do note that this can potentially increase FPS, as this can be a hefty process.
+				Добавляет звуки прогибающихся под вашим весом деревянных блоков
+				Отключение этой настройки немного улучшает производительность
 				'''
 		}
 
 		dynamicAnimalSounds: {
 			Label: Фоновые звуки животных
-			Tooltip: Toggle the (somewhat loud) sounds that play and have dynamic sound updating based on location-to-player panning.
+			Tooltip: Добавляет достаточно громкие фоновые звуки животных, меняющиеся в зависимости от биома, в котором вы находитесь
 		}
 
 		Headers.SoundFilters: Звуковые фильтры
 
 		isReverbEnabled: {
 			Label: Реверберация
-			Tooltip: Делает коэффициент ревебрации звуков зависимым от окружения или глубины, в зависимости от того, какие настройки реверберации включены
+			Tooltip: Включает эффект реверберации звуков, интенсивность которой зависит от биома и глубины, на которой вы находитесь
 		}
 
 		ugReverbCalculation: {
-			Label: Улучшенный расчёт реверберации в пещерах
+			Label: Улучшенная реверберация в пещерах
 			Tooltip:
 				'''
-				Изменяет расчёт ревибрации в пещерах
-				Включение этой настройки может вызвать проблемы у слабых процессоров.
+				Изменяет параметры реверберации в пещерах
+				Может вызвать проблемы с производительностью на слабых процессорах
 				'''
 		}
 
 		surfaceReverbCalculation: {
-			Label: Улучшенный расчёт ревибрации на поверхности
-			Tooltip: Включает расчёт ревибрации на поверхности
+			Label: Улучшенная реверберация на поверхности
+			Tooltip: Изменяет параметры реверберации на поверхности
 		}
 
 		advancedReverbCalculation: {
-			Label: Расширенный расчёт реверберации
+			Label: Продвинутый расчёт реверберации
 			Tooltip:
 				'''
-				Улучшает расчёт алогиритмов ревибрации
-				Отключение этой настройки increase your reverb factor by how deep you are into the world.
+				Улучшает расчёт алогиритмов реверберации
+				Ослабляет зависимость интенсивности реверберации от глубины, на которой вы находитесь
 				'''
 		}
 
 		isSoundDampeningEnabled: {
-			Label: Шумоподавление
-			Tooltip: Приглушает звук при нахождении под водой
+			Label: Шумоподавление под водой
+			Tooltip: Приглушает все звуки, когда вы находитесь под водой
 		}
 
 		isSoundOcclusionEnabled: {
-			Label: Затенение звука
+			Label: Окклюзия звуков
 			Tooltip:
 				'''
-				Приглушает звуки, воспроизводимые в местах без прямой видимости игрока
-				Степень приглушённости зависит от расстояния и плотности блоков между игроком и источником звука //какая нахуй плотность я ебал
+				Приглушает звуки, источник которых загорожен блоками
+				Степень приглушённости зависит от расстояния до источника звука и количества блоков между вами и источником
 				'''
 		}
 	}
@@ -92,145 +84,134 @@ Configs: {
 		DisplayName: Общая конфигурация
 
 		Headers: {
-			AmbienceAndSounds: Ambience And Sounds
-			Debugging: Debugging
-			AmbienceTrackVolume: Ambient Track Volume
+			AmbienceAndSounds: Окружение и звуки
+			Debugging: Отладка
+			AmbienceTrackVolume: Громкость звуковых дорожек
 		}
 
 		footsteps: {
 			Label: Звук шагов
-			Tooltip:
-				'''
-				Добавляет звуки топанья при передвижении
-				Включён по умолчанию
-				'''
+			Tooltip: Добавляет звуки ваших шагов при передвижении
 		}
 
 		campfireSounds: {
-			Label: Объёмные звуки костра
-			Tooltip:
-				'''
-				Добавляет реальностичные звуки костра
-				Включён по умолчанию
-				'''
+			Label: Звуки костра
+			Tooltip: Добавляет атмосферные звуки костра
 		}
 
 		transitionHarshness: {
-			Label: Ambient Transition Harshness
+			Label: Резкость переходов между звуковыми дорожками
 			Tooltip:
 				'''
-				Changes the harshness between ambient track transitions. Keep it low for a nice, soothing transition.
-				Put it closer to 1 and make it near-instant.
-				Anywhere under 0.075 is a good value.
-				Making it go too low can cause issues or make things a bit unwanted. Choose the value at your own risk!
-				DISCLAIMER: Making this input a non-floating-point numeric type will cause the value to default to 0.01.
+				Чем меньше это значние, тем плавнее одна звуковая дорожка будет переходить к другой
+				Рекомендуется установить любое значение от 0.01 до 0.075
 				'''
 		}
 
 		areArmorAndVanitySoundsEnabled: {
-			Label: Armor/Vanity Sounds
-			Tooltip: Determines whether or not the extra sounds that having armor / vanity equipped play when walking around.
+			Label: Звуки ношения брони и украшений
+			Tooltip: Добавляет дополнительные звуки вашим движениям, зависящие от надетой брони и украшений
 		}
 
 		debugInterface: {
-			Label: Toggle Debug Values (Vanilla Ambiences)
-			Tooltip: Toggle volume debugging values, such as snow, crickets, and more.
+			Label: Показывать значения для отладки
+			Tooltip: Включает панель со всеми значениями и условиями для проигрывания звуков, используется для тестирования и разработки
 		}
 
 		overallVolume: {
-			Label: Overall Volume
-			Tooltip: The overall volume of ambience from this mod.
+			Label: Общая громкость
+			Tooltip: Общая громкость всех звуков из этого мода
 		}
 
 		wetStepsEnabled: {
-			Label: Wet Steps
+			Label: Звуки шагов по мокрым от дождя блокам
 			Tooltip:
 				'''
-				Whether or not to have wet footstep sounds when it is raining and the player is under a roof.
-				Do know that there is a *little* bit of performance gain from disabling this.
+				Добавляет звуки шагов по мокрым блокам, ничем не прикрытым во время дождя
+				Отключение этой настройки немного улучшает производительность
 				'''
 		}
 
 		forestVolumes: {
-			Label: Forest
+			Label: Лес
 			Tooltip:
 				'''
-				Order: Top -> Bottom
+				В порядке сверху вниз:
 
-				Morning
-				Afternoon
-				Evening
-				Night
+				- Утро
+				- День
+				- Вечер
+				- Ночь
 				'''
 		}
 
 		snowVolume: {
 			Tooltip: ""
-			Label: Snow
+			Label: Снежный биом
 		}
 
 		jungleVolumes: {
-			Label: Jungle
+			Label: Джунгли
 			Tooltip:
 				'''
-				Order: Top -> Bottom
+				В порядке сверху вниз:
 
-				SurfaceDay
-				SurfaceNight
-				UndergroundDay
-				UndergroundNight
+				- День на поверхности
+				- Ночь на поверхности
+				- День под землёй
+				- Ночь под землёй
 				'''
 		}
 
 		evilVolumes: {
-			Label: World Evils
+			Label: Биомы мирового зла
 			Tooltip:
 				'''
-				Order: Top -> Bottom
+				В порядке сверху вниз:
 
-				Corruption
-				Crimson
+				- Искажение
+				- Багрянец
 				'''
 		}
 
 		desertVolume: {
-			Label: Desert
+			Label: Пустыня
 			Tooltip: ""
 		}
 
 		oceanVolume: {
-			Label: Ocean
+			Label: Океан
 			Tooltip: ""
 		}
 
 		cavernsVolume: {
-			Label: Caverns
+			Label: Пещеры
 			Tooltip: ""
 		}
 
 		hellVolume: {
-			Label: Hell
+			Label: Преисподняя
 			Tooltip: ""
 		}
 
 		breezeVolume: {
-			Label: Breeze
+			Label: Ветер
 			Tooltip: ""
 		}
 
 		underwaterVolume: {
-			Label: Submerged
+			Label: Под водой
 			Tooltip: ""
 		}
 
 		craftingSoundsVolume: {
-			Label: Crafting Sounds Volume
-			Tooltip: Changes the volume multiplier of the sounds made when a player crafts an item. Set to 0 to disable.
+			Label: Громкость звуков создания предметов
+			Tooltip: Установите на «0», чтобы выключить их полностью
 		}
 
 		footstepsVolMult: {
-			Label: footsteps Vol Mult
-			Tooltip: ""
+			Label: Громкость шагов
+			Tooltip: Установите на «0», чтобы выключить их полностью
 		}
 	}
 }
