@@ -233,9 +233,9 @@ Mods: {
 		YouDoNotHavePermissionToBuildHere: У вас нет прав на строительство здесь
 		YouDoNotHavePermissionToSpawnBosses: У вас нет разрешения на призыв боссов
 		LightHackDisabled: Глобальное освещение: отключено
-		LightHack25%: Глобальное освящение: 25%
-		LightHack50%: Глобальное освящение: 50%
-		LightHack100%: Глобальное освящение: 100%
+		LightHack25%: Глобальное освещение: 25%
+		LightHack50%: Глобальное освещение: 50%
+		LightHack100%: Глобальное освещение: 100%
 		CheckTileForLastModification: Кликните по блоку для просмотра последних изменений
 		AccountAlreadyLoggedIn: Данный аккаунт уже находится на этом сервере
 		LoggedInSuccessfully: Вы успешно вошли. Вы находитесь в группе {0}.
@@ -280,7 +280,7 @@ Mods: {
 			Flycam: Свободная камера
 			ClearItems: Очищать предметы на земле
 			RevealMap: Открывать карту
-			LightHack: Вкл./Выкл. глобальное освящение
+			LightHack: Вкл./Выкл. глобальное освещение
 			SpawnNPCs: Призывать существ
 			SpawnBosses: Призывать боссов
 			Kick: Выгонять игроков
