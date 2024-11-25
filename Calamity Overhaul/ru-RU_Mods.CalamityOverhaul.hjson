@@ -1652,77 +1652,78 @@ Items: {
 	}
 
 	SpectralstormCannonEcType: {
-		DisplayName: Spectralstorm Cannon
+		DisplayName: Пушка спектрального шторма
 		Tooltip:
 			'''
-			Fires lost souls and flare rounds
-			"They tried to circumvent the convention by using flare rounds as napalm, only to end up with this joke."
+			Стреляет шквалом из потерянных душ и сигнальных ракет
+			"Жалкая попытка обойти военную конвенцию путем замены напалма... сигнальными ракетами..."
 			'''
 	}
 
 	SpeedBlasterEcType: {
-		DisplayName: Speed Blaster
+		DisplayName: Скоростной бластер
 		Tooltip:
 			'''
-			Rapidly fires phosphorescent rounds
-			Right-click to fire a powerful burst of colored rounds that propels you forward while moving
-			This ability has a 5 second cooldown
-			During the cooldown, you can shoot faster and more accurately
-			"Give yourself a faceful, and you'll be cheerfully washing your face for the whole day"
+			Стреляет фосфоресцентными зарядами с большим разбросом
+			Нажмите ПКМ, чтобы выпустить мощный лазер в сторону вашего курсора и в то же время сделать рывок по направлению вашего движения
+			После использования атаки на ПКМ, ей потребуется пятисекундная перезарядка
+			Однако во время этой перезарядки ваши атаки на ЛКМ будут быстрее и точнее
+			"Пятна от попаданий этой пушкой придётся отстирывать весь день, будьте осторожны"
 			'''
 	}
 
 	SpykerEcType: {
-		DisplayName: Spyker
+		DisplayName: Шиповик
 		Tooltip:
 			'''
-			Converts musket bullets into leaf needles that stick to enemies and explode
-			"Evidence suggests that using this to renovate your home may not be a good idea."
+			Превращает мушкетные пули в игловидные листья, которые застревают во врагах и взрываются спустя некоторое время
+			"Интересно, почему в инструкции тремя жирными линиями подчёркнуто, что эта штука не гвоздезабивной пистолет?"
 			'''
 	}
 
 	StarSputterEcType: {
-		DisplayName: Star Sputter
+		DisplayName: Звёздный распылитель
 		Tooltip:
 			'''
-			Fires a beam of falling stars
-			Every fourth attack launches a larger falling star
-			"Gazing at the twinkling stars of distant galaxies"
+			Использует падшие звёзды в качестве боеприпасов
+			Стреляет очередями из трёх звёзд
+			Каждая четвёртая очередь также выпускает одну красную самонаводящуюся звезду
+			"Надеюсь, твои враги успели загадать свои желания заранее — столько падающих звёзд можно увидеть лишь раз в жизни"
 			'''
 	}
 
 	StellarCannonEcType: {
-		DisplayName: Stellar Cannon
+		DisplayName: Звёздная пушка
 		Tooltip:
 			'''
-			Use the falling Star as ammo
-			Fires an explosive phantom star crystal
+			Использует падшие звёзды в качестве боеприпасов
+			Стреляет кристаллами звёзд, которые ускоряются, пока летят
 			'''
 	}
 
 	SvantechnicalEcType: {
-		DisplayName: Svantechnical
+		DisplayName: Свантех
 		Tooltip:
 			'''
-			Fires giant quantum bullets
-			"Technology changes lives"
-			"Perhaps this is a contemporary product of the Hextech Gun."
+			Стреляет одной обычной пулей и невидимой арканной пулей, разрывающейся на тысячи осколков при столкновении с блоками или врагами
+			"Вообразить сложно, на что только способна технология Хекстек, пусти ты её на военные, а не на мирные цели..."
 			'''
 	}
 
 	TheHiveEcType: {
-		DisplayName: The Hive
+		DisplayName: Улей
 		Tooltip:
 			'''
-			Fires various plague rockets that spawn friendly bees upon explosion
-			The rockets will destroy blocks when using ammunition that can destroy blocks
-			"It's shameful to stuff these bees into rocket warheads."
+			Стреляет залпом из четырёх чумных ракет, выпускающих самонаводящихся пчёл
+			Удерживайте ЛКМ, чтобы заряжать выстрел, тем самым снижая разброс ракет
+			Полностью зарядив выстрел, отпустите ЛКМ, чтобы выпустить одну невероятно мощную ракету
+			"С чем с Яримом и можно согласиться, так это с тем, что запихивать пчёл в ракеты уж слишком жестоко"
 			'''
 	}
 
 	ThePackEcType: {
-		DisplayName: The Pack
-		Tooltip: Fires a large tracking rocket that explodes into smaller tracking rockets upon approaching enemies
+		DisplayName: Стая
+		Tooltip: Стреляет самонаводящейся ракетой, которая мощно взрывается и выпускает несколько ракет поменьше
 	}
 
 	ElementMuzzleBrake: {
