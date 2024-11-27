@@ -1,0 +1,333 @@
+Mods: {
+	BiomeTitles: {
+		Title: {
+			Terraria: {
+				Meteor_Crash_Site: Meteor Crash Site
+				Graveyard: Graveyard
+				Hive: Hive
+				The_Dungeon: The Dungeon
+				The_Temple: The Temple
+				Nebula_Pillar: Nebula Pillar
+				Solar_Pillar: Solar Pillar
+				Stardust_Pillar: Stardust Pillar
+				Vortex_Pillar: Vortex Pillar
+				Granite_Cave: Granite Cave
+				Marble_Cave: Marble Cave
+				Underground_Glowing_Mushroom: Underground Glowing Mushroom
+				Glowing_Mushroom: Glowing Mushroom
+				Underground_Jungle: Underground Jungle
+				Corrupt_Cave_Desert: Corrupt Cave Desert
+				Crimson_Cave_Desert: Crimson Cave Desert
+				Hallow_Cave_Desert: Hallow Cave Desert
+				Cave_Desert: Cave Desert
+				Corrupt_Ice_Caves: Corrupt Ice Caves
+				Crimson_Ice_Caves: Crimson Ice Caves
+				Hallow_Ice_Caves: Hallow Ice Caves
+				Ice_Caves: Ice Caves
+				Underground_Corruption: Underground Corruption
+				Underground_Crimson: Underground Crimson
+				Underground_Hallow: Underground Hallow
+				Ocean: Ocean
+				Sky: Sky
+				Underground: Underground
+				Caverns: Caverns
+				Hell: Hell
+				Jungle: Jungle
+				Corrupt_Desert: Corrupt Desert
+				Crimson_Desert: Crimson Desert
+				Hallow_Desert: Hallow Desert
+				Desert: Desert
+				Tundra: Tundra
+				Corruption: Corruption
+				Crimson: Crimson
+				Hallow: Hallow
+				Forest: Forest
+			}
+
+			Aequus: {
+				GlowingMossBiome: Glowing Moss
+				GoreNestBiome: Gore Nest
+				RadonMossBiome: Radon Moss
+				CrabCreviceBiome: Crab Crevice
+				FakeUnderworldBiome: Fake Underworld
+			}
+
+			Arbour.ArborBiome: Arbour Island
+
+			BobBlender2: {
+				TreeBiome: Tree
+				VoidBiome: Void
+				BobBiome: Bob Biome
+				BobsBobBiome: Bobs Bob Island
+				BobTowerBiome: Bob Tower
+				CorrodedBiome: Corroded
+				CursedBiome: Cursed
+				DarkmatterBiome: Darkmatter
+				MemeBiome: Meme
+				StrangeBiome: Strange Biome
+				StrangeDungeonBiome: Strange Dungeon
+				StrangeUndergroundBiome: Strange Undergrond
+				SurfaceBiome: Strange Surface
+			}
+
+			CalamityMod: {
+				UndergroundAstralBiome: Astral Underground
+				AbovegroundAstralDesertBiome: Astral Desert
+				AbovegroundAstralSnowBiome: Astral Tundra
+				AbovegroundAstralBiome: Astral Infection
+				BrimstoneCragsBiome: Brimstone Crags
+				SulphurousSeaBiome: Sulphurous Sea
+				SunkenSeaBiome: Sunken Sea
+				AbyssLayer1Biome: Sulphuric Depths
+				AbyssLayer2Biome: Murky Waters
+				AbyssLayer3Biome: Thermal Vents
+				AbyssLayer4Biome: The Void
+			}
+
+			TheConfectionRebirth: {
+				IceConfectionUndergroundBiome: Icecream Caves
+				SandConfectionUndergroundBiome: Chocolate Caves
+				ConfectionUndergroundBiome: Confection Underground
+				IceConfectionSurfaceBiome: Icecream Tundra
+				SandConfectionSurfaceBiome: Chocolate Desert
+				ConfectionBiomeSurface: Confection
+			}
+
+			CosmeticVariety: {
+				CelestialSurfaceBiome: Celestial Surface
+				GardenBiome: Garden
+				GardenSurfaceBiome: Garden Surface
+			}
+
+			InfernumMode: {
+				LostColosseumBiome: Lost Colosseum
+				ProfanedTempleBiome: Profaned Temple
+			}
+
+			Redemption: {
+				BlazingBastionBiome: Blazing Bastion
+				LidenBiome: Liden
+				LidenBiomeAlpha: The Alpha
+				LidenBiomeOmega: The Omega
+				SlayerShipBiome: Slayer Ship
+				LabBiome: Abandoned Laboratory
+				SoullessBiome: Soulless Caverns
+				WastelandCorruptionBiome: Wasteland Corruption
+				WastelandCrimsonBiome: Wasteland Crimson
+				WastelandDesertBiome: Wasteland Desert
+				WastelandPurityBiome: Wasteland Purity
+				WastelandSnowBiome: Wasteland Snow
+			}
+
+			Remnants: {
+				GoldenCity: Golden City
+				Growth: Growth
+				OceanCave: Ocean Cave
+				Pyramid: Pyramid
+				Hive: Giant Hive
+				JungleTemple: Jungle Temple
+				MarbleCave: Marble Cave
+				Vault: Vault
+			}
+
+			SpiritMod: {
+				AsteroidBiome: Asteroid Field
+				SynthwaveSurfaceBiome: Hyperspace
+				BriarSurfaceBiome: Briar Forest
+				BriarUndergroundBiome: Briar Caves
+				SpiritSurfaceBiome: Spirit Surface
+				SpiritUndergroundBiome: Spirit Underground
+			}
+
+			Spooky: {
+				CatacombBiome: Catacomb
+				SpookyBiome: Spooky Forest
+				SpookyBiomeUg: Underground Spooky
+				SpookyHellBiome: Spooky Hell
+			}
+
+			// This mod is not finished cuz I don't know which biomes there actually are
+			StarsAbove: {
+				ObservatoryBiome: Observatory Hyperborea
+				AstarteDriverBiome: Astarte Driver
+				BleachedWorldBiome: Bleached World
+				CorvusBiome: Corvus
+				LyraBiome: Lyra
+				FriendlySpaceBiome: Pyxis
+				MoonBiome: Moon
+				SeaOfStarsBiome: Sea of Stars
+			}
+
+			TheDepths.DepthsBiome: Depths
+
+			ThoriumMod: {
+				DepthsBiome: Aquatic Depths
+				BloodChamber: Blood Chamber
+			}
+
+			Verdant: {
+				VerdantBiome: Verdant Surface
+				VerdantUndergroundBiome: Verdant Caves
+			}
+		}
+	}
+
+	BTitles: {
+		Configs: {
+			GeneralConfig: {
+				DisplayName: General Config
+
+				Headers: {
+					Visuals_Config: Visuals Config
+					Advanced_Customization: Advanced Customization
+					Animation: Animation
+				}
+
+				Position: {
+					Label: Position
+					Tooltip: Choose the position of the Title
+				}
+
+				CustomPositionX.Label: Custom Position X
+				CustomPositionY.Label: Custom Position Y
+
+				Scale: {
+					Label: Scale
+					Tooltip: Set the scale of the title
+				}
+
+				UseCustomTextColors: {
+					Label: Colorize Titles
+					Tooltip: Enable or disable custom title colors for each biome
+				}
+
+				ShowIcons: {
+					Label: Biome Icons
+					Tooltip: Enable or disable custom icon for each biome, if available
+				}
+
+				DisplaySubtitle: {
+					Label: Display Subtitle
+					Tooltip: Enable or disable title subtitle
+				}
+
+				EnableBackgrounds: {
+					Label: Title Backgrounds
+					Tooltip: Enable visibility for title and subtitle backgrounds
+				}
+
+				HideWhileInventoryOpen: {
+					Label: Hide While Inventory Open
+					Tooltip: Should titles be hidden when the player inventory is open
+				}
+
+				CustomBiomeNames: {
+					Label: Custom Biome Names
+					Tooltip: Set custom names for the biomes
+				}
+
+				EnableDraggableTitle: {
+					Label: Enable Draggable Title
+					Tooltip: Enable or disable draggable title if position is set to Custom
+				}
+
+				BiomeCheckDelay: {
+					Label: Biome Check Interval
+					Tooltip: Interval between biome checks in seconds
+				}
+
+				TitleAnimation: {
+					Label: Animation Type
+					Tooltip: Title appear and disappear animation
+				}
+
+				VisibilityDuration: {
+					Label: Visibility Duration
+					Tooltip: Time for titles to be displayed on screen in seconds, 0 means infinite
+
+					TransitionInDuration: {
+						Label: Transition In Duration
+						Tooltip: Time for titles to appear on screen in seconds
+					}
+
+					TransitionOutDuration: {
+						Label: Transition Out Duration
+						Tooltip: Time for titles to disappear from screen in seconds
+					}
+				}
+
+				TransitionInDuration: {
+					Label: Transition In Duration
+					Tooltip: Time for titles to appear on screen in seconds
+				}
+
+				TransitionOutDuration: {
+					Label: Transition Out Duration
+					Tooltip: Time for titles to disappear from screen in seconds
+				}
+
+				PositionOption: {
+					Top.Label: Top
+					Bottom.Label: Bottom
+					RPGStyle.Label: RPG Style
+					Custom.Label: Custom
+				}
+
+				ScaleOption: {
+					Small.Label: Small
+					Normal.Label: Normal
+					Big.Label: Big
+				}
+
+				BiomeNameMapping: {
+					CurrentName: {
+						Label: Current Name
+						Tooltip: The current (original) name of the biome.
+					}
+
+					NewName: {
+						Label: New Name
+						Tooltip: The new custom name for the biome.
+					}
+				}
+
+				TitleAnimationType: {
+					None.Label: No Animation
+					ShowFade.Label: Show/Fade
+					ShowFadeSwipe.Label: Show/Fade With Swipe
+				}
+			}
+
+			PositionOption: {
+				Top.Label: Top
+				Bottom.Label: Bottom
+				RPGStyle.Label: RPG style
+				Custom.Label: Custom
+			}
+
+			ScaleOption: {
+				Small.Label: Small
+				Normal.Label: Normal
+				Big.Label: Big
+			}
+
+			BiomeNameMapping: {
+				CurrentName: {
+					Label: Current Name
+					Tooltip: The current (original) name of the biome.
+				}
+
+				NewName: {
+					Label: New Name
+					Tooltip: The new custom name for the biome.
+				}
+			}
+
+			TitleAnimationType: {
+				None.Label: No animation
+				ShowFade.Label: Show/Fade
+				ShowFadeSwipe.Label: Show/Fade with swipe
+			}
+		}
+	}
+}
