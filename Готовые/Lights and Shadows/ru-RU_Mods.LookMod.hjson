@@ -1,29 +1,25 @@
 Configs: {
 	IMVConfigClient: {
-		DisplayName: Client Config
+		DisplayName: Клиентская конфигурация
 
 		lookingType: {
-			Label: Look At Cursor
+			Label: Поворот головы в сторону курсора
 			Tooltip:
 				'''
-				Off: disables directional looking
-				Standard: smooth head rotation
-				Clamped: clamped head rotation
+				Отключён: голова персонажа не будет поворачиваться в сторону курсора
+				Включён: голова персонажа будет плавно поворачиваться в сторону курсора
+				Ограничен: голова персонажа будет поворачиваться в сторону курсора, но не сможет быть повёрнута строго вверх
 				'''
 		}
 
 		faceCursor: {
-			Label: Face Cursor
-			Tooltip: ""
+			Label: Поворот всем туловищем в сторону курсора
+			Tooltip: Персонаж будет всегда стоять лицом к той стороне экрана, на которой находиться курсор
 		}
 
 		DisableRopeTurning: {
-			Tooltip:
-				'''
-				This stops the player from turning while on a rope.
-				Disabling this can make combat while on ropes inconsistent, and putting your cursor directly above the player will cause them to switch directions rapidly.
-				'''
-			Label: Disable Rope Turning
+			Tooltip: Персонаж не будет поворачиваться в сторону курсора своим туловищем, пока держится за верёвку
+			Label: Отключить повороты туловищем при взбирании по верёвкам
 		}
 
 		DisableFlickeringFix: {
