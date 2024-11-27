@@ -13,167 +13,179 @@ Common: {
 
 MainConfig: {
 	IncreasedBasePlayerSpeed: {
-		Label: Increased Base Player Speed
-		Tooltip: Increases the player's base speed by 50%. This does not stack with Calamity's boost.
+		Label: Увеличить базовую скорость передвижения игрока
+		Tooltip:
+			'''
+			Увеличивает базовую скорость передвижения игрока на 50%
+			[c/C0C0C0:(Не складывается с бонусом к скорости передвижения из Calamity)]
+			'''
 	}
 
 	IncreasedBaseMiningSpeed: {
-		Label: Increased Base Mining Speed
-		Tooltip: Increases the player's base mining speed by 100%. This does not stack with Calamity's boost.
+		Label: Увеличить базовую скорость копания игрока
+		Tooltip:
+			'''
+			Увеличивает базовую скорость добычи блоков игроком на 100%
+			[c/C0C0C0:(Не складывается с бонусом к скорости копания из Calamity)]
+			'''
 	}
 
 	IncreasedNaturalPotionYield: {
-		Tooltip: Increases the amount of natural potions found in golden and dungeon chests by a significant amount.
-		Label: Increased Natural Potion Yield
+		Tooltip: Существенно увеличивает количество получаемых зелий с деревянных и золотых сундуков
+		Label: Увеличить количество получаемых зелий с сундуков
 	}
 
 	BonusChestLoot: {
-		Tooltip: Allows some additional items to be found in chests. At the moment, this is only the Slime Crown.
-		Label: Bonus Chest Loot
+		Tooltip: Расширяет список возможной добычи с сундуков, добавляя в него новые предметы (пока что к таким относится только "{$ItemName.SlimeCrown}")
+		Label: Дополнительная добыча с сундуков
 	}
 
 	Headers: {
-		WorldGeneration: World Generation
-		ExtraLoot: Extra Loot
-		NPCS: NPCs
-		NewItems: New Items
-		Player: Player
+		WorldGeneration: Генерация мира
+		ExtraLoot: Дополнительная добыча
+		NPCS: Ассортимент НИПов
+		NewItems: Новые предметы
+		Player: Изменения игрока и рецепты предметов
 	}
 
 	RareBiomeEnemiesHaveHigherBiomeKeyChance: {
-		Tooltip: Rare Biome Enemies have a 20% chance to drop biome keys.
-		Label: Rare Biome Enemies Have Higher Biome Key Chance
+		Tooltip: С особо редких существ ключи от биомных сундуков темницы будут выпадать с 20%-ным шансом
+		Label: Повышенный шанс выпадения ключей биома с редких существ
 	}
 
 	SkeletronDropGoldenKeys: {
-		Tooltip: Skeletron will drop 2 golden keys upon kill, so you can immediately open some golden chests.
-		Label: Skeletron Drops Golden Keys
+		Tooltip: Со Скелетрона будет сразу выпадать два золотых ключа
+		Label: Золотые ключи со Скелетрона
 	}
 
 	WallOfFleshDropSouls: {
-		Tooltip: Wall of Flesh will drop 15-25 Souls of Night and Light.
-		Label: Wall Of Flesh Drops Souls
+		Tooltip: Со стены плоти будет выпадать по 15-25 душ света и ночи
+		Label: Души ночи и света со стены плоти
 	}
 
 	QueenSlimeDropPearls: {
-		Tooltip: Queen Slime will drop an assortment of pearls, that are normally only acquired from fishing.
-		Label: Queen Slime Drops Pearls
+		Tooltip: С королевы слизней будут выпадать все виды жемчужин
+		Label: Жемчужины с королевы слизней
 	}
 
 	EyeOfCthuluDropLens: {
-		Tooltip: Eye of Cthulu will drop lens, and have a small chance to drop black lens.
-		Label: Eye Of Cthulu Drops Lens
+		Tooltip: С глаза Ктулху будут выпадать обычные, а с некоторым шансом ещё и чёрные линзы
+		Label: Линзы с глаза Ктулху
 	}
 
 	PillarsDropSummonItem: {
-		Tooltip: Pillars drop their summoning item upon kill.
-		Label: Pillars Drop Summon Item
+		Tooltip: С небесных башен будут выпадать новые предметы, призывающие их же на случай, если вам не хватит фрагментов
+		Label: Призывалки небесных башен с самих башен
 	}
 
 	PillarsDropMoreFragments: {
-		Tooltip: Pillars will drop 50 additional fragments.
-		Label: Pillars Drop More Fragments
+		Tooltip: С небесных башен будет выпадать ещё 50 фрагментов поверх обычного их количества
+		Label: Больше фрагментов с небесных башен
 	}
 
 	AlwaysSellPylons: {
-		Tooltip: NPCs, will always sell pylons regardless of happiness. Keep in mind that unhappy NPCs will still charge more!
-		Label: Always Sell Pylons
+		Tooltip: НИПы всегда будут продавать пилоны биома, в котором находятся
+		Label: Всегда продавать пилоны
 	}
 
 	DistressBeacon: {
-		Tooltip: Adds the Broken Distress Beacon and the Distress Beacon, items to summon Martian Madness.
-		Label: Distress Beacon
+		Tooltip: Добавляет аварийный маячок — призывалку марсианского нашествия, для создания которой потребуется ещё один новый предмет с сундуков небесных островов
+		Label: Аварийный маячок
 	}
 
 	Twinoculars: {
-		Tooltip: Adds Bifocal Visor and Twinoculars, upgrades to the Binoculars item.
-		Label: Twinoculars
+		Tooltip: Добавляет бифокальные линзы и близненокль — улучшенные версии бинокля, создать которые можно после Скелетрона и Близнецов соответственно
+		Label: Апгрейды бинокля
 	}
 
 	BinocularsBuff: {
-		Tooltip: Buffs Binoculars to grant hunter and night vision effects while held or equipped.
-		Label: Binoculars Buff
+		Tooltip: Добавляет биноклю эффект зелья ночного зрения и охотника
+		Label: Бафф бинокля
 	}
 
 	Nightwatch: {
-		Tooltip: Adds the Nightwatch, an item for controlling time. It is available post-World Evil Boss.
-		Label: Nightwatch
+		Tooltip: Добавляет часы ночи — предмет, позволяющий переключать и проматывать время суток, получить который можно после мозга Ктулху/Пожирателя миров
+		Label: Часы ночи
 	}
 
 	AlternativeFishingPotionRecipes: {
-		Tooltip: Adds alternative recipes for crafting potions that normally require fishing, available in hardmode.
-		Label: Alternative Fishing Potion Recipes
+		Tooltip: Добавляет зельям, для создания которых необходимо рыбачить, альтернативные рецепты, не требующие рыбалки, зато требующие хардмодные материалы
+		Label: Альтернативные рецепты создания зелий
 	}
 
 	CraftableTruffleWorm: {
-		Tooltip: Adds a recipe for crafting Truffle Worm, available post-mech bosses.
-		Label: Craftable Truffle Worm
+		Tooltip: Добавляет рецепт создания трюфельного червя из душ всех механических боссов
+		Label: Рецепт трюфельного червя
 	}
 
 	CraftableShadowKey: {
-		Tooltip: Adds a recipe for crafting Shadow Key, available post-Skeletron.
-		Label: Craftable Shadow Key
+		Tooltip: Добавляет рецепт создания теневого ключа из костей
+		Label: Рецепт теневого ключа
 	}
 
 	CraftableLifeFruit: {
-		Tooltip: Adds a recipe for crafting Life Fruit, available post-Plantera.
-		Label: Craftable Life Fruit
+		Tooltip: Добавляет рецепт создания фрукта жизни из эктоплазмы
+		Label: Рецепт фрукта жизни
 	}
 
 	CraftableUniversalPylon: {
-		Tooltip: Adds a recipe for crafting the Universal Pylon, available from the start.
-		Label: Craftable Universal Pylon
+		Tooltip: Добавляет рецепт создания универсального пилона из любого пилона и волшебного зеркала
+		Label: Рецепт универсального пилона
 	}
 
 	CraftableMovementAccessories: {
-		Tooltip: Adds recipes for crafting several movement accessories, available post Slime King.
-		Label: Craftable Movement Accessories
+		Tooltip: Добавляет рецепты создания нескольких аксессуаров, улучшающих передвижение
+		Label: Рецепты аксессуаров передвижения
 	}
 
 	StartWithEssentials: {
-		Tooltip: Starts you with several items that help you explore early game. Including ropes, potions, and bombs. This does not stack with Calamity's starter bag.
-		Label: Start With Essentials
+		Tooltip:
+			'''
+			У новых персонажей в инвентаре сразу будет мешок с предметами, которые пригодятся в самом начале игры — верёвки, бомбы, зелья и пр.
+			[c/C0C0C0:(Не появляется у игроков, если включён Calamity)]
+			'''
+		Label: Стартовый мешок с предметами
 	}
 
-	DisplayName: Main Config
+	DisplayName: Конфигурация
 
 	TinkererSellsDPSMeter: {
-		Label: Tinkerer Sells DPS Meter
-		Tooltip: Tinkerer Sells the DPS Meter.
+		Label: Продавать измеритель урона
+		Tooltip: Гоблин будет продавать измеритель урона
 	}
 
 	CraftableSlimeStaff: {
-		Label: Craftable Slime Staff
-		Tooltip: Slime staff is now craftable
+		Label: Рецепт посоха слизней
+		Tooltip: Добавляет рецепт создания посоха слизней из древесины и геля
 	}
 
 	PrismaticConcoction: {
-		Label: Prismatic Concoction
-		Tooltip: Adds Prismatic Concoction, an item that makes amassing Prismatic Lacewings easier.
+		Label: Призматическая смесь
+		Tooltip: Добавляет призматическую смесь — дорогой в создании предмет, привлекающий к вам огромное количество призматических златоглазок
 	}
 
 	BloodmoonCharm: {
-		Label: Bloodmoon Charm
-		Tooltip: Adds Bloodmoon Charm, an item dropped from Blood Moon enemies that increases spawn rates.
+		Label: Кулон кровавой луны
+		Tooltip: Добавляет кулон кровавой луны — предмет, ускоряющий появление существ и выпадающий с врагов кровавой луны
 	}
 
 	AetherMagnet: {
-		Label: Aether Magnet
-		Tooltip: Adds Aether Magnet, a post-WoF item that points you towards a source of shimmer.
+		Label: Эфирный магнит
+		Tooltip: Добавляет эфирный магнит — хардмодный предмет, помогающий найти мерцание
 	}
 
 	SpidersDropSilk: {
-		Label: Spiders Drop Silk
-		Tooltip: All spider-type enemies now have a chance to drop silk. Black Recluses have the best rates.
+		Label: Шёлк с пауков
+		Tooltip: Со всех пауков будет выпадать шёлк
 	}
 
 	BonusNaturalPotionYield: {
-		Tooltip: Increases the number of potions found in chests.
-		Label: Bonus Natural Potion Yield
+		Tooltip: Бонусное количество всех получаемых зелий с сундуков
+		Label: Увеличенное количество зелий с сундуков
 	}
 
 	BonusDungeonPotions: {
-		Tooltip: Spawns offensive potions in locked dungeon chests. Including Rage, Wrath, Inferno, etc.
-		Label: Bonus Dungeon Potions
+		Tooltip: В сундуках темницы можно будет найти особо полезные усиляющие зелья (например зелья ярости, гнева, инферно и т.д)
+		Label: Дополнительные зелья с сундуков темницы
 	}
 }
