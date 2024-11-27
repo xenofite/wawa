@@ -2,7 +2,7 @@ Mods: {
 	BiomeTitles: {
 		Title: {
 			Terraria: {
-				Meteor_Crash_Site: Метеорит
+				Meteor_Crash_Site: Место падения метеорита
 				Graveyard: Кладбище
 				Hive: Улей
 				The_Dungeon: Темница
@@ -16,66 +16,66 @@ Mods: {
 				Underground_Glowing_Mushroom: Пещера светящихся грибов
 				Glowing_Mushroom: Лес светящихся грибов
 				Underground_Jungle: Подземные джунгли
-				Corrupt_Cave_Desert: Подземная пустыня порчи
-				Crimson_Cave_Desert: Подземная пустыня багрянца
-				Hallow_Cave_Desert: Подземная пустыня освящения
-				Cave_Desert: Подземнаая пустыня
-				Corrupt_Ice_Caves: Ледяные пещеры порчи
-				Crimson_Ice_Caves: Ледяные пещеры багрянца
-				Hallow_Ice_Caves: Ледяные пещеры освящения
+				Corrupt_Cave_Desert: Искажённая подземная пустыня
+				Crimson_Cave_Desert: Багряная подземная пустыня
+				Hallow_Cave_Desert: Освящённая подземная пустыня
+				Cave_Desert: Подземная пустыня
+				Corrupt_Ice_Caves: Искажённые ледяные пещеры
+				Crimson_Ice_Caves: Багряные ледяные пещеры
+				Hallow_Ice_Caves: Освящённые ледяные пезеры
 				Ice_Caves: Ледяные пещеры
-				Underground_Corruption: Подземная порча
-				Underground_Crimson: Подземный багрянец
-				Underground_Hallow: Подземное освящение
+				Underground_Corruption: Искажённые пещеры
+				Underground_Crimson: Багряные пещеры
+				Underground_Hallow: Освящённые пещеры
 				Ocean: Океан
 				Sky: Космос
 				Underground: Подземелье
 				Caverns: Пещеры
 				Hell: Преисподняя
 				Jungle: Джунгли
-				Corrupt_Desert: Пустыня порчи
-				Crimson_Desert: Пустыня багрянца
-				Hallow_Desert: Пустыня освящения
+				Corrupt_Desert: Искажённая пустыня
+				Crimson_Desert: Багряная пустыня
+				Hallow_Desert: Освящённая пустыня
 				Desert: Пустыня
-				Tundra: Тундра
-				Corruption: Порча
+				Tundra: Снега
+				Corruption: Искажение
 				Crimson: Багрянец
 				Hallow: Освящение
 				Forest: Лес
 			}
 
 			Aequus: {
-				GlowingMossBiome: Пещеры светящегося мха
-				GoreNestBiome: Гнездо останков
-				RadonMossBiome: Пещеры радонового мха
-				CrabCreviceBiome: Ущелье крабов
-				FakeUnderworldBiome: Ложная преисподняя
+				GlowingMossBiome: Glowing Moss
+				GoreNestBiome: Gore Nest
+				RadonMossBiome: Radon Moss
+				CrabCreviceBiome: Crab Crevice
+				FakeUnderworldBiome: Fake Underworld
 			}
 
-			Arbour.ArborBiome: Остров со святилищем
+			Arbour.ArborBiome: остров умиротворения
 
 			BobBlender2: {
-				TreeBiome: Дерево
-				VoidBiome: Пустота
-				BobBiome: Биом Боба
-				BobsBobBiome: Остров Боба
-				BobTowerBiome: Башня Боба
-				CorrodedBiome: Проржавевшие земли
-				CursedBiome: Проклятые земли
-				DarkmatterBiome: Тёмная материя
-				MemeBiome: Мем
-				StrangeBiome: Странный биом
-				StrangeDungeonBiome: Странная темница
-				StrangeUndergroundBiome: Странное подземелье
-				SurfaceBiome: Странные земли
+				TreeBiome: Tree
+				VoidBiome: Void
+				BobBiome: Bob Biome
+				BobsBobBiome: Bobs Bob Island
+				BobTowerBiome: Bob Tower
+				CorrodedBiome: Corroded
+				CursedBiome: Cursed
+				DarkmatterBiome: Darkmatter
+				MemeBiome: Meme
+				StrangeBiome: Strange Biome
+				StrangeDungeonBiome: Strange Dungeon
+				StrangeUndergroundBiome: Strange Undergrond
+				SurfaceBiome: Strange Surface
 			}
 
 			CalamityMod: {
-				UndergroundAstralBiome: Астральное подземелье
+				UndergroundAstralBiome: Подземная Астральная инфекция
 				AbovegroundAstralDesertBiome: Астральная пустыня
-				AbovegroundAstralSnowBiome: Астральная тундра
+				AbovegroundAstralSnowBiome: Астральные снега
 				AbovegroundAstralBiome: Астральная инфекция
-				BrimstoneCragsBiome: Серные скалы
+				BrimstoneCragsBiome: Серная скала
 				SulphurousSeaBiome: Сернистое море
 				SunkenSeaBiome: Затонувшее море
 				AbyssLayer1Biome: Сернистые глубины
@@ -85,18 +85,18 @@ Mods: {
 			}
 
 			TheConfectionRebirth: {
-				IceConfectionUndergroundBiome: Пломбирное подземелье
-				SandConfectionUndergroundBiome: Шоколадные подземелья
-				ConfectionUndergroundBiome: Пряничное подземелье
-				IceConfectionSurfaceBiome: Пломбирная тундра
+				IceConfectionUndergroundBiome: Пломбирные пещеры
+				SandConfectionUndergroundBiome: Шоколадные пещеры
+				ConfectionUndergroundBiome: Ослащённые пещеры
+				IceConfectionSurfaceBiome: Пломбирные снега
 				SandConfectionSurfaceBiome: Шоколадная пустыня
-				ConfectionBiomeSurface: Пряничные земли
+				ConfectionBiomeSurface: Ослащение
 			}
 
 			CosmeticVariety: {
-				CelestialSurfaceBiome: Небесные земли
-				GardenBiome: Подземный сад
-				GardenSurfaceBiome: Сад
+				CelestialSurfaceBiome: Celestial Surface
+				GardenBiome: Garden
+				GardenSurfaceBiome: Garden Surface
 			}
 
 			InfernumMode: {
@@ -105,18 +105,18 @@ Mods: {
 			}
 
 			Redemption: {
-				// BlazingBastionBiome: Blazing Bastion
-				// LidenBiome: Liden
-				// LidenBiomeAlpha: The Alpha
-				// LidenBiomeOmega: The Omega
-				// SlayerShipBiome: Slayer Ship
-				// LabBiome: Abandoned Laboratory
-				// SoullessBiome: Soulless Caverns
-				// WastelandCorruptionBiome: Wasteland Corruption
-				// WastelandCrimsonBiome: Wasteland Crimson
-				// WastelandDesertBiome: Wasteland Desert
-				// WastelandPurityBiome: Wasteland Purity
-				// WastelandSnowBiome: Wasteland Snow
+				BlazingBastionBiome: Пылающая цитадель
+				LidenBiome: Лидэн
+				LidenBiomeAlpha: Альфа
+				LidenBiomeOmega: Омега
+				SlayerShipBiome: Потерпевший крушение крейсер Короля-охотника
+				LabBiome: Заброшенная лаборатория
+				SoullessBiome: Бездушные пещеры
+				WastelandCorruptionBiome: Пустошь искажения
+				WastelandCrimsonBiome: Пустошь багрянца
+				WastelandDesertBiome: Пустынная пустошь
+				WastelandPurityBiome: Пустошь
+				WastelandSnowBiome: Снежная пустошь
 			}
 
 			Remnants: {
@@ -131,12 +131,12 @@ Mods: {
 			}
 
 			SpiritMod: {
-				AsteroidBiome: Поле астероидов
-				SynthwaveSurfaceBiome: Гиперпространство
-				BriarSurfaceBiome: Терновый лес
-				BriarUndergroundBiome: Терновые пещеры
-				SpiritSurfaceBiome: Лес духов
-				SpiritUndergroundBiome: Пещеры духов
+				AsteroidBiome: Asteroid Field
+				SynthwaveSurfaceBiome: Hyperspace
+				BriarSurfaceBiome: Briar Forest
+				BriarUndergroundBiome: Briar Caves
+				SpiritSurfaceBiome: Spirit Surface
+				SpiritUndergroundBiome: Spirit Underground
 			}
 
 			Spooky: {
@@ -161,13 +161,13 @@ Mods: {
 			TheDepths.DepthsBiome: Глубины
 
 			ThoriumMod: {
-				DepthsBiome: Морские глубины
-				BloodChamber: Кровавые покои
+				DepthsBiome: Акватические глубины
+				BloodChamber: Погребение Кровавой камеры
 			}
 
 			Verdant: {
-				VerdantBiome: Зелень
-				VerdantUndergroundBiome: Зеленеющие пещеры
+				VerdantBiome: Цветение
+				VerdantUndergroundBiome: Цветущие пещеры
 			}
 		}
 	}
@@ -203,7 +203,7 @@ Mods: {
 
 				ShowIcons: {
 					Label: Иконки биомов
-					Tooltip: Рядом с названиями биомов на плашке будут отображаться их иконки из бестиария, если они есть.
+					Tooltip: Рядом с названиями биомов на плашке будут отображаться их иконки из бестиария, если они есть
 				}
 
 				DisplaySubtitle: {
@@ -246,7 +246,7 @@ Mods: {
 					Tooltip: 
 						'''
 						Сколько секунд плашка с названиями будет отображаться на экране
-						Установите на 0, чтобы плашка не пропадала вообще
+						Установите значение на 0, чтобы плашка не пропадала вообще
 						'''
 
 					TransitionInDuration: {
