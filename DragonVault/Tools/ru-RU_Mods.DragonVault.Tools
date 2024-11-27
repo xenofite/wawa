@@ -36,8 +36,8 @@ ItemSpawner: {
 		}
 
 		Armor: {
-			Name: Броня
-			Description: Все предметы, которые можно надеть в слоты для брони
+			Name: Защита
+			Description: Все предметы, увеличивающие защиту
 		}
 
 		Placeable: {
@@ -91,13 +91,13 @@ ItemSpawner: {
 		}
 
 		MakeNPC: {
-			Name: Призывалки
+			Name: Призывающее
 			Description: Все предметы, призывающие каких-либо существ
 		}
 
 		Mounts: {
-			Name: Маунты
-			Description: Все предметы, являющиеся маунтами
+			Name: Ездовые питомцы
+			Description: Все предметы, являющиеся ездовыми питомцами
 		}
 
 		Pets: {
