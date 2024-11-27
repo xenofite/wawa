@@ -1,117 +1,116 @@
 Items: {
 	NebulaCore: {
-		DisplayName: Nebula Core
-		Tooltip: Summons the Nebula Pillar
+		DisplayName: Ядро туманности
+		Tooltip: Призывает башню туманности
 	}
 
 	DistressBeacon: {
 		Tooltip:
 			'''
-			Sends a signal into space, may summon unwanted foes.
-			Not Consumable
+			Посылает особые сигналы в космос, будьте готовы встречать нежеланных гостей...
+			Не расходуется
 			'''
-		DisplayName: Distress Beacon
+		DisplayName: Аварийный маячок
 	}
 
 	BrokenDistressBeacon: {
-		Tooltip: It appears to be a broken S.O.S device, perhaps it could be fixed somehow...
-		DisplayName: Broken Distress Beacon
+		Tooltip: Хоть и принцип работы инопланетных технологий вы не знаете, это устройство вы в силах починить...
+		DisplayName: Повреждённый аварийный маячок
 	}
 
 	SolarCore: {
-		DisplayName: Solar Core
-		Tooltip: Summons the Solar Pillar
+		DisplayName: Ядро солнечной вспышки
+		Tooltip: Призывает солнечную башню
 	}
 
 	StardustCore: {
-		DisplayName: Stardust Core
-		Tooltip: Summons the Stardust Pillar
+		DisplayName: Ядро звёздной пыли
+		Tooltip: Призывает башню звёздной пыли
 	}
 
 	VortexCore: {
-		DisplayName: Vortex Core
-		Tooltip: Summons the Vortex Pillar
+		DisplayName: Ядро вихря
+		Tooltip: Призывает вихревую башню
 	}
 
 	BifocalVisor: {
-		DisplayName: Bifocal Visor
+		DisplayName: Бифокальные линзы
 		Tooltip:
 			'''
-			Increases view range while held
-			Greatly enhances vision while held or equipped
-			Allows sight of wires and danger sources
+			Существенно увеличивают дальность обзора
+			Подсвечивают провода и ловушки
 			'''
 	}
 
 	Twinoculars: {
-		DisplayName: Twinoculars
+		DisplayName: Близненокль
 		Tooltip:
 			'''
-			'I CAN SEEEE!!!!'
-			Increases view range while held and reveals nearby tiles within view
-			Allows sight of wires, ores, danger sources, and dramatically enhances vision while held or equipped
-			Provides a significant amount of light, this effect works from the inventory and vanity
+			Значительно увеличивает дальность обзора
+			Подсвечивает провода, ловушки и сокровища
+			Излучает крайне яркую ауру света вокруг вас, просто находясь в инвентаре или в слотах для украшений
+			«Никто не ускользнёт от моего взгляда...»
 			'''
 	}
 
-	Binoculars.Tooltip: Test
+	Binoculars.Tooltip: Тест
 
 	BoosterPack: {
-		Tooltip: Right Click to open
-		DisplayName: Booster Pack
+		Tooltip: Нажмите ПКМ, чтобы открыть
+		DisplayName: Стартовый мешочек
 	}
 
 	Terrawatch: {
 		Tooltip: ""
-		DisplayName: Terrawatch
+		DisplayName: Терра часы
 	}
 
 	Nightwatch: {
-		DisplayName: Nightwatch
+		DisplayName: Часы ночи
 		Tooltip:
 			'''
-			Tells the time
-			Use this item to swap between dawn and dusk
-			Right Click to leap forward a short amount of time
+			Показывают время
+			Нажмите ЛКМ, чтобы переключаться во времени суток между закатом и рассветом
+			Нажмите ПКМ, чтобы промотать время на несколько часов вперёд
 			'''
 	}
 
 	TruffleWormBucket: {
-		DisplayName: Truffle Worm Bucket
+		DisplayName: Ведро с трюфельными червями
 		Tooltip:
 			'''
-			'Smells Fishy'
-			Summons Duke Fishron
-			Not Consumable
+			Призывает герцога Рыброна
+			Не расходуется
+			«Всегда найдётся рыба крупнее»
 			'''
 	}
 
 	BloodmoonCharm: {
-		DisplayName: Bloodmoon Charm
+		DisplayName: Кулон кровавой луны
 		Tooltip:
 			'''
-			'May attract unwanted attention'
-			Slightly increases spawn rates
+			Немного ускоряет появление существ
+			«Обычно обереги делают для отпугивания злых духов, но этот кулон — совсем другое дело...»
 			'''
 	}
 
 	PrismaticConcoction: {
-		DisplayName: Prismatic Concoction
+		DisplayName: Призматическая смесь
 		Tooltip:
 			'''
-			Causes Prismatic Lacewings to swarm around you
-			Prismatic Lacewings will run away if not in the Hallow
-			'Smells Nice'
+			Навлекает на вас целый рой призматических златоглазок
+			Однако все они будут улетать прочь, если вы не находитесь в освящении
+			«Ни один гурман в мире не сможет описать вкус этого варева»
 			'''
 	}
 
 	AetherMagnet: {
-		DisplayName: Aether Magnet
-		Tooltip: Shows the position of a nearby shimmer source
+		DisplayName: Эфирный магнит
+		Tooltip: Притягивается к ближайшему источнику мерцания
 	}
 }
 
-InfoDisplays.AetherInfoDisplay.DisplayName: Shimmer Location
+InfoDisplays.AetherInfoDisplay.DisplayName: Источник мерцания
 
 Configs: {
 	Config: {
@@ -272,7 +271,7 @@ Configs: {
 
 Buffs: {
 	PollinatedBuff: {
-		DisplayName: Pollinated Buff
-		Description: Prismatic Lacewings are swarming around you!
+		DisplayName: Опыляемость
+		Description: На короткое время вы — новый предмет обожания для призматических златоглазок
 	}
 }
