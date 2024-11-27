@@ -1,0 +1,80 @@
+Buttons: {
+	CritterOn: "{$ItemName.DontHurtCrittersBook}: включено"
+	CritterOff: "{$ItemName.DontHurtCrittersBook}: выключено"
+	EnvironmentOn: "{$ItemName.DontHurtNatureBook}: включено"
+	EnvironmentOff: "{$ItemName.DontHurtNatureBook}: выключено"
+	PeaceOn: "{$ItemName.DontHurtComboBook}: включено"
+	PeaceOff: "{$ItemName.DontHurtComboBook}: выключено"
+	StoneOn: "{$ItemName.EncumberingStone}: включён"
+	StoneOff: "{$ItemName.EncumberingStone}: выключен"
+}
+
+Keybinds: {
+	ToggleCritterBook.DisplayName: "[i:5453] {$ItemName.DontHurtCrittersBook}"
+	ToggleNatureBook.DisplayName: "[i:5454] {$ItemName.DontHurtNatureBook}"
+	ToggleComboBook.DisplayName: "[i:5455] {$ItemName.DontHurtComboBook}"
+}
+
+Configs: {
+	Config: {
+		DisplayName: Настройки [i:5323]
+		Headers.Position: Перемещение кнопок [i:393]
+
+		Horizontal: {
+			Label: Расположить кнопки горизонтально
+			Tooltip: По умолчанию они расположены вертикально
+		}
+
+		Corner: {
+			Label: Угол
+			Tooltip: Угол, в котором будут находиться кнопки
+		}
+
+		Offset: {
+			Label: Смещение по оси X
+			Tooltip: ""
+		}
+
+		EnableKeybinds: {
+			Label: Включить горчяие клавиши [c/888888:(необходимо будет перезапустить игру)]
+			Tooltip: Добавляет в настройки несколько горячих клавиш для быстрого включения/выключения соответствующих руководств
+		}
+
+		EncumberingStone: {
+			Label: Камень-утяжелитель [c/888888:(необходимо будет перезапустить игру)]
+			Tooltip:
+				'''
+				Камень-утяжелитель будет работать даже находясь в пустотном хранилище
+				Добавляет дополнительную кнопку для включения/выключения камня-утяжелителя
+				'''
+		}
+
+		ButtonMode: {
+			Label: Отображение кнопок
+			Tooltip: ""
+		}
+	}
+
+	Corners: {
+		Tooltip: ""
+		TopLeft.Label: Левый верхний
+		BottomLeft.Label: Левый нижний
+		TopRight.Label: Правый верхний
+		BottomRight.Label: Правый нижний
+	}
+
+	ButtonModes: {
+		Tooltip:
+			'''
+			Только в инвентаре:
+			  Кнопки будут отображаться только если у вас открыт инвентарь
+			Всегда, нельзя взаимодействовать:
+			  Кнопки будут отображаться всегда, но использовать их вы сможете только если у вас открыт инвентарь
+			Всегда, можно взаимодействовать:
+			  Кнопки будут отображаться всегда
+			'''
+		InventoryOnly.Label: Только в инвентаре
+		AlwaysVisible.Label: Всегда, нельзя взаимодействовать
+		AlwaysInteractable.Label: Всегда, можно взаимодействовать
+	}
+}
