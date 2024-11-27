@@ -2,9 +2,9 @@ Tiles: {
 	MineshaftCrate.MapEntry: Шахтёрский ящик
 	MineshaftHookTile.MapEntry: Шахтёрский крюк
 	MineshaftPickaxeTile.MapEntry: Шахтёрская кирка
-	MineshaftToolboxTile.MapEntry: Шахтёрский набор инструментов
+	MineshaftToolboxTile.MapEntry: Набор инструментов шахтёра
 	MinersLockboxTile.MapEntry: Шахтёрская сокровищница
-	MineshaftMusicBoxTile.MapEntry: Музыкальная шкатулка (Шахтёрская)
+	MineshaftMusicBoxTile.MapEntry: Музыкальная шкатулка (Шахты)
 }
 
 Buffs: {
@@ -27,7 +27,7 @@ Items: {
 
 	HauntedCandle: {
 		DisplayName: Призрачная свеча
-		Tooltip: Призывает странноватую свечу, освещающую ваш путь
+		Tooltip: Призывает жутковатую свечу, освещающую вам путь
 	}
 
 	MinersLockbox: {
@@ -44,7 +44,7 @@ Items: {
 		DisplayName: Шкатулка с инструментами
 		Tooltip:
 			'''
-			Освещает территорию вокруг персонажа при ношении
+			Даёт слабенькую ауру света вокруг вас
 			Значительно снижает получаемый урон от ловушек раз в 30 секунд
 			'''
 	}
@@ -67,11 +67,11 @@ Projectiles: {
 
 Configs: {
 	OrchidMineshaftConfig: {
-		// DisplayName: Orchid Mineshaft Config
+		DisplayName: Конфигурация
 
 		MineshaftMusic: {
-			// Label: Allow Mineshaft Music
-			// Tooltip: Allows the Mineshaft Music to play
+			Label: Саундтрек шахт
+			Tooltip: Добавляет собственный саундтрек для шахт
 		}
 	}
 }
