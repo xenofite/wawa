@@ -1,0 +1,28 @@
+Biomes: {
+	ArtificialOcean: {
+		DisplayName: Искуственный океан
+		TownNPCDialogueName: искуственный океан
+	}
+
+	ArtificialSpace: {
+		DisplayName: Искуственный космос
+		TownNPCDialogueName: искуственный космос
+	}
+}
+
+Tiles: {
+	Ocean_Generator_Tile.MapEntry: Генератор океана
+	Space_Generator_Tile.MapEntry: Генератор космоса
+}
+
+Items: {
+	Ocean_Generator: {
+		DisplayName: Генератор океана
+		Tooltip: ""
+	}
+
+	Space_Generator: {
+		DisplayName: Генератор космоса
+		Tooltip: ""
+	}
+}
