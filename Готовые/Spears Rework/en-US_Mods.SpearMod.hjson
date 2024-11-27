@@ -1,0 +1,62 @@
+Items: {
+	VilePike: {
+		DisplayName: Vile Pike
+		Tooltip: Can viciously swing for 20% increased damage
+	}
+
+	Bumblebee: {
+		DisplayName: Bumblebee
+		Tooltip: 30% increased weakpoint damage
+	}
+
+	MagnifyingGlass: {
+		DisplayName: Magnifying Glass
+		Tooltip: 20% increased spear weakpoint damage
+	}
+
+	AnatomicalDoll: {
+		Tooltip: Spear weakpoints cycle 30% faster
+		DisplayName: Anatomical Doll
+	}
+
+	StudiesInAnatomy: {
+		DisplayName: Studies In Anatomy
+		Tooltip:
+			'''
+			Spear weakpoints cycle 30% faster
+			25% increased spear weakpoint damage
+			'''
+	}
+
+	ParrotFeather: {
+		DisplayName: Parrot Quill
+		Tooltip: Spear weakpoints are larger
+	}
+
+	StudiesInMechanicalAnatomy: {
+		DisplayName: Studies In Mechanical Anatomy
+		Tooltip:
+			'''
+			Spear weakpoints cycle 40% faster
+			40% increased spear weakpoint damage
+			12% increased melee damage
+			'''
+	}
+
+	StudiesInUniversalAnatomy: {
+		DisplayName: Studies In Universal Anatomy
+		Tooltip:
+			'''
+			Spear weakpoints are larger
+			Spear weakpoints cycle 50% faster
+			50% increased spear weakpoint damage
+			15% increased melee damage
+			'''
+	}
+}
+
+Projectiles: {
+	VilePikeProjectile.DisplayName: Vile Pike
+	BumblebeeProjectile.DisplayName: Bumblebee Projectile
+	BumblebeeProjectileStinger.DisplayName: Bumblebee Projectile Stinger
+}
