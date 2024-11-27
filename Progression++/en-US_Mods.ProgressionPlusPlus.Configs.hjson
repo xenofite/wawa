@@ -1,0 +1,179 @@
+# This file contains all the translations for ModConfig elements.
+# This file shows off the feature of splitting localization files into multiple files. This file is named "{CultureCode}_Mods.ExampleMod.Configs", meaning that the "Mods.ExampleMod.Configs" prefix is assumed for all entries in this file. This can be useful for organization purposes.
+# For more info on the multiple files and prefix features, see https://github.com/tModLoader/tModLoader/wiki/Localization#multiple-files and https://github.com/tModLoader/tModLoader/wiki/Localization#prefix
+
+Common: {
+	LocalizedLabel: This Label is from the localization files: {$Mods.ExampleMod.Common.PaperAirplane}
+	LocalizedTooltip: This tooltip is from the localization files.
+	LocalizedHeader: Headers can help organize
+	LocalizedLabelDynamic: Localized Label Dynamic
+	InterpolatedLabel: Item: [i:{0}]. Number: {1} {^1:change;changes}. Text: {2}. Localized Text: {3}.
+	InterpolatedTooltip: "[c/{1}:Use to disable the] [c/{2}:{0}] [c/{1}:feature]"
+}
+
+MainConfig: {
+	IncreasedBasePlayerSpeed: {
+		Label: Increased Base Player Speed
+		Tooltip: Increases the player's base speed by 50%. This does not stack with Calamity's boost.
+	}
+
+	IncreasedBaseMiningSpeed: {
+		Label: Increased Base Mining Speed
+		Tooltip: Increases the player's base mining speed by 100%. This does not stack with Calamity's boost.
+	}
+
+	IncreasedNaturalPotionYield: {
+		Tooltip: Increases the amount of natural potions found in golden and dungeon chests by a significant amount.
+		Label: Increased Natural Potion Yield
+	}
+
+	BonusChestLoot: {
+		Tooltip: Allows some additional items to be found in chests. At the moment, this is only the Slime Crown.
+		Label: Bonus Chest Loot
+	}
+
+	Headers: {
+		WorldGeneration: World Generation
+		ExtraLoot: Extra Loot
+		NPCS: NPCs
+		NewItems: New Items
+		Player: Player
+	}
+
+	RareBiomeEnemiesHaveHigherBiomeKeyChance: {
+		Tooltip: Rare Biome Enemies have a 20% chance to drop biome keys.
+		Label: Rare Biome Enemies Have Higher Biome Key Chance
+	}
+
+	SkeletronDropGoldenKeys: {
+		Tooltip: Skeletron will drop 2 golden keys upon kill, so you can immediately open some golden chests.
+		Label: Skeletron Drops Golden Keys
+	}
+
+	WallOfFleshDropSouls: {
+		Tooltip: Wall of Flesh will drop 15-25 Souls of Night and Light.
+		Label: Wall Of Flesh Drops Souls
+	}
+
+	QueenSlimeDropPearls: {
+		Tooltip: Queen Slime will drop an assortment of pearls, that are normally only acquired from fishing.
+		Label: Queen Slime Drops Pearls
+	}
+
+	EyeOfCthuluDropLens: {
+		Tooltip: Eye of Cthulu will drop lens, and have a small chance to drop black lens.
+		Label: Eye Of Cthulu Drops Lens
+	}
+
+	PillarsDropSummonItem: {
+		Tooltip: Pillars drop their summoning item upon kill.
+		Label: Pillars Drop Summon Item
+	}
+
+	PillarsDropMoreFragments: {
+		Tooltip: Pillars will drop 50 additional fragments.
+		Label: Pillars Drop More Fragments
+	}
+
+	AlwaysSellPylons: {
+		Tooltip: NPCs, will always sell pylons regardless of happiness. Keep in mind that unhappy NPCs will still charge more!
+		Label: Always Sell Pylons
+	}
+
+	DistressBeacon: {
+		Tooltip: Adds the Broken Distress Beacon and the Distress Beacon, items to summon Martian Madness.
+		Label: Distress Beacon
+	}
+
+	Twinoculars: {
+		Tooltip: Adds Bifocal Visor and Twinoculars, upgrades to the Binoculars item.
+		Label: Twinoculars
+	}
+
+	BinocularsBuff: {
+		Tooltip: Buffs Binoculars to grant hunter and night vision effects while held or equipped.
+		Label: Binoculars Buff
+	}
+
+	Nightwatch: {
+		Tooltip: Adds the Nightwatch, an item for controlling time. It is available post-World Evil Boss.
+		Label: Nightwatch
+	}
+
+	AlternativeFishingPotionRecipes: {
+		Tooltip: Adds alternative recipes for crafting potions that normally require fishing, available in hardmode.
+		Label: Alternative Fishing Potion Recipes
+	}
+
+	CraftableTruffleWorm: {
+		Tooltip: Adds a recipe for crafting Truffle Worm, available post-mech bosses.
+		Label: Craftable Truffle Worm
+	}
+
+	CraftableShadowKey: {
+		Tooltip: Adds a recipe for crafting Shadow Key, available post-Skeletron.
+		Label: Craftable Shadow Key
+	}
+
+	CraftableLifeFruit: {
+		Tooltip: Adds a recipe for crafting Life Fruit, available post-Plantera.
+		Label: Craftable Life Fruit
+	}
+
+	CraftableUniversalPylon: {
+		Tooltip: Adds a recipe for crafting the Universal Pylon, available from the start.
+		Label: Craftable Universal Pylon
+	}
+
+	CraftableMovementAccessories: {
+		Tooltip: Adds recipes for crafting several movement accessories, available post Slime King.
+		Label: Craftable Movement Accessories
+	}
+
+	StartWithEssentials: {
+		Tooltip: Starts you with several items that help you explore early game. Including ropes, potions, and bombs. This does not stack with Calamity's starter bag.
+		Label: Start With Essentials
+	}
+
+	DisplayName: Main Config
+
+	TinkererSellsDPSMeter: {
+		Label: Tinkerer Sells DPS Meter
+		Tooltip: Tinkerer Sells the DPS Meter.
+	}
+
+	CraftableSlimeStaff: {
+		Label: Craftable Slime Staff
+		Tooltip: Slime staff is now craftable
+	}
+
+	PrismaticConcoction: {
+		Label: Prismatic Concoction
+		Tooltip: Adds Prismatic Concoction, an item that makes amassing Prismatic Lacewings easier.
+	}
+
+	BloodmoonCharm: {
+		Label: Bloodmoon Charm
+		Tooltip: Adds Bloodmoon Charm, an item dropped from Blood Moon enemies that increases spawn rates.
+	}
+
+	AetherMagnet: {
+		Label: Aether Magnet
+		Tooltip: Adds Aether Magnet, a post-WoF item that points you towards a source of shimmer.
+	}
+
+	SpidersDropSilk: {
+		Label: Spiders Drop Silk
+		Tooltip: All spider-type enemies now have a chance to drop silk. Black Recluses have the best rates.
+	}
+
+	BonusNaturalPotionYield: {
+		Tooltip: Increases the number of potions found in chests.
+		Label: Bonus Natural Potion Yield
+	}
+
+	BonusDungeonPotions: {
+		Tooltip: Spawns offensive potions in locked dungeon chests. Including Rage, Wrath, Inferno, etc.
+		Label: Bonus Dungeon Potions
+	}
+}
