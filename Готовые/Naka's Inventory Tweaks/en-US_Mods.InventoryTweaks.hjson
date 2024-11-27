@@ -1,0 +1,40 @@
+Configs: {
+	ClientConfiguration: {
+		DisplayName: Client Configuration
+
+		Headers: {
+			Graphics: Graphics
+			Input: Input
+		}
+
+		HoveredItemScale: {
+			Label: Hovered Item Scale
+			Tooltip: The draw scale of hovered items.
+		}
+
+		UnhoveredItemScale: {
+			Label: Unhovered Item Scale
+			Tooltip: The draw scale of unhovered items.
+		}
+
+		EnableHoverEffects: {
+			Label: Enable Hover Effects
+			Tooltip: Whether item hover effects are enabled or not.
+		}
+
+		EnableMovementEffects: {
+			Label: Enable Movement Effects
+			Tooltip: Whether item movement effects are enabled or not.
+		}
+
+		EnableQuickShift: {
+			Label: Enable Quick Shift
+			Tooltip: Whether quick-shift is enabled or not.
+		}
+
+		EnableQuickControl: {
+			Label: Enable Quick Control
+			Tooltip: Whether quick-control is enabled or not.
+		}
+	}
+}
