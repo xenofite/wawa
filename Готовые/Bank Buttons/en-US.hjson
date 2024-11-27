@@ -1,0 +1,82 @@
+Keybinds: {
+	OpenPiggyBank.DisplayName: "[i:87] Open Piggy Bank"
+	OpenSafe.DisplayName: "[i:346] Open Safe"
+	OpenDefendersForge.DisplayName: "[i:3813] Open Defenders Forge"
+	OpenVoidBag.DisplayName: "[i:4131] Open Void Vault"
+}
+
+Configs: {
+	Config: {
+		DisplayName: Settings [i:87]
+		Headers.Position: Position [i:393]
+
+		Horizontal: {
+			Label: Horizontal Buttons
+			Tooltip: ""
+		}
+
+		XPosition: {
+			Label: X Position
+			Tooltip: ""
+		}
+
+		YPosition: {
+			Label: Y Position
+			Tooltip: ""
+		}
+
+		DraggingEnabled: {
+			Tooltip:
+				'''
+				pressing the middle mouse button will drag the buttons around
+				press middle mouse again to stop dragging
+				while dragging, pressing leftmouse will toggle horizontal button mode
+				and rightmouse will toggle the 'predraw offset thingy'
+				'''
+			Label: Dragging Allowed
+		}
+
+		QuickstackEnabled: {
+			Label: Quickstack Enabled
+			Tooltip: Shift clicking a button will quickstack into that bank
+		}
+
+		QuickstackNearby: {
+			Tooltip: quickstacking to nearby chests will also quickstack into all banks
+			Label: Quickstack to Nearby Chests Enabled
+		}
+
+		Chester: {
+			Label: Chester
+			Tooltip: piggy bank icon is replaced with Chester when equipped :)
+		}
+
+		PreDrawOffset: {
+			Label: Pre Draw Offset Thingy
+			Tooltip: origin is  the last button instead of the first button,
+		}
+
+		AlwaysVisible: {
+			Tooltip: buttons will be visible even without the bank in your inventory/void bag/placed nearby
+			Label: Buttons Always Visible
+		}
+	}
+}
+
+Tooltips: {
+	PiggyBank: "{$ItemName.PiggyBank}"
+	Chester: "{$BuffName.ChesterPet}"
+	Safe: "{$ItemName.Safe}"
+	DefendersForge: "{$ItemName.DefendersForge}"
+	VoidBag: "{$ItemName.VoidVault}"
+	VoidBagOpen:
+		'''
+		{$ItemName.VoidLens}
+		[c/888888:Right Click to close]
+		'''
+	VoidBagClosed:
+		'''
+		{$ItemName.ClosedVoidBag}
+		[c/888888:Right Click to open]
+		'''
+}
