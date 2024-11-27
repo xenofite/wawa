@@ -1,0 +1,89 @@
+Configs: {
+	IMVConfigClient: {
+		DisplayName: Client Config
+
+		lookingType: {
+			Label: Look At Cursor
+			Tooltip:
+				'''
+				Off: disables directional looking
+				Standard: smooth head rotation
+				Clamped: clamped head rotation
+				'''
+		}
+
+		faceCursor: {
+			Label: Face Cursor
+			Tooltip: ""
+		}
+
+		DisableRopeTurning: {
+			Tooltip:
+				'''
+				This stops the player from turning while on a rope.
+				Disabling this can make combat while on ropes inconsistent, and putting your cursor directly above the player will cause them to switch directions rapidly.
+				'''
+			Label: Disable Rope Turning
+		}
+
+		DisableFlickeringFix: {
+			Tooltip:
+				'''
+				This disables the fix for the player's weapon flickering while walking backwards and using a useTurn melee weapon. 
+				This is done by disabling useTurn for all melee weapons; however this mod basically makes all weapons useTurn with the face cursor feature. It also disables useTurnOnAnimationStart, which basically un-patches a TML patch.
+				If this causes any issues, you can disable this fix.
+				'''
+			Label: Disable Melee Weapon Flickering Fix
+		}
+
+		DisableCritterLeaning: {
+			Tooltip: ""
+			Label: Disable Critter Leaning
+		}
+
+		DisableZombieLeaning: {
+			Tooltip: ""
+			Label: Disable Zombie-Type Enemy Leaning
+		}
+
+		DisableSlimeLeaning: {
+			Tooltip: ""
+			Label: Disable Slime Jump Leaning
+		}
+
+		DisableNeckPlayerLayer: {
+			Tooltip:
+				'''
+				Removes the extra neck PlayerLayer. 
+				The default armorless body has a gap between the head and body when the head is turned, which this layer fixes.
+				'''
+			Label: Disable Extra Neck PlayerLayer
+		}
+
+		DisableMountLeaning: {
+			Tooltip: Disables leaning while riding a mount.
+			Label: Disable Mounted Leaning
+		}
+
+		leaningType: {
+			Tooltip:
+				'''
+				Off: Disables velocity leaning
+				Standard: X-velocity based leaning
+				Alternate: X and Y velocity based rotation
+				Classic: Clamped rotation used prior to v1.3
+				Classic-Alternate: Clamped rotation used prior to v1.3, using the logic of Alternate
+				Spin: the funny
+				'''
+			Label: Lean With Velocity
+		}
+
+		Headers: {
+			Player: "[i:267] Player"
+			NPC: "[i:1307] NPC"
+			BugFix: "[i:1344] Bug Fixes"
+		}
+	}
+}
+
+Projectiles.SwingProjectile.DisplayName: Swing Projectile

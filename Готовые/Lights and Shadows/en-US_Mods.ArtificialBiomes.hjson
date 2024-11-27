@@ -1,0 +1,28 @@
+Biomes: {
+	ArtificialOcean: {
+		DisplayName: Artificial Ocean
+		TownNPCDialogueName: the Artificial Ocean
+	}
+
+	ArtificialSpace: {
+		DisplayName: Artificial Space
+		TownNPCDialogueName: the Artificial Space
+	}
+}
+
+Tiles: {
+	Ocean_Generator_Tile.MapEntry: Ocean Generator
+	Space_Generator_Tile.MapEntry: Space Generator
+}
+
+Items: {
+	Ocean_Generator: {
+		DisplayName: Ocean Generator
+		Tooltip: ""
+	}
+
+	Space_Generator: {
+		DisplayName: Space Generator
+		Tooltip: ""
+	}
+}

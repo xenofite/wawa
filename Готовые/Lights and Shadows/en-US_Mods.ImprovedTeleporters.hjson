@@ -1,0 +1,21 @@
+Tiles: {
+	Small_Teleporter_Tile.MapEntry: Small Teleporter
+	Door_Teleporter_Tile.MapEntry: Door Teleporter
+}
+
+Items: {
+	Small_Teleporter: {
+		DisplayName: Small Teleporter
+		Tooltip: ""
+	}
+
+	Door_Teleporter: {
+		DisplayName: Door Teleporter
+		Tooltip:
+			'''
+			Hold [Quick Heal] + right click tile to traverse across door X frames
+			Hold [Quick Buff] + right click tile to traverse DOWN door Y frames
+			Hold [Quick Mana] + right click tile to traverse UP door Y frames
+			'''
+	}
+}

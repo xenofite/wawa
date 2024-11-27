@@ -1,0 +1,15 @@
+Configs: {
+	ImprovedTorchesConfigClient: {
+		brightnessOffset: {
+			Tooltip: ""
+			Label: "[i:8] Brightness Scale"
+		}
+
+		DisplayName: Client Config
+
+		DisableTorchFlickering: {
+			Label: "[i:966] Disable Torch Flickering"
+			Tooltip: ""
+		}
+	}
+}
