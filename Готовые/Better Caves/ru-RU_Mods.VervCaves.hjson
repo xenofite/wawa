@@ -1,0 +1,113 @@
+﻿Items: {
+	GravityTrapItem: {
+		DisplayName: Гравитационная ловушка
+		Tooltip: ""
+	}
+
+	PressureTrapItem: {
+		DisplayName: Ловушка с напором воздуха
+		Tooltip: ""
+	}
+
+	MushroomRing: {
+		DisplayName: Грибное кольцо
+		Tooltip:
+			'''
+			С убитых врагов выпадают исцеляющие сферы
+			Эффект срабатывает не чаще, чем раз в 10 секунд
+			'''
+	}
+
+	MarbleStiletto: {
+		DisplayName: Мраморный стилет
+		Tooltip: Увеличивает урон на 3 ед. по врагам, находящимся вблизи к вам
+	}
+
+	GraniteEmblem: {
+		DisplayName: Гранитная эмблема
+		Tooltip: Увеличивает урон на 75% по врагам, чьё здоровье выше 90% от максимального
+	}
+
+	ShimmerTrapItem: {
+		DisplayName: Ловушка с мерцанием
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	GravityBuff: {
+		DisplayName: Перевернутая гравитация
+		Description: Вы падаете вверх... или всё же вниз?
+	}
+}
+
+Projectiles: {
+	GravityPulse.DisplayName: Гравитационный импульс
+	Pressure.DisplayName: Напор воздуха
+	MushroomRingProjectile.DisplayName: Грибное лечение
+	MarbleStilettoProjectile.DisplayName: Аура мраморного стилета
+	ShimmerSpray.DisplayName: Струя мерцания
+}
+
+Configs: {
+	VervCavesConfig: {
+		DisplayName: Настройки Better Caves
+
+		Headers: {
+			Rifts: Разломы
+			Chasms: Расщелины
+			Large: Полости
+			Pressure: Ловушки с напором воздуха
+			Gravity: Гравитационные ловушки
+			Traps: Слишком много ловушек
+			NoData: Отключить весь новый контент
+			Platforms: Платформы
+			Shimmer: Ловушки с мерцанием
+		}
+
+		Rift: {
+			Label: Изменяет количество разломов, генерируемых в мире
+			Tooltip: Значение в %
+		}
+
+		Chasm: {
+			Label: Изменяет количество расщелин, генерируемых в мире
+			Tooltip: Значение в %
+		}
+
+		Large: {
+			Label: Изменяет количество полостей, генерируемых в мире
+			Tooltip: Значение в %
+		}
+
+		Pressure: {
+			Label: Изменяет количество ловушек с напором воздуха, генерируемых в мире
+			Tooltip: Значение в %
+		}
+
+		Gravity: {
+			Label: Изменяет количество гравитационных ловушек, генерируемых в мире
+			Tooltip: Значение в %
+		}
+
+		Traps: {
+			Label: Генерирует О-О-ОЧЕНЬ МНОГО ЛОВУШЕК в мире
+			Tooltip: Если что, вас предупреждали
+		}
+
+		NoData: {
+			Label: Отключает генерацию всех новых ловушек и новой добычи в сундуках
+			Tooltip: Это в дальнейшем позволит выключить этот мод полностью и использовать сгенерированный мир без каких-либо проблем
+		}
+
+		Platforms: {
+			Label: Изменяет количество платформ, генерируемых в мире
+			Tooltip: Значение в %
+		}
+
+		Shimmer: {
+			Label: Изменяет количество ловушек с мерцанием, генерируемых в мире
+			Tooltip: Значение в %
+		}
+	}
+}
