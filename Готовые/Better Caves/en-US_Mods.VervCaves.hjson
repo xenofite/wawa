@@ -1,0 +1,113 @@
+Items: {
+	GravityTrapItem: {
+		DisplayName: Gravity Trap
+		Tooltip: ""
+	}
+
+	PressureTrapItem: {
+		DisplayName: Pressure Trap
+		Tooltip: ""
+	}
+
+	MushroomRing: {
+		DisplayName: Mushroom Ring
+		Tooltip:
+			'''
+			Slain enemies release healing orbs
+			10 seconds cooldown
+			'''
+	}
+
+	MarbleStiletto: {
+		DisplayName: Marble Stiletto
+		Tooltip: Hits deal a flat 3 bonus damage to nearby enemies
+	}
+
+	GraniteEmblem: {
+		DisplayName: Granite Emblem
+		Tooltip: Deals 75% increased damage to enemies above 90% health
+	}
+
+	ShimmerTrapItem: {
+		DisplayName: Shimmer Trap
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	GravityBuff: {
+		DisplayName: Gravity Buff
+		Description: Falling upwards. Or is it downwards?
+	}
+}
+
+Projectiles: {
+	GravityPulse.DisplayName: Gravity Pulse
+	Pressure.DisplayName: Pressure
+	MushroomRingProjectile.DisplayName: Mushroom Heal
+	MarbleStilettoProjectile.DisplayName: Marble Stiletto Projectile
+	ShimmerSpray.DisplayName: Shimmer Spray
+}
+
+Configs: {
+	VervCavesConfig: {
+		DisplayName: Verv Caves Config
+
+		Headers: {
+			Rifts: Rifts
+			Chasms: Chasms
+			Large: Large Caves
+			Pressure: Pressure Traps
+			Gravity: Gravity Traps
+			Traps: Too Many Traps
+			NoData: No Mod Data
+			Platforms: Platforms
+			Shimmer: Shimmer Traps
+		}
+
+		Rift: {
+			Label: Adjusts the number of Rifts
+			Tooltip: Value in %
+		}
+
+		Chasm: {
+			Label: Adjusts the number of Chasms
+			Tooltip: Value in %
+		}
+
+		Large: {
+			Label: Adjusts the number of Chambers
+			Tooltip: Value in %
+		}
+
+		Pressure: {
+			Label: Adjusts the number of Pressure Traps
+			Tooltip: Value in %
+		}
+
+		Gravity: {
+			Label: Adjusts the number of Gravity Traps
+			Tooltip: Value in %
+		}
+
+		Traps: {
+			Label: Places TOO MANY traps in the world
+			Tooltip: You have been warned
+		}
+
+		NoData: {
+			Label: No traps or chest loot
+			Tooltip: Removes all of this mod's traps and chest loot from the generation process, allowing to unload the mod after creating a world
+		}
+
+		Platforms: {
+			Label: Adjusts the number of Platforms
+			Tooltip: Value in %
+		}
+
+		Shimmer: {
+			Label: Adjusts the number of Shimmer Traps
+			Tooltip: Value in %
+		}
+	}
+}
