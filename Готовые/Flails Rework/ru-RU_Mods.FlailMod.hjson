@@ -1,0 +1,61 @@
+Projectiles: {
+	AnchorProjectile.DisplayName: "{$ItemName.Anchor}"
+	FlaironProjectile.DisplayName: "{$ItemName.Flairon}"
+	BallOhurtProjectile.DisplayName: "{$ItemName.BallOHurt}"
+	TheMeatballProjectile.DisplayName: "{$ItemName.TheMeatball}"
+	BlueMoonProjectile.DisplayName: "{$ItemName.BlueMoon}"
+	SunfuryProjectile.DisplayName: "{$ItemName.Sunfury}"
+	DaoOfPowProjectile.DisplayName: "{$ItemName.DaoofPow}"
+	DripplerCripplerProjectile.DisplayName: "{$ItemName.DripplerFlail}"
+	FlowerPowProjectile.DisplayName: "{$ItemName.FlowerPow}"
+}
+
+Items: {
+	AmberCarving: {
+		DisplayName: Янтарное украшение
+		Tooltip: Увеличивает урон заряженных ударов кистеней на 50%
+	}
+
+	GoblinGrease: {
+		DisplayName: Гоблинская смазка
+		Tooltip: Ускоряет зарядку ударов кистеней на 25%
+	}
+
+	AmberGrease: {
+		DisplayName: Янтарная смазка
+		Tooltip:
+			'''
+			Увеличивает урон заряженных ударов кистеней на 50%
+			Ускоряет зарядку ударов кистеней на 25%
+			'''
+	}
+
+	MechanicalGrease: {
+		DisplayName: Машинная смазка
+		Tooltip:
+			'''
+			Увеличивает урон заряженных ударов кистеней на 80%
+			Ускоряет зарядку ударов кистеней на 30%
+			'''
+	}
+
+	ScarabGrease: {
+		DisplayName: Смазка из скарабея
+		Tooltip:
+			'''
+			Увеличивает урон заряженных ударов кистеней на 100%
+			Ускоряет зарядку ударов кистеней на 50%
+			Уменьшает получаемый урон на 20% при зарядке удара кистенем
+			Полностью заряженные удары кистенями восстанавливают 10 здоровья
+			'''
+	}
+
+	ScarabIdol: {
+		DisplayName: Идол скарабея
+		Tooltip:
+			'''
+			Уменьшает получаемый урон на 20% при зарядке удара кистенем
+			Полностью заряженные удары кистенями восстанавливают 10 ед. здоровья
+			'''
+	}
+}
