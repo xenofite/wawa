@@ -20,7 +20,7 @@ Items: {
 
 	SolarCore: {
 		DisplayName: Ядро солнечной вспышки
-		Tooltip: Призывает солнечную башню
+		Tooltip: Призывает башню солнечной вспышки
 	}
 
 	StardustCore: {
@@ -30,7 +30,7 @@ Items: {
 
 	VortexCore: {
 		DisplayName: Ядро вихря
-		Tooltip: Призывает вихревую башню
+		Tooltip: Призывает башню вихря
 	}
 
 	BifocalVisor: {
