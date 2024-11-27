@@ -1,0 +1,86 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		Headers: {
+			GeneralHeader: General
+			VisualFXHeader: Visual effects
+			AudioHeader: Audio
+		}
+
+		DistortionStrength: {
+			Label: Distortion Strength
+			Tooltip: Strength of the distorted zoom effect
+		}
+
+		PulsatingStrength: {
+			Label: Pulsating Strength
+			Tooltip: Strength of the pulsating effect
+		}
+
+		VignetteStrength: {
+			Label: Vignette Strength
+			Tooltip: Strength of the vignette (colored border at the edge of the screen)
+		}
+
+		VignetteColor: {
+			Label: Vignette Color
+			Tooltip: Color of the vignette
+		}
+
+		OnDamagePercent: {
+			Label: Devastating Percent
+			Tooltip:
+				'''
+				Taking damage causes a short, intense spike of effects.
+				The intensity of such a spike scales with the damage taken,
+				up to this setting's percentage of your max HP,
+				above which the spike will have maximum intensity.
+				'''
+		}
+
+		HeartbeatVolume: {
+			Label: Heartbeat Volume
+			Tooltip: Volume of the heartbeat sound effect
+		}
+
+		RingingVolume: {
+			Label: Ringing Volume
+			Tooltip: Volume of the ringing sound effect that plays after taking large damage
+		}
+
+		MuffleStrength: {
+			Label: Muffle Strength
+			Tooltip: Strength of audio muffling at low health
+		}
+
+		HeartbeatPulse: {
+			Label: Heartbeat Pulse
+			Tooltip:
+				'''
+				When enabled, visual effects will pulse like a heartbeat.
+				Disable to make the effects oscillate like a sine wave.
+				'''
+		}
+
+		BossOnly: {
+			Label: Boss Only
+			Tooltip: When enabled, low health effects will only be active during boss fights
+		}
+
+		IgnoreBossMusic: {
+			Label: Ignore Boss Music
+			Tooltip: When enabled, audio effects will not be applied to boss music
+		}
+
+		PassivePercents: {
+			Label: Passive Percents
+			Tooltip:
+				'''
+				Controls the percentage of max HP at which low health effects begin.
+				At HP above the green bar, there will be no effects. They become more intense
+				before reaching maximum strength at HP below the red bar.
+				'''
+		}
+	}
+}
