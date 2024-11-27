@@ -1,0 +1,62 @@
+﻿Items: {
+	VilePike: {
+		DisplayName: Мерзкая алебарда
+		Tooltip: Имеет шанс совершить рубящий удар вместо обычного, наносящий на 20% больше урона
+	}
+
+	Bumblebee: {
+		DisplayName: Шмель
+		Tooltip: Наносит на 30% больше урона по слабым местам
+	}
+
+	MagnifyingGlass: {
+		DisplayName: Лупа
+		Tooltip: Увеличивает урон по слабым местам на 20%
+	}
+
+	AnatomicalDoll: {
+		Tooltip: Слабые места сменяются на 30% быстрее
+		DisplayName: Анатомическая кукла
+	}
+
+	StudiesInAnatomy: {
+		DisplayName: Исследования в анатомии
+		Tooltip:
+			'''
+			Слабые места сменяются на 30% быстрее
+			Увеличивает урон по слабым местам на 25%
+			'''
+	}
+
+	ParrotFeather: {
+		DisplayName: Перо попугая
+		Tooltip: Увеличивает размер слабых мест
+	}
+
+	StudiesInMechanicalAnatomy: {
+		DisplayName: Исследования в инженерии
+		Tooltip:
+			'''
+			Слабые места сменяются на 40% быстрее
+			Увеличивает урон по слабым местам на 40%
+			Увеличивает урон в ближнем бою на 12%
+			'''
+	}
+
+	StudiesInUniversalAnatomy: {
+		DisplayName: Исследования о всеобщем строении тел
+		Tooltip:
+			'''
+			Увеличивает размер слабых мест
+			Слабые места сменяются на 50% быстрее
+			Увеличивает урон по слабым местам на 50%
+			Увеличивает урон в ближнем бою на 15%
+			'''
+	}
+}
+
+Projectiles: {
+	VilePikeProjectile.DisplayName: Мерзкая алебарда
+	BumblebeeProjectile.DisplayName: Шмель
+	BumblebeeProjectileStinger.DisplayName: Шмелиное жало
+}
