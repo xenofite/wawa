@@ -1,0 +1,61 @@
+Projectiles: {
+	AnchorProjectile.DisplayName: Anchor
+	FlaironProjectile.DisplayName: Flairon
+	BallOhurtProjectile.DisplayName: Ball O'hurt
+	TheMeatballProjectile.DisplayName: The Meatball
+	BlueMoonProjectile.DisplayName: Blue Moon
+	SunfuryProjectile.DisplayName: Sunfury
+	DaoOfPowProjectile.DisplayName: Dao Of Pow
+	DripplerCripplerProjectile.DisplayName: Drippler Crippler
+	FlowerPowProjectile.DisplayName: Flower Pow
+}
+
+Items: {
+	AmberCarving: {
+		DisplayName: Amber Carving
+		Tooltip: 50% increased flail charge damage
+	}
+
+	GoblinGrease: {
+		DisplayName: Goblin Grease
+		Tooltip: 25% increased flail charge speed
+	}
+
+	AmberGrease: {
+		DisplayName: Amber Grease
+		Tooltip:
+			'''
+			50% increased flail charge damage
+			25% increased flail charge speed
+			'''
+	}
+
+	MechanicalGrease: {
+		DisplayName: Mechanical Grease
+		Tooltip:
+			'''
+			80% increased flail charge damage
+			30% increased flail charge speed
+			'''
+	}
+
+	ScarabGrease: {
+		DisplayName: Scarab Grease
+		Tooltip:
+			'''
+			100% increased flail charge damage
+			50% increased flail charge speed
+			Reduces damage taken by 20% when charging a flail
+			Fully charged flail attacks restore 10 life
+			'''
+	}
+
+	ScarabIdol: {
+		DisplayName: Scarab Idol
+		Tooltip:
+			'''
+			Reduces damage taken by 20% when charging a flail
+			Fully charged flail attacks restore 10 life
+			'''
+	}
+}
