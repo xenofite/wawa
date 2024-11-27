@@ -26,13 +26,13 @@ Mods: {
 					'''
 				Records: Рекорды
 				SpawnInfo: Призыв
-				LootAndCollectibles: Добыча
+				LootAndCollectibles: Коллекция
 			}
 
 			Indicator: {
 				ProgressionMode: Режим прогрессии {0}
-				ManualChecklist: Записи необходимо будет помечать как пройденные вручную
-				AutomaticChecklist: Записи автоматически будут помечаться как пройденные
+				ManualChecklist: Записи необходимо будет отмечать как пройденные вручную
+				AutomaticChecklist: Записи автоматически будут отмечаться как пройденные
 				OnlyBossContentEnabled: Показывать только боссов
 				OnlyBossContentDisabled: Показывать весь контент
 			}
@@ -52,18 +52,18 @@ Mods: {
 					HideWhenCompleted: "{0}: будут скрыты после победы над ними"
 					ToggleHiddenOpen: Скрыть записи из списка
 					ToggleHiddenClose: Подтвердить скрытие записей
-					Disabled: Фильтры отключены, т.к включена опция «Босс-журнал показывает только боссов» в конфигурации мода
+					Disabled: Фильтры отключены, т.к включена опция «Показывать только боссов в босс-журнале» в конфигурации мода
 				}
 			}
 
 			Credits: {
 				Devs: Разработчики
 				Mods: Зарегистрированные моды
-				Notice: "[Указаны только включенные в данный момент моды]"
+				Notice: "[Указаны только включённые в данный момент моды]"
 				NoIcon: Иконка мода не найдена!
 				ModsEmpty: Ни один из включённых у вас модов не зарегистрирован в босс-журнале!
 				Register: Зарегистрируйте свой собственный мод!
-				Learn: Посмотрите описание мода, чтобы узнать, как это сделать
+				Learn: Прочтите описание мода, чтобы узнать, как это сделать
 			}
 
 			EntryPage: {
@@ -72,8 +72,8 @@ Mods: {
 				CopyKey: Нажмите, чтобы скопировать внутренний 'ключ босса' в буфер обмена
 				CopySource: Нажмите, чтобы скопировать внутренний 'ключ мода' в буфер обмена
 				ViewPage: Нажмите, чтобы перейти на страницу конкретной записи
-				NotImplemented: Эта страница недоступна. Мод либо не предоставил отображение этой страницы, либо неправильно её настроил.
-				LogFeaturesNotAvailable: Записи, предметы для призыва, и таблица добычи для этой страницы недоступны. Мод либо не предоставил достаточно информации для этого, либо неправильно её настроил.
+				NotImplemented: Эта страница недоступна. Мод либо не предоставил страницу для этой записи, либо неправильно её настроил.
+				LogFeaturesNotAvailable: Рекорды, информация о призыве и список добычи для этой страницы недоступны. Мод либо не предоставил достаточно информации для этого, либо неправильно настроил страницу.
 			}
 
 			Records: {
@@ -152,27 +152,27 @@ Mods: {
 					'''
 				Description:
 					'''
-					Режим прогрессии скрывает содержимое страниц о боссах/мини-боссах/нашествиях до тех пор, пока вы их не победите или не пометите как пройденное. Эта функция позволяет игрокам в полной мере насладиться прохождением вслепую, не спойлеря себе информацию о предстоящих сражениях.
+					Режим прогрессии скрывает содержимое страниц о боссах/мини-боссах/нашествиях до тех пор, пока вы их не победите или не отметите как пройденное. Эта функция позволяет игрокам в полной мере насладиться прохождением вслепую, не спойлеря себе информацию о предстоящих сражениях.
 
 					Босс-журнал будет недоступен до тех пор, пока вы не выберите один из предложенных вариантов!
 					'''
 				IsEnabled:
 					'''
 					[i:888] Режим прогрессии включён!
-					Информация о предстоящих сражениях будет скрыта до тех пор, пока вы их не пройдёте
+					Информация о предстоящих сражениях будет скрыта до тех пор, пока вы их не пройдёте.
 					Чтобы отключить или настроить режим прогрессии, перейдите в:
-					Настройки > Настройки модов > Boss Checklist: Конфигурация Босс-журнала
-					и пролистайте вниз до настроек режима прогрессии
+					Настройки > Настройки модов > Boss Checklist: Конфигурация босс-журнала
+					и пролистайте вниз до настроек режима прогрессии.
 					'''
 			}
 
 			HintTexts: {
-				MarkEntry: Нажмите ПКМ по записи, чтобы пометить её как пройденную
+				MarkEntry: Нажмите ПКМ по записи, чтобы отметить её как пройденную
 				HideEntry: Нажмите ЛКМ по записи, чтобы скрыть её
-				ClearMarked: Удерживая Alt, нажмите ПКМ по этой кнопке, чтобы пометить все записи как непройденные
-				ClearHidden: Удерживая Alt, нажмите ПКМ по этой кнопке, чтобы пометить все записи как нескрытые
-				ClearItems: Удерживая Alt, нажмите ПКМ по этой кнопке, чтобы пометить все предметы на этой странице как неполученные
-				RemoveItem: Удерживая Alt, нажмите ПКМ по предмету, чтобы пометить его как неполученный
+				ClearMarked: Удерживая Alt, нажмите ПКМ по этой кнопке, чтобы отметить все записи как непройденные
+				ClearHidden: Удерживая Alt, нажмите ПКМ по этой кнопке, чтобы отметить все записи как нескрытые
+				ClearItems: Удерживая Alt, нажмите ПКМ по этой кнопке, чтобы отметить все предметы на этой странице как неполученные
+				RemoveItem: Удерживая Alt, нажмите ПКМ по предмету, чтобы отметить его как неполученный
 				ClearAllRecords: Удерживая Alt, нажмите ПКМ по этой кнопке, чтобы стереть все рекорды
 				ClearRecord: Удерживая Alt, нажмите ПКМ по иконке рекорда, чтобы стереть этот рекорд
 			}
@@ -185,7 +185,7 @@ Mods: {
 			ToggleShowHiddenBossesTooltip:
 				'''
 				Показывать скрытых боссов
-				(Alt+ЛКМ, чтобы пометить всех боссов как нескрытых)
+				(Alt+ЛКМ, чтобы отметить всех боссов как нескрытых)
 				(Alt+ЛКМ по боссу, чтобы скрыть его)
 				'''
 		}
@@ -203,7 +203,7 @@ Mods: {
 				SkeletronHand: Рука {0}а сломана!
 				PrimeCannon: "{0} взорвалась!"
 				PrimeSaw: "{0} вышла из строя!"
-				PrimeVice: "{0} схлопнулись!"
+				PrimeVice: "{0} замкнулись!"
 				PrimeLaser: "{0} перегрелся!"
 				GolemFistLeft: "{0} уничтожен!"
 				GolemFistRight: "{0} уничтожен!"
@@ -229,9 +229,9 @@ Mods: {
 				WallofFlesh: "{0} смогла пересечь преисподнюю..."
 				QueenSlimeBoss: "{0} с величественной гордостью упрыгивает прочь..."
 				TheTwins: "{0} продолжают выслеживать своих целей..."
-				TheDestroyer: "{0} отправляется на поиски дргуого мира, который можно было бы обратить в руины..."
+				TheDestroyer: "{0} отправляется на поиски другого мира, который можно было бы обратить в руины..."
 				SkeletronPrime: "{0} уходит в поисках очередной жертвы..."
-				Plantera: "{0} продолжает цвести в своих джунглевых владениях..."
+				Plantera: "{0} продолжает расцветать в своих пышных владениях..."
 				Golem: "{0} отключается в недрах своего храма..."
 				HallowBoss: "{0} обращается в лучи священного света..."
 				DukeFishron: "{0} возвращается в глубины океана..."
@@ -244,7 +244,7 @@ Mods: {
 				BloodMoon: Кровавая луна уходит за горизонт...
 				FrostMoon: Морозная луна тает, а солнце восходит...
 				PumpkinMoon: Жатва Тыквенной луны подошла к концу...
-				Eclipse: Солнечное затмение закончилось... но надолго ли..?
+				Eclipse: Солнечное затмение закончилось... но совсем скоро оно взойдёт вновь...
 			}
 		}
 
@@ -265,7 +265,7 @@ Mods: {
 			Plantera: Сломайте розоватый бутон, появляющийся в джунглях после победы над тремя механическими боссами.
 			Golem: Используйте [i:1293] на алтаре яхщеров, найти который можно в недрах храма в джунглях.
 			HallowBoss: Убейте [i:4961] в освящении, найти таких можно на поверхности освящения с 19:30 по 12:00 после победы над Плантерой.
-			DD2Betsy: Доживите до последней волны события «Армия древних» (ранг 3).
+			DD2Betsy: Появляется на последней волне события «Армия древних» (ранг 3). Начните это событие с помощью [i:3816] и [i:3828].
 			DukeFishron: Порыбачьте в океане, используя в качестве наживки [i:2673].
 			CultistBoss: Убейте четырёх культистов у входа в темницу, появляющихся после победы над Големом.
 			MoonLord: Используйте [i:3601] или уничтожьте 4 небесных башни, появляющихся после победы над Культистом-лунатиком.
@@ -280,15 +280,15 @@ Mods: {
 			FrostMoon: Используйте [i:1958] ночью.
 			MartianMadness: Найдите марсианский зонд и позвольте ему просканировать вас и сбежать, зонд появляется после победы над Големом.
 			LunarEvent: Убейте Культиста-лунатика, каждая башня появляется в своей области мира.
-			Pumpking: Доживите хотя бы до седьмой волны события «Тыквенная луна». Начните это событие с помощью [i:1844].
-			MourningWood: Доживите хотя бы до четвёртой волны события «Тыквенная луна». Начните это событие с помощью [i:1844].
-			IceQueen: Доживите хотя бы до одиннадцатой волны события «Морозная луна». Начните это событие с помощью [i:1958].
-			SantaNK1: Доживите хотя бы до седьмой волны события «Морозная луна». Начните это событие с помощью [i:1958].
-			Everscream: Доживите хотя бы до четвёртой волны события «Морозная луна». Начните это событие с помощью [i:1958].
-			PirateShip: Дождитесь, пока он прилетит сам во время события «Пиратское вторжение». Начните это событие с помощью [i:1315].
-			DD2OgreT3: Доживите до седьмой волны (ранг 2) или до четвёртой и шестой (ранг 3) во время события «Армия древних». Начните битву с Армией древних с помощью [i:3816] и [i:3828].
-			DD2DarkMageT3: Доживите до пятой волны (ранг 1) или до пятой и шестой (ранг 3) во время события «Армия древних». Начните битву с Армией древних с помощью [i:3816] и [i:3828].
-			MartianSaucer: Дождитесь, пока она прилетит сама во время события «Марсианское безумие». Начните это событие, дав просканировать себя марсианскому зонду.
+			Pumpking: Появляется начиная с седьмой волны события «Тыквенная луна». Начните это событие с помощью [i:1844].
+			MourningWood: Появляется начиная с четвёртой волны события «Тыквенная луна». Начните это событие с помощью [i:1844].
+			IceQueen: Появляется начиная с одиннадцатой волны события «Морозная луна». Начните это событие с помощью [i:1958].
+			SantaNK1: Появляется начиная с седьмой волны события «Морозная луна». Начните это событие с помощью [i:1958].
+			Everscream: Появляется начиная с четвёртой волны события «Морозная луна». Начните это событие с помощью [i:1958].
+			PirateShip: Появляется во время события «Пиратское вторжение». Начните это событие с помощью [i:1315].
+			DD2OgreT3: Появляется на седьмой волне (ранг 2) или на четвёртой и шестой (ранг 3) события «Армия древних». Начните это событие с помощью [i:3816] и [i:3828].
+			DD2DarkMageT3: Появляется на пятой волне (ранг 1) или на пятой и шестой (ранг 3) события «Армия древних». Начните это событие с помощью [i:3816] и [i:3828].
+			MartianSaucer: Появляется во время события «Марсианское безумие». Начните это событие, дав просканировать себя марсианскому зонду.
 			TorchGod: Разместите 101 факел близко друг к другу в подземелье, событие начнётся, когда будет установлен последний факел.
 		}
 
@@ -298,28 +298,28 @@ Mods: {
 		}
 
 		LogMessage: {
-			// LastUpdated_ModCall: The Boss Log Mod Call has been last updated on BossChecklist ({0}). Check out the GitHub Wiki guide to stay updated on the latest changes!
-			// LastUpdated_Progression: Progression values for vanilla entries have been last updated on BossChecklist ({0})
-			// NoLogging: Boss Log integration messages will not be logged.
-			// LateCall: Call Warning: The attempted message, '{0}', was sent too early. Expect the Call message to return incomplete data. For best results, call in PostAddRecipes.
-			// OldCall: The '{0}' call is an old call and is now obsolete. Use '{1}' instead. {2} entries include: [{3}]
-			// ModCallDocumentation: Updated Mod.Call documentation for BossChecklist can be found here: https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Boss-Log-Entry-Mod-Call
-			/* OldCall_Orphan:
+			LastUpdated_ModCall: The Boss Log Mod Call has been last updated on BossChecklist ({0}). Check out the GitHub Wiki guide to stay updated on the latest changes!
+			LastUpdated_Progression: Progression values for vanilla entries have been last updated on BossChecklist ({0})
+			NoLogging: Boss Log integration messages will not be logged.
+			LateCall: Call Warning: The attempted message, '{0}', was sent too early. Expect the Call message to return incomplete data. For best results, call in PostAddRecipes.
+			OldCall: The '{0}' call is an old call and is now obsolete. Use '{1}' instead. {2} entries include: [{3}]
+			ModCallDocumentation: Updated Mod.Call documentation for BossChecklist can be found here: https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Boss-Log-Entry-Mod-Call
+			OldCall_Orphan:
 				'''
 				{0} mod call from {1} is structured improperly. Mod developers can refer to link below:
 				 https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Other-Mod-Calls
-				''' */
-			// MustContainMod: Invalid mod instance passed ({0}). Your call must contain a Mod instance to generate an entry key.
-			// MustContainName: Invalid internal name passed ({internalName}). Your call must contain a string comprised of letters and/or digits without whitespace characters in order to generate an entry key.
-			// MustContainMod_Orphan: Invalid mod instance passed ({0}). Your call must contain a Mod instance for logging purposes.
-			// DuplicateEntry: Check your code for duplicate entries or typos, as this entry has already been registered: [{0} {1}]
-			// RegisteredBosses: "{0} has successfully registered {1} bosses: {2}"
-			// RegisteredMiniBosses: "{0} has successfully registered {1} mini-bosses: {2}"
-			// RegisteredEvents: "{0} has successfully registered {1} events: {2}"
-			// SuccessfulOrphanData: "{0} has successfully registered {1} '{2}' orphan data value(s)"
-			// InvalidOrphanKey: A '{0}' call from {1} contains an invalid key ({2}) and will be ignored.
-			// InvalidEventEntry: "{0} is not an event entry and cannot take calls from {1}"
-			// BelongsToInvasion: "{0} has attempted to edit the npc pool of '{1}'. This entry is an event that is supported by tModLoader's 'NPCID.Sets.BelongsToInvasion' sets. SubmitEventNPCs will still be supported, but it is recommended to use the sets instead, where given. Using these sets for ModNPCs will automatically add them to an entry's NPC pool without additional mod calls."
+				'''
+			MustContainMod: Invalid mod instance passed ({0}). Your call must contain a Mod instance to generate an entry key.
+			MustContainName: Invalid internal name passed ({internalName}). Your call must contain a string comprised of letters and/or digits without whitespace characters in order to generate an entry key.
+			MustContainMod_Orphan: Invalid mod instance passed ({0}). Your call must contain a Mod instance for logging purposes.
+			DuplicateEntry: Check your code for duplicate entries or typos, as this entry has already been registered: [{0} {1}]
+			RegisteredBosses: "{0} has successfully registered {1} bosses: {2}"
+			RegisteredMiniBosses: "{0} has successfully registered {1} mini-bosses: {2}"
+			RegisteredEvents: "{0} has successfully registered {1} events: {2}"
+			SuccessfulOrphanData: "{0} has successfully registered {1} '{2}' orphan data value(s)"
+			InvalidOrphanKey: A '{0}' call from {1} contains an invalid key ({2}) and will be ignored.
+			InvalidEventEntry: "{0} is not an event entry and cannot take calls from {1}"
+			BelongsToInvasion: "{0} has attempted to edit the npc pool of '{1}'. This entry is an event that is supported by tModLoader's 'NPCID.Sets.BelongsToInvasion' sets. SubmitEventNPCs will still be supported, but it is recommended to use the sets instead, where given. Using these sets for ModNPCs will automatically add them to an entry's NPC pool without additional mod calls."
 		}
 
 		Configs: {
@@ -357,7 +357,7 @@ Mods: {
 						'''
 						Добавляет небольшую вкладку в босс-журнале, при наведении на которую отображается информация о том,
 						как ещё можно взаимодействовать с открытой в данный момент страницей.
-						Например, на этой вкладке будет указано, что ПКМ по любой записи на главной странице журнала пометит её как пройденную.
+						Например, на этой вкладке будет указано, что ПКМ по любой записи на главной странице журнала отметит её как пройденную.
 						'''
 				}
 
@@ -367,17 +367,17 @@ Mods: {
 				}
 
 				AutomaticChecklist: {
-					Label: Автоматически помечать записи как пройденные
+					Label: Автоматически отмечать записи как пройденные
 					Tooltip:
 						'''
-						Записи будут автоматически помечаться как пройденные после победы над соответствующими боссами/мини-боссами/нашествиями
-						Вы все ещё сможете помечать записи как пройденные вручную, нажав ПКМ по ним
+						Записи будут автоматически отмечаться как пройденные после победы над соответствующими боссами/мини-боссами/нашествиями
+						Вы все ещё сможете отмечать записи как пройденные вручную, нажав ПКМ по ним
 						'''
 				}
 
 				ProgressiveChecklist: {
 					Label: Режим прогрессии
-					Tooltip: Скрывает содержимое записей до тех пор, пока они не будут помечены как пройденные
+					Tooltip: Скрывает содержимое записей до тех пор, пока они не будут отмечены как пройденные
 				}
 
 				ProgressionPrompt: {
@@ -427,23 +427,23 @@ Mods: {
 					Label: Цветной текст боссов
 					Tooltip:
 						'''
-						Название записей будет окрашено зелёным, если она помечена как пройденная, и красным, если нет
+						Название записей будет окрашено зелёным, если она отмечена как пройденная, и красным, если нет
 						Если включена настройка «Отметка следующей по списку записи», название следующей записи будет окрашено жёлтым цветом
 						'''
 				}
 
 				SelectedCheckmarkType: {
-					Label: Тип отметок в чеклисте
+					Label: Тип отметок
 					Tooltip: ""
 				}
 
 				DrawNextMark: {
-					Label: Отметка следующей по списку записи
+					Label: Отметка для следующей по списку записи
 					Tooltip: Рядом со следующей по списку записью будет стоять кружок, что означает, что вам следует пройти её, если вы хотите идти строго по списку
 				}
 
 				LootChecklist: {
-					Label: Отметка полученной добычи и коллекции
+					Label: Отметка для полученной добычи и коллекции
 					Tooltip: На главной странице рядом с записями будет стоять особая иконка, если вы получили все возможные предметы с цели
 				}
 
@@ -516,8 +516,8 @@ Mods: {
 					Label: Возможность сбрасывать данные босс-журнала
 					Tooltip:
 						'''
-						Позволяет очищать определённые данные в босс-журнале, например информацию о том, какие записи в журнале помечены
-						как скрытые, как пройденные, какие предметы помечены как собранные и какие рекорды установлены.
+						Позволяет очищать определённые данные в босс-журнале, например информацию о том, какие записи в журнале отмечены
+						как скрытые, как пройденные, какие предметы отмечены как собранные и какие рекорды установлены.
 						[c/FF0000:Для работы этой настройки необходимо включить настройку «Подсказки о быстром использовании босс-журнала».]
 						'''
 				}
@@ -542,7 +542,7 @@ Mods: {
 
 				ShowCollectionType: {
 					Label: Показывать тип коллекционных предметов
-					Tooltip: Рядом с каждым коллекционным предметов будет отображаться особая для этого типа предмета иконка, а при наведении на этот предмет будет отображаться сам тип.
+					Tooltip: Рядом с каждым коллекционным предметом будет отображаться особая для этого типа предмета иконка, а при наведении на этот предмет будет отображаться сам тип.
 				}
 
 				InactiveBossCheck: {
@@ -568,7 +568,7 @@ Mods: {
 
 				RecordTrackingEnabled: {
 					Label: Отслеживание рекордов
-					Tooltip: Статистика ваших битв с целями будет записываться и отображаться на соотвествующей странице в босс-журнале
+					Tooltip: Статистика ваших битв с целями будет записываться и отображаться на соответствующей странице в босс-журнале
 				}
 
 				AllowNewRecords: {
@@ -608,7 +608,7 @@ Mods: {
 					Tooltip:
 						'''
 						При уничтожении «части» босса в чате будет появляться уникальное сообщение, оповещающее об этом
-						К таким «частям» боссов относятся руки Скелетрона, Ретиназер и Спазматизм по отдельности, Небесные башни и т.п.
+						К таким «частям» боссов относятся руки Скелетрона, Ретинайзер и Спазматизм по отдельности, Небесные башни и т.п.
 						'''
 				}
 
