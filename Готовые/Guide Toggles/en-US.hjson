@@ -1,0 +1,80 @@
+Buttons: {
+	CritterOn: "{$ItemName.DontHurtCrittersBook}: Active"
+	CritterOff: "{$ItemName.DontHurtCrittersBook}: Inactive"
+	EnvironmentOn: "{$ItemName.DontHurtNatureBook}: Active"
+	EnvironmentOff: "{$ItemName.DontHurtNatureBook}: Inactive"
+	PeaceOn: "{$ItemName.DontHurtComboBook}: Active"
+	PeaceOff: "{$ItemName.DontHurtComboBook}: Inactive"
+	StoneOn: "{$ItemName.EncumberingStone}: Locked"
+	StoneOff: "{$ItemName.UncumberingStone}: Unlocked"
+}
+
+Keybinds: {
+	ToggleCritterBook.DisplayName: "[i:5453] {$ItemName.DontHurtCrittersBook}"
+	ToggleNatureBook.DisplayName: "[i:5454] {$ItemName.DontHurtNatureBook}"
+	ToggleComboBook.DisplayName: "[i:5455] {$ItemName.DontHurtComboBook}"
+}
+
+Configs: {
+	Config: {
+		DisplayName: Settings [i:5323]
+		Headers.Position: Position [i:393]
+
+		Horizontal: {
+			Label: Horizontal
+			Tooltip: ""
+		}
+
+		Corner: {
+			Label: Corner
+			Tooltip: ""
+		}
+
+		Offset: {
+			Label: Offset
+			Tooltip: ""
+		}
+
+		EnableKeybinds: {
+			Label: Enable Keybinds [c/888888:(requires reload)]
+			Tooltip: All buttons will also have keybinds
+		}
+
+		EncumberingStone: {
+			Label: Encumbering Stone [c/888888:(requires reload)]
+			Tooltip:
+				'''
+				The encumbering stone will now work inside the Void Vault
+				Adds another button to toggle the encumbering stone
+				'''
+		}
+
+		ButtonMode: {
+			Label: Button Mode
+			Tooltip: ""
+		}
+	}
+
+	Corners: {
+		Tooltip: ""
+		TopLeft.Label: Top Left
+		BottomLeft.Label: Bottom Left
+		TopRight.Label: Top Right
+		BottomRight.Label: Bottom Right
+	}
+
+	ButtonModes: {
+		Tooltip:
+			'''
+			Inventory Only:
+			  buttons are only visible if the inventory is open
+			Always Visible:
+			  buttons are always visible, but only interactable in the inventory
+			Always Interactable:
+			  buttons are always visible
+			'''
+		InventoryOnly.Label: Inventory Only
+		AlwaysVisible.Label: Always Visible
+		AlwaysInteractable.Label: Always Interactable
+	}
+}
