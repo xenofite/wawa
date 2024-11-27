@@ -1,0 +1,278 @@
+Items: {
+	NebulaCore: {
+		DisplayName: Nebula Core
+		Tooltip: Summons the Nebula Pillar
+	}
+
+	DistressBeacon: {
+		Tooltip:
+			'''
+			Sends a signal into space, may summon unwanted foes.
+			Not Consumable
+			'''
+		DisplayName: Distress Beacon
+	}
+
+	BrokenDistressBeacon: {
+		Tooltip: It appears to be a broken S.O.S device, perhaps it could be fixed somehow...
+		DisplayName: Broken Distress Beacon
+	}
+
+	SolarCore: {
+		DisplayName: Solar Core
+		Tooltip: Summons the Solar Pillar
+	}
+
+	StardustCore: {
+		DisplayName: Stardust Core
+		Tooltip: Summons the Stardust Pillar
+	}
+
+	VortexCore: {
+		DisplayName: Vortex Core
+		Tooltip: Summons the Vortex Pillar
+	}
+
+	BifocalVisor: {
+		DisplayName: Bifocal Visor
+		Tooltip:
+			'''
+			Increases view range while held
+			Greatly enhances vision while held or equipped
+			Allows sight of wires and danger sources
+			'''
+	}
+
+	Twinoculars: {
+		DisplayName: Twinoculars
+		Tooltip:
+			'''
+			'I CAN SEEEE!!!!'
+			Increases view range while held and reveals nearby tiles within view
+			Allows sight of wires, ores, danger sources, and dramatically enhances vision while held or equipped
+			Provides a significant amount of light, this effect works from the inventory and vanity
+			'''
+	}
+
+	Binoculars.Tooltip: Test
+
+	BoosterPack: {
+		Tooltip: Right Click to open
+		DisplayName: Booster Pack
+	}
+
+	Terrawatch: {
+		Tooltip: ""
+		DisplayName: Terrawatch
+	}
+
+	Nightwatch: {
+		DisplayName: Nightwatch
+		Tooltip:
+			'''
+			Tells the time
+			Use this item to swap between dawn and dusk
+			Right Click to leap forward a short amount of time
+			'''
+	}
+
+	TruffleWormBucket: {
+		DisplayName: Truffle Worm Bucket
+		Tooltip:
+			'''
+			'Smells Fishy'
+			Summons Duke Fishron
+			Not Consumable
+			'''
+	}
+
+	BloodmoonCharm: {
+		DisplayName: Bloodmoon Charm
+		Tooltip:
+			'''
+			'May attract unwanted attention'
+			Slightly increases spawn rates
+			'''
+	}
+
+	PrismaticConcoction: {
+		DisplayName: Prismatic Concoction
+		Tooltip:
+			'''
+			Causes Prismatic Lacewings to swarm around you
+			Prismatic Lacewings will run away if not in the Hallow
+			'Smells Nice'
+			'''
+	}
+
+	AetherMagnet: {
+		DisplayName: Aether Magnet
+		Tooltip: Shows the position of a nearby shimmer source
+	}
+}
+
+InfoDisplays.AetherInfoDisplay.DisplayName: Shimmer Location
+
+Configs: {
+	Config: {
+		BonusChestLoot: {
+			Label: Bonus Chest Loot
+			Tooltip: ""
+		}
+
+		IncreasedPlayerSpeed: {
+			Tooltip: ""
+			Label: Increased Player Speed
+		}
+
+		Headers: {
+			Balance: Balance Header
+			Player: Player Header
+			NPCS: N P C S Header
+			Combat: Combat Header
+			WorldGeneration: World Generation Header
+			NewItems: New Items Header
+			Loot: Loot Header
+			ExtraLoot: Extra Loot Header
+		}
+
+		DisplayName: Config
+
+		IncreasedBasePlayerSpeed: {
+			Label: Increased Base Player Speed
+			Tooltip: ""
+		}
+
+		AlwaysSellPylons: {
+			Label: Always Sell Pylons
+			Tooltip: ""
+		}
+
+		BonusStartingItems: {
+			Label: Bonus Starting Items
+			Tooltip: ""
+		}
+
+		BonusPillarLoot: {
+			Label: Bonus Pillar Loot
+			Tooltip: ""
+		}
+
+		BonusBossLoot: {
+			Label: Bonus Boss Loot
+			Tooltip: ""
+		}
+
+		RareBiomeEnemiesHaveHigherBiomeKeyChance: {
+			Label: Rare Biome Enemies Have Higher Biome Key Chance
+			Tooltip: ""
+		}
+
+		MoreCraftableAccessories: {
+			Tooltip: ""
+			Label: More Craftable Accessories
+		}
+
+		StartWithEssentials: {
+			Tooltip: ""
+			Label: Start With Essentials
+		}
+
+		CraftableUniversalPylon: {
+			Label: Craftable Universal Pylon
+			Tooltip: ""
+		}
+
+		PillarsDropMoreFragments: {
+			Label: Pillars Drop More Fragments
+			Tooltip: ""
+		}
+
+		IncreasedNaturalPotions: {
+			Tooltip: ""
+			Label: Increased Natural Potions
+		}
+
+		CraftableTruffleWorm: {
+			Tooltip: ""
+			Label: Craftable Truffle Worm
+		}
+
+		CraftableShadowKey: {
+			Tooltip: ""
+			Label: Craftable Shadow Key
+		}
+
+		CraftableLifeFruit: {
+			Tooltip: ""
+			Label: Craftable Life Fruit
+		}
+
+		CraftableMovementAccessories: {
+			Tooltip: ""
+			Label: Craftable Movement Accessories
+		}
+
+		AlternativeFishingPotionRecipes: {
+			Tooltip: ""
+			Label: Alternative Fishing Potion Recipes
+		}
+
+		PillarsDropSummonItem: {
+			Tooltip: ""
+			Label: Pillars Drop Summon Item
+		}
+
+		IncreasedNaturalPotionYield: {
+			Tooltip: ""
+			Label: Increased Natural Potion Yield
+		}
+
+		MartianMadnessSummoningItem: {
+			Tooltip: ""
+			Label: Martian Madness Summoning Item
+		}
+
+		BinocularsUpgrades: {
+			Tooltip: ""
+			Label: Binoculars Upgrades
+		}
+
+		TimeControlItem: {
+			Tooltip: ""
+			Label: Time Control Item
+		}
+
+		BinocularsBuff: {
+			Tooltip: ""
+			Label: Binoculars Buff
+		}
+
+		EyeOfCthuluDropLens: {
+			Label: Eye Of Cthulu Drop Lens
+			Tooltip: ""
+		}
+
+		QueenSlimeDropPearls: {
+			Label: Queen Slime Drop Pearls
+			Tooltip: ""
+		}
+
+		WallOfFleshDropSouls: {
+			Label: Wall Of Flesh Drop Souls
+			Tooltip: ""
+		}
+
+		SkeletronDropGoldenKeys: {
+			Label: Skeletron Drop Golden Keys
+			Tooltip: ""
+		}
+	}
+}
+
+Buffs: {
+	PollinatedBuff: {
+		DisplayName: Pollinated Buff
+		Description: Prismatic Lacewings are swarming around you!
+	}
+}
