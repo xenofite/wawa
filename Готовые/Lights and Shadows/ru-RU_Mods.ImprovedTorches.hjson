@@ -1,0 +1,15 @@
+Configs: {
+	ImprovedTorchesConfigClient: {
+		brightnessOffset: {
+			Tooltip: ""
+			Label: "[i:8] Шкала яркости"
+		}
+
+		DisplayName: Клиентская конфигурация
+
+		DisableTorchFlickering: {
+			Label: "[i:966] Отключить мерцание факелов"
+			Tooltip: ""
+		}
+	}
+}
