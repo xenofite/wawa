@@ -1,0 +1,251 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		aetherPrefixing: {
+			Label: Enable Genesis Conduit Prefixing
+			Tooltip:
+				'''
+				When set to true, this feature allows the Genesis Conduit to change how prefixes are applied when in the Aether
+				Weapons/Tools/Accessories/etc. created while near the Aether and a Genesis Conduit are affected
+				Under these conditions, affected items will only roll certain prefixes
+				See Genesis Conduit Prefix Whitelist to learn more and customize this behavior
+				'''
+		}
+
+		prefixWhitelist: {
+			Label: Genesis Conduit Prefix Whitelist
+			Tooltip:
+				'''
+				Affects the application of prefixes while near the Aether and a Genesis Conduit
+				Under the above conditions, ONLY these prefixes appear when items are created
+				By default, this list includes 'optimal' vanilla prefixes (Ex: Unreal, Godly, Mythical, etc.)
+				Note that the blacklist takes prioity over the whitelist if both are enabled and share an entry
+				WARNING: No modded prefixes are in the list by default and must be added manually!
+				'''
+		}
+
+		sellAetherPylon: {
+			Label: Sell Aether Pylon
+			Tooltip:
+				'''
+				Toggles if the Aether Pylon is accessible
+				It is sold under the same conditions as other Pylons, but corresponds to the Aether
+				'''
+		}
+
+		aetherPylonNPCS: {
+			Label: Nearby NPCs required to use Aether Pylon
+			Tooltip:
+				'''
+				Customize how many nearby NPCs are required to use the Aether Pylon
+				The Aether Pylon only functions in the Aether
+				By default it only requires 1 nearby NPC, as opposed to the normal 2
+				'''
+		}
+
+		wellCrafting: {
+			Label: Enable Aether Well Crafting
+			Tooltip:
+				'''
+				Toggles the functionality of the Aether Well
+				This is a special crafting station that allows you to craft the transmutations of items
+				Note that this doesn't include items whose shimmer result isn't an item, nor those who simply decraft
+				Turning this setting off will not make the Aether Well unobtainable, but it will disable its crafting ability
+				'''
+		}
+
+		transmuteTooltip: {
+			Label: Display Transmutation Tooltip
+			Tooltip:
+				'''
+				This mod adds a special tooltip to items that have unique transumutations when thrown in Shimmer
+				Such items are labled 'transmutable'
+				Note that this won't affect items whose shimmer result isn't an item (Ex: Sparkle Slime Balloon)
+				Use this config to toggle the 'transmutable' tooltip
+				'''
+		}
+
+		nerfPrefixing: {
+			Label: Restrict Genesis Conduit
+			Tooltip:
+				'''
+				Tweaks the Genesis Conduit such that it can only affect items who decraft when shimmered
+				Items with special transmutations (Or are otherwise unable to decraft) won't benefit from the Genesis Conduit while this is turned on
+				'''
+		}
+
+		compoundTooltip: {
+			Label: Compound Material and Transmutation Tooltips
+			Tooltip:
+				'''
+				Tweaks the vanilla material tooltip and 'transmutable' tooltip such that they share a line
+				If an item is both a material and transmutable, the material line is replaced with 'material, transmutable'
+				Does nothing if Display Transmutation Tooltip is off
+				'''
+		}
+
+		wellAether: {
+			Label: Require Aether Well to be used in Aether
+			Tooltip:
+				'''
+				Makes it so that Aether Well recipes require you to be in the Aether itself
+				Does nothing if Enable Aether Well Crafting is off
+				'''
+		}
+
+		shimmerPylon: {
+			Label: Pylons transmutate into Aether Pylon
+			Tooltip: Makes it so that all vanilla Pylons except for Universal can be shimmered into the Aether Pylon
+		}
+
+		sellAetherCompass: {
+			Label: Mystic Compass Sell Chance
+			Tooltip:
+				'''
+				Sets the % chance for the Travelling Merchant to sell the Mystic Compass
+				The Mystic Compass is a special tool that will point you to the Aether
+				Set this to 0 to prevent the Compass from being sold, or 100 to guarantee it
+				'''
+		}
+
+		postEyeCompass: {
+			Label: Restrict Mystic Compass to post-EoC
+			Tooltip: When set to true, the Mystic Compass will only be sold once the Eye of Cthulhu is defeated
+		}
+
+		detransmuteBoosters: {
+			Label: De-transmute Permanent Upgrade Items
+			Tooltip:
+				'''
+				Allows shimmer-exclusive items which provide a permanent upgrade to be transmuted back into their non-shimmer counterpart
+				For example, the Vital Crystal may be reverted into a Life Crystal
+				This feature also includes support for the following mods;
+				Thorium Mod, The Clicker Class, Storm's Additions Mod
+				'''
+		}
+
+		aetheriumBlockTransmute: {
+			Label: Aetherium Block Transmutation
+			Tooltip:
+				'''
+				Allows Aetherium Blocks to be obtained by transmuting Obsidian
+				Acts an alternative, renewable source of Aetherium Blocks so that you don't have to use up your Shimmer
+				'''
+		}
+
+		enableConduit: {
+			Label: Enable Genesis Conduit
+			Tooltip:
+				'''
+				Toggles the Genesis Conduit, a transmutation of the Tinkerer's Workshop
+				When placed in the Aether, the Conduit adjusts/improves the prefixes that are rolled when crafting
+				This allows using Shimmer decrafting to repeatedly craft items for desired prefixes
+				See below config options for more details and customization
+				'''
+		}
+
+		Headers: {
+			Tooltips: Tooltips
+			ShimmerWell: Shimmer Well
+			AetherCompass: Aether Compass
+			AetherPylon: Aether Pylon
+			Transmutations: Transmutations
+			GenisisConduit: Genisis Conduit
+		}
+
+		usePrefixBlacklist: {
+			Label: Use Prefix Blacklist
+			Tooltip:
+				'''
+				Affects the application of prefixes while near the Aether and a Genesis Conduit
+				Under the above conditions, prefixes that appear when items are created are restricted based on the blacklist below
+				See 'Genesis Conduit Prefix Blacklist' for more details
+				'''
+		}
+
+		usePrefixWhitelist: {
+			Label: Use Prefix Whitelist
+			Tooltip:
+				'''
+				Affects the application of prefixes while near the Aether and a Genesis Conduit
+				Under the above conditions, prefixes that appear when items are created are restricted based on the whitelist below
+				See 'Genesis Conduit Prefix Whitelist' for more details
+				'''
+		}
+
+		prefixBlacklist: {
+			Label: Genesis Conduit Prefix Blacklist
+			Tooltip:
+				'''
+				Affects the application of prefixes while near the Aether and a Genesis Conduit
+				Under the above conditions, these prefixes NEVER appear when items are created
+				By default, this list includes most vanilla prefixes with negative stats, and accessory prefixes with weaker boosts (Ex: Terrible, Wild, etc.)  
+				Note that the blacklist takes prioity over the whitelist if both are enabled and share an entry
+				WARNING: No modded prefixes are in the list by default and must be added manually!
+				'''
+		}
+	}
+}
+
+Items: {
+	AetherPylonItem: {
+		DisplayName: Aether Pylon
+		Tooltip:
+			'''
+			Teleport to another pylon when {0} {^0:villager;villagers} {^0:is;are} nearby
+			Only one can be placed, and it only functions in the Aether
+			'''
+	}
+
+	GenesisConduitItem: {
+		DisplayName: Genesis Conduit
+		Tooltip:
+			'''
+			Allows the combining of some accessories
+			When placed in the Aether, crafting next to it encourages good modifiers
+			'''
+	}
+
+	ShimmerWellItem: {
+		DisplayName: Shimmer Well
+		Tooltip: Allows crafting of item transmutations without Shimmer
+	}
+
+	AetherCompass: {
+		DisplayName: Mystic Compass
+		Tooltip:
+			'''
+			Produces a harmless beam of light that points you towards the Aether
+			The compass will fail if the Aether isn't present in its natural region
+			'Strange... it doesn't point north'
+			'''
+	}
+}
+
+Tiles: {
+	AetherPylonTile.MapEntry: Aether Pylon
+	GenesisConduitTile.MapEntry: Genesis Conduit
+	ShimmerWellTile.MapEntry: Shimmer Well
+}
+
+CommonItemTooltip: {
+	TransmutableTip: Transmutable
+	TransumtableMaterialTip: Material, Transmutable
+	WellConfig: Aether Well Crafting enabled in config
+	PylonConfig: Sell Aether Pylon enabled in config
+	PylonCond: Sell Aether Pylon enabled in config, in the Aether, outside of evil biomes, near another NPC, while sufficiently happy
+	ConduitNerf: Has no effect on items which don't decraft into component materials
+	ConduitDisabled: Warning: Modifiers-affecting mechanic is currently disabled in config!
+	WellDisabled: Warning: Crafting with the Well is currently disabled in config!
+	WellNerf: Crafting with the Well requires it to be near the Aether
+}
+
+Buffs: {
+	GenesisConduitBuff: {
+		DisplayName: Genesis Spark
+		Description: Encourages specific modifiers when crafting items
+	}
+}
+
+Projectiles.CompassBeam.DisplayName: Compass Beam
