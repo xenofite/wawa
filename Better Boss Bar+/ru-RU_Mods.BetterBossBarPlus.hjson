@@ -1,0 +1,248 @@
+Configs: {
+	Config: {
+		DisplayName: Boss Health Bar Settings
+
+		bossName: {
+			Label: Boss Name
+			Tooltip: Shows the name of the boss
+		}
+
+		bossHealthInt: {
+			Label: Boss Health (integer)
+			Tooltip: Shows the boss' health in integers
+		}
+
+		bossHealthPercent: {
+			Label: Boss Health (percentage)
+			Tooltip: Shows the boss' health in percentage
+		}
+
+		bossInvincibleWarning: {
+			Label: Boss Invincibility Warning
+			Tooltip: Gives you a warning if the boss is invincible, may not work properly with segmented bosses
+		}
+
+		hideBossBarOnInvinc: {
+			Label: Hide boss bar when boss is invincible
+			Tooltip: Boss health bar is hidden when the boss is invincible, boss invincibility warning must be enabled for this setting to work
+		}
+
+		fontColorRed: {
+			Label: Font Color [c/FF0000:(Red)]
+			Tooltip: Color of the health bar text
+		}
+
+		fontColorGreen: {
+			Label: Font Color [c/00FF00:(Green)]
+			Tooltip: Color of the health bar text
+		}
+
+		fontColorBlue: {
+			Label: Font Color [c/0000FF:(Blue)]
+			Tooltip: Color of the health bar text
+		}
+
+		fontOffsetX: {
+			Label: Font Offset (X)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		fontOffsetY: {
+			Label: Font Offset (Y)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		showBossDefense: {
+			Label: Boss Defense
+			Tooltip: Displays boss defense
+		}
+
+		showBossDamageResist: {
+			Label: Boss Damage Resistance
+			Tooltip:
+				'''
+				Displays boss damage resistance
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		defenseStatRed: {
+			Label: Defense Text Color [c/FF0000:(Red)]
+			Tooltip: Color of the defense stat text
+		}
+
+		defenseStatGreen: {
+			Label: Defense Text Color [c/00FF00:(Green)]
+			Tooltip: Color of the defense stat text
+		}
+
+		defenseStatBlue: {
+			Label: Defense Text Color [c/0000FF:(Blue)]
+			Tooltip: Color of the defense stat text
+		}
+
+		defenseStatX: {
+			Label: Defense Text Offset (X)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		defenseStatY: {
+			Label: Defense Text Offset (Y)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		showBossKBResist: {
+			Label: Boss Resilience
+			Tooltip: Displays boss knockback resistance
+		}
+
+		KBResistRed: {
+			Label: Resilience Text Color [c/FF0000:(Red)]
+			Tooltip: Color of the knockback resistance stat text
+		}
+
+		KBResistGreen: {
+			Label: Resilience Text Color [c/00FF00:(Green)]
+			Tooltip: Color of the knockback resistance stat text
+		}
+
+		KBResistBlue: {
+			Label: Resilience Text Color [c/0000FF:(Blue)]
+			Tooltip: Color of the knockback resistance stat text
+		}
+
+		KBResistX: {
+			Label: Resilience Text Offset (X)
+			Tooltip:
+				'''
+				Position of the displayed text (in pixels)
+				[c/FF0000:(The internal offset will change if Calamity Mod is enabled. This value itself won't change automatically however)]
+				'''
+		}
+
+		KBResistY: {
+			Label: Resilience Text Offset (Y)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		showBossAtkDmg: {
+			Label: Boss Attack Damage
+			Tooltip: Displays boss attack damage
+		}
+
+		atkDmgRed: {
+			Label: Attack Damage Text Color [c/FF0000:(Red)]
+			Tooltip: Color of the attack damage stat text
+		}
+
+		atkDmgGreen: {
+			Label: Attack Damage Text Color [c/00FF00:(Green)]
+			Tooltip: Color of the attack damage stat text
+		}
+
+		atkDmgBlue: {
+			Label: Attack Damage Text Color [c/0000FF:(Blue)]
+			Tooltip: Color of the attack damage stat text
+		}
+
+		atkDmgX: {
+			Label: Attack Damage Text Offset (X)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		atkDmgY: {
+			Label: Attack Damage Text Offset (Y)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		showBossTarget: {
+			Label: Boss Target
+			Tooltip: Displays the name of the boss' target
+		}
+
+		targetRed: {
+			Label: Target Text Color [c/FF0000:(Red)]
+			Tooltip: Color of the target text
+		}
+
+		targetGreen: {
+			Label: Target Text Color [c/00FF00:(Green)]
+			Tooltip: Color of the target text
+		}
+
+		targetBlue: {
+			Label: Target Text Color [c/0000FF:(Blue)]
+			Tooltip: Color of the target text
+		}
+
+		targetX: {
+			Label: Target Text Offset (X)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		targetY: {
+			Label: Target Text Offset (Y)
+			Tooltip: Position of the displayed text (in pixels)
+		}
+
+		bossIconFlashing: {
+			Label: Boss icon flash effect
+			Tooltip: Boss icon flashes red when it takes damage
+		}
+
+		barX: {
+			Label: Boss Bar Offset (X)
+			Tooltip: Boss bar offset (in pixels). Affects positioning of font text, defense text, attack text, knockback text, and target text
+		}
+
+		barY: {
+			Label: Boss Bar Offset (Y)
+			Tooltip: Boss bar offset (in pixels). Affects positioning of font text, defense text, attack text, knockback text, and target text
+		}
+
+		damageResistStatRed: {
+			Label: Damage Reduction Stat Color [c/FF0000:(Red)]
+			Tooltip:
+				'''
+				Color of the damage reduction stat text
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatGreen: {
+			Label: Damage Reduction Stat Color [c/00FF00:(Green)]
+			Tooltip:
+				'''
+				Color of the damage reduction stat text
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatBlue: {
+			Label: Damage Reduction Stat Color [c/0000FF:(Blue)]
+			Tooltip:
+				'''
+				Color of the damage reduction stat text
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatX: {
+			Label: Damage Reduction Stat Offset (X)
+			Tooltip:
+				'''
+				Position of the displayed text (in pixels)
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatY: {
+			Label: Damage Reduction Stat Offset (Y)
+			Tooltip:
+				'''
+				Position of the displayed text (in pixels)
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+	}
+}
