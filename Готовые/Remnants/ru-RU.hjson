@@ -1,0 +1,611 @@
+Mods: {
+	Remnants: {
+		Biomes: {
+			GoldenCity: {
+				DisplayName: Золотой город
+				TownNPCDialogueName: Золотой город
+			}
+
+			GraniteCave: {
+				DisplayName: Гранитная пещера
+				TownNPCDialogueName: Гранитная пещера
+			}
+
+			Growth: {
+				DisplayName: Корневище
+				TownNPCDialogueName: Корневище
+			}
+
+			Hive: {
+				DisplayName: Улей
+				TownNPCDialogueName: Улей
+			}
+
+			JungleTemple: {
+				DisplayName: Храм джунглей
+				TownNPCDialogueName: Храм джунглей
+			}
+
+			MagicalLab: {
+				DisplayName: Магическая лаборатория
+				TownNPCDialogueName: Магическая лаборатория
+			}
+
+			MarbleCave: {
+				DisplayName: Мраморная пещера
+				TownNPCDialogueName: Мраморная пещера
+			}
+
+			OceanCave: {
+				DisplayName: Пещера океана
+				TownNPCDialogueName: Пещера океана
+			}
+
+			Pyramid: {
+				DisplayName: Пирамида
+				TownNPCDialogueName: Пирамида
+			}
+
+			Vault: {
+				DisplayName: Убежище
+				TownNPCDialogueName: Убежище
+			}
+
+			EchoingHalls: {
+				DisplayName: Шепчущие коридоры
+				TownNPCDialogueName: Шепчущие коридоры
+			}
+
+			ForgottenTomb: {
+				DisplayName: Забытый склеп
+				TownNPCDialogueName: Забытый склеп
+			}
+
+			MagicalLabAscension: {
+				DisplayName: Место вознесения Магической лаборатории
+				TownNPCDialogueName: Место вознесения Магической лаборатории
+			}
+
+			Undergrowth: {
+				DisplayName: Подземная чаща
+				TownNPCDialogueName: Подземная чаща
+			}
+
+			AerialGarden: {
+				DisplayName: Небесный сад
+				TownNPCDialogueName: Небесный сад
+			}
+		}
+
+		Tiles: {
+			Hardstone.MapEntry: Твердокамень
+			StarOre.MapEntry: Останки звезды
+			vaultpipe.MapEntry: Труба убежища
+			LabyrinthWallLamp.MapEntry: Настенная лампа лабиринта
+			LockedIronDoor.MapEntry: Закрытая железная дверь
+			RustedChest.MapEntry: Проржавевший сундук
+			LabyrinthSpawner.MapEntry: Спавнер
+			PiranhaSpawner.MapEntry: Спавнер
+			Spitflower.MapEntry: Плевоцвет
+			LabyrinthAltar.MapEntry: Шепчущий алтарь
+			Minecart.MapEntry: Вагонетка
+			Sarcophagus.MapEntry: Саркофаг
+			Scrapper.MapEntry: Утилизатор
+			spiritlamp.MapEntry: Эфирная лампа
+			Dreampod.MapEntry: Стручок грёз
+			Runestalk.MapEntry: Руностебель
+
+			PyramidChest: {
+				MapEntry: Сундук пирамиды
+				MapEntry0: Закрытый сундук пирамиды
+			}
+
+			PyramidPot.MapEntry: Горшок пирамиды
+			Cryocoral.MapEntry: Криокоралл
+			Luminsponge.MapEntry: Губкосвет
+			Nightglow.MapEntry: Куст ночного сияния
+			Shroomcart.MapEntry: Вагонетка
+			ArcaneChest.MapEntry: Арканный сундук
+			SacrificialAltar.MapEntry: Алтарь для жертвоприношений
+			Eyeball.MapEntry: Злобный глаз
+			// VaultPipe.MapEntry: Vault Pipe
+		}
+
+		Buffs: {
+			ManaShieldCooldown: {
+				DisplayName: Поломка щита
+				Description: Вашему магическому щиту требуется время на восстановление
+			}
+
+			RunestalkBlessing: {
+				DisplayName: Благославление руностебля
+				Description: Увеличивает скорость копания на 50%
+			}
+		}
+
+		Items: {
+			alchemybook: {
+				DisplayName: Книга экзотической алхимии
+				Tooltip: ""
+			}
+
+			devtool: {
+				DisplayName: devtool
+				Tooltip: ""
+			}
+
+			ManaShield: {
+				DisplayName: Магический щит
+				Tooltip:
+					'''
+					Уменьшает получаемый урон на 25%, расходуя вашу ману при получении урона
+					Временно деактивируется, если вы получили урон, не имея достаточно маны
+					'''
+			}
+
+			RingofElements: {
+				DisplayName: Кольцо элементов
+				Tooltip: Снижает длительность всех дебаффов кроме послезельевой болезни в два раза
+			}
+
+			IronKey: {
+				DisplayName: Железный ключ
+				Tooltip: Открывает одну закрытую железную дверь
+			}
+
+			NightglowBerry: {
+				DisplayName: Ягода ночного сияния
+				Tooltip: Светящийся плод с кисловатым вкусом, кожурой и слабыми магическими свойствами
+			}
+
+			PyramidKey: {
+				DisplayName: Ключ пирамиды
+				Tooltip: Открывает один сундук пустынного храма
+			}
+
+			CoinMold: {
+				DisplayName: Слепок монеты
+				Tooltip: Позволяет выковать монету из золотого слитка, но ломается после первого же использования
+			}
+
+			SalvagedMetal: {
+				DisplayName: Утилизированный металлолом
+				Tooltip: Можно переработать в железные слитки возле печи
+			}
+
+			WandofRefinement: {
+				DisplayName: Жезл совершенствования
+				Tooltip: Магия мерцания этого жезла позволяет вам делать некоторые стены привлекательнее
+			}
+
+			EnchantedBrick: {
+				DisplayName: Арканный кирпич
+				Tooltip: ""
+			}
+
+			GardenBrick: {
+				DisplayName: Кирпич сада
+				Tooltip: ""
+			}
+
+			GoldenPanel: {
+				DisplayName: Золотая панель
+				Tooltip: ""
+			}
+
+			Hardstone: {
+				DisplayName: Твердокамень
+				Tooltip: Сверхплотный камень неизвестного происхождения
+			}
+
+			PyramidBrick: {
+				DisplayName: Кирпич пирамиды
+				Tooltip: ""
+			}
+
+			PyramidChest: {
+				DisplayName: Сундук пирамиды
+				Tooltip: ""
+			}
+
+			StarOre: {
+				DisplayName: Останки звезды
+				Tooltip: Застывшая звезда, всё ещё источающая свою рьяную энергию
+			}
+
+			ToxicWaste: {
+				DisplayName: Токсичный шлак
+				Tooltip: ""
+			}
+
+			WaterBrick: {
+				DisplayName: Водный кирпич
+				Tooltip: ""
+			}
+
+			EnergySpike: {
+				DisplayName: Энергетический шип
+				Tooltip: ""
+			}
+
+			LabyrinthDoor: {
+				DisplayName: Дверь лабиринта
+				Tooltip: ""
+			}
+
+			LabyrinthWallLamp: {
+				DisplayName: Настенная лампа лабиринта
+				Tooltip: ""
+			}
+
+			NightglowSeed: {
+				DisplayName: Семена ночного сияния
+				Tooltip: ...и большую ямку посередине
+			}
+
+			RustedChest: {
+				DisplayName: Проржавевший сундук
+				Tooltip: Его замок давно износился
+			}
+
+			Sarcophagus: {
+				DisplayName: Саркофаг
+				Tooltip: Древний гроб с простыми узорами
+			}
+
+			Scrapper: {
+				DisplayName: Утилизатор
+				Tooltip: ""
+			}
+
+			sprout: {
+				DisplayName: Росток
+				Tooltip: ""
+			}
+
+			GardenBrickWall: {
+				DisplayName: Стена из кирпича сада
+				Tooltip: ""
+			}
+
+			GoldenPanelWall: {
+				DisplayName: Стена из золотой панели
+				Tooltip: ""
+			}
+
+			PyramidBrickWall: {
+				DisplayName: Стена из кирпича пирамиды
+				Tooltip: ""
+			}
+
+			WaterBrickWall: {
+				DisplayName: Стена из водного кирпича
+				Tooltip: ""
+			}
+
+			LuminousHook: {
+				DisplayName: Светящийся крюк
+				Tooltip: Излучает свет
+			}
+
+			ArmCannon: {
+				DisplayName: Ручная пушка
+				Tooltip: ""
+			}
+
+			CursedFlamethrower: {
+				DisplayName: Вестник хаоса
+				Tooltip: ""
+			}
+
+			SpiritLance: {
+				DisplayName: Копьё духов
+				Tooltip: Восстанавливает ману при нанесении урона, но становится значительно слабее при полном запасе маны
+			}
+
+			VintageSniper: {
+				DisplayName: Винтажная снайперская винтовка
+				Tooltip:
+					'''
+					Стреляет мощной высокоскоростной пулей
+					Нажмите ПКМ, чтобы отдалить
+					'''
+			}
+
+			SummonCrown: {
+				DisplayName: Корона наставничества
+				Tooltip: Чем меньше у вас здоровья, тем больше урона наносят ваши миньоны, вплоть до максимальной прибавки в 25%
+			}
+
+			TombBrick: {
+				DisplayName: Кирпич склепа
+				Tooltip: ""
+			}
+
+			TombBrickWall: {
+				DisplayName: Стена из кирпича склепа
+				Tooltip: ""
+			}
+
+			EnchantedBrickWall: {
+				DisplayName: Стена из арканного кирпича
+				Tooltip: ""
+			}
+
+			ScientistNotes1: {
+				DisplayName: Исследовательская записка: Подготовка
+				Tooltip:
+					'''
+					День первый
+					-
+					Много лет тому назад, наш родной город начал один крайне амбициозный исследовательский проект.
+					По заявлениям, он должен был значительно расширить наши знания в ранее невиданных областях науки.
+					Я и мои коллеги, выдающиеся умы города, получили право на участие в этой программе.
+					Строительство нашей базы совсем недавно было завершено, и нас сразу же перевели сюда для проведения исследований.
+					Заселяемся мы уже сегодня, а завтра примемся за работу.
+					'''
+			}
+
+			ScientistNotes2: {
+				DisplayName: Исследовательская записка: Задание
+				Tooltip:
+					'''
+					День второй
+					-
+					Нашим первым рабочим поручением стал ряд экспериментов с алхимическими микстурами.
+					Запасы близлежащих к городу природных ресурсов чрезвычайно скудны для проведения подобных исследований.
+					Текущей задачей является разработка новых, более продвинутых лечебных и усиливающих тело препаратов.
+					Каждую неделю нам необходимо докладывать об итогах своей деятельности, следующий такой отчёт состоится через 6 дней.
+					Надеюсь, вскоре мы получим полезные результаты, иначе программа долго не протянет.
+					'''
+			}
+
+			ScientistNotes3: {
+				DisplayName: Исследовательская записка: Симбиоз
+				Tooltip:
+					'''
+					День пятый
+					-
+					Магически Усиленное Средство Восстановления Тканей, также известное как Зелье лечения — самая настоящая панацея.
+					Этот мощный медикамент направляет живительную энергию обычных грибов на быстрое заживление любых видов ран.
+					Наши недавние наблюдения выявили симбиотические отношения этих грибов со своими подземными светящимися аналогами.
+					Комбинируя оба вида, мы можем разогнать процесс заживления тканей до немыслимой эффективности.
+					Практическим результатом всего этого стало новое лечебное вещество, вдвое мощнее своего предшественника.
+					Новых побочных эффектов у препарата выявлено не было.
+					Этот день войдёт в историю, можно с уверенностью сказать, что этим мы обеспечили долговечность проекта.
+					Власти непременно будут удовлетворены нашей работой, однако нам ещё многое предстоит сделать.
+					'''
+			}
+
+			ScientistNotes4: {
+				DisplayName: Исследовательская записка: Сознание
+				Tooltip:
+					'''
+					День одиннадцатый
+					-
+					Эффективно распределив работу с алхимией среди сотрудников, нам выделилось предостаточно времени на изучение магии.
+					Результаты наших исследований в последнее время были крайне ... занимательными, скажем так.
+					Самое удивительное заклинание, каким мы смогли овладеть, наделяет неодушевленные предметы примитивным интеллектом.
+					После нескольких дней оттачивания мастерства применения заклинания, наконец пришло время экспериментов.
+					Мы наложили на несколько книг данное заклинание наделения разумом.
+					Если наши ожидания подтвердятся, эти фолианты смогут использовать магические заклинания, записанные в них же.
+					Их безграничный потенциал, в таком случае, откроет нам колоссальное количество новых возможностей.
+					'''
+			}
+
+			ScientistNotes5: {
+				DisplayName: Исследовательская записка: Зарождение
+				Tooltip:
+					'''
+					День шестнадцатый
+					-
+					Искажение, окружившее наш город, подбирается к нему всё ближе и ближе.
+					К счастью, нам наконец удалось получить образцы заражённых тканей.
+					Было обнаружено, что Искажение — результат жизненного цикла штамма патогенной бактерии, выпускающей летальные токсины.
+					Используя их наследственную информацию, мы смогли вывести рекомбинант этого микроорганизма.
+					Его выделения не только абсолютно безопасны, но и способны целенаправленно уничтожать любые следы штамма Искажения.
+					Однако наша команда решила зайти ещё дальше, совместив эту работу с нашими новоприобретёнными познаниями в магии.
+					У выделений рекомбинанта есть перечень потенциально полезных эффектов, в том числе условия для образования новой жизни.
+					Мы на пороге возможно величайшего научного и магического изобретения, которое некоторые уже успели прозвать Освящением.
+					'''
+			}
+
+			ScientistNotes6: {
+				DisplayName: Исследовательская записка: Исчезновение
+				Tooltip:
+					'''
+					День двадцать девятый
+					-
+					Судя по расписанию, сегодня мы должны были отчитаться о своём исследовательском прогрессе.
+					Но от города никаких вестей уже который день, главное — не поддаваться панике.
+					Если проблема не решится, поставок с припасами мы больше не увидим.
+					Придётся полагаться на себя, так что прямо сейчас нам необходимо создать возобновляемый источник пищи.
+					'''
+			}
+
+			ScientistNotes7: {
+				DisplayName: Исследовательская записка: Выживание
+				Tooltip:
+					'''
+					День тридцатый
+					-
+					На текущий момент, нашего провианта хватит ещё на 9 дней, возможно и на 18, если потреблять его рационально.
+					Мы можем начать выращивать еду, что у нас уже есть, но мы скорее подохнем с голоду до того, как соберём первый урожай.
+					Значит будем генетически модифицировать посевы, повышая пищевую ценность и темпы роста наших посевов.
+					Прямо над нашей базой располагается просторная пещера.
+					Она должна прекрасно подойти для земледелия, там-то мы и посадим наши семена.
+					'''
+			}
+
+			ArcaneChest: {
+				DisplayName: Арканный сундук
+				Tooltip: ""
+			}
+
+			SacrificialAltar: {
+				DisplayName: Алтарь для жертвоприношений
+				Tooltip: ""
+			}
+
+			VaultPlating: {
+				// DisplayName: Vault Plating
+				// Tooltip: ""
+			}
+
+			VaultWall: {
+				// DisplayName: Vault Wall
+				// Tooltip: ""
+			}
+
+			HeavyAlloy: {
+				// DisplayName: Heavy Alloy
+				// Tooltip: ""
+			}
+
+			VaultPlatform: {
+				// DisplayName: Vault Platform
+				// Tooltip: ""
+			}
+
+			VaultPipe: {
+				// DisplayName: Vault Pipework
+				// Tooltip: ""
+			}
+
+			devwand2: {
+				// DisplayName: devwand2
+				// Tooltip: ""
+			}
+		}
+
+		NPCs: {
+			HoneySlime.DisplayName: Медовый слизень
+			IlluminantDagger.DisplayName: Лучезарный кинжал
+			spellbookhealing.DisplayName: Фолиант заживления
+			TomeofFrost.DisplayName: Фолиант мороза
+			TomeofInferno.DisplayName: Фолиант пламени
+			Ward.DisplayName: Страж
+			Blaster.DisplayName: Взрыватель
+			Flamer.DisplayName: Огнемётчик
+			Gunner.DisplayName: Стрелок
+			Icer.DisplayName: Криомётчик
+			Shocker.DisplayName: Шокер
+			Arcanist.DisplayName: Арканист
+			TomeofMending.DisplayName: Фолиант заживления
+		}
+
+		Projectiles: {
+			burn.DisplayName: Огонь
+			cursedburn.DisplayName: Проклятый огонь
+			cursedflamejet.DisplayName: Струя проклятого пламени
+			deathbolt.DisplayName: Снаряд смерти
+			magicshieldhit.DisplayName: Магический щит
+			MazeGuardianTeleport.DisplayName: Телепорт Стража
+			blastermissile.DisplayName: Бластерная ракета
+			fireball.DisplayName: Огненный шар
+			FireBolt.DisplayName: Огненный снаряд
+			iceball.DisplayName: Ледяной шар
+			IceSpike.DisplayName: Ледяной шип
+			PoisonSpit.DisplayName: Ядовитый плевок
+			frostburn.DisplayName: Морозный огонь
+			LuminousHook.DisplayName: Светящийся крюк
+			ichorjet.DisplayName: Струя ихора
+			shockbolt.DisplayName: Электрический заряд
+			uraniumbullet.DisplayName: Урановая пуля
+			flamejet.DisplayName: Струя огня
+			minigunholdout.DisplayName: Миниган
+			pulsebolt.DisplayName: Импульсный снаряд
+			SpiritLanceHoldout.DisplayName: Копьё духов
+			AetherButterfly.DisplayName: Эфирная бабочка
+			FallingDreampod.DisplayName: Стручок грёз
+			FallingEyeball.DisplayName: Злобный глаз
+		}
+
+		Configs: {
+			Client: {
+				DisplayName: Клиентские настройки
+
+				Headers: {
+					Worldgen: Генерация мира
+					Audio: Аудио
+				}
+
+				TerrainAmplitude: {
+					Label: "[i:3] Амплитуда поверхности"
+					Tooltip: Регулирует разницу высот генерируемого ландшафта в новых мирах
+				}
+
+				OreFrequency: {
+					Label: "[i:11] Количество руды"
+					Tooltip: Регулирует количество генерируемых руд в новых мирах
+				}
+
+				TrapFrequency: {
+					Label: "[i:539] Количество ловушек"
+					Tooltip: Регулирует количество ловушек в новых мирах
+				}
+
+				CloudDensity: {
+					Label: "[i:751] Плотность облаков"
+					Tooltip: Регулирует количество генерируемых облаков в новых мирах
+				}
+
+				CustomMusic: {
+					Label: "[i:576] Собственная музыка"
+					Tooltip: Включает собственный саундтрек этого мода
+				}
+
+				ExperimentalWorldgen: {
+					Label: "[i:1344] Экспериментальная генерация мира"
+					Tooltip:
+						'''
+						Включает генерацию контента, который всё ещё находится в разработке
+						ТОЛЬКО ДЛЯ ТЕСТИРОВАНИЯ, НЕ ВКЛЮЧАЙТЕ ЭТО ДЛЯ ОБЫЧНЫХ ПРОХОЖДЕНИЙ
+						'''
+				}
+			}
+
+			Server: {
+				DisplayName: Настройки сервера
+				Headers.Gameplay: Геймплей
+
+				FreedomOfMovement: {
+					Label: "[i:54] Свобода передвижения"
+					Tooltip:
+						'''
+						Игрок становится быстрее и подвижнее (18 миль/ч вместо 15 миль/ч) 
+						КРАЙНЕ РЕКОМЕНДУЕТСЯ
+						'''
+				}
+
+				EnemyAI: {
+					Label: "[i:1248] Улучшения ИИ врагов"
+					Tooltip:
+						'''
+						У некоторых водоплавающих и летающих врагов будет новый улучшенный ИИ
+						НЕ РАБОТАЕТ В МУЛЬТИПЛЕЕРЕ
+						'''
+				}
+
+				ProjectileAI: {
+					Label: "[i:1321] Улучшения снарядов"
+					Tooltip:
+						'''
+						У метательного оружия будет более плавная траектория полёта, благодаря чему их будет удобнее использовать
+						Также изменяет баланс некоторого оружия (например добавляет автоатаку сюрикенам) 
+						МОЖЕТ ВЫЗЫВАТЬ СТРАННЫЕ БАГИ
+						'''
+				}
+
+				HangingBats: {
+					Label: "[i:1621] Висящие летучие мыши"
+					Tooltip:
+						'''
+						Летучие мыши будут висеть на потолке и атаковать игрока только когда тот подойдет слишком близко
+						НЕ РАБОТАЕТ В МУЛЬТИПЛЕЕРЕ
+						'''
+				}
+			}
+		}
+	}
+}
