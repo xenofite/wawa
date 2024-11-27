@@ -1,0 +1,21 @@
+Tiles: {
+	Small_Teleporter_Tile.MapEntry: Маленький телепорт
+	Door_Teleporter_Tile.MapEntry: Дверной телепорт
+}
+
+Items: {
+	Small_Teleporter: {
+		DisplayName: Маленький телепорт
+		Tooltip: ""
+	}
+
+	Door_Teleporter: {
+		DisplayName: Дверной телепорт
+		Tooltip:
+			'''
+			Нажмите ПКМ по тайлу, удерживая [Quick Heal], чтобы перевеститься по оси X
+			Нажмите ПКМ по тайлу, удерживая [Quick Heal], чтобы перевеститься НИЖЕ по оси Y
+			Нажмите ПКМ по тайлу, удерживая [Quick Heal], чтобы перевеститься ВЫШЕ по оси Y
+			'''
+	}
+}
