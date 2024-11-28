@@ -34,17 +34,17 @@ Configs: {
 
 		DisableCritterLeaning: {
 			Tooltip: ""
-			Label: Disable Critter Leaning
+			Label: Отключить наклон живностей
 		}
 
 		DisableZombieLeaning: {
 			Tooltip: ""
-			Label: Disable Zombie-Type Enemy Leaning
+			Label: Отключить наклон зомбиобразных врагов
 		}
 
 		DisableSlimeLeaning: {
 			Tooltip: ""
-			Label: Disable Slime Jump Leaning
+			Label: Отключить наклон слизней в прыжке
 		}
 
 		DisableNeckPlayerLayer: {
@@ -75,9 +75,9 @@ Configs: {
 		}
 
 		Headers: {
-			Player: "[i:267] Player"
-			NPC: "[i:1307] NPC"
-			BugFix: "[i:1344] Bug Fixes"
+			Player: "[i:267] Игрок"
+			NPC: "[i:1307] Существа"
+			BugFix: "[i:1344] Исправления ошибок"
 		}
 	}
 }
