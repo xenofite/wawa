@@ -19,7 +19,7 @@ SpookyHellChest: {
 }
 
 EyeDresser: {
-	ContainerName: Комод из живой плоти
+	ContainerName: Комод из ожившей плоти
 	MapEntry: Комод
 }
 
