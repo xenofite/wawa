@@ -166,7 +166,7 @@ WinterGooseberry: {
 	Tooltip:
 		'''
 		Каждое третье нанесение урона имеет 33% шанс запустить ягоду крыжовника в небо
-		Подобраный крыжовник накладывает 4-секундный бафф, увеличивающий регенерацию здоровья и скорость ускорения на 15%
+		Подобраный крыжовник накладывает 4-секундный бафф, увеличивающий регенерацию здоровья и ускорение на 15%
 		Крыжовник уничтожается при контакте в врагами и снарядами
 		Длительность действия эффекта: 5 мин.
 		'''
@@ -1334,7 +1334,7 @@ StitchedCloak: {
 	DisplayName: Сшитый плащ
 	Tooltip:
 		'''
-		Увеличивает скорость ускорения
+		Увеличивает ускорение 
 		Нажмите дважды в нужном направлении, чтобы сделать рывок по горизонтали или вертикали
 		Рывки оставляют за собой паутину, которая зацепляет врагов, нанося им урон
 		Рывок плаща имеет 9 секунд перезарядки
@@ -1415,7 +1415,7 @@ SpiderLegs: {
 	Tooltip:
 		'''
 		Увеличивает скорость передвижения на 15%
-		Увеличивает скорость ускорения и высоту прыжка
+		Увеличивает ускорение и высоту прыжка
 		'''
 }
 
@@ -1928,17 +1928,17 @@ WarlockRobe: {
 }
 
 EyeBody: {
-	DisplayName: Нагрудник из живой плоти
+	DisplayName: Нагрудник из ожившей плоти
 	Tooltip: Увеличивает максимальное число миньонов и стражей на 1
 }
 
 EyeHead: {
-	DisplayName: Маска из живой плоти
+	DisplayName: Маска из ожившей плоти
 	Tooltip: Увеличивает урон призывателя на 8%
 }
 
 EyeLegs: {
-	DisplayName: Ботинки из живой плоти
+	DisplayName: Ботинки из ожившей плоти
 	Tooltip:
 		'''
 		Увеличивает урон призывателя на 6%
@@ -2071,8 +2071,8 @@ TotalOrganPackage: {
 }
 
 ArteryPiece: {
-	DisplayName: Живая артерия
-	Tooltip: Наполненная странной кровью
+	DisplayName: Ожившая артерия
+	Tooltip: Наполнена странной кровью
 }
 
 CreepyChunk: {
@@ -2305,7 +2305,7 @@ SentientSkullBook: {
 }
 
 SentientSphereStaff: {
-	DisplayName: Живой Кадуцей
+	DisplayName: Оживший «Кадуцей»
 	Tooltip:
 		'''
 		Призывает комки крылатой биомассы, атакующие врагов
@@ -2398,23 +2398,23 @@ LeechWhip: {
 }
 
 MouthFlamethrower: {
-	DisplayName: Venom Sprayer
-	Tooltip: Spews out a stream of venomous gas breath
+	DisplayName: Ядопульверизатор
+	Tooltip: Выпускает струю ядовитого газа
 }
 
 Scycler: {
-	DisplayName: Scycler
-	Tooltip: Throws discs that follow your cursor before returning to you
+	DisplayName: Косоврат
+	Tooltip: Бросает чакрам, который преследует курсор, перед тем как вернуться к вам
 }
 
 BrainJar: {
-	DisplayName: Brainy in a Jar
+	DisplayName: Мозговитый в банке
 	Tooltip:
 		'''
-		Summons brainy the brain to hover around you
-		Every minute, he will convulsate, causing all of your existing minions to explode
-		Each explosions damage will scale further based on each individual minion's damage
-		Brainy does not take up any minion slots
+		Бросает банку, из которой появляется мозг, преследующий вас
+		Каждую минуту он создаёт взрыв, уничтожающий всех ваших миньонов
+		Урон от взрыва увеличивается в зависимости от урона каждого отдельного взорванного миньона
+		Мозговитый не занимает слоты под миньонов
 		'''
 }
 
@@ -2452,7 +2452,7 @@ FleshWhip: {
 }
 
 LivingFleshAxe: {
-	DisplayName: Живой «Мясоизмельчитель»
+	DisplayName: Оживший «Мясоизмельчитель»
 	Tooltip:
 		'''
 		Наносит намного больше урона врагам с низким показателем здоровья
@@ -2461,7 +2461,7 @@ LivingFleshAxe: {
 }
 
 LivingFleshBow: {
-	DisplayName: Живой «Ясновидящий»
+	DisplayName: Оживший «Ясновидящий»
 	Tooltip:
 		'''
 		Превращает любые стрелы в сгустки крови
@@ -2470,7 +2470,7 @@ LivingFleshBow: {
 }
 
 LivingFleshStaff: {
-	DisplayName: Живой «Посох сетчатки»
+	DisplayName: Оживший «Посох сетчатки»
 	Tooltip:
 		'''
 		Одновременно может быть выпущено только 5 глаз
@@ -2482,7 +2482,7 @@ LivingFleshStaff: {
 }
 
 LivingFleshWhip: {
-	DisplayName: Живой «Глазной лазер»
+	DisplayName: Оживший «Глазной лазер»
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Whips}
@@ -2491,11 +2491,11 @@ LivingFleshWhip: {
 }
 
 MonsterBloodVial: {
-	DisplayName: Monster Blood
+	DisplayName: Кровь монстра
 	Tooltip:
 		'''
-		Massively increases life regeneration while not moving
-		While moving, you gain 5% increased critical strike chance
+		Значительно увеличивает регенерацию здоровья, когда вы не двигаетесь
+		При движении, ваш шанс критического удара увеличивается на 5%
 		'''
 }
 
@@ -3570,7 +3570,7 @@ SpookyHellChestItem: {
 }
 
 SpookyHellCrate: {
-	DisplayName: Ящик из живой плоти
+	DisplayName: Ящик из ожившей плоти
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -3585,92 +3585,92 @@ EyeBlockItem: {
 }
 
 EyeBathtubItem: {
-	DisplayName: Ванна из живой плоти
+	DisplayName: Ванна из ожившей плоти
 	Tooltip: ""
 }
 
 EyeBedItem: {
-	DisplayName: Кровать из живой плоти
+	DisplayName: Кровать из ожившей плоти
 	Tooltip: ""
 }
 
 EyeBookcaseItem: {
-	DisplayName: Книжный шкаф из живой плоти
+	DisplayName: Книжный шкаф из ожившей плоти
 	Tooltip: ""
 }
 
 EyeCandelabraItem: {
-	DisplayName: Подсвечник из живой плоти
+	DisplayName: Подсвечник из ожившей плоти
 	Tooltip: ""
 }
 
 EyeCandleItem: {
-	DisplayName: Свеча из живой плоти
+	DisplayName: Свеча из ожившей плоти
 	Tooltip: ""
 }
 
 EyeChairItem: {
-	DisplayName: Стул из живой плоти
+	DisplayName: Стул из ожившей плоти
 	Tooltip: ""
 }
 
 EyeChandelierItem: {
-	DisplayName: Люстра из живой плоти
+	DisplayName: Люстра из ожившей плоти
 	Tooltip: ""
 }
 
 EyeClockItem: {
-	DisplayName: Напольные часы из живой плоти
+	DisplayName: Напольные часы из ожившей плоти
 	Tooltip: ""
 }
 
 EyeDoorItem: {
-	DisplayName: Дверб из живой плоти
+	DisplayName: Дверб из ожившей плоти
 	Tooltip: ""
 }
 
 EyeDresserItem: {
-	DisplayName: Комод из живой плоти
+	DisplayName: Комод из ожившей плоти
 	Tooltip: ""
 }
 
 EyeLampItem: {
-	DisplayName: Напольная лампа из живой плоти
+	DisplayName: Напольная лампа из ожившей плоти
 	Tooltip: ""
 }
 
 EyeLanternItem: {
-	DisplayName: Фонарь из живой плоти
+	DisplayName: Фонарь из ожившей плоти
 	Tooltip: ""
 }
 
 EyePianoItem: {
-	DisplayName: Пианино из живой плоти
+	DisplayName: Пианино из ожившей плоти
 	Tooltip: ""
 }
 
 EyePlatformItem: {
-	DisplayName: Платформа из живой плоти
+	DisplayName: Платформа из ожившей плоти
 	Tooltip: ""
 }
 
 EyeSinkItem: {
-	DisplayName: Раковина из живой плоти
+	DisplayName: Раковина из ожившей плоти
 	Tooltip: ""
 }
 
 EyeSofaItem: {
-	DisplayName: Диван из живой плоти
+	DisplayName: Диван из ожившей плоти
 	Tooltip: ""
 }
 
 EyeTableItem: {
-	DisplayName: Стол их живой плоти
+	DisplayName: Стол из ожившей плоти
 	Tooltip: ""
 }
 
 EyeWorkBenchItem: {
-	DisplayName: Верстак из живой плоти
+	DisplayName: Верстак из ожившей плоти
 	Tooltip: ""
 }
 
@@ -3705,12 +3705,12 @@ LittleEyePaintingItem: {
 }
 
 LivingFleshItem: {
-	DisplayName: Живая плоть
+	DisplayName: ожившая плоть
 	Tooltip: ""
 }
 
 LivingFleshWallItem: {
-	DisplayName: Стена из живой плоти
+	DisplayName: Стена из ожившей плоти
 	Tooltip: ""
 }
 
