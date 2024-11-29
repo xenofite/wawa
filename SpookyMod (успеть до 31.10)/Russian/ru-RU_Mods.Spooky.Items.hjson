@@ -1,5 +1,5 @@
 StrawberryBoost: {
-	DisplayName: Mountain Strawberry
+	DisplayName: Горная земляника
 	Tooltip: ""
 }
 DandelionHerd: {
@@ -59,7 +59,7 @@ FallWaterGourd: {
 	DisplayName: Тыкволейка
 	Tooltip:
 		'''
-		Плоды полностью созревших растений имеют шанс дать дополнительный плод и семена
+		Плоды полностью созревших цветений имеют шанс дать дополнительный плод и семена
 		Длительность действия эффекта: 10 мин.
 		'''
 }
@@ -75,7 +75,7 @@ SpringHeartFlower: {
 	DisplayName: Кровоточащее сердце
 	Tooltip:
 		'''
-		Увеличивает регенерацию за каждую занятую ячейку бафф-растений, включая себя
+		Увеличивает регенерацию за каждую занятую ячейку цветений, включая себя
 		Длительность действия эффекта: 5 мин.
 		'''
 }
@@ -93,7 +93,7 @@ SpringOrchid: {
 	DisplayName: Обезьянья орхидея
 	Tooltip:
 		'''
-		Оружие при использовании имеют шанс метнуть сюрикен обезьяней орхидеи
+		Оружие при использовании имеет шанс метнуть сюрикен обезьяней орхидеи
 		Урон сюрикена зависит от используемого оружия
 		Длительность действия эффекта: 4 мин.
 		'''
@@ -108,74 +108,75 @@ SpringRose: {
 		'''
 }
 SummerLemon: {
-	DisplayName: Multiplemon
+	DisplayName: Умножелимон
 	Tooltip:
 		'''
-		Using weapons will sometimes shoot bouncing lemon bombs
-		Each lemon shot consecutively will cause an extra bouncy lemon to shoot out
+		Оружие при использовании имеет шанс выпустить прагающую бомбу-лимон
+		Если непрерывно выпускать бомбы-лимоны, их количество будет увеличиваться 
 		Длительность действия эффекта: 5 мин.
 		'''
 }
 SummerOrange: {
-	DisplayName: Angry Orange
+	DisplayName: Разъярённый апельсин
 	Tooltip:
 		'''
-		Gain an orbiting angry orange that damages enemies and burns them
-		The faster you are moving the more its speed, range, and damage increase
+		Призывает раъярённый апельсин, который будет вращаться вокруг вас при передвижении
+		Апельсин наносит урон и поджигает врагов на своём пути
+		Чем быстрее вы двигаетесь, тем больше апельсин наносит урона и быстрее вращается
 		Длительность действия эффекта: 5 мин.
 		'''
 }
 SummerPineapple: {
-	DisplayName: Poker Pineapple
+	DisplayName: Ананасовые фишки для покера
 	Tooltip:
 		'''
-		Increases damage dealt from critical hits by 35% but halves your overall critical strike chance
-		Landing a critical hit will also heal a bit of your health
+		Увеличивает урон критических ударов на 35%, но снижает шанс нанести критический удар вдвое
+		Критические удары также восстанавливают немного здоровья
 		Длительность действия эффекта: 5 мин.
 		'''
 }
 SummerSunflower: {
-	DisplayName: Sunny Side Up
+	DisplayName: Повёрнутый к солнцу цветок
 	Tooltip:
 		'''
-		Significantly increases the growth rate of all bloom crops
-		Gives you the happy sunflower buff for 2 minutes
+		Значительно увеличивает скорость роста всех цветений
+		Даёт вам бафф «Счастье!» на 2 минуты
 		Длительность действия эффекта: 5 мин.
 		'''
 }
 WinterBlackberry: {
-	DisplayName: Blackberry Glacier
+	DisplayName: Черничный леденец
 	Tooltip:
 		'''
-		Any blooms you eat have a chance to last for double their normal duration
+		Длительность действия эффекта любого употреблённого цветенья имеет шанс увеличиться вдвое
 		Длительность действия эффекта: 2 мин.
 		'''
 }
 WinterBlueberry: {
-	DisplayName: Very Blues
+	DisplayName: Грустника
 	Tooltip:
 		'''
-		Hitting enemies may inflict them with frozen blueberry juice which will slown them down
-		Any enemy nearby the initially hit enemy will also be inflicted with it for a shorter time
+		Попадания по врагам имеют шанс облить их ледяным голубичным соком, замедляющим их скорость передвижения
+		Все враги, оказавшиеся вблизи изначального облитого врага также получат этот эффект, но на более короткое время
 		Длительность действия эффекта: 4 мин.
 		'''
 }
 WinterGooseberry: {
-	DisplayName: Plump Gooseberry
+	DisplayName: Спелый крижовник
 	Tooltip:
 		'''
-		Every third instance of damage you deal has a 33% chance to launch a gooseberry upward
-		Gooseberries increase life regeneration and movement acceleration by 15% for a short time when picked up 
-		Gooseberries will be destroyed upon making contact with hostile enemies or projectiles
+		Каждое третье нанесение урона имеет 33% шанс запустить ягоду крыжовника в небо
+		Подобраный крыжовник накладывает 4-секундный бафф, увеличивающий регенерацию здоровья и скорость ускорения на 15%
+		Крыжовник уничтожается при контакте в врагами и снарядами
 		Длительность действия эффекта: 5 мин.
 		'''
 }
 WinterStrawberry: {
-	DisplayName: Mountain Strawberry
+	DisplayName: Горная земляника
 	Tooltip:
 		'''
-		Every 40 seconds you will spawn some mountain strawberries you can pick up
-		They grant 10% increased damage, critical strike chance, and knockback for 10 seconds
+		Призывает горную землянику каждые 40 секунд
+		Подобраная земляника накладывает 10-секундный бафф, увеличивающий урон, шанс критического удара и отбрасывания на 10%
 		Длительность действия эффекта: 5 мин.
 		'''
 }
@@ -392,13 +393,13 @@ PlantChunk: {
 }
 
 Slot3Unlocker: {
-	DisplayName: Ленточка 2-го места растения
-	Tooltip: Открывает третий слот под баффы растений
+	DisplayName: Ленточка 2-го места цветенья
+	Tooltip: Открывает третий слот под баффы цветений
 }
 
 Slot4Unlocker: {
-	DisplayName: Ленточка 1-го места растения
-	Tooltip: Открывает четвёртый слот под баффы растений
+	DisplayName: Ленточка 1-го места цветенья
+	Tooltip: Открывает четвёртый слот под баффы цветений
 }
 
 BigBoneBow: {
@@ -2596,12 +2597,12 @@ VinylSneaky: {
 
 BloomSoilItem: {
 	DisplayName: Благородная почва
-	Tooltip: На ней можно сажать и выращивать уникальные цветы
+	Tooltip: На ней можно сажать и выращивать цветенья
 }
 
 DandelionSeed: {
 	DisplayName: Семена одуванчика
-	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных одуванчековых растений
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных одуванчековых цветений
 }
 
 DragonfruitSeed: {
@@ -2610,28 +2611,28 @@ DragonfruitSeed: {
 		'''
 		Инвазивное растение, цветущее необычным образом
 		Сажается на ровной поверхности из благородной почвы
-		По мере роста предваращет близрастущие растения в себе подобных
+		По мере роста предваращет близрастущие цветенья в себе подобных
 		'''
 }
 
 FallSeed: {
 	DisplayName: Внутренности тыквы
-	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных тыквенных растений
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных тыквенных цветений
 }
 
 SpringSeed: {
 	DisplayName: Цветочная пыльца
-	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных цветочных растений
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных цветочных цветений
 }
 
 SummerSeed: {
 	DisplayName: Солнечное семя подсолнуха
-	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных тропических растений
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных тропических цветений
 }
 
 WinterSeed: {
 	DisplayName: Заснеженный ягодный кустарник
-	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных ягодных растений
+	Tooltip: Посадите на ровной поверхности из благородной почвы, чтобы вырастить одно из возможных ягодных цветений
 }
 
 CatacombBrickPlatform1Item: {
