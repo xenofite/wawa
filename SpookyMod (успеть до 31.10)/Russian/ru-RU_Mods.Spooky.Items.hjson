@@ -3705,7 +3705,7 @@ LittleEyePaintingItem: {
 }
 
 LivingFleshItem: {
-	DisplayName: ожившая плоть
+	DisplayName: Ожившая плоть
 	Tooltip: ""
 }
 
