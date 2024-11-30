@@ -1,247 +1,262 @@
 Configs: {
 	Config: {
-		DisplayName: Boss Health Bar Settings
+		DisplayName: Конфигурация полоски здоровья босса
 
 		bossName: {
-			Label: Boss Name
-			Tooltip: Shows the name of the boss
+			Label: Имя босса
+			Tooltip: Отображает имя босса над полоской его здоровья
 		}
 
 		bossHealthInt: {
-			Label: Boss Health (integer)
-			Tooltip: Shows the boss' health in integers
+			Label: Здоровье босса (в единицах)
+			Tooltip: Отображает точное значение здоровья босса
 		}
 
 		bossHealthPercent: {
-			Label: Boss Health (percentage)
-			Tooltip: Shows the boss' health in percentage
+			Label: Здоровье босса (в процентах)
+			Tooltip: Отображает здоровье босса в процентах
 		}
 
 		bossInvincibleWarning: {
-			Label: Boss Invincibility Warning
-			Tooltip: Gives you a warning if the boss is invincible, may not work properly with segmented bosses
+			Label: Неуязвимость босса
+			Tooltip:
+				'''
+				Вместо здоровья босса будет отображаться пометка о его неуязвимости когда это нужно
+				Может работать некорректно на сегментированных боссах
+				'''
 		}
 
 		hideBossBarOnInvinc: {
-			Label: Hide boss bar when boss is invincible
-			Tooltip: Boss health bar is hidden when the boss is invincible, boss invincibility warning must be enabled for this setting to work
+			Label: Прятать полоску здоровья босса пока он в неуязвимости
+			Tooltip:
+				'''
+				Полоска здоровья босса будет скрыта до тех пор, пока босс снова не станет уязвимым
+				Включите настройку «Неуязвимость босса» для работы этой настройки
 		}
 
 		fontColorRed: {
-			Label: Font Color [c/FF0000:(Red)]
-			Tooltip: Color of the health bar text
+			Label: Цвет текста [c/FF0000:(Красный)]
+			Tooltip: Цвет текста о имени, здоровье и неуязвимости босса в формате RGB
 		}
 
 		fontColorGreen: {
-			Label: Font Color [c/00FF00:(Green)]
-			Tooltip: Color of the health bar text
+			Label: Цвет текста [c/00FF00:(Зелёный)]
+			Tooltip: Цвет текста о имени, здоровье и неуязвимости босса в формате RGB
 		}
 
 		fontColorBlue: {
-			Label: Font Color [c/0000FF:(Blue)]
-			Tooltip: Color of the health bar text
+			Label: Цвет текста [c/0000FF:(Синий)]
+			Tooltip: Цвет текста о имени, здоровье и неуязвимости босса в формате RGB
 		}
 
 		fontOffsetX: {
-			Label: Font Offset (X)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста по оси X
+			Tooltip: Расположение текста о имени, здоровье и неуязвимости босса в пикселях относительно положения по умлолчанию
 		}
 
 		fontOffsetY: {
-			Label: Font Offset (Y)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста по оси Y
+			Tooltip: Расположение текста о имени, здоровье и неуязвимости босса в пикселях относительно положения по умлолчанию
 		}
 
 		showBossDefense: {
-			Label: Boss Defense
-			Tooltip: Displays boss defense
+			Label: Защита босса
+			Tooltip: Отображает количество защиты у босса
 		}
 
 		showBossDamageResist: {
-			Label: Boss Damage Resistance
+			Label: Сопротивление босса к урону
 			Tooltip:
 				'''
-				Displays boss damage resistance
-				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				Отображает сопротивление босса к урону
+				[c/FF0000:Для работы этой настройки необходимо включить Calamity Mod]
 				'''
 		}
 
 		defenseStatRed: {
-			Label: Defense Text Color [c/FF0000:(Red)]
-			Tooltip: Color of the defense stat text
+			Label: Цвет текста о защите [c/FF0000:(Красный)]
+			Tooltip: Цвет текста о защите босса в формате RGB
 		}
 
 		defenseStatGreen: {
-			Label: Defense Text Color [c/00FF00:(Green)]
-			Tooltip: Color of the defense stat text
+			Label: Цвет текста о защите [c/00FF00:(Зелёный)]
+			Tooltip: Цвет текста о защите босса в формате RGB
 		}
 
 		defenseStatBlue: {
-			Label: Defense Text Color [c/0000FF:(Blue)]
-			Tooltip: Color of the defense stat text
+			Label: Цвет текста о защите [c/0000FF:(Синий)]
+			Tooltip: Цвет текста о защите босса в формате RGB
 		}
 
 		defenseStatX: {
-			Label: Defense Text Offset (X)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста о защите по оси X
+			Tooltip: Расположение текста о защите босса в пикселях относительно положения по умлолчанию
 		}
 
 		defenseStatY: {
-			Label: Defense Text Offset (Y)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста о защите по оси Y
+			Tooltip: Расположение текста о защите босса в пикселях относительно положения по умлолчанию
 		}
 
 		showBossKBResist: {
-			Label: Boss Resilience
-			Tooltip: Displays boss knockback resistance
+			Label: Сопротивление к отбрасыванию у босса
+			Tooltip: Отображает сопротивление босса к отбрасыванию
 		}
 
 		KBResistRed: {
-			Label: Resilience Text Color [c/FF0000:(Red)]
-			Tooltip: Color of the knockback resistance stat text
+			Label: Цвет текста о сопротивлении к отбрасыванию [c/FF0000:(Красный)]
+			Tooltip: Цвет текста о сопротивлении босса к отбрасыванию в формате RGB
 		}
 
 		KBResistGreen: {
-			Label: Resilience Text Color [c/00FF00:(Green)]
-			Tooltip: Color of the knockback resistance stat text
+			Label: Цвет текста о сопротивлении к отбрасыванию [c/00FF00:(Зелёный)]
+			Tooltip: Цвет текста о сопротивлении босса к отбрасыванию в формате RGB
 		}
 
 		KBResistBlue: {
-			Label: Resilience Text Color [c/0000FF:(Blue)]
-			Tooltip: Color of the knockback resistance stat text
+			Label: Цвет текста о сопротивлении к отбрасыванию [c/0000FF:(Синий)]
+			Tooltip: Цвет текста о сопротивлении босса к отбрасыванию в формате RGB
 		}
 
 		KBResistX: {
-			Label: Resilience Text Offset (X)
+			Label: Расположение текста о сопротивлении к отбрасыванию по оси X
 			Tooltip:
 				'''
-				Position of the displayed text (in pixels)
-				[c/FF0000:(The internal offset will change if Calamity Mod is enabled. This value itself won't change automatically however)]
+				Расположение текста о сопротивлении босса к отбрасыванию в пикселях относительно положения по умлолчанию
+				[c/FF0000:Расположение этого текста немного измениться, если включён Calamity Mod, однако на значение этой настройки это не повлияет]
 				'''
 		}
 
 		KBResistY: {
-			Label: Resilience Text Offset (Y)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста о сопротивлении к отбрасыванию по оси Y
+			Tooltip: Расположение текста о сопротивлении босса к отбрасыванию в пикселях относительно положения по умлолчанию
 		}
 
 		showBossAtkDmg: {
-			Label: Boss Attack Damage
-			Tooltip: Displays boss attack damage
+			Label: Урон атак босса
+			Tooltip: Отображает урон от атак босса
 		}
 
 		atkDmgRed: {
-			Label: Attack Damage Text Color [c/FF0000:(Red)]
-			Tooltip: Color of the attack damage stat text
+			Label: Цвет текста об уроне атак [c/FF0000:(Красный)]
+			Tooltip: Цвет текста об уроне атак босса в формате RGB
 		}
 
 		atkDmgGreen: {
-			Label: Attack Damage Text Color [c/00FF00:(Green)]
-			Tooltip: Color of the attack damage stat text
+			Label: Цвет текста об уроне атак [c/00FF00:(Зелёный)]
+			Tooltip: Цвет текста об уроне атак босса в формате RGB
 		}
 
 		atkDmgBlue: {
-			Label: Attack Damage Text Color [c/0000FF:(Blue)]
-			Tooltip: Color of the attack damage stat text
+			Label: Цвет текста об уроне атак [c/0000FF:(Синий)]
+			Tooltip: Цвет текста об уроне атак босса в формате RGB
 		}
 
 		atkDmgX: {
-			Label: Attack Damage Text Offset (X)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста об уроне атак по оси X
+			Tooltip: Расположение текста об уроне атак босса в пикселях относительно положения по умлолчанию
 		}
 
 		atkDmgY: {
-			Label: Attack Damage Text Offset (Y)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста об уроне атак по оси Y
+			Tooltip: Расположение текста об уроне атак босса в пикселях относительно положения по умлолчанию
 		}
 
 		showBossTarget: {
-			Label: Boss Target
-			Tooltip: Displays the name of the boss' target
+			Label: Цель босса
+			Tooltip: Отображает имя игрока, которого босс атакует
 		}
 
 		targetRed: {
-			Label: Target Text Color [c/FF0000:(Red)]
-			Tooltip: Color of the target text
+			Label: Цвет текста о цели [c/FF0000:(Красный)]
+			Tooltip: Цвет текста о цели босса в формате RGB
 		}
 
 		targetGreen: {
-			Label: Target Text Color [c/00FF00:(Green)]
-			Tooltip: Color of the target text
+			Label: Цвет текста о цел [c/00FF00:(Зелёный)]
+			Tooltip: Цвет текста о цели босса в формате RGB
 		}
 
 		targetBlue: {
-			Label: Target Text Color [c/0000FF:(Blue)]
-			Tooltip: Color of the target text
+			Label: Цвет текста о цел [c/0000FF:(Синий)]
+			Tooltip: Цвет текста о цели босса в формате RGB
 		}
 
 		targetX: {
-			Label: Target Text Offset (X)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста о цели по оси X
+			Tooltip: Расположение текста о цели босса в пикселях относительно положения по умлолчанию
 		}
 
 		targetY: {
-			Label: Target Text Offset (Y)
-			Tooltip: Position of the displayed text (in pixels)
+			Label: Расположение текста о цели по оси Y
+			Tooltip: Расположение текста о цели босса в пикселях относительно положения по умлолчанию
 		}
 
 		bossIconFlashing: {
-			Label: Boss icon flash effect
-			Tooltip: Boss icon flashes red when it takes damage
+			Label: Мигание иконки босса
+			Tooltip: Иконка босса на полоске здоровья будет мигать красным цветом каждый раз, когда босс получает урон
 		}
 
 		barX: {
-			Label: Boss Bar Offset (X)
-			Tooltip: Boss bar offset (in pixels). Affects positioning of font text, defense text, attack text, knockback text, and target text
+			Label: Расположение полоски здоровья по оси X
+			Tooltip:
+				'''
+				Расположение полоски здоровья босса в пикселях относительно положения по умолчанию
+				В месте с полоской здоровья расположение будет также менять и текст о защите босса, его сопротивлениях, об уроне его атак и о его цели
+				'''
 		}
 
 		barY: {
-			Label: Boss Bar Offset (Y)
-			Tooltip: Boss bar offset (in pixels). Affects positioning of font text, defense text, attack text, knockback text, and target text
+			Label: Расположение полоски здоровья по оси Y
+			Tooltip:
+				'''
+				Расположение полоски здоровья босса в пикселях относительно положения по умолчанию
+				В месте с полоской здоровья расположение будет также менять и текст о защите босса, его сопротивлениях, об уроне его атак и о его цели
+				'''
 		}
 
 		damageResistStatRed: {
-			Label: Damage Reduction Stat Color [c/FF0000:(Red)]
+			Label: Цвет текста о сопротивлении к урону [c/FF0000:(Красный)]
 			Tooltip:
 				'''
-				Color of the damage reduction stat text
-				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				Цвет текста о сопротивлении босса к урону
+				[c/FF0000:Для работы этой настройки необходимо включить Calamity Mod]
 				'''
 		}
 
 		damageResistStatGreen: {
-			Label: Damage Reduction Stat Color [c/00FF00:(Green)]
+			Label: Цвет текста о сопротивлении к урону [c/00FF00:(Зелёный)]
 			Tooltip:
 				'''
-				Color of the damage reduction stat text
-				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				Цвет текста о сопротивлении босса к урону
+				[c/FF0000:Для работы этой настройки необходимо включить Calamity Mod]
 				'''
 		}
 
 		damageResistStatBlue: {
-			Label: Damage Reduction Stat Color [c/0000FF:(Blue)]
+			Label: Цвет текста о сопротивлении к урону [c/0000FF:(Синий)]
 			Tooltip:
 				'''
-				Color of the damage reduction stat text
-				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				Цвет текста о сопротивлении босса к урону
+				[c/FF0000:Для работы этой настройки необходимо включить Calamity Mod]
 				'''
 		}
 
 		damageResistStatX: {
-			Label: Damage Reduction Stat Offset (X)
+			Label: Расположение текста о сопротивлении к урону по оси X
 			Tooltip:
 				'''
-				Position of the displayed text (in pixels)
-				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				Расположение текста о сопротивлении босса к урону в пикселях относительно положения по умолчанию
+				[c/FF0000:Для работы этой настройки необходимо включить Calamity Mod]
 				'''
 		}
 
 		damageResistStatY: {
-			Label: Damage Reduction Stat Offset (Y)
+			Label: Расположение текста о сопротивлении к урону по оси Y
 			Tooltip:
 				'''
-				Position of the displayed text (in pixels)
-				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				Расположение текста о сопротивлении босса к урону в пикселях относительно положения по умолчанию
+				[c/FF0000:Для работы этой настройки необходимо включить Calamity Mod]
 				'''
 		}
 	}
