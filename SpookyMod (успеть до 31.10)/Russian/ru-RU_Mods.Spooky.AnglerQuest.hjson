@@ -1,29 +1,29 @@
 BoogerFish: {
-	Description: Getting sick and sneezing all the time sucks! But, I've heard rumors that theres a strange fish that constantly sneezes living somewhere in a secluded lake, and that means you're gonna get it for me so I can have it sneeze on everyone else!
-	CatchLocation: Caught in the Valley of Eyes
+	Description: Хотя болеть и вечно чихать это совсем не круто и всё такое, «чихающая рыба» звучит очень интересно. Говорят, что такая водится где-то в глазастой долине, так что поймай её для меня, чтобы я мог зачихать с ней всех остальных!
+	CatchLocation: (водится в глазастой долине)
 }
 
 GourdFish: {
-	Description: The other day, I swore I saw a derpy looking pumpkin in the water... but it had fins and was swimming! I need you to confirm that it's real, so get to it!
-	CatchLocation: Caught in the Spooky Forest
+	Description: На днях я видел как под водой плыла забавно выглядещая тыковкв... с хвостом и плавниками! Мне нужно, чтобы ты подтвердил, что она мне не пемерещилась, так что иди в жуткий лес и попробуй там поймать её!
+	CatchLocation: (водится в жутком лесу)
 }
 
 HibiscusFish: {
-	Description: In the plant infested catacombs, there is a rare fish that can grow off of plants and swim on its own! I think it would be great if you could go down there and get one for me.
-	CatchLocation: Caught in the Lower Catacombs
+	Description: Мрачнейшие катакомбы настолько пропитаны растениями, что, по слухам, там есть даже плавающие рыборастения! Сходика туда и поймай мне такую.
+	CatchLocation: (водится в мрачнейших катакомбах)
 }
 
 OrroEel: {
-	Description: Have you heard the rumors of those two giant serpents that constantly eat each other? Well I don't care about that, but what I do care about is the fact that there is a fish version of it that swims in blood, and I think you'd be the perfect person to get it for me!
-	CatchLocation: Caught in the Valley of Eyes
+	Description: Слышал о двух мифических змеях, кучающий за хвост друг друга? В прочем, это не важно, важнен тот факт, что похожая на змея рыба водится в кровавом озере, и я думаю что ты идеальный кандидат, чтобы поймать ей!
+	CatchLocation: (водится в глазастой долине)
 }
 
 SpookySpiritFish: {
-	Description: The cemetery is said to have a lot of paranormal activity, and underwater is no exception. There is apparently a rare spirit fish that lurks in the waters there, and I'll reward you if you can show me one.
-	CatchLocation: Caught in the Swampy Cemetery
+	Description: Кладбище в джунглях полно всяческой паранормальной активности, и подводный мир — не исключение. В тамашних водах водится редкая рыба-дух, и я обязательно вознагражу тебя, если ты поймаешь мне такую.
+	CatchLocation: (водится в заболоченом кладбище)
 }
 
 ZomboidFish: {
-	Description: Those stupid brain-dead zomboids that walk around in the spooky forest are really ugly. What's even uglier is the elusive zomboid fish, which I think you should find for me!
-	CatchLocation: Caught in the Spooky Forest
+	Description: Эти безмозглые зомбоиды из жуткого леса выглядят ужастно уродливо. А уродливей их там есть неуловимая зомбоид-рыба, ктороую ты просто обязан поймать для меня!
+	CatchLocation: (водится в жутком лесу)
 }
