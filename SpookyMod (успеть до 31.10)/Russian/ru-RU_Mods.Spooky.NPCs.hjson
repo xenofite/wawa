@@ -113,51 +113,51 @@ PhantomSkeletoid.DisplayName: Призрак
 ZomboidPyromancer.DisplayName: Зомбоид-пиромант
 ZomboidSuspiciomancer.DisplayName: Зомбоид-подозревант
 //catacombs layer 2
-CatacombCrusherSpawner.DisplayName: Ancient Crusher Spawner
-CatacombCrusher1.DisplayName: Ancient Crusher
-CatacombCrusher2.DisplayName: Ancient Crusher
-CatacombCrusher3.DisplayName: Ancient Crusher
-CatacombCrusher4.DisplayName: Gilded Crusher
-CelebrationSkeletoid1.DisplayName: Muerto Skeletoid
-CelebrationSkeletoid2.DisplayName: Muerto Skeletoid
-CelebrationSkeletoid3.DisplayName: Muerto Skeletoid
-CelebrationSkeletoid4.DisplayName: Muerto Skeletoid
-CelebrationSkeletoid5.DisplayName: Muerto Skeletoid
-Dahlia.DisplayName: Diva Dahlia
-DahliaEye.DisplayName: Diva Dahlia
-FlushBush1.DisplayName: Flush Bush
-FlushBush2.DisplayName: Flush Bush
-FlushBush3.DisplayName: Flush Bush
-FlushBush4.DisplayName: Flush Bush
-JumpingSeed1.DisplayName: Hopseed
-JumpingSeed2.DisplayName: Hopseed
-JumpingSeed3.DisplayName: Hopseed
-LilySlime1Big.DisplayName: Water Lily
-LilySlime1Small.DisplayName: Water Lily
-LilySlime2Big.DisplayName: Water Lily
-LilySlime2Small.DisplayName: Water Lily
-OrchidPinkBig.DisplayName: Observing Orchid
-OrchidPinkSmall.DisplayName: Observing Orchid
-OrchidPurpleBig.DisplayName: Observing Orchid
-OrchidPurpleSmall.DisplayName: Observing Orchid
+CatacombCrusherSpawner.DisplayName: Спавнер древнего крушителя
+CatacombCrusher1.DisplayName: Древний крушитель
+CatacombCrusher2.DisplayName: Древний крушитель
+CatacombCrusher3.DisplayName: Древний крушитель
+CatacombCrusher4.DisplayName: Позолоченный крушитель
+CelebrationSkeletoid1.DisplayName: Усопший скелетоноид
+CelebrationSkeletoid2.DisplayName: Усопший скелетоноид
+CelebrationSkeletoid3.DisplayName: Усопший скелетоноид
+CelebrationSkeletoid4.DisplayName: Усопший скелетоноид
+CelebrationSkeletoid5.DisplayName: Усопший скелетоноид
+Dahlia.DisplayName: Дивагеоргина
+DahliaEye.DisplayName: Дивагеоргина
+FlushBush1.DisplayName: Плачущий куст
+FlushBush2.DisplayName: Плачущий куст
+FlushBush3.DisplayName: Плачущий куст
+FlushBush4.DisplayName: Плачущий куст
+JumpingSeed1.DisplayName: Семяпрыгун
+JumpingSeed2.DisplayName: Семяпрыгун
+JumpingSeed3.DisplayName: Семяпрыгун
+LilySlime1Big.DisplayName: Кувшинка
+LilySlime1Small.DisplayName: Кувшинка
+LilySlime2Big.DisplayName: Кувшинка
+LilySlime2Small.DisplayName: Кувшинка
+OrchidPinkBig.DisplayName: Орхидея-надзиратель
+OrchidPinkSmall.DisplayName: Орхидея-надзиратель
+OrchidPurpleBig.DisplayName: Орхидея-надзиратель
+OrchidPurpleSmall.DisplayName: Орхидея-надзиратель
 OrchidStem.DisplayName: ""
-PitcherPlant1.DisplayName: Spitcher Plant
-PitcherPlant2.DisplayName: Spitcher Plant
-PitcherPlant3.DisplayName: Spitcher Plant
-PitcherPlant4.DisplayName: Spitcher Plant
-PlantTrap1.DisplayName: Trapper Plant
-PlantTrap2.DisplayName: Trapper Plant
-PlantTrap3.DisplayName: Trapper Plant
-PlantTrap4.DisplayName: Trapper Plant
-PlantTrap5.DisplayName: Trapper Plant
-PlantTrap6.DisplayName: Trapper Plant
-PollinatorBeeDamage.DisplayName: Pollinator Bee
-PollinatorBeeHealing.DisplayName: Pollinator Bee
-SkeletoidBandit.DisplayName: Skeletoid Bandit
-Smelly.DisplayName: Smelly
-Sunflower1.DisplayName: Stalking Sunflower
-Sunflower3.DisplayName: Stalking Sunflower
-Sunflower2.DisplayName: Stalking Sunflower
+PitcherPlant1.DisplayName: Ростоплюй
+PitcherPlant2.DisplayName: Ростоплюй
+PitcherPlant3.DisplayName: Ростоплюй
+PitcherPlant4.DisplayName: Ростоплюй
+PlantTrap1.DisplayName: Цветущий ловец
+PlantTrap2.DisplayName: Цветущий ловец
+PlantTrap3.DisplayName: Цветущий ловец
+PlantTrap4.DisplayName: Цветущий ловец
+PlantTrap5.DisplayName: Цветущий ловец
+PlantTrap6.DisplayName: Цветущий ловец
+PollinatorBeeDamage.DisplayName: Пчела-опыльтельница
+PollinatorBeeHealing.DisplayName: Пчела-опыльтельница
+SkeletoidBandit.DisplayName: Скелетоноид-бандит
+Smelly.DisplayName: Зловоние
+Sunflower1.DisplayName: Подкрадывающийся подсолнух
+Sunflower3.DisplayName: Подкрадывающийся подсолнух
+Sunflower2.DisplayName: Подкрадывающийся подсолнух
 //pandora's box
 PandoraBox.DisplayName: Ящик Пандоры
 Bobbert.DisplayName: Бобберт
@@ -193,7 +193,7 @@ ZomboidGremlin.DisplayName: Зомбу
 Biojetter.DisplayName: Биоструй
 BiojetterEye.DisplayName: Биоструй
 CoughLungs.DisplayName: Кашляющие лёгкие
-CruxBat.DisplayName: Crux Bat
+CruxBat.DisplayName: Парящая суть
 EarWorm.DisplayName: Ушной червь
 EarWormBase.DisplayName: ""
 ExplodingAppendix.DisplayName: Взрывной апендикс
