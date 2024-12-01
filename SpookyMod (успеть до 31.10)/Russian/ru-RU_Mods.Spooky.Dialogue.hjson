@@ -1,17 +1,17 @@
 LittleBone: {
-	Awaken: О, так ты, должно быть, здесь впервые, я всегда рад новеньким! Зови меня Мелкокостик, не стесняйся просить совета, если вдруг не разберёшься, что делать. И заходи почаще, я всегда буду ждать тебя здесь!
+	Awaken: О, так ты, должно быть, здесь впервые, я всегда рад новеньким! Зови меня Косточкой, не стесняйся просить совета, если вдруг не разберёшься, что делать. И заходи почаще, я всегда буду ждать тебя здесь!
 	//advice
 	SpookyBiome: Как погляжу, в приключениях своих ты далеко ещё не зашёл. Не знаешь с чего начать? Советую тебе прогуляться по жуткому лесу, тут много всяких интересностей!
 	RotGourd: Хорошая снаряга у тебя однако! Уже слышал ту страшную историю про гниющую тыкву размером с дом, что бродит по лесу этому и то и дело пугает всех? Нет? Порыскай здесь тыковки да посрубай самые большие. Сразу всё поймёшь, как найдёшь ту самую.
 	CemeteryBiome: Если сможешь пробраться через джунгли тропические, наткнёшься на кладбище — местечко странное, там весь день темно и туманно, но добыча наверняка того стоит.
-	SpiderGrotto: Выглядишь так, будто горы сможешь свернуть. Думаю, гигантское паучье ущелье тебе будет по зубам, найти такое можно под землёй вдали отсюда. Удачи.
+	SpiderGrotto: Выглядишь так, будто горы сможешь свернуть. Думаю, гигантский паучий грот тебе будет по зубам, найти такое можно под землёй вдали отсюда. Удачи.
 	SpookySpirit: Ходят слухи, что в том туманном кладбище обитает могущественный дух, что сражается насмерть с каждым, кого посчитает достойным. Так вот, скажу прямо — ты достоин.
 	CatacombLayer1: Теперь ты можешь исследовать катакомбы под кладбищем. Рекомендую собирать всё, что не прикручено к полу: мертвякам эти сокровища уж точно не нужны.
 	EyeValley: Стоит тебе спуститься в джунгли как можно глубже, прямо до преисподней, так ты найдешь одно очень жуткое местечко. Я сам туда больше ни ногой: до смерти боюсь этого чувства, когда за тобой будто кто-то наблюдает. Тебе же, мне кажется, будет там чем заняться.
 	CatacombLayer2: Советую тебе вернуться в катакомбы ещё разочек и найти способ пробудить спящего стража. Пробиваться придётся с боем, но одолев его — сможешь зайти ещё глубже...
-	OrroBoro: Now that you have defeated all of those giant robots, you can probably return to the creepy eye valley. Apparently there is a skilled alchemist who resides in the creepy eye place who can create a special substance.
-	BigBone: Since you have access into the catacombs arena, you can finally confront the one causing all the chaos down there.
-	NoAdvice: Sorry, I do not have any advice to offer right now.
+	OrroBoro: Теперь, когда эти гигантские машины побеждены, можно вернутся в глазастую долину. Этом жутком местечке обитает опытный алхимик, способный создавать особые вещества.
+	BigBone: Поскольку у тебя теперь есть доступ к самой глубокой комнате катакомб, ты можешь наконец встретить того, кто устроил там весь этот хаос.
+	NoAdvice: Прости, сейчас я не могу тебе посоветовать ничего дельного.
 	//transport
 	Transport: Here, take my magical transportation pot. When you use this, it will allow you to bring me anywhere on your adventures! I was hoping I could tag along and help you when you need.
 	NoTransport: It looks like you already have my magical flower pot.
@@ -138,16 +138,16 @@ PartySkeleton: {
 }
 
 SkeletonBouncer: {
-	Dialogue1: You must be new around here. I don't wanna see you getting into any trouble, these parties take a lot of time and effort to set up.
-	Dialogue2: Move along, go have fun and party. Just don't go bothering anyone.
-	Dialogue3: These parties are super fun. Just don't go around comitting crimes or I'll have to murder you with my machine pistol.
-	Dialogue4: Companies been supplying us with these new otherworldy guns. They claim its better than what we had before but I don't know, I swear I heard it scream.
+	Dialogue1: Похоже, ты тут недавно. Я не хочу, чтобы у тебя возникли какие-нибудь неприятности, на организацию таких вечеринок уходит очень много времени и сил.
+	Dialogue2: Вперёд, развлекайся и веселись. Только не нужно здесь никому мешать.
+	Dialogue3: Эти вечеринки очень весёлые. Только не совершай никаких преступлений, а то мне придётся убить тебя из своего пистолета. Это может испортить атмосферу.
+	Dialogue4: Компания предоставила нам новые потусторонние пистолеты. Они утверждают, что эти пушки намного лучше предыдущих, но я не уверен. Клянусь, я слышал, как они кричали.
 	Dialogue5: ...
 }
 
 SuspiciousSkeleton: {
-	Dialogue1: Ey kid, you want some of em nightmare fuel? Hits the spot just right.
-	Dialogue2: My brother Tony's the supplier. Apperantly it's easier to get the stuff whenever them big guys ye've been fighting get beaten to a pulp. Don't ask me how it works, cuz I don't know.
+	Dialogue1: Йоу, парень, не хочешь немного кошмарного топлива? Оно прям нормально втыкает.
+	Dialogue2: Мой брат Тони поставляет интересный товар. Видимо, достать его легче, когда ты превращаешь в фарш тех огромных чудиков. Честно, я сам не понимаю как это работает, так что не спрашивай меня об этом.
 	Dialogue3: Ey kid! Yer too slow! Just sold someone a big golden ring earlier. Haven't heard from em in a minute though
 	Dialogue4: Sorry kid, I ain't got much to give ya right now. Ye've gotta beat up some big fellas before Tony can get his hands on the good stuff, ye see what I'm sayin?
 	Dialogue5: Yer asking me if I've tried the stuff? My brother in christ, I'm not stupid enough to. You are. Now buy more of my stuff.
@@ -159,14 +159,14 @@ SuspiciousSkeleton: {
 	Dialogue11: How do I know if this stuff is safe? I don't.
 	Dialogue12: I've heard there's actually some stuff similar to what I sell lying around here. No idea how ye get it, Tony's been trying. If ye come across anythin real weird let me know ey?
 	Dialogue13: I hate parties but they do a good job at hiding my business.
-	Dialogue14: Ey, I don't sell no bone meal. That stuff is REAL nasty you hear me? Stay away from it if ye wanna keep your noggin.
+	Dialogue14: Эй, я не продаю комтную муку. Это РЕАЛЬНО стрёмное дерьмо, понимаешь? Держись от неё подальше, если хочешь сохранить свой нос.
 	Dialogue15: Ye know Tony told me apperantly some of the stuff he gets from his ventures has this kind of weird magnetism. Ye know they stick together like glue and what not? Oughta mean something.
-	Dialogue16: If ye wanna get more goods, make sure ye go and kill some of them big fellas around. Gives Tony enough time to smuggle the stuff without bringing unwanted attention.
-	Dialogue17: Tony loves parties. Sucks that I don't, but I gotta do what I gotta do.
+	Dialogue16: Если ты хотел бы глянуть более широкий ассортимент, поубивай этих больших чудиков в округе. Это позволит Тони быстрее привести товар, не привликая лишнего внимания.
+	Dialogue17: Тони любит вечеринки. Хреново, что они мне не нравятся, но мне нужно тут быть.
 	Dialogue18: Some of this stuff apperantly's got a lot of familial sentimental value to some folks. Not any folks here mind you, I ain't got time to be family counselor. If they wanted the stuff should've gotten it before Tony.
-	Dialogue19: You snooze, you lose. That's my motto kid, so get yer stuff while I'm here!
+	Dialogue19: «Кто не успел, тот опоздал» — вот мой девиз, пацан. Так что хавай товар, пока есть возможность.
 	Dialogue20: Ye know one time ma brother Tony got lost in this weird town faaar away from here. Real foggy, couldn't see a thing, and it was filled with some real nasty ghouls. Not like us, more like, say the ones from the stuff I'm selling ye. Tony couldn't nab nothing from the place cause this cone-head freak kept chasing him around with a claymore.
-	Dialogue21: The real horror would be not buying the goods while ye got the chance to.
+	Dialogue21: Не купить товар, когда у тебя есть возможность — вот что страшно.
 }
 
 DumbZomboid: {
