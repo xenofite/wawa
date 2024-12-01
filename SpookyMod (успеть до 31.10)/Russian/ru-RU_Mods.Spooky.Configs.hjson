@@ -7,8 +7,8 @@ SpookyConfig: {
 			'''
 			Определяет место генерации жуткого леса при генерации новых миров
 			Если отключить эту настройку, жуткий лес будет генерироваться в случайном месте мира со стороны темницы
-			Жуткий лес может перекрывать структуры из других, появиляющиеся в центре мира
-			Однако, в маленьких мирах с отключённой настройкой жуткий лес может перекрыть структуры/биомы в другой части мира
+			Жуткий лес может перекрывать структуры из других модов, появляющихся в центре мира
+			Однако в маленьких мирах с отключённой настройкой жуткий лес может пересекаться со структурами или биомами в других частях мира
 			Эта настройка никак не влияет на уже созданные миры
 			'''
 	}
@@ -17,21 +17,19 @@ SpookyConfig: {
 		Label: Свечение Старого охотника
 		Tooltip:
 			'''
-			When the old hunter is assembled, his spawn animation causes the screen to constantly get brighter before he spawns
-			Turn this option off to disable the screen brightness during his spawn animation
-			Especially important to turn this off if you are sensative to bright light
+			Во время анимации появления Старого охотника экран светлеет, пока не становится полностью белым
+			Отключите эту настройку, чтобы выключить эффект
+			Это может быть особенно важно для светочувствительных людей
 			'''
 	}
 
 	ScreenShakeIntensity: {
-		Label: Screen Shake Intensity Multiplier
+		Label: Множитель интенсивности тряски экрана
 		Tooltip:
 			'''
-			Adjust the intensity of the screen shaking effect caused by various things in the mod
-			The default value for this setting is 1, which is the normal screen shaking intensity
-			Anything higher than the normal intensity will make the screen shaking more intense
-			Anything lower than the normal intensity will make the screen shaking less intense
-			Turning this all the way down will entirely disable the mod's screen shake effect
+			Настроивает интенсивность тряски экрана, вызываемой различными вещами мода
+			По умолчанию значение установлено на 1
+			Установите значение на 0, чтобы полностью отключить тряску экрана
 			'''
 	}
 
@@ -40,7 +38,7 @@ SpookyConfig: {
 		Tooltip:
 			'''
 			Позволяет перемещать элементы пользовательского интерфейса, добавляемые модом, с помощью ЛКМ
-			При отключении настройки, интерфейс будет находится в последнем оставленном положении 
+			При отключении настройки интерфейс останется в последнем установленном положении
 			'''
 	}
 }
@@ -53,7 +51,7 @@ SpookyServerConfig: {
 		Tooltip:
 			'''
 			Активирует постоянный сезон Хэллоуина, независимо от даты и выполнения условий
-			Выключите эту настройку, если вы хотите чтобы Хэллуин начинался только в привычных условиях
+			Отключите эту настройку, если хотите, чтобы Хэллоуин начинался только при обычных условиях
 			'''
 	}
 }
