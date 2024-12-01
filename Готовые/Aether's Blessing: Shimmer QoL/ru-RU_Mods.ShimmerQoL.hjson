@@ -1,0 +1,237 @@
+Configs: {
+	Config: {
+		DisplayName: Настройки
+
+		aetherPrefixing: {
+			Label: Гарантия перековок для проводника мироздания
+			Tooltip:
+				'''
+				Изменяет принцип получения перековок для предметов, созданных рядом с проводником мироздания в биоме эфира
+				Некоторые перековки в этих условиях предметы не смогут получить вовсе
+				Чтобы узнать больше и настроить всё под себя нужным образом, ознакомтесь с настройкой «Белый список перековок для проводника мироздания»
+				'''
+		}
+
+		prefixWhitelist: {
+			Label: Белый список перековок для проводника мироздания
+			Tooltip:
+				'''
+				Предметы, созданные рядом с проводником мироздания в биоме эфира, будут получать перековки только из списка ниже
+				По умолчанию в него входят наиболее оптимальные из перековок (например «{$Prefix.Unreal}», «{$Prefix.Godly}», «{$Prefix.Mythical}» и т.п.)  
+				Перековки из других модов вам необходимо будет добавить вручную
+				Позволяет удобно и надёжно использовать разбор предметов на составялющие в мерцании для получения нужных перековок
+				'''
+		}
+
+		sellAetherPylon: {
+			Label: Продажа пилона эфира
+			Tooltip:
+				'''
+				Жители будут продавать пилон эфира
+				Для этого нужно будет соблюсти те же условия, что и для покупки других пилонов, но находиться НИПам при этом нужно в биоме эфира
+				'''
+		}
+
+		aetherPylonNPCS: {
+			Label: Количество жителей для пилона эфира
+			Tooltip:
+				'''
+				Количество жителей поблизости, необходимое дня использования пилона эфира
+				По умолчанию пилону эфира необходим один житель поблизости вместо двух, как у других пилонов
+				Пилону всё ещё нужно будет находиться в биоме эфира для использования
+				'''
+		}
+
+		wellCrafting: {
+			Label: Функционал колодца мерцания
+			Tooltip:
+				'''
+				Колодец мерцания — особое станция для создания предметов, позволяющая вам создавать вещи по принципу трансмутации предметов в мерцании
+				Это не относится к предметам, которые в мерцании разбираются на составляющие или перестают быть предметами
+				Выключите эту настройку, чтобы отключить этот функционал колодца (вы всё ещё сможете получить сам колодец, но он будет бесполезен)
+				'''
+		}
+
+		transmuteTooltip: {
+			Label: Упоминания о возможных трансмутациях
+			Tooltip:
+				'''
+				Добавляет пометку «Можно трансмутировать» в описания предметов, у которых есть уникальные цепочки трансмутации в мерцании
+				Это не относится к предметам, которые в мерцании разбираются на составляющие или перестают быть предметами
+				'''
+		}
+
+		nerfPrefixing: {
+			Label: Ограничить функционал проводника мироздания
+			Tooltip:
+				'''
+				Гарантия перековок от проводника мироздания будет работать только на предметы, которые разбираются на составляющие в мерцании
+				Гоблина-изобретатель не будет перековывать ваши предметы, если находится в радиусе действия проводника мироздания
+				Эта настройка немного улучшает баланс, компенсируя и так слишком уж лёгкое получение перековок благодаря проводнику мироздания
+				'''
+		}
+
+		compoundTooltip: {
+			Label: Соединить пометки «Материал» и «Можно трансмутировать»
+			Tooltip:
+				'''
+				Работает на предметы, которые являются материалом и одновременно с этим имеют уникальную цепочку трансмутации в мерцании
+				В описании таких предметов будет в одну строчку написано «Материал, можно трансмутировать» вместо этих двух пометок по отдельности
+				Эта настройка ничего не делает, если включена настройка «Упоминания о возможных трансмутациях»
+				'''
+		}
+
+		wellAether: {
+			Label: Требовать нахождение в биоме эфира для работы колодца мерцания
+			Tooltip:
+				'''
+				Создание предметов в колодце мерцания будет работать только если вы находитесь в эфире
+				Эта настройка ничего не делает, если выключена настройка «Функционал колодца мерцания»
+				'''
+		}
+
+		shimmerPylon: {
+			Label: Трансмутация пилонов в пилон эфира
+			Tooltip: Все ванильные пилоны кроме универсального будут трансмутироваться в пилон эфира, если бросить их в мерцание
+		}
+
+		sellAetherCompass: {
+			Label: Шанс продажи мистического компаса
+			Tooltip:
+				'''
+				Шанс, с которым странствующий торговец будет продавать мистический компас
+				Мистический компас — особый инструмент, указывающий путь к биому эфира
+				Значение «0» этой настройки полностью отключает продажу компаса, а «100» - гарантирует его наличие в ассортименте странствующего торговца
+				'''
+		}
+
+		postEyeCompass: {
+			Label: Продавать мистический компас только после победы над Глазом Ктулху
+			Tooltip: Странствующий торговец сможет продавать мистический компас только если вы победили Глаз Ктулху
+		}
+
+		detransmuteBoosters: {
+			Label: Трансмутации для перманентных улучшений
+			Tooltip: Перманентные улучшения, получаемые из мерцания, можно будет трансмутировать обратно в свои аналоги до трансмутации (например {$ItemName.AegisCrystal} обратно в {$ItemName.LifeCrystal})
+		}
+
+		aetheriumBlockTransmute: {
+			Label: Транмутация для кирпича эфира
+			Tooltip: ""
+		}
+
+		enableConduit: {
+			// Label: Enable Genesis Conduit
+			/* Tooltip:
+				'''
+				Toggles the Genesis Conduit, a transmutation of the Tinkerer's Workshop
+				When placed in the Aether, the Conduit adjusts/improves the prefixes that are rolled when crafting
+				This allows using Shimmer decrafting to repeatedly craft items for desired prefixes
+				See below config options for more details and customization
+				''' */
+		}
+
+		Headers: {
+			// Tooltips: Tooltips
+			// ShimmerWell: Shimmer Well
+			// AetherCompass: Aether Compass
+			// AetherPylon: Aether Pylon
+			// Transmutations: Transmutations
+			// GenisisConduit: Genisis Conduit
+		}
+
+		usePrefixBlacklist: {
+			// Label: Use Prefix Blacklist
+			/* Tooltip:
+				'''
+				Affects the application of prefixes while near the Aether and a Genesis Conduit
+				Under the above conditions, prefixes that appear when items are created are restricted based on the blacklist below
+				See 'Genesis Conduit Prefix Blacklist' for more details
+				''' */
+		}
+
+		usePrefixWhitelist: {
+			// Label: Use Prefix Whitelist
+			/* Tooltip:
+				'''
+				Affects the application of prefixes while near the Aether and a Genesis Conduit
+				Under the above conditions, prefixes that appear when items are created are restricted based on the whitelist below
+				See 'Genesis Conduit Prefix Whitelist' for more details
+				''' */
+		}
+
+		prefixBlacklist: {
+			// Label: Genesis Conduit Prefix Blacklist
+			/* Tooltip:
+				'''
+				Affects the application of prefixes while near the Aether and a Genesis Conduit
+				Under the above conditions, these prefixes NEVER appear when items are created
+				By default, this list includes most vanilla prefixes with negative stats, and accessory prefixes with weaker boosts (Ex: Terrible, Wild, etc.)  
+				Note that the blacklist takes prioity over the whitelist if both are enabled and share an entry
+				WARNING: No modded prefixes are in the list by default and must be added manually!
+				''' */
+		}
+	}
+}
+
+Items: {
+	AetherPylonItem: {
+		DisplayName: Пилон эфира
+		Tooltip:
+			'''
+			Телепортирует к другому пилону, когда {0} {^0:житель;жителя} {^0:находится;находятся} поблизости
+			Можно установить только один тип, совпадающий с биомом
+			'''
+	}
+
+	GenesisConduitItem: {
+		DisplayName: Проводник мироздания
+		Tooltip:
+			'''
+			Позволяет совмещать некоторые аксессуары
+			Если установлен в биоме эфира, гарантирует хорошие перековки для создаваемого снаряжения
+			'''
+	}
+
+	ShimmerWellItem: {
+		DisplayName: Колодец мерцания
+		Tooltip: Позволяет осуществлять трансмутации без использования мерцания в меню создания предметов
+	}
+
+	AetherCompass: {
+		DisplayName: Мистический компас
+		Tooltip:
+			'''
+			Выпускает слабый лучик света в сторону, где находится биом эфира
+			Компас не сработает, если биома эфира в мире нет
+			'Странно... ни одна из его стрелок не указывает на север'
+			'''
+	}
+}
+
+Tiles: {
+	AetherPylonTile.MapEntry: Пилон эфира
+	GenesisConduitTile.MapEntry: Проводник мироздания
+	ShimmerWellTile.MapEntry: Колодец мерцания
+}
+
+CommonItemTooltip: {
+	TransmutableTip: Можно трансмутировать
+	TransumtableMaterialTip: Материал, можно трансмутировать
+	WellConfig: Необходимо включить функционал колодца мерцания в настройках мода
+	PylonConfig: Необходимо включить продажу пилона эфира в настройках мода
+	PylonCond: Необходимо включить продажу пилона эфира в настройках мода, находиться в биоме эфира, не заражённом биомами мирового зла, и повысить уровень счастья жителя, находящегося рядом с другим жителем
+	ConduitNerf: Не работает на предметы, которые при трансмутации в мерцании разбираются на составляющие
+	ConduitDisabled: Гарантия перековок отключена в настройках мода
+	WellDisabled: Создание предметов в колодце мерцания отключено в настройках мода
+	WellNerf: Создавать предметы в колодце мерцания можно только находясь в биоме эфира
+}
+
+Buffs: {
+	GenesisConduitBuff: {
+		DisplayName: Вдохновление мироздания
+		Description: Гарантирует хорошие перековки для создаваемого снаряжения
+	}
+}
+
+Projectiles.CompassBeam.DisplayName: Луч компаса
