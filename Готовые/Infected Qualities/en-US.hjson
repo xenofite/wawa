@@ -1,0 +1,149 @@
+Mods: {
+	InfectedQualities: {
+		Items: {
+			DivinePowder: {
+				DisplayName: Divine Powder
+				Tooltip: Spreads the Hallow
+			}
+
+			KeyOfNaught: {
+				DisplayName: Key Of Naught
+				Tooltip:
+					'''
+					{$ItemTooltip.NightKey}
+					Summons the mimic of the opposite evil
+					'''
+			}
+
+			Placables: {
+				CorruptSnow: {
+					DisplayName: Unholy Snow
+					Tooltip: ""
+				}
+
+				CrimsonSnow: {
+					DisplayName: Clotted Blood
+					Tooltip: ""
+				}
+
+				HallowedSnow: {
+					DisplayName: Holy Snow
+					Tooltip: ""
+				}
+
+				PylonOfNight: {
+					DisplayName: Pylon of Night
+					Tooltip:
+						'''
+						Teleport to another pylon, town NPCs are not needed
+						Can only function in an evil biome
+						You can only place one per type and in one of the matching biomes
+						'''
+				}
+			}
+		}
+
+		Projectiles.DivineDust.DisplayName: Divine Dust
+
+		Biomes: {
+			CorruptJungle: {
+				DisplayName: Corrupt Jungle
+				TownNPCDialogueName: the Corrupt Jungle
+			}
+
+			CrimsonJungle: {
+				DisplayName: Crimson Jungle
+				TownNPCDialogueName: the Crimson Jungle
+			}
+
+			HallowedJungle: {
+				DisplayName: Hallowed Jungle
+				TownNPCDialogueName: the Hallowed Jungle
+			}
+		}
+
+		Config: {
+			Title: {
+				Main: {
+					Client: Client-Side Configuration
+					Server: Server-Side Configuration
+				}
+
+				Content: Content Configuration
+				Experimental: Experimental Configuration
+			}
+
+			InfectedBiomes: {
+				Label: "[i:836] Infected Biomes"
+				Tooltip:
+					'''
+					Adds additional content to infected biomes, this is the main meat and bones of the mod.
+					Adds the hallowed jungle biome, the infected plantera bulbs and life fruits, and the infected snow blocks.. for now.
+					'''
+			}
+
+			PylonOfNight: {
+				Label: "[i:InfectedQualities/PylonOfNight] Pylon of Night"
+				Tooltip: Enables pylon of night, allowing the player to teleport to corruption or crimson through the pylon system
+			}
+
+			KeyOfNaught: {
+				Label: "[i:InfectedQualities/KeyOfNaught] Key of Naught"
+				Tooltip:
+					'''
+					Enables key of naught, allowing the player to spawn in the mimic of the evil biome that was not chosen
+					The key is crafted with the same recipe as a night key, except in a graveyard
+					'''
+			}
+
+			DivinePowder: {
+				Label: "[i:InfectedQualities/DivinePowder] Divine Powder"
+				Tooltip:
+					'''
+					Enables divine powder, allowing the player to create and purify the hallow biome through powders
+					Enabling this will also make purification powder purify hallow
+					'''
+			}
+
+			HardmodeChasmPurification: {
+				Label: "[i:66] Hardmode Chasm Cleansing"
+				Tooltip:
+					'''
+					Cleans the corrupt and crimson chasms upon the start of hardmode, this takes place before the V-shape generates
+					Will not affect 'dont dig up' worlds
+					Does nothing if 'Remnants' mod is installed
+					'''
+			}
+
+			DisableInfectionSpread: {
+				Label: "[i:947] Disable Infection Spreading"
+				Tooltip:
+					'''
+					What the title says, biomes that can spread will not spread at all
+					Should be compatible with most mods if they are coded right
+					'''
+			}
+
+			AllowNPCsInEvilBiomes: {
+				Label: "[i:267] Allow NPCs in Evil Biomes"
+				Tooltip: Allows NPCs to live inside evil biomes. Happiness will be at minimum, but it's better than just completetly losing the house
+			}
+
+			InfectedPlantera: {
+				Label: "[i:1370] Infected Plantera Textures"
+				Tooltip:
+					'''
+					Plantera will have special textures when summoned in corruption, crimson, or hallow
+					May be incompatible with other mods that change the texture of the boss, disable this if you encounter such an issue
+					Plantera bulbs will still have their custom infected texture
+					NOTE: Only meant to work with one plantera at a time.
+					'''
+			}
+		}
+
+		Misc: {
+			ChasmPurifyMessage: The chasms have been cleansed.
+			Pylon: Pylon
+		}
+	}
+}
