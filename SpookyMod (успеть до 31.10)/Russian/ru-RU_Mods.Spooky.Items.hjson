@@ -796,7 +796,7 @@ AnalogHorrorTape: {
 }
 
 Creepypasta: {
-	DisplayName: Creepy Pasta
+	DisplayName: Криповая паста
 	Tooltip:
 		'''
 		Grants the effects of every creepypasta accessory
@@ -877,7 +877,7 @@ SpiritSlingshot: {
 }
 
 SpiritSword: {
-	DisplayName: «Жуткий громила»
+	DisplayName: Жуткий громила
 	Tooltip: Вызывает взрывающие черепа при поподании по врагу
 }
 
@@ -912,8 +912,8 @@ DylanDoeHead: {
 }
 
 FlowerPotHead: {
-	DisplayName: Flower Pot Head
-	Tooltip: "«That's not how you're supposed to use it»"
+	DisplayName: Наголовный цветочный горшок
+	Tooltip: "«Это выглядит не так круто, как ты думаешь»"
 }
 
 HatHead: {
@@ -927,8 +927,8 @@ KrakenHead: {
 }
 
 LittleEyeHat: {
-	DisplayName: Little Eye's Wizard Hat
-	Tooltip: "«It is way too big for your head»"
+	DisplayName: Волшебная шляпа Глазика
+	Tooltip: "«Она слишком велика для вас»"
 }
 
 MocoMask: {
@@ -952,7 +952,7 @@ NoseCultistRobe: {
 }
 
 PartySkeletonSkull: {
-	DisplayName: Party Skeleton Skull
+	DisplayName: Череп тусоскелета
 	Tooltip: ""
 }
 
@@ -972,8 +972,8 @@ SeasaltHead: {
 }
 
 SirenHead: {
-	DisplayName: Siren Head
-	Tooltip: "«Actual siren sounds not included»"
+	DisplayName: Сиреноголова
+	Tooltip: "«Звуки сирены в комплект не включены»"
 }
 
 SpookySpiritMask: {
@@ -1177,18 +1177,18 @@ PandoraBean: {
 }
 
 PetscopTool1: {
-	DisplayName: Red Tool
-	Tooltip: Summons the Guardian
+	DisplayName: Красный инструмент
+	Tooltip: Призывает Стража
 }
 
 PetscopTool2: {
-	DisplayName: Green Tool
-	Tooltip: Summons Marvin
+	DisplayName: Зелёный инструмент
+	Tooltip: Призывает Марвина
 }
 
 PetscopTool3: {
-	DisplayName: Pink tool
-	Tooltip: Summons Tiara
+	DisplayName: Розовый инструмент
+	Tooltip: Призывает Тиару
 }
 
 PuttyCup: {
@@ -1702,7 +1702,7 @@ LittleBonePot: {
 }
 
 LittleSpiderItem: {
-	DisplayName: Little Spider
+	DisplayName: Паучок
 	Tooltip: ""
 }
 
@@ -1740,21 +1740,21 @@ SpookyGlowshroom: {
 }
 
 SpookySolution: {
-	DisplayName: Orange Solution
+	DisplayName: Оранжевый раствор
 	Tooltip:
 		'''
-		Used by the Clentaminator
-		Spreads the Spooky Forest
+		Используется «Очистителем»
+		Распространяет жуткий лес
 		'''
 }
 
 TinyGhostItem: {
-	DisplayName: Tiny Ghost
+	DisplayName: Привиденьеце
 	Tooltip: ""
 }
 
 TinyMushroomItem: {
-	DisplayName: Tiny Mushroom
+	DisplayName: Грибочек
 	Tooltip: ""
 }
 
@@ -2657,7 +2657,7 @@ GiantCoffinItem: {
 }
 
 GoldenPotItem: {
-	DisplayName: Pot of Avarice
+	DisplayName: Ваза жадности
 	Tooltip: ""
 }
 
@@ -2742,7 +2742,7 @@ GildedBrickItem: {
 }
 
 CemeteryBiomeChestItem: {
-	DisplayName: Swampy Cemetery Chest
+	DisplayName: Сундук заболоченного кладбища
 	Tooltip: ""
 }
 
