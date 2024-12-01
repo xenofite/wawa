@@ -6,9 +6,9 @@ Configs: {
 			Label: Поворот головы в сторону курсора
 			Tooltip:
 				'''
-				Отключён: голова персонажа не будет поворачиваться в сторону курсора
-				Включён: голова персонажа будет плавно поворачиваться в сторону курсора
-				Ограничен: голова персонажа будет поворачиваться в сторону курсора, но не сможет быть повёрнута строго вверх
+				Отключён — голова персонажа не будет поворачиваться в сторону курсора
+				Включён — голова персонажа будет поворачиваться в сторону курсора
+				Ограничен — голова персонажа будет поворачиваться в сторону курсора, но сильные запрокидывания головы вверх или вниз будут ограничены
 				'''
 		}
 
@@ -25,11 +25,12 @@ Configs: {
 		DisableFlickeringFix: {
 			Tooltip:
 				'''
-				This disables the fix for the player's weapon flickering while walking backwards and using a useTurn melee weapon. 
-				This is done by disabling useTurn for all melee weapons; however this mod basically makes all weapons useTurn with the face cursor feature. It also disables useTurnOnAnimationStart, which basically un-patches a TML patch.
-				If this causes any issues, you can disable this fix.
+				Отключает исправление ошибки, при которой оружие ближнего боя с включённым параметром useTurn «мигало», если использовать его во время бега спиной. 
+				Суть этого исправления в том, что она выключает useTurn для всех видов оружия ближнего боя — бежать в одну сторону и атаковать в другую вы больше не сможете.
+				К тому же, это исправление убирает параметр useTurnOnAnimationStart, отменяя одно из обновлений tModLoader, а это, в свою очередь, может вызвать ещё больше проблем.
+				Так что если вы готовы мириться с миганием оружия в угоду всего того, что это исправление отключает — смело включайте эту настройку.
 				'''
-			Label: Disable Melee Weapon Flickering Fix
+			Label: Отключить исправление ошибки с миганием оружия ближнего боя
 		}
 
 		DisableCritterLeaning: {
@@ -50,28 +51,28 @@ Configs: {
 		DisableNeckPlayerLayer: {
 			Tooltip:
 				'''
-				Removes the extra neck PlayerLayer. 
-				The default armorless body has a gap between the head and body when the head is turned, which this layer fixes.
+				Этот слой шеи закрывает «дыру» в спрайте персонажа, которую можно увидеть, если использовать настройку «Поворот головы в сторону курсора» с некоторыми видами брони
+				Включите эту настройку, чтобы убрать слой шеи, если он вызывает какие-либо визуальные ошибки с предметами из других модов
 				'''
-			Label: Disable Extra Neck PlayerLayer
+			Label: Убрать дополнительный слой шеи на спрайте персонажа
 		}
 
 		DisableMountLeaning: {
-			Tooltip: Disables leaning while riding a mount.
-			Label: Disable Mounted Leaning
+			Tooltip: ""
+			Label: Отключить наклон на ездовых питомцах
 		}
 
 		leaningType: {
 			Tooltip:
 				'''
-				Off: Disables velocity leaning
-				Standard: X-velocity based leaning
-				Alternate: X and Y velocity based rotation
-				Classic: Clamped rotation used prior to v1.3
-				Classic-Alternate: Clamped rotation used prior to v1.3, using the logic of Alternate
-				Spin: the funny
+				Отключены — персонаж не будет наклоняться при движении
+				Стандартный — сила наклонов будет зависить от горизонтальной скорости передвижения
+				Альтернативный — сила наклонов будет зависить и от горизонтальной и от вертикальной скорости передвижения
+				Классический — наклоны из версий мода до v1.3
+				Альтернативно-классический — наклоны из версий мода до v1.3, но с логикой альтернативного вида наклонов
+				Карусель: смешнявка (персонаж не будет переставать наклоняться в сторону движения во что бы то ни стало)
 				'''
-			Label: Lean With Velocity
+			Label: Вид наклонов
 		}
 
 		Headers: {
