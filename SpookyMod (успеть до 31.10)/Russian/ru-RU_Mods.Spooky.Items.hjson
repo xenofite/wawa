@@ -973,7 +973,7 @@ SeasaltHead: {
 
 SirenHead: {
 	DisplayName: Сиреноголова
-	Tooltip: "«Звуки сирены в комплект не включены»"
+	Tooltip: "«Звуки сирены не прилагаются»"
 }
 
 SpookySpiritMask: {
