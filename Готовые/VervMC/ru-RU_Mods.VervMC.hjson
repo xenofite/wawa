@@ -1,7 +1,7 @@
 Items: {
 	Sword: {
 		DisplayName: Алмазный меч
-		Tooltip: "'Скорость атаки: 1,6'"
+		Tooltip: "«Скорость атаки: 1,6»"
 	}
 
 	Trident: {
@@ -57,7 +57,7 @@ Tiles.SpawnerTile.MapEntry: Спаунер мобов
 
 Configs: {
 	MCConfig: {
-		DisplayName: Настройки Minecraft Mod
+		DisplayName: Конфигурация
 
 		Headers: {
 			Spawners: Сокровищницы со спаунерами
@@ -65,7 +65,7 @@ Configs: {
 		}
 
 		Spawners: {
-			Label: Изменяет количество сокровищниц со спаунерами, генерирующихся в мире
+			Label: Количество сокровищниц со спаунерами
 			Tooltip: Значение в %
 		}
 
