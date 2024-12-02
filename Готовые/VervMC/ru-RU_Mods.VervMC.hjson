@@ -1,0 +1,77 @@
+Items: {
+	Sword: {
+		DisplayName: Алмазный меч
+		Tooltip: "'Скорость атаки: 1,6'"
+	}
+
+	Trident: {
+		Tooltip: Нажмите ПКМ, чтобы метнуть
+		DisplayName: Призмариновый трезубец
+	}
+
+	Mace: {
+		DisplayName: Булава вихря
+		Tooltip: Урон увеличивается в зависимости от высоты падения
+	}
+
+	ShortswordExposed: {
+		DisplayName: Потемневший медный кинжал
+		Tooltip: ""
+	}
+
+	ShortswordOxidized: {
+		DisplayName: Состаренный медный кинжал
+		Tooltip: ""
+	}
+
+	ShortswordWheathered: {
+		DisplayName: Окисленный медный кинжал
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	SwordProjectile.DisplayName: Алмазный меч
+	TridentProjectile.DisplayName: Призмариновый трезубец
+	TridentProjectilePrep.DisplayName: Призмариновый трезубец
+	TridentProjectileThrow.DisplayName: Призмариновый трезубец
+	MaceProjectile.DisplayName: Булава вихря
+	ShortswordExposedProjectile.DisplayName: Потемневший медный кинжал
+	ShortswordOxidizedProjectile.DisplayName: Состаренный медный кинжал
+	ShortswordWheatheredProjectile.DisplayName: Окисленный медный кинжал
+}
+
+Buffs: {
+	TridentBuff: {
+		DisplayName: Брошенный трезубец
+		Description: Подберите свой призмариновый трезубец!
+	}
+
+	MaceBuff: {
+		DisplayName: Вихревая защита
+		Description: Вы невосприимчивы к урону от падения
+	}
+}
+
+Tiles.SpawnerTile.MapEntry: Спаунер мобов
+
+Configs: {
+	MCConfig: {
+		DisplayName: Настройки Minecraft Mod
+
+		Headers: {
+			Spawners: Сокровищницы со спаунерами
+			Oxidation: Окисление меди
+		}
+
+		Spawners: {
+			Label: Изменяет количество сокровищниц со спаунерами, генерирующихся в мире
+			Tooltip: Значение в %
+		}
+
+		Oxidation: {
+			Label: Окисление
+			Tooltip: Включает механику окисления меди
+		}
+	}
+}
