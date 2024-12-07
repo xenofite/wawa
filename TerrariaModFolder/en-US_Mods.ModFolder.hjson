@@ -1,0 +1,152 @@
+UI: {
+	Buttons: {
+		Mods: {
+			DescriptionToAdd: Rightclick to open the folder system.
+			DescriptionWhenLeftClick: Rightclick to open the original UI.
+		}
+
+		CreateFolder.DisplayName: Create Folder
+
+		AllMods: {
+			DisplayName: Enable & Disable
+			Tooltip:
+				'''
+				leftclick to enable mods
+				rightclick to disable mods
+				middle click to reset mods to the previous enabled states
+				the mods are from the current folder by default
+				pressing Alt to also contains the subfolders
+				pressing Shift for all mods
+				pressing Ctrl to not ignore the favorite mods
+				specially, pressing Ctrl and right click is regarded as right click but not pressing Ctrl, and disable the redundant dependencies
+				pressing Ctrl and middle click is regarded as right click with pressing Ctrl, and disable the redundant dependencies
+				(favorite mods cannot be diabled by default)
+				'''
+		}
+
+		Back.Tooltip:
+			'''
+			change directory up one level by default
+			go back to the main menu if at the root directory
+			pressing Shift to directly go to the main menu
+			pressing Ctrl to force reload mods when go to the main menu
+			'''
+
+		ToggleShowButtons: {
+			TooltipOn:
+				'''
+				show buttons
+				middle click to reset to default
+				'''
+			TooltipOff:
+				'''
+				hide buttons
+				middle click to reset to default
+				'''
+		}
+
+		More.DisplayName: More Buttons
+
+		CopyEnabled: {
+			DisplayName: Copy Enabled
+			Tooltip:
+				'''
+				copy enabled mods to the current folder (not available at root or showing all mods)
+				by default these contains only the mods that are already enabled (loaded)
+				pressing Shift for mods that would be enabled (without mods that would be disabled)
+				pressing Ctrl to remove the old content
+				'''
+		}
+
+		DisableRedundant: {
+			DisplayName: Disable Redundant
+			Tooltip:
+				'''
+				disable redundant dependencies (mods that have dependents but no dependent is enabled)
+				the mods are from the current folder by default
+				pressing Alt to also contains the subfolders
+				pressing Shift for all mods
+				pressing Ctrl to allow disable the favorite mods
+				left click to not disable mods that have references
+				right click to allow disable mods that have references
+				(mods that have both dependencies and dependents like Calamity
+				would be disabled in right click when no dependents on)
+				'''
+		}
+
+		Subscribe: {
+			Tooltips: {
+				Downloading: Downloading {0} / {1}
+				Subscribing: Subscribing...
+				Loading: Loading...
+				Subscribe: Subscribe
+			}
+		}
+
+		Delete: {
+			Tooltips: {
+				CantDeleteEnabled: Can't delete an enabled mod
+				CantDeleteInModPack: Can't delete a mod in a mod pack
+			}
+		}
+	}
+
+	SortButtons: {
+		Custom.Tooltip: Custom order
+		ReverseRecently.Tooltip: Sort by oldest changed
+		CustomFM.Tooltip: Custom order for folders and mods
+		FolderFirst.Tooltip: Folder first
+		ModFirst.Tooltip: Mod first
+		ToBeEnabled.Tooltip: Show only mods to be enabled
+		ToBeDisabled.Tooltip: Show only mods to be disabled
+		ToBeToggled.Tooltip: Show only mods to be toggled
+		WouldBeEnabled.Tooltip: Show only mods that would be enabled
+		WouldBeDisabled.Tooltip: Show only mods that would be disabled
+		FolderSystem.Tooltip: Use folder system
+		AllMods.Tooltip: Show all mods
+	}
+
+	NewFolderDefaultName: New Folder
+	DeleteModItemCofirmTextToAdd:
+		'''
+		pressing Shift to delete the index
+		pressing Ctrl to unsubscribe
+		pressing both to totally delete the mod
+		'''
+	DeleteModItemUnloadedComfirmTextToAdd: Only delete the index, not the mod
+	DeleteFolderConfirmText:
+		'''
+		Are you sure to delete the folder?
+		pressing Shift to delete the index
+		pressing Ctrl to unsubscribe all mods in the folder
+		pressing Alt to delete the index while move the content to the current folder
+		'''
+	DeleteFolderDoubleConfirmText: Are you sure to unsubscribe all mods in the folder?
+	DeleteFolderUnloadedConfirmText:
+		'''
+		Are you sure to delete the folder?
+		the content are not loaded yet, so only the index would be deleted
+		pressing Alt to move the content to the current folder
+		'''
+	ConfigButtons.OpenFolder.Tooltip: open folder...
+	Rename: Rename
+	FolderEnableStatus:
+		'''
+		all mods: {0}
+		enabled: {1}
+		to enable: {2}
+		to disable: {3}
+		'''
+	CycleImageDisabled:
+		'''
+		[c/999999:Not usable currently]
+		[c/999999:{0}]
+		'''
+
+	PopupInfos: {
+		CantSubscribeForMissingPublishId: Can't subscribe! No mod info stored!
+		CantSubscribeWhenDownloading: Downloading mod!
+		CantSubscribeWhenSubscribing: Already subscribing! Don't repeatly click!
+		CantSubscribeWhenLoading: Can't subscibe when loading! Please wait for loading complete!
+	}
+}
