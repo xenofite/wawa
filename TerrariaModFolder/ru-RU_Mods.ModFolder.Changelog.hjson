@@ -1,0 +1,80 @@
+Changelog:
+	'''
+	[c/00ff00:v0.3.1]
+	[c/ffff00:- configure whether to delete redundant data]
+	[c/999999:- left click to enter folder system by default rather than right click]
+	[c/999999:- for mods that are enabled or in a mod pack, delete button would fade out and give tooltips for not deletable]
+	[c/999999:- when showing all mods (not using folder system), the sort button of folders and mods becomes gray rather than just disappears]
+
+	[c/00ff00:v0.3.0.4]
+	[c/999999:- fix filters' wrong behavior on unloaded mods]
+
+	[c/00ff00:v0.3.0.3]
+	[c/999999:- when entering a folder, reset the list position to the top]
+
+	[c/00ff00:v0.3.0.2]
+	[c/999999:- fix the line break issue of Chinese changelog]
+
+	[c/00ff00:v0.3.0.1]
+	- set alias for unloaded mod
+	[c/999999:- download status background would not blink]
+	- Esc now would now prioritize exiting the confirmation pop-up window
+	[c/999999:- fix the order of special alias]
+	[c/ff0000:-] [c/ff6600:t][c/ff9900:h][c/ffcc00:e] [c/ccff00:c][c/99ff00:h][c/66ff00:a][c/33ff00:n][c/00ff00:g][c/00ff33:e][c/00ff66:l][c/00ff99:o][c/00ffcc:g] [c/00ccff:b][c/0099ff:e][c/0066ff:c][c/0033ff:o][c/0000ff:m][c/3300ff:e] [c/9900ff:c][c/cc00ff:o][c/ff00ff:l][c/ff00cc:o][c/ff0099:r][c/ff0066:f][c/ff0033:u][c/ff0000:l]
+
+	[c/00ff00:v0.3.0]
+	[c/ff0000:- resubscribe mods that is deleted but keep in directory]
+	- make Esc behave the same as Back button
+	- disallow enable mods that miss references
+
+	[c/00ff00:v0.2.2.2]
+	[c/ffff00:- add page up and page down support]
+	[c/999999:- fix version upgrade hints to more reliably detect and inform when a mod is preview only]
+
+	[c/00ff00:v0.2.2.1]
+	- mods show alias even when not loaded yet
+
+	[c/00ff00:v0.2.2]
+	[c/ff0000:- mod alias]
+	- icon changed
+	[c/999999:- update status background would not blink]
+	[c/ffff00:- configure whether to show mod version]
+
+	[c/00ff00:v0.2.1.1 & v0.2.1.2]
+	[c/999999:- fix the occasional mistake of folder's enable status]
+
+	[c/00ff00:v0.2.1]
+	[c/ff0000:- folder's enable status (highly configurable)]
+
+	[c/00ff00:v0.2.0.1]
+	[c/999999:- fix the occasional problem when canceling the mod loading]
+
+	[c/00ff00:v0.2.0]
+	- optimize the loading time when entering the interface (load textures and dependencies asynchronously)
+	[c/ff0000:- delete folder when pressing Alt to put the content to the current folder]
+	[c/ff0000:- double click to disable a mod when pressing Shift to disable the redundant dependencies at the same time, and the "Enable & Disable" button also allow to disable redundant dependencies]
+	[c/ff0000:- more buttons: copy all enabled mods to the current folder; disable redundant dependencies]
+	[c/ffff00:- save more frequently (save when changed, configurable)]
+	[c/ffff00:- configure whether need confirm when deleting a folder (unsubscribe all always need to conform)]
+	[c/ffff00:- configure whether to move list when dragging]
+	[c/ffff00:- configure the save path of data]
+	[c/999999:- bugfix: "Enable & Disable" button now handles dependencies]
+
+	[c/00ff00:v0.1.2.1]
+	[c/999999:- fix the misalignment when renaming a folder]
+
+	[c/00ff00:v0.1.2]
+	[c/ffff00:- add a button to show memory estimates]
+	[c/ffff00:- show mod location (workshop / local / modpack), configurable]
+
+	[c/00ff00:v0.1.1]
+	- add changelog
+	[c/ffff00:- configure whether to use leftclick to enter the folder system (default rightclick)]
+	- unloaded mods show display name instead of inner name
+	- resolve the lags when unsubscribing mods
+	[c/999999:- fill the description]
+	[c/999999:- fix the misalignment when there're duplicated mods in the same folder]
+
+	[c/00ff00:v0.1.0]
+	- опубликован.
+	'''
