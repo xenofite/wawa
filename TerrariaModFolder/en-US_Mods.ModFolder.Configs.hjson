@@ -1,0 +1,155 @@
+CommonConfig: {
+	DisplayName: Config
+
+	LeftClickToEnterFolderSystem: {
+		Label: Left Click To Enter Folder System
+		Tooltip:
+			'''
+			when enabled, right click to enter the original mod manager
+			when disabled, right click to enter the folder system
+			'''
+	}
+
+	ShowModLocation: {
+		Label: Show Mod Location
+		Tooltip: show if mod is from steam workshop, local or modpack
+	}
+
+	SaveWhenChanged: {
+		Label: Save When Changed
+		Tooltip: if false, data would only be saved when go back
+	}
+
+	AlwaysNeedConfirmWhenDeletingFolder: {
+		Label: Always Need Confirm When Deleting Folder
+		Tooltip:
+			'''
+			when disabled, pressing Shift or Alt and click delete button would directly delete the folder's index,
+			but you still need to comfirm unsubscribe all when pressing Ctrl
+			'''
+	}
+
+	AutoMoveListWhenDragging: {
+		Label: Auto Move List When Dragging
+		Tooltip: ""
+	}
+
+	DataSavePath: {
+		Label: Data Save Path
+		Tooltip:
+			'''
+			data would be saved at the "ModFolderData.json" at the path
+			if empty, data would be saved at the mod folder (where tml puts mods)
+			'''
+	}
+
+	ShowModVersion: {
+		Label: Show Mod Version
+		Tooltip: ""
+	}
+
+	ShowEnableStatusBackground: {
+		Label: Show Enable Status Background
+		Tooltip: ""
+	}
+
+	ShowEnableStatusText: {
+		Label: Show Enable Status Text
+		Tooltip: ""
+	}
+
+	RemoveRedundantData: {
+		Label: Remove Redundant Data
+		Tooltip: Remove data of mods that are neither subscribed nor in the folder system
+	}
+
+	LogModLoading: {
+		Label: Log Mod Loading
+		Tooltip: Enabling it may cause lags when loading mods
+	}
+
+	SeeChangelog: {
+		Label: See Changelog
+		Tooltip: ""
+	}
+}
+
+SeeChangelogClass: {
+	Tooltip: ""
+
+	ChangelogDisplay: {
+		Label: Changelog Display
+		Tooltip: ""
+	}
+}
+
+ShowEnableStatusTextClass: {
+	Tooltip: ""
+
+	ShowAllAlways: {
+		Label: Show All Always
+		Tooltip: ""
+	}
+
+	ShowAllWhenNotZero: {
+		Label: Show All When Not Zero
+		Tooltip: ""
+	}
+
+	ShowNone: {
+		Label: Show None
+		Tooltip: ""
+	}
+
+	AllMods: {
+		Label: All Mods
+		Tooltip: ""
+	}
+
+	Enabled: {
+		Label: Enabled
+		Tooltip: ""
+	}
+
+	ToEnable: {
+		Label: To Enable
+		Tooltip: ""
+	}
+
+	ToDisable: {
+		Label: To Disable
+		Tooltip: ""
+	}
+
+	Seperator: {
+		Label: Seperator
+		Tooltip: ""
+	}
+
+	AllModsColor: {
+		Label: All Mods Color
+		Tooltip: ""
+	}
+
+	EnabledColor: {
+		Label: Enabled Color
+		Tooltip: ""
+	}
+
+	ToEnableColor: {
+		Label: To Enable Color
+		Tooltip: ""
+	}
+
+	ToDisableColor: {
+		Label: To Disable Color
+		Tooltip: ""
+	}
+}
+
+ShowType: {
+	Tooltip: ""
+	Never.Label: Never
+	WhenNotZero.Label: When Not Zero
+	Always.Label: Always
+}
