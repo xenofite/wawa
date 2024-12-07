@@ -1,8 +1,8 @@
 UI: {
 	Buttons: {
 		Mods: {
-			DescriptionToAdd: Rightclick to open the folder system.
-			DescriptionWhenLeftClick: Rightclick to open the original UI.
+			DescriptionToAdd: Нажмите ПКМ, чтобы открыть систему папок.
+			DescriptionWhenLeftClick: Нажмите ПКМ, чтобы открыть ванильный интерфейс.
 		}
 
 		CreateFolder.DisplayName: Создать папку
