@@ -76,10 +76,10 @@ UI: {
 
 		Subscribe: {
 			Tooltips: {
-				Downloading: Downloading {0} / {1}
-				Subscribing: Subscribing...
-				Loading: Loading...
-				Subscribe: Subscribe
+				Downloading: Загруженно {0} / {1}
+				Subscribing: Подписка...
+				Loading: Загрузка...
+				Subscribe: Подписаться
 			}
 		}
 
@@ -93,17 +93,17 @@ UI: {
 
 	SortButtons: {
 		Custom.Tooltip: Custom order
-		ReverseRecently.Tooltip: Sort by oldest changed
-		CustomFM.Tooltip: Custom order for folders and mods
-		FolderFirst.Tooltip: Folder first
-		ModFirst.Tooltip: Mod first
-		ToBeEnabled.Tooltip: Show only mods to be enabled
-		ToBeDisabled.Tooltip: Show only mods to be disabled
-		ToBeToggled.Tooltip: Show only mods to be toggled
-		WouldBeEnabled.Tooltip: Show only mods that would be enabled
-		WouldBeDisabled.Tooltip: Show only mods that would be disabled
-		FolderSystem.Tooltip: Use folder system
-		AllMods.Tooltip: Show all mods
+		ReverseRecently.Tooltip: Сортировка: Моды, не обновляющиеся дольше
+		CustomFM.Tooltip: Пользовательский порядок
+		FolderFirst.Tooltip: Сначала папки
+		ModFirst.Tooltip: Сначала моды
+		ToBeEnabled.Tooltip: Сортировка: Моды под включение
+		ToBeDisabled.Tooltip: Сортировка: Моды мод выключение
+		ToBeToggled.Tooltip: Сортировка: Моды под изменение
+		WouldBeEnabled.Tooltip: Сортировка: Моды, которые будут включены
+		WouldBeDisabled.Tooltip: Сортировка: Моды, которые будут выключенны
+		FolderSystem.Tooltip: Показать систему папок
+		AllMods.Tooltip: Показать все моды
 	}
 
 	NewFolderDefaultName: Новая папка
@@ -113,7 +113,7 @@ UI: {
 		pressing Ctrl to unsubscribe
 		pressing both to totally delete the mod
 		'''
-	DeleteModItemUnloadedComfirmTextToAdd: Only delete the index, not the mod
+	DeleteModItemUnloadedComfirmTextToAdd: Удалить только папку, а не мод
 	DeleteFolderConfirmText:
 		'''
 		Вы уверены, что хотите удалить папку?
@@ -128,7 +128,7 @@ UI: {
 		the content are not loaded yet, so only the index would be deleted
 		pressing Alt to move the content to the current folder
 		'''
-	ConfigButtons.OpenFolder.Tooltip: open folder...
+	ConfigButtons.OpenFolder.Tooltip: Открыть папку...
 	Rename: Переименовать
 	FolderEnableStatus:
 		'''
@@ -139,7 +139,7 @@ UI: {
 		'''
 	CycleImageDisabled:
 		'''
-		[c/999999:Not usable currently]
+		[c/999999:Недоступно в данный момент]
 		[c/999999:{0}]
 		'''
 
