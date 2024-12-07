@@ -1,0 +1,152 @@
+UI: {
+	Buttons: {
+		Mods: {
+			DescriptionToAdd: Rightclick to open the folder system.
+			DescriptionWhenLeftClick: Rightclick to open the original UI.
+		}
+
+		CreateFolder.DisplayName: Создать папку
+
+		AllMods: {
+			DisplayName: Вкл./Выкл моды
+			Tooltip:
+				'''
+				Нажмите ЛКМ, чтобы включить все моды
+				Нажмите ПКМ, чтобы выключить все моды
+				Нажмите СКМ, чтобы вернуть все моды в последнее состоянее
+				По умолчанию кнопки влиюят только на текущую открытую папку
+				Удерживайте Alt, чтобы изменения состояния влияли и на подкаталоги
+				Удерживайте Shift, чтобы влиять на все моды
+				pressing Ctrl to not ignore the favorite mods
+				specially, pressing Ctrl and right click is regarded as right click but not pressing Ctrl, and disable the redundant dependencies
+				pressing Ctrl and middle click is regarded as right click with pressing Ctrl, and disable the redundant dependencies
+				(favorite mods cannot be diabled by default)
+				'''
+		}
+
+		Back.Tooltip:
+			'''
+			Переход на один уровень выше
+			Вы перейдёте в центр Мастерской, еслли находитесь в корневой папке
+			Удеживайте Shift, чтобы перейти в центр Мастерской, находясь даже в подкаталоге
+			Удеживайте Ctrl, чтобы выйти в главное меню с принудительной перезагрузкой модов
+			'''
+
+		ToggleShowButtons: {
+			TooltipOn:
+				'''
+				Показать фильтры
+				нажмите СКМ, чтобы сбросить
+				'''
+			TooltipOff:
+				'''
+				Скрыть фильтры
+				нажмите СКМ, чтобы сбросить
+				'''
+		}
+
+		More.DisplayName: Больше функций
+
+		CopyEnabled: {
+			DisplayName: Copy Enabled
+			Tooltip:
+				'''
+				copy enabled mods to the current folder (not available at root or showing all mods)
+				by default these contains only the mods that are already enabled (loaded)
+				pressing Shift for mods that would be enabled (without mods that would be disabled)
+				pressing Ctrl to remove the old content
+				'''
+		}
+
+		DisableRedundant: {
+			DisplayName: Disable Redundant
+			Tooltip:
+				'''
+				disable redundant dependencies (mods that have dependents but no dependent is enabled)
+				the mods are from the current folder by default
+				pressing Alt to also contains the subfolders
+				pressing Shift for all mods
+				pressing Ctrl to allow disable the favorite mods
+				left click to not disable mods that have references
+				right click to allow disable mods that have references
+				(mods that have both dependencies and dependents like Calamity
+				would be disabled in right click when no dependents on)
+				'''
+		}
+
+		Subscribe: {
+			Tooltips: {
+				Downloading: Downloading {0} / {1}
+				Subscribing: Subscribing...
+				Loading: Loading...
+				Subscribe: Subscribe
+			}
+		}
+
+		Delete: {
+			Tooltips: {
+				CantDeleteEnabled: Вы не можете удалить включённый мод
+				CantDeleteInModPack: Вы не можете удалить мод, находящийся в сборке
+			}
+		}
+	}
+
+	SortButtons: {
+		Custom.Tooltip: Custom order
+		ReverseRecently.Tooltip: Sort by oldest changed
+		CustomFM.Tooltip: Custom order for folders and mods
+		FolderFirst.Tooltip: Folder first
+		ModFirst.Tooltip: Mod first
+		ToBeEnabled.Tooltip: Show only mods to be enabled
+		ToBeDisabled.Tooltip: Show only mods to be disabled
+		ToBeToggled.Tooltip: Show only mods to be toggled
+		WouldBeEnabled.Tooltip: Show only mods that would be enabled
+		WouldBeDisabled.Tooltip: Show only mods that would be disabled
+		FolderSystem.Tooltip: Use folder system
+		AllMods.Tooltip: Show all mods
+	}
+
+	NewFolderDefaultName: Новая папка
+	DeleteModItemCofirmTextToAdd:
+		'''
+		pressing Shift to delete the index
+		pressing Ctrl to unsubscribe
+		pressing both to totally delete the mod
+		'''
+	DeleteModItemUnloadedComfirmTextToAdd: Only delete the index, not the mod
+	DeleteFolderConfirmText:
+		'''
+		Вы уверены, что хотите удалить папку?
+		Удерживайте Shift, чтобы удалить папку с её подкаталогами
+		Удерживайте Ctrl, чтобы отписаться от всех модов в папке
+		Удерживайте Alt, чтобы удалить папку и перенести её подкаталоги в папку выше
+		'''
+	DeleteFolderDoubleConfirmText: Вы уверены, что хотите отписаться от всех модов в папке?
+	DeleteFolderUnloadedConfirmText:
+		'''
+		Are you sure to delete the folder?
+		the content are not loaded yet, so only the index would be deleted
+		pressing Alt to move the content to the current folder
+		'''
+	ConfigButtons.OpenFolder.Tooltip: open folder...
+	Rename: Переименовать
+	FolderEnableStatus:
+		'''
+		Всего модов: {0}
+		Включённых: {1}
+		Под включение: {2}
+		Под выключение: {3}
+		'''
+	CycleImageDisabled:
+		'''
+		[c/999999:Not usable currently]
+		[c/999999:{0}]
+		'''
+
+	PopupInfos: {
+		CantSubscribeForMissingPublishId: Can't subscribe! No mod info stored!
+		CantSubscribeWhenDownloading: Downloading mod!
+		CantSubscribeWhenSubscribing: Already subscribing! Don't repeatly click!
+		CantSubscribeWhenLoading: Can't subscibe when loading! Please wait for loading complete!
+	}
+}
