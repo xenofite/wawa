@@ -3,7 +3,7 @@ Configs: {
 		DisplayName: Конфигурация
 
 		ammoLine: {
-			Label: Ammo Line
+			Label: Показывать боеприпас
 			Tooltip:
 				'''
 				Shows the item's ammo's name, amount and rarity, shows the mod that adds the ammo if "Mod name next to item name" is on and shows the ammo the item needs if the item has no ammo.
@@ -22,14 +22,20 @@ Configs: {
 		}
 
 		velocityLine: {
-			Label: Velocity Line
+			Label: Показывать скорость снаряда
 			Tooltip: Shows the item's velocity. May not always be accurate due to items shooting multiple different projectiles, projectiles changing velocity mid flight, etc..
 			Display: " ед. скорости снаряда"
 		}
 
 		priceLine: {
-			Label: Better Price Line
-			Tooltip: Correct sell price for items with custom price, always visible, better color coding, cleaner. Replaces vanilla price line.
+			Label: Улучшенная характеристика стоимости
+			Tooltip:
+				'''
+				Изменяет строку стоимости предмета в меню мегазина НИПов: 
+				- убирает надписи «Стоимость покупки/продажи»;
+				- отображает цвет каждого уровня номинала своим цветом, вместо того чтобы выделять всю стоимость цветом самой высокого номинала.
+				В добавок, обычная стоимость предмета всегда будет отображаться в его подсказке. В меню магазина, это значение будет заменено на стоимость его продажи у текущего НИПа.
+				'''
 			platinum: "[c/{0}:{1} {$LegacyInterface.15} ]"
 			gold: "[c/{0}:{1} {$LegacyInterface.16} ]"
 			silver: "[c/{0}:{1} {$LegacyInterface.17} ]"
@@ -37,15 +43,15 @@ Configs: {
 		}
 
 		speedLine: {
-			Label: Better Speed Line
-			Tooltip: Shows attacks per second. Replaces vanilla speed line.
-			Display: " ударов в сек."
+			Label: Улучшенная характеристика скорости
+			Tooltip: Показывает, сколько можеть сделать взмахов предмет за секунду. Заменяет собой ванильную характеристику скорости.
+			Display: " взмахов в сек."
 		}
 
 		knockbackLine: {
-			Label: Better Knockback Line
-			Tooltip: Shows knockback as a number. Replaces vanilla knockback line.
-			Display: " ед. отбрасывания"
+			Label: Улучшенная характеристика отбрасывания
+			Tooltip: Показывает силу отбрасывания в единицах, заменяя ванильную уровневость отбрасывания.
+			Display: " ед. силы отбрасывания"
 		}
 
 		wpnPlusAmmoDmg: {
