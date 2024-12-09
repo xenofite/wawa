@@ -27,7 +27,7 @@ Mods: {
 				}
 
 				HallowedSnow: {
-					DisplayName: Святой снег
+					DisplayName: Кристализированный снег
 					Tooltip: ""
 				}
 
