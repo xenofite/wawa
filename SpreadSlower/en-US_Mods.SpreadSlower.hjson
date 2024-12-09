@@ -1,0 +1,15 @@
+Configs: {
+	SpreadConfig: {
+		DisplayName: Biome Spreading Server Config
+
+		SpreadSlowness: {
+			Label: Biome Spread Speed
+			Tooltip: This is how slow the biome spread speed is multiplied by (eg: 2 is 2x slower, 5 is 5x slower)
+		}
+
+		isSpreadEnabled: {
+			Label: Is Spread Enabled
+			Tooltip: allows spread to be completely disabled, spread speed has no effect while enabled.
+		}
+	}
+}
