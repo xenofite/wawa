@@ -3,38 +3,41 @@ Configs: {
 		DisplayName: Конфигурация
 
 		ammoLine: {
-			Label: Показывать боеприпас
+			Label: Улучшенные описания боеприпасов, стрелкового оружия и прочего
 			Tooltip:
 				'''
-				Shows the item's ammo's name, amount and rarity, shows the mod that adds the ammo if "Mod name next to item name" is on and shows the ammo the item needs if the item has no ammo.
-				Works with fishing poles and tile wands.
+				Добавляет строчку в описания оружия о названии и количестве боеприпаса, которое используется в данный момент
+				Если подходящих боеприпасов нет, в этой строчке будет указано, какой тип боеприпасов нужен
+				Эта настройка работает в том числе с удочками и с очистителем
 				'''
-			No: "Нет "
-			Bait: наживки
-			Arrow: стрел
-			Coin: монет
-			Bullet: патронов
-			Sand: песка
-			Dart: дротивокв
-			Rocket: рокет
-			Solution: раствора
-			Flare: сигнальных ракет
+			No: "Требуются "
+			Bait: черви, насекомые или другие виды наживки
+			Arrow: стрелы
+			Coin: монеты
+			Bullet: пули или патроны
+			Sand: блоки песка
+			Dart: дротики
+			Rocket: ракеты
+			Solution: заряды раствора
+			Flare: сигнальные ракеты
 		}
 
 		velocityLine: {
-			Label: Показывать скорость снаряда
-			Tooltip: Shows the item's velocity. May not always be accurate due to items shooting multiple different projectiles, projectiles changing velocity mid flight, etc..
+			Label: Отображать скорость снарядов
+			Tooltip:
+				'''
+				Добавляет строчку в описания предметов о скорости полёта выпускаемых ими снарядов.
+				Эта настройка не будет адекватно работать с предметами, выпускающими несколько разных снарядов, со
+				снарядами, чьё поведение меняется в полёте или в прочих более сложных условиях.
 			Display: " ед. скорости снаряда"
 		}
 
 		priceLine: {
-			Label: Улучшенная характеристика стоимости
+			Label: Улучшенное описание стоимости предметов
 			Tooltip:
 				'''
-				Изменяет строку стоимости предмета в меню мегазина НИПов: 
-				- убирает надписи «Стоимость покупки/продажи»;
-				- отображает цвет каждого уровня номинала своим цветом, вместо того чтобы выделять всю стоимость цветом самой высокого номинала.
-				В добавок, обычная стоимость предмета всегда будет отображаться в его подсказке. В меню магазина, это значение будет заменено на стоимость его продажи у текущего НИПа.
+				Улучшает ванильную строчку про стоимость предметов, убирая из неё ненужные надписи и улучшая цвет текста
+				Эта строчка будет отображаться даже вне меню магазина НИПов — в таком случае в ней будет указана базовая стоимость предмета
 				'''
 			platinum: "[c/{0}:{1} {$LegacyInterface.15} ]"
 			gold: "[c/{0}:{1} {$LegacyInterface.16} ]"
@@ -43,105 +46,105 @@ Configs: {
 		}
 
 		speedLine: {
-			Label: Улучшенная характеристика скорости
-			Tooltip: Показывает, сколько можеть сделать взмахов предмет за секунду. Заменяет собой ванильную характеристику скорости.
-			Display: " взмахов в сек."
+			Label: Улучшенное описание скорости использования предметов
+			Tooltip: Улучшает ванильную строчку про скорость предметов, заменяя слова конкретными значениями в использованиях в секунду
+			Display: " использов./сек."
 		}
 
 		knockbackLine: {
-			Label: Улучшенная характеристика отбрасывания
-			Tooltip: Показывает силу отбрасывания в единицах, заменяя ванильную уровневость отбрасывания.
+			Label: Улучшенное описание отбрасывания предметов
+			Tooltip: Улучшает ванильную строчку про силу отбрасывания, заменяя слова конкретными значениями
 			Display: " ед. силы отбрасывания"
 		}
 
 		wpnPlusAmmoDmg: {
-			Label: Combine weapon and ammo damage
+			Label: Учитывать урон боеприпасов в строчке про урон оружия
 			Tooltip: ""
 		}
 
 		wpnPlusAmmoKb: {
-			Label: Combine weapon and ammo knockback
-			Tooltip: Requires Better Knockback Line to be on.
+			Label: Учитывать отбрасывание от боеприпасов в строчке про отбрасывание оружия
+			Tooltip: Эта настройка ничего не делает, если выключена настройка «Улучшенное описание отбрасывания предметов»
 		}
 
 		wpnPlusAmmoVelocity: {
-			Label: Combine weapon and ammo velocity
+			Label: Учитывать скорость боеприпасов в строчке про скорость полёта снарядов оружия
 			Tooltip: ""
 		}
 
 		modNameNextToItemName: {
-			Label: Mod name next to item name
-			Tooltip: Shows the mod that adds the item next to the item's name.
+			Label: Отображать название мода-источника рядом с названием предмета
+			Tooltip: ""
 		}
 
 		bgColor: {
-			Label: Color
+			Label: Цвет
 			Tooltip: ""
 		}
 
 		spritebgColor: {
-			Label: Icon Frame Color
-			Tooltip: The background color of the border behind the item icon
+			Label: Цвет рамки для спрайта предмета
+			Tooltip: Цвет рамки, в которой расположен спрайт предмета в его описании
 		}
 
 		paddingRight: {
-			Label: Right Padding
-			Tooltip: ""
+			Label: Правые границы рамки для описания
+			Tooltip: Количество пикселей справа от описания предмета, которые все ещё будет охватывать рамка
 		}
 
 		paddingLeft: {
-			Label: Left Padding
-			Tooltip: ""
+			Label: Левые границы рамки для описания
+			Tooltip: Количество пикселей слева от описания предмета, которые все ещё будет охватывать рамка
 		}
 
 		paddingTop: {
-			Label: Top Padding
-			Tooltip: ""
+			Label: Верхние границы рамки для описания
+			Tooltip: Количество пикселей над описанием предмета, которые все ещё будет охватывать рамка
 		}
 
 		paddingBottom: {
-			Label: Bottom Padding
-			Tooltip: ""
+			Label: Нижнии границы рамки для описания
+			Tooltip: Количество пикселей под описанием предмета, которые все ещё будет охватывать рамка
 		}
 
 		x: {
-			Label: X
-			Tooltip: X position of the tooltip.
+			Label: Расположение описания предмета по оси X
+			Tooltip: Расположение описания предмета в пикселях по оси X относительно курсора
 		}
 
 		y: {
-			Label: Y
-			Tooltip: Y position of the tooltip.
+			Label: Расположение описания предмета по оси Y
+			Tooltip: Расположение описания предмета в пикселях по оси Y относительно курсора
 		}
 
 		spacing: {
-			Label: Spacing
-			Tooltip: Add extra space between lines.
+			Label: Интервалы между строчками в описаниях
+			Tooltip: Дополнительное количество пикселей между каждой строчкой в описаниях предметов
 		}
 
 		sprite: {
-			Label: Item Icon
-			Tooltip: Display the item's icon in the tooltip.
+			Label: Спрайт предмета в его описании
+			Tooltip: Отображать спрайт предмета в его описании
 		}
 
 		spriteBorderPadding: {
-			Label: Icon Border Padding
-			Tooltip: Distance between edge of item sprite, and icon border.
+			Label: Размер рамки вокруг спрайта предмета в описании
+			Tooltip: ""
 		}
 
 		spriteBorder: {
-			Label: Icon Border
-			Tooltip: Toggle icon border
+			Label: Включить рамку вокруг спрайта предмета в описании
+			Tooltip: ""
 		}
 
 		spriteMin: {
-			Label: Icon Minimum Size
+			Label: Минимальный размер рамки вокруг спрайта предмета в описании
 			Tooltip: The minimum size of the Item Icon.
 		}
 
 		spriteTextPadding: {
-			Label: Icon-Text Padding
-			Tooltip: Distance between Item Icon and tooltip text.
+			Label: Расстояние между рамкой со спрайтом предмета и его описанием
+			Tooltip: ""
 		}
 
 		textPulse: {
