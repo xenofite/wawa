@@ -64,8 +64,8 @@ LittleBone: {
 	Hallow1: Whoa, this place is so sparkly and bright! I don't think this was here before, was it?
 	Hallow2: For an area that looks very nice and peaceful, there sure are a lot of deadly fairies in it!
 	//buttons
-	Button1: Advice
-	Button2: Transport
+	Button1: Совет
+	Button2: Транспорт
 }
 
 LittleEye: {
@@ -90,8 +90,8 @@ LittleEye: {
 	Quest3Complete: Yay you've managed to bring back my expensive felt I ho... What do you mean this is the only piece that didn't get destroyed? Ugh this is so small, I can't get anything from this... ok, here's this cloak I just made in a second for you, hope it can somehow help you in your adventures.
 	Quest4Complete: You have finally killed that dastardly evil-doer. For your efforts, please take this magical crystal ball to ponder and increase your power.
 	//buttons
-	Button1: Bounties
-	Button2: Cauldron
+	Button1: Задание по охоте
+	Button2: Котёл
 }
 
 OldHunter: {
@@ -201,10 +201,10 @@ NoseBrute: {
 
 NoseGrunt: {
 	Dialogue1: Sniffle...
-	Dialogue2: Moco... The great one...
-	Dialogue3: All hail Moco!
-	Dialogue4: The great one will arrive if we keep up these rituals.
-	Dialogue5: I don't know what our leader does with the snot we give him, but it is probably for the greater good.
+	Dialogue2: Повелитель... Моко...
+	Dialogue3: Да здравствует Моко!
+	Dialogue4: Правитель явится, если мы будем соблюдать эти ритуалы.
+	Dialogue5: Я не знаю что лидер делает со всеми этими соплями, которые мы ему даём, но, вероятно, они идут на благо.
 }
 
 NoseGunner: {
@@ -264,4 +264,4 @@ TheMan: {
 	Five: Пять
 }
 
-TheHorse: How hungry?
+TheHorse: Насколько ты голоден?
