@@ -1475,11 +1475,11 @@ BoneBow: {
 }
 
 GodGun: {
-	DisplayName: Holy Fire
+	DisplayName: Священный огонь
 	Tooltip:
 		'''
-		Using it for too long will cause the gun to overheat and explode
-		'God's chosen weapon'
+		Слишком продолжительное использование приведёт к перегреву и взрыву оружия
+		«Оружие, выбранное Богом»
 		'''
 }
 
@@ -1502,11 +1502,11 @@ HunterScarf: {
 }
 
 LegalShotgun: {
-	DisplayName: Totally Legal Shotgun
+	DisplayName: Абсолютно легальный дробовик
 	Tooltip:
 		'''
-		Shoots out a spread of bullets and has obnoxious recoil
-		'It's probably illegal...'
+		Стреляет разбросом пуль с сильной отдачей
+		«Возможно, оно не совсем законно...»
 		'''
 }
 
@@ -1525,21 +1525,21 @@ OrbWeaverBoomerang: {
 }
 
 OrbWeaverGiantStaff: {
-	DisplayName: Scepter of the Weaver
+	DisplayName: Скипетр ткача
 	Tooltip:
 		'''
-		Summons a large orb weaver sentry to shoot spikes all around itself
-		The orb weaver will sometimes jump towards its target
+		Призывает большого часового-шароткача, разбрасывающего шипы вокруг себя
+		Шароткач иногда может отпрыгнуть от своей цели
 		'''
 }
 
 OrbWeaverShield: {
-	DisplayName: Spike Shell Basher
+	DisplayName: Шипованный щит атакующего
 	Tooltip:
 		'''
-		Hold out a spiked shield that deals more damage the faster you are moving
-		After 3 seconds of being held, the shield's spikes will become charged
-		Release when charged to fire out the shield's spikes
+		Вытягивает шипованный щит, который наносит тем больше урона, чем быстрее вы двигаетесь
+		После 3-ёх секунд использования, шипы щита заряжаются
+		Отпустите ЛКМ с заряженными шипами, чтобы выстрелить ими
 		'''
 }
 
@@ -1573,7 +1573,7 @@ SpiderEggCannon: {
 	Tooltip:
 		'''
 		Выстреливает шелковистыми паучьи яйца
-		Каждый 5-й выстрел будет выпускать более крупное яйцо, призывающие атакующего паука
+		Каждый 5-ый выстрел будет выпускать более крупное яйцо, призывающие атакующего паука
 		'''
 }
 
@@ -1624,11 +1624,11 @@ TatantulaFlyTome: {
 }
 
 VenomHarpoon: {
-	DisplayName: Venomous Spiderpoon
+	DisplayName: Ядовитый паук-гарпун
 	Tooltip:
 		'''
-		Fires out a venomous harpoon that can latch onto enemies and pull them towards you
-		If an enemy is caught and dragged back to you, the spiderpoon will shoot out venom spit
+		Выпускает ядовитый гарпун, который может зацепиться за врага и подтянуть его к вам
+		Паук-гарпун выстреливает ядовитой слюной в подтянутых врагов
 		'''
 }
 
@@ -1693,11 +1693,11 @@ FlySmallItem: {
 }
 
 LittleBonePot: {
-	DisplayName: Little Bone's Flower Pot
+	DisplayName: Переносной горшок Черепка
 	Tooltip:
 		'''
-		A magical flower pot that belongs to little bone
-		Use to summon Little Bone to your location
+		Магический цветочный горшок, который дал вам Черепок
+		Вы можете использовать его в любом месте, чтобы призвать Черепка
 		'''
 }
 
@@ -1721,7 +1721,7 @@ RottenChunk: {
 }
 
 ShroomHopperItem: {
-	DisplayName: Shroom Hopper
+	DisplayName: Грибной попрыгунчик
 	Tooltip: ""
 }
 
@@ -2082,7 +2082,7 @@ EyeValleyCompass: {
 }
 
 LeechWhipGore: {
-	DisplayName: Gore Food
+	DisplayName: Съедобная плоть
 	Tooltip: ""
 }
 
