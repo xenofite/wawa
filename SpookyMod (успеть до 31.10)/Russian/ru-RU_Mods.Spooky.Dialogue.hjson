@@ -13,29 +13,29 @@ LittleBone: {
 	BigBone: Поскольку у тебя теперь есть доступ к самой глубокой комнате катакомб, ты можешь наконец встретить того, кто устроил там весь этот хаос.
 	NoAdvice: Прости, сейчас я не могу тебе посоветовать ничего дельного.
 	//transport
-	Transport: Here, take my magical transportation pot. When you use this, it will allow you to bring me anywhere on your adventures! I was hoping I could tag along and help you when you need.
-	NoTransport: It looks like you already have my magical flower pot.
+	Transport: Вот, возьми мой волшебный переносной горшок. С его помощью ты сможешь призвать меня в любых своих приключениях! Я надеялся, что смогу быть рядом и помогать, когда тебе это нужно.
+	NoTransport: Походу у тебя уже есть мой волшебный переносной горшок.
 	//default
-	Default1: Why am I dancing, you ask? Because it's fun, You should try it sometime.
-	Default2: When is spooky season? It's always spooky season! Well, from my perspective anyway.
-	Default3: Wow, you look like you're in the halloween spirit!
-	Default4: It's fun going on adventures, too bad I can't move in this flower pot.
-	Default5: Being a plant isn't so bad, at least I can enjoy the scenery!
+	Default1: Почему я всегда пританцовываю, спрашиваешь? Потому что это просто весело, попробуй как-нибудь.
+	Default2: Когда наступает жуткий сезон? Жуткий сезон идёт всегда! По крайней мере, с моей точки зрения.
+	Default3: Вау, выглядишь ты выглядишь наполненным духом Хэллоуина!
+	Default4: Приключания - это весело. Жаль что я не могу нормально передвигаться в этом горшке.
+	Default5: Знаешь, быть растением не так уж и плохо. По крайней мере, я могу вдовль налюбоваться пейзажами!
 	Default6: ...
 	//biomes
-	SpookyBiome1: Sometimes I like to talk to the other skull plants that pop up around here, but they don't seem to respond back.
-	SpookyBiome2: The spooky forest is such a wonderful place to live! Well, aside from those weird zomboids at night.
-	SpookyBiome3: Apparently underneath this place is a large cavern filled with strange mushrooms, sounds like it'd be fun to explore!
-	SpookyHell1: You know, for a place that exists in the underworld, it is oddly cold here.
-	SpookyHell2: This place gives me the creeps! Somehow I feel like I am being stalked even when nothing is nearby.
-	SpookyHell3: There are so many nasty organs and tentacles growing in this biome, it's grossing me out.
-	SpookyHell4: The creatures that live here are so much different than anywhere else, and how are some of them even alive?
-	Cemetery1: This place is really foggy and spooky, I love it!
-	Cemetery2: Be aware of your surroundings, I have heard there are ghosts here that can potentially possess unsuspecting humans.
-	Cemetery3: The cemetery is a strange area, where zombies and other undead monsters come to life. Be careful around here!
-	CatacombFirstLayer1: Theres an awful lot of plants down here for an underground catacomb that has no sunlight...
-	CatacombFirstLayer2: Careful, I have heard rumors of explorers getting crushed by giant rolling skulls!
-	CatacombFirstLayer3: Something about this place is strange. The undead creatures here are very odd compared to everywhere else.
+	SpookyBiome1: Иногда мне хочется поболтать с черепоцветами, растущими по близости. Только они, похоже, не отвечают.
+	SpookyBiome2: Жуткий лес такое чудное место для жизни! Если не считать этих зомбоидов, появляющихся каждую ночь, разве что.
+	SpookyBiome3: Слышал, что под этим местом расположены жуткие пещеры, в которых растут не менее жуткие грибы. Думаю, было бы интересно исследовать их!
+	SpookyHell1: Знаешь, для места, расположенного в преисподней, тут подозрительно холодно.
+	SpookyHell2: У меня от этого места мурашки по коже! Ощущение, будто за мной вечно кто-то следит, даже если рядом ни духу.
+	SpookyHell3: В этом месте столько отвратительных внутренносей и щупалец... Кажется, будто меня сейчас вырвет.
+	SpookyHell4: Здешние существа такие странные. Почему некоторые вообще могут двигаться?
+	Cemetery1: Это место действительно туманное и жуткое, я обожаю это!
+	Cemetery2: Будь внимателен ко всему вокруг. Я слышал, что тут водятся призраки, некоторые из которых даже могут вселится в ничего не подозревающего человека.
+	Cemetery3: Кладбище - странное место, где оживают зомби и другая нечисть. Будь осторожен!
+	CatacombFirstLayer1: Здесь как-то много растительности для подземных катакомб, куда не попадает и капли солнечного света...
+	CatacombFirstLayer2: Осторожно, я слышал слухи о том как катающиеся черепа тут переехали одного исследователя!
+	CatacombFirstLayer3: Здесь происходит что-то дейтсвительно странное. Здешняя нечисть сильно отличается от остальной.
 	CatacombSecondLayer1: There seems to be an infestation of strange plants down here. Some of them are even sentient!
 	CatacombSecondLayer2: I wonder how there is so much plant life down here, with absolutely no sunlight.
 	CatacombSecondLayer3: Something about this place is strange. These plant creatures seem weirdly familiar.
@@ -59,13 +59,13 @@ LittleBone: {
 	Shimmer2: What a mystical and sparkly lake, I wonder what would happen when you jump in it?
 	Corruption1: This place is kind of cool, too bad I keep hearing that it's evil and corrupts anything it touches.
 	Corruption2: The creatures here are so gross, I hate looking at them!
-	Crimson1: EW EW EW EW EW!!! What kind of wretched place is this?!
-	Crimson2: Oh my goodness, how could such a horrible thing exist in this land? This is too spooky, even for me.
+	Crimson1: ФУ, ФУ, ФУ, ФУ!! Что за убожественное место!?
+	Crimson2: О господи, как нечто настолько ужасное может существовать на земле? Здесь слишком жутко, даже для меня.
 	Hallow1: Whoa, this place is so sparkly and bright! I don't think this was here before, was it?
 	Hallow2: For an area that looks very nice and peaceful, there sure are a lot of deadly fairies in it!
 	//buttons
 	Button1: Совет
-	Button2: Транспорт
+	Button2: Перенос
 }
 
 LittleEye: {
