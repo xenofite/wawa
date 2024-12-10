@@ -3,38 +3,106 @@ Configs: {
 		DisplayName: Client Configuration
 
 		Headers: {
-			Graphics: Graphics
-			Input: Input
+			Graphics: Graphics Settings
+			Input: Input Settings
+			Audio: Audio Settings
 		}
 
 		HoveredItemScale: {
 			Label: Hovered Item Scale
-			Tooltip: The draw scale of hovered items.
+			Tooltip: Adjusts the visual size of items when hovered over.
 		}
 
 		UnhoveredItemScale: {
 			Label: Unhovered Item Scale
-			Tooltip: The draw scale of unhovered items.
+			Tooltip: Adjusts the visual size of items when not hovered over.
 		}
 
 		EnableHoverEffects: {
 			Label: Enable Hover Effects
-			Tooltip: Whether item hover effects are enabled or not.
+			Tooltip: Toggles visual effects applied to items when hovered over.
+		}
+
+		EnableMouseEffects: {
+			Label: Enable Mouse Effects
+			Tooltip: Toggles visual effects applied to items selected in the cursor slot.
+		}
+
+		EnableSelectedEffects: {
+			Label: Enable Selected Effects
+			Tooltip: Toggles visual effects applied to items selected in the hotbar.
+		}
+
+		EnableDistribution: {
+			Label: Enable Distribution
+			Tooltip: Toggles automatic item distribution when managing inventory.
 		}
 
 		EnableMovementEffects: {
 			Label: Enable Movement Effects
-			Tooltip: Whether item movement effects are enabled or not.
+			Tooltip: Toggles visual and motion effects for items when moved in the inventory.
 		}
 
 		EnableQuickShift: {
 			Label: Enable Quick Shift
-			Tooltip: Whether quick-shift is enabled or not.
+			Tooltip: Toggles quick movement of items between inventory and containers.
 		}
 
 		EnableQuickControl: {
 			Label: Enable Quick Control
-			Tooltip: Whether quick-control is enabled or not.
+			Tooltip: Toggles quick-access controls for more efficient inventory management.
+		}
+
+		EnableStackRefill: {
+			Label: Enable Stack Refill
+			Tooltip: Toggles automatic item refills in your hotbar from your inventory when depleted.
+		}
+
+		EnableInventorySounds: {
+			Label: Enable Inventory Sounds
+			Tooltip: Toggles sound effects for inventory interactions.
+		}
+
+		EnableMouseRefill: {
+			Label: Enable Mouse Refill
+			Tooltip: Toggles automatic item refills in the cursor slot from inventory stacks.
+		}
+
+		StackType: {
+			Label: Stack Type
+			Tooltip:
+				'''
+				Determine the quantity of items taken from a stack when splitting:
+				- Default: Take 1 item from the stack.
+				- Half: Take half of the stack's items.
+				- Full: Take all items from the stack.
+				'''
+		}
+
+		SortType: {
+			Label: Sort Type
+			Tooltip:
+				'''
+				Determine which item stacks are prioritized during stack refills:
+				- Ascending: Prioritize items with smaller stacks.
+				- Descending: Prioritize items with larger stacks.
+				'''
 		}
 	}
+
+	StackType: {
+		Tooltip: Determine how stack splitting behaves.
+		Default.Label: Default
+		Half.Label: Half
+		Full.Label: Full
+		Single.Label: Single
+	}
+
+	SortType: {
+		Tooltip: Determine how stacks are prioritized during refills.
+		Ascending.Label: Ascending
+		Descending.Label: Descending
+	}
 }
+
+Keybinds.MouseRefillKeybind.DisplayName: Mouse Refill
