@@ -22,15 +22,6 @@ Items: {
 			'''
 	}
 
-	DragonsBreath: {
-		DisplayName: Dragons Breath
-		Tooltip:
-			'''
-			Fire a lot of hot bullets
-			Right - shot a searing dragon's breath
-			'''
-	}
-
 	BansheeHookEcType: {
 		DisplayName: Banshee Hook
 		Tooltip:
@@ -347,10 +338,26 @@ Items: {
 		Legend:
 			'''
 
-			The embers of the war still burn today, billions of years later
-			The body of the Lord of Glory shattered into countless pieces scattered throughout the galaxy
-			A miracle is a poor imitation of the remains of a god
-			And now, the longbow that struck the most High God will rise again from the wrath of heaven
+			The flames of war from a billion years ago have never truly been extinguished. 
+			Like smoldering embers, they traverse the endless corridors of time, burning brightly even now.
+			They are the remnants of the Twilight of the Gods, the afterglow of the universe’s ancient schism, the ceaseless echoes of existence and annihilation.
+
+			The Radiant God, embodiment of galactic order, fell in the greatest rebellion the cosmos has ever witnessed.
+			The divine body shattered like a collapsing star, scattering countless brilliant fragments across every corner of the galaxy.
+			Those fragments became the seeds of life, the spark of knowledge, the cradle of miracles—and yet, 
+			they also bore the stain of greed, destruction, and desecration.
+			Mortals revere these remnants, calling them sacred relics; 
+			yet the so-called miracles crafted from them are but crude imitations of the divine, the reckless hubris of those who do not know reverence.
+
+			But among the forgotten ruins and the echoes of legend, there exists an artifact that transcends all relics. 
+			It is no mere witness to the fall of the Supreme God; it was the very weapon that cast Him into eternal oblivion—a bow of legend.
+			Once wreathed in the fury of heaven’s fire, 
+			it loosed the fatal arrow that sundered the divine authority and extinguished the hubris of gods, bringing their ambitions to ruin.
+			As the war ended, the bow too was claimed by the tides of time, buried in the endless shroud of mystery and myth.
+
+			Yet now, the wheel of fate turns once more. 
+			The fires of heaven reignite, and that god-slaying bow shall emerge anew amid the symphony of stars.
+			Once more, it shall carve the annals of history in blood and stardust.
 
 			'''
 	}
@@ -363,11 +370,6 @@ Items: {
 			Right click to have the blade raise up into the sky. Holding Right click will charge the blade up, increasing in size. 
 			Letting go of right click hurls the blade at the enemy causing a massive explosion.
 			'''
-	}
-
-	DragonsBreathRifle: {
-		DisplayName: Dragons Breath Rifle
-		Tooltip: ""
 	}
 
 	TextItem: {
@@ -383,11 +385,6 @@ Items: {
 	InfiniteIngot: {
 		DisplayName: Infinite Ingot
 		Tooltip: The power of many worlds, universes and galaxies all coalesce into this singular ingot.
-	}
-
-	CosmicMetalSingularity: {
-		DisplayName: Cosmic Metal Singularity
-		Tooltip: ""
 	}
 
 	TransmutationOfMatterItem: {
@@ -464,7 +461,7 @@ Items: {
 			'''
 			Right-click and destroy everything it touches
 			Press [KEY] to change the mode
-			 You can sense that the very lands of Terraria trembles in fear whenever you hold it.
+			'You can sense that the very lands of Terraria trembles in fear whenever you hold it.'
 			'''
 	}
 
@@ -487,24 +484,9 @@ Items: {
 		Tooltip: ""
 	}
 
-	IridescentExcaliburEcType: {
-		DisplayName: Iridescent Excalibur
-		Tooltip: ""
-	}
-
-	EndlessStabilizer: {
-		DisplayName: Endless Stabilizer
-		Tooltip: ""
-	}
-
 	BlackMatterStick: {
-		DisplayName: Dense Neutron Star Ingot
-		Tooltip: ""
-	}
-
-	InfiniteStick: {
-		DisplayName: Infinite Stick
-		Tooltip: ""
+		DisplayName: Neutron Star Ingot
+		Tooltip: The weight of all things, gathered at your fingertips
 	}
 
 	InfinityCatalyst: {
@@ -514,7 +496,13 @@ Items: {
 
 	DawnshatterAzure: {
 		DisplayName: Dawnshatter Azure
-		Tooltip: Summons the full might of Yharon's Auric Soul to tear into your enemies
+		Tooltip:
+			'''
+			Fires a shadow of the corona, summoning explosive dragon flames upon hitting enemies.
+			Hold the right mouse button to dash while raising your weapon.
+			Let the flames purify your soul and utterly plunder your enemies.
+			[c/fff08c:-Drops multiple items upon killing an enemy-]
+			'''
 	}
 
 	DecayParticles: {
@@ -833,12 +821,11 @@ Items: {
 	}
 
 	BlossomFluxEcType: {
-		DisplayName: Blossom Flux
+		DisplayName: Leaf Flow
 		Tooltip:
 			'''
-			Fires a stream of homing leaves that become faster over time.
-			Getting hit will reset the attack speed back to its base amount.
-			Right click to aim and fire a spread of jungle bombs that travel in a wavy pattern and explode on impact.
+			Rapidly fires Lifeleaf Arrows.  
+			Right-click to charge and fire a powerful Jungle Bomb.  
 			'''
 	}
 
@@ -1651,8 +1638,8 @@ Items: {
 		Tooltip:
 			'''
 			Reduces recoil and chamber pressure by 65%
-			Reduces ranged damage by 15%
-			Increases ranged critical hit rate by 25%
+			Reduces ranged damage by 5%
+			Increases ranged critical hit rate by 15%
 			'''
 	}
 
@@ -1671,8 +1658,8 @@ Items: {
 		Tooltip:
 			'''
 			Reduces recoil and chamber pressure by 55%
-			Reduces ranged damage by 20%
-			Increases ranged critical hit rate by 15%
+			Reduces ranged damage by 10%
+			Increases ranged critical hit rate by 10%
 			'''
 	}
 
@@ -1681,7 +1668,8 @@ Items: {
 		Tooltip:
 			'''
 			Reduces recoil and chamber pressure by 40%
-			Reduces ranged damage by 25%
+			Reduces ranged damage by 15%
+			Increases ranged critical hit rate by 5%
 			'''
 	}
 
@@ -2434,7 +2422,7 @@ Items: {
 	}
 
 	NeutronScythe: {
-		DisplayName: Planet Messenger
+		DisplayName: Blackhole Messenger
 		Tooltip:
 			'''
 			The scythe fires gamma rays at enemies, leaving several warp points along its path.
@@ -2716,19 +2704,146 @@ Items: {
 			"Blow them all to the skies!"
 			'''
 	}
+
+	CrackshotColtEcType: {
+		DisplayName: Crackshot Colt
+		Tooltip:
+			'''
+			Fires sharpshooter bullets.  
+			Right-click to toss a copper coin into the air.  
+			Bullets that hit the coin will home in on the nearest enemy.  
+			Up to 4 coins can be tossed at once. When possible, bullets will ricochet between multiple coins.  
+			Ricocheting bullets are guaranteed to critically strike and gain increased damage based on the number of bounces.  
+			"Money is power."
+			'''
+	}
+
+	EvisceratorEcType: {
+		DisplayName: Eviscerator
+		Tooltip:
+			'''
+			Converts musket balls into slow-flying blood coagulation bullets.  
+			"From the Xenos, to annihilate the Xenos."
+			'''
+	}
+
+	AquamarineStaffEcType: {
+		DisplayName: Aquamarine Staff
+		Tooltip:
+			'''
+			Fires two blue water bolts.
+			"Salty!"
+			'''
+	}
+
+	IcicleStaffEcType: {
+		DisplayName: Icicle Staff
+		Tooltip: Summons icicles to fall from the sky.
+	}
+
+	ManaRoseEcType: {
+		DisplayName: Mana Rose
+		Tooltip:
+			'''
+			Fires a magical flower that explodes and splits into petals.
+			"A perfect day for confession."
+			'''
+	}
+
+	PlasmaRodEcType: {
+		DisplayName: Plasma Rifle
+		Tooltip:
+			'''
+			Fires explosive ion beams.
+			Right-click to rapidly fire ion bolts.
+			'''
+	}
+
+	SandstreamScepterEcType: {
+		DisplayName: Sandstream Scepter
+		Tooltip:
+			'''
+			Fires an explosive stream of sand fragments that fall after hitting enemies.
+			Explodes only when the sand fragments disappear.
+			'''
+	}
+
+	SkyGlazeEcType: {
+		DisplayName: Sky Feather
+		Tooltip: Summons feathers to fall from the sky, attaching to enemies and tiles before exploding.
+	}
+
+	AestheticusEcType: {
+		DisplayName: Aestheticus
+		Tooltip:
+			'''
+			Fires exploding crystals that slow enemies.
+			Benefits from all damage bonuses.
+			'''
+	}
+
+	EyeofMagnusEcType: {
+		DisplayName: Eye of Magnus
+		Tooltip:
+			'''
+			Fires starlight beams that reduce enemy defense.
+			Restores health and mana upon hitting enemies.
+			Benefits from all damage bonuses.
+			'''
+	}
+
+	LunicEyeEcType: {
+		DisplayName: Lunic Eye
+		Tooltip:
+			'''
+			Fires starlight beams that reduce enemy defense.
+			Benefits from all damage bonuses.
+			'''
+	}
+
+	BasherEcType: {
+		DisplayName: Basher
+		Tooltip: Inflicts a radiation debuff upon hitting enemies.
+	}
+
+	EvilSmasherEcType: {
+		DisplayName: Evil Smasher
+		Tooltip:
+			'''
+			Grants attribute boosts for each enemy killed with this hammer.
+			Stops growing when the maximum value is reached.
+			Switching to another item removes the bonuses.
+			Taking damage removes one attribute boost.
+			"The hammer is both evil and powerful."
+			'''
+	}
+
+	DeathSickleRogue: {
+		DisplayName: Reaper's Flying Scythe
+		Tooltip:
+			'''
+			Stealth attacks spawn six tracking death sickles at the end of the flight path.
+			"This further enhances work efficiency."
+			'''
+	}
+
+	TitanArmEcType: {
+		DisplayName: Titan Arm
+		Tooltip:
+			'''
+			Charge up for a mighty swing.
+			"Everyone gets slapped."
+			'''
+	}
 }
 
 Projectiles: {
 	StarDust.DisplayName: Star Dust
 	RenderDistort.DisplayName: Render Distort
-	RenderGap.DisplayName: Render Gap
-	DragonsBreathProjectiles.DisplayName: Dragons Breath Projectiles
-	DragonFireRupture.DisplayName: Dragon Fire Rupture
 	GunCasing.DisplayName: Gun Casing
-	HeldProjectiles.DisplayName: Held Projectiles
-	RemakeBansheeHookScythe.DisplayName: Remake Banshee Hook Scythe
-	RemakeBlazingPhantomBlade.DisplayName: Remake Blazing Phantom Blade
-	RemakeTerratomereHoldoutProj.DisplayName: Remake Terratomere Holdout Proj
+	RemakeBansheeHookScythe.DisplayName: Banshee Hook Scythe
+	RemakeBlazingPhantomBlade.DisplayName: Blazing Phantom Blade
+	RemakeTerratomereHoldoutProj.DisplayName: Terratomere
 	RedLightningFeather.DisplayName: Red Lightning Feather
 	TerratomereBolt.DisplayName: Terratomere Bolt
 	GildedProboscisKevinLightning.DisplayName: Gilded Proboscis Kevin Lightning
@@ -2739,9 +2854,9 @@ Projectiles: {
 	AbominateSpirit.DisplayName: Abominate Spirit
 	SpiritFlame.DisplayName: Spirit Flame
 	DoGDeaths.DisplayName: DoG Deaths
-	ArkoftheAncientsParryHoldouts.DisplayName: Arkofthe Ancients Parry Holdouts
+	ArkoftheAncientsParryHoldouts.DisplayName: Arkofthe Ancients Parry
 	ArkoftheCosmosBlasts.DisplayName: Arkofthe Cosmos Blasts
-	ArkoftheCosmosParryHoldouts.DisplayName: Arkofthe Cosmos Parry Holdouts
+	ArkoftheCosmosParryHoldouts.DisplayName: Arkofthe Cosmos Parry
 	ArkoftheCosmosSwungBlades.DisplayName: Arkofthe Cosmos Swung Blades
 	RendingNeedles.DisplayName: Rending Needles
 	ArkoftheCosmosConstellations.DisplayName: Arkofthe Cosmos Constellations
@@ -2816,8 +2931,6 @@ Projectiles: {
 	DivineDevourerIllusionTail.DisplayName: Divine Devourer Illusion Tail
 	AegisBladeProj.DisplayName: Aegis Blade
 	AegisBeams.DisplayName: Aegis Beams
-	DragonsBreathRound.DisplayName: Dragons Breath Round
-	DragonsBreathRifleHeldProj.DisplayName: Dragons Breath Rifle
 	InfiniteArrow.DisplayName: Infinite Arrow
 	HeavenLightning.DisplayName: Heaven Lightning
 	CelestialVortex.DisplayName: Celestial Vortex
@@ -2825,11 +2938,10 @@ Projectiles: {
 	InfiniteRune.DisplayName: Infinite Rune
 	VientianePunishment.DisplayName: Vientiane Punishment
 	HolyColliderHolyFires.DisplayName: Holy Collider Holy Fires
-	RBansheeHookScythe.DisplayName: R Banshee Hook Scythe
-	RBlazingPhantomBlade.DisplayName: R Blazing Phantom Blade
-	RCosmicShivBall.DisplayName: R Cosmic Shiv Ball
+	RBansheeHookScythe.DisplayName: Banshee Hook Scythe
+	RBlazingPhantomBlade.DisplayName: Blazing Phantom Blade
 	RTerratomereHoldoutProj.DisplayName: Terratomere Holdout
-	RTerrorBeam.DisplayName: R Terror Beam
+	RTerrorBeam.DisplayName: Terror Beam
 	StreamBeams.DisplayName: Stream Beams
 	CosmicSpiritBombs.DisplayName: Cosmic Spirit Bombs
 	CelestialClaymoreBeam.DisplayName: Celestial Claymore Beam
@@ -2839,12 +2951,12 @@ Projectiles: {
 	InfiniteIngotTileProj.DisplayName: Black holes annihilate their cores
 	JudgementBeam.DisplayName: Judgement Beam
 	OrderbringerBeams.DisplayName: Orderbringer Beams
-	OrderbringerProj.DisplayName: Orderbringer Proj
+	OrderbringerProj.DisplayName: Orderbringer
 	OrderbringerBeams2.DisplayName: Orderbringer Beams
 	IridescentExcaliburBeam.DisplayName: Iridescent Excalibur Beam
 	IridescentExcaliburLight.DisplayName: Iridescent Excalibur Light
 	OrderbringerWhiteOrbs.DisplayName: Orderbringer White Orbs
-	InfinitePickProj.DisplayName: Infinite Pick Proj
+	InfinitePickProj.DisplayName: Infinite Pick
 	InfiniteEnmgs.DisplayName: Infinite Enmgs
 	TheDaybreak.DisplayName: The Daybreak
 	TheEndSun.DisplayName: The End Sun
@@ -2866,16 +2978,16 @@ Projectiles: {
 	SparkBall.DisplayName: Spark Ball
 	SparkLightning.DisplayName: Spark Lightning
 	BrimstoneSwordBall.DisplayName: Brimstone Sword Ball
-	StarMyriadChangesProj.DisplayName: Star Myriad Changes Proj
-	PGDeriveProj.DisplayName: P G Derive Proj
-	PGProj.DisplayName: P G Proj
-	SupPGProj.DisplayName: Sup P G Proj
+	StarMyriadChangesProj.DisplayName: Star Myriad Changes
+	PGDeriveProj.DisplayName: PG Derive Proj
+	PGProj.DisplayName: PG Proj
+	SupPGProj.DisplayName: SupPG Proj
 	StellarStrikerBeam.DisplayName: Stellar Striker Beam
 	GhostSkull.DisplayName: Ghost Skull
 	PlagueBee.DisplayName: Plague Bee
 	PlagueBeeWave.DisplayName: Plague Bee Wave
 	GouldBee.DisplayName: Gould Bee
-	BalefulHarvesterHeldProj.DisplayName: Baleful Harvester
+	BalefulHarvesterHeld.DisplayName: Baleful Harvester
 	BalefulSickle.DisplayName: Baleful Sickle
 	BalefulBall.DisplayName: Baleful Ball
 	VulcaniteBall.DisplayName: Vulcanite Ball
@@ -2883,27 +2995,18 @@ Projectiles: {
 	AstralPikeBeam.DisplayName: Astral Pike Beam
 	AnarchyBeam.DisplayName: Anarchy Beam
 	EarthenBall.DisplayName: Earthen Ball
-	EarthenPikeThrowProj.DisplayName: Earthen Pike Throw Proj
+	EarthenPikeThrowProj.DisplayName: Earthen Pike Throw
 	MeleeFossilShard.DisplayName: Melee Fossil Shard
-
-	Melee: {
-		EXSolsticeBeam.DisplayName: E X Solstice Beam
-		MourningSkull2.DisplayName: Mourning Skull2
-		SemberDarkMasterClone.DisplayName: Sember Dark Master Clone
-	}
-
 	TeardropCleaverProj.DisplayName: Teardrop Cleaver Proj
 	DarkIceZeros.DisplayName: Dark Ice Zeros
 	RFlarefrostBladeHeldProj.DisplayName: R Flarefrost Blade
 	WaningMoonLight.DisplayName: Waning Moon Light
-	MurasamaHeldProj.DisplayName: Murasama
-	MurasamaBreakOut.DisplayName: Murasama
-	MurasamaBreakSwing.DisplayName: Half Moon
-	MurasamaEndSilkOrb.DisplayName: Dimensional chopping - end
-	MurasamaEndSilkOrbOnSpan.DisplayName: Dimensional chopping - beginning
-	MurasamaDownSkill.DisplayName: Murasama
-	MurasamaEndSkillOrb.DisplayName: Dimensional chopping - end
-	MurasamaEndSkillOrbOnSpan.DisplayName: Dimensional chopping - beginning
+	MurasamaHeld.DisplayName: Murasama
+	MuraTriggerDash.DisplayName: Murasama
+	MuraBreakerSlash.DisplayName: Half Moon
+	MuraExecutionCut.DisplayName: Dimensional chopping - end
+	MuraExecutionCutOnSpan.DisplayName: Dimensional chopping - beginning
+	MuraGroundSmash.DisplayName: Murasama
 	EndSkillEffectStart.DisplayName: Dimensional chopping - beginning
 	EndSkillMakeDamage.DisplayName: Dimensional chopping - end
 	PowerSoundEgg.DisplayName: Power Sound Egg
@@ -3006,12 +3109,6 @@ Projectiles: {
 	FlintSpearProj.DisplayName: Flint Spear Proj
 	TheUpiSteleHeldProj.DisplayName: The Upi Stele
 	MagicStar.DisplayName: Magic Star
-
-	Magic: {
-		_SHPB.DisplayName: Energy Ball
-		_SHPL.DisplayName: Dissociation Ray
-	}
-
 	TheSpiritFlintProjL.DisplayName: The Spirit Flint Proj L
 	TheSpiritFlintProjR.DisplayName: The Spirit Flint Proj R
 	TheSpiritFlintProj.DisplayName: The Spirit Flint Proj
@@ -3430,14 +3527,47 @@ Projectiles: {
 	SnowQuayMK2Held.DisplayName: Snow Quay MK2
 	HghExplosiveHeld.DisplayName: Hgh Explosive
 	HghExplosiveProj.DisplayName: Hgh Explosive
+	CrackshotColtHeld.DisplayName: Crackshot Colt
+	EvisceratorHeld.DisplayName: Eviscerator
+	CoinGunHeld.DisplayName: Coin Gun
+	SolsticeHomeBeam.DisplayName: Solstice Home Beam
+	MeowmereHeld.DisplayName: Meowmere
+	PhaseEnergySphere.DisplayName: Phase Energy Sphere
+	PhaseLaser.DisplayName: Phase Laser
+	SemberDarkMasterClone.DisplayName: Sember Dark Master Clone
+	SoulSeekerSkull.DisplayName: Soul Seeker Skull
+	EyeofMagnusHeldProj.DisplayName: Eyeof Magnus
+	LunicEyeHeldProj.DisplayName: Lunic Eye
+	EvilSmasherHeld.DisplayName: Evil Smasher
+	AestheticusHeldProj.DisplayName: Aestheticus
+	BasherHeld.DisplayName: Basher
+	AquamarineStaffHeld.DisplayName: Aquamarine Staff
+	IcicleStaffHeld.DisplayName: Icicle Staff
+	ManaRoseHeld.DisplayName: Mana Rose
+	PlasmaRodHeld.DisplayName: Plasma Rod
+	SandstreamScepterHeld.DisplayName: Sandstream Scepter
+	SkyGlazeHeld.DisplayName: Sky Glaze
+	CutlassHeld.DisplayName: Cutlass
+	DeathSickleHeld.DisplayName: Death Sickle
+	DeathSickleThrowable.DisplayName: Death Sickle Throwable
+	IceSickleHeld.DisplayName: Ice Sickle
+	DeathSickleThrowableRogue.DisplayName: Death Sickle Throwable Rogue
+	PhaseBlasting.DisplayName: Phase Blasting
+	DyeTradersScimitarHeld.DisplayName: Dye Traders Scimitar
+	BalefulHarvesterHeldThrow.DisplayName: Baleful Harvester Throw
+	SeedlerHeld.DisplayName: Seedler
+	TitanArmHeld.DisplayName: Titan Arm
+	HeatRayHeld.DisplayName: Heat Ray
+	SpaceGunHeld.DisplayName: Space Gun
+	StarWrathHeld.DisplayName: Star Wrath
 }
 
 Configs: {
 	CWRServerConfig: {
 		DisplayName: Content Config
 
-		ForceReplaceResetContent: {
-			Label: Enable Forceful Reset Content Replacement
+		WeaponOverhaul: {
+			Label: Weapon Overhaul
 			Tooltip:
 				'''
 				If enabled, it will directly modify the original content of the Calamity mod.
@@ -3450,15 +3580,6 @@ Configs: {
 				'''
 		}
 
-		AddExtrasContent: {
-			Label: Add Extras Content
-			Tooltip:
-				'''
-				Whether to add controversial content to the game, such as Endless Technology
-				Enabled by default, when disabled, content that is not compatible with the theme of disaster can be removed from the game
-				'''
-		}
-
 		WeaponEnhancementSystem: {
 			Label: Enable Legendary Weapon Enhancement System
 			Tooltip:
@@ -3466,18 +3587,6 @@ Configs: {
 				If enabled, some weapons will regain their legendary titles, affecting their acquisition difficulty. 
 				Legendary weapons will grow in power as you progress through stages. 
 				Disabling this option will deactivate this feature.
-				'''
-		}
-
-		ResetItemReminder: {
-			Label: Reset Item Reminder
-			Tooltip:
-				'''
-				Hey! If you see this! Don't turn it off! Before doing so, 
-				make sure you understand what [c/fff08c: Mandatory Remastered Content replacement] does and what it means!
-				[c/de0808: Especially closed][c/fff08c: Forced remake content replacement][c/de0808: What happens after!!]
-				If you still can't solve your doubts and questions after reading the content guide of the module,
-				Contact me in the forums or send me an email at coslowkimberli185@gmail.com
 				'''
 		}
 
@@ -3499,17 +3608,6 @@ Configs: {
 			CWRSystem: System Configs
 			CWRWeapon: Weapon Configs
 			CWRUI: UI Configs
-		}
-
-		MurasamaRisingDragonCoolDownBarSize: {
-			Label: Murasama Charged UI Size
-			Tooltip:
-				'''
-				An additional UI size correction factor, in percentage % units
-				Set this to fit your preferred Ui size, which is generally left at 100%
-				Pull the slider to adjust the percentage data to a maximum of 200%, 
-				double the volume of the original size, and a minimum of 50%
-				'''
 		}
 
 		LensEasing: {
@@ -3597,17 +3695,6 @@ Configs: {
 			Tooltip: The larger the value, the more prominent the sound; 1 is the original volume
 		}
 
-		OpeningOukModification: {
-			Label: Opening Ouk Modification [c/06e33f:(Experimental)]
-			Tooltip:
-				'''
-				If enabled, it will completely modify the starting inventory of new characters; 
-				for example, copper tools will be replaced with stone tools.
-				In the current version, this is classified as an experimental feature and is disabled by default. 
-				If enabled, it will only affect newly created characters.
-				'''
-		}
-
 		ShotgunFireForcedReloadInterruption: {
 			Label: Shotgun Fire Forced Reload Interruption [c/06e33f:(Experimental)]
 			Tooltip:
@@ -3617,8 +3704,8 @@ Configs: {
 				'''
 		}
 
-		BiobehavioralOverlay: {
-			Label: Biobehavioral Modification [c/06e33f:(Experimental)]
+		BiologyOverhaul: {
+			Label: Biology Overhaul [c/06e33f:(Experimental)]
 			Tooltip:
 				'''
 				[c/c20909:Unfinished]
@@ -3633,16 +3720,6 @@ Configs: {
 				'''
 				Turned on by default, many sword weapons will have a dazzling bright knife light
 				In the vast majority of cases, this makes the game cooler
-				'''
-		}
-
-		TileModuleBosSizeDraw: {
-			Label: Tile Module Bounding Box Draw [c/06e33f:(Developer Option)]
-			Tooltip:
-				'''
-				[c/c20909:Not recommended for non-developers]
-				Used for debugging and observing the collision structure of TileModule.
-				When enabled, TileModule will draw its bounding boxes, type names, and other data in the world.
 				'''
 		}
 
@@ -3706,6 +3783,7 @@ Keybinds: {
 
 TextContent: {
 	CWRLocText: {
+		OnlyZenith: Only in Zenith World
 		Event_TungstenRiot_Name: Tungsten Riot
 		Event_TungstenRiot_Text_1: A large number of tungsten creatures are invading!
 		Event_TungstenRiot_Text_2: The Tungsten Army has been beaten back!
@@ -3980,26 +4058,6 @@ TextContent: {
 			There's also a powerful sea creature that destroyed my machine; let’s seek revenge.
 			'''
 		Halibut_TextDictionary_Content_14: Honestly, I feel like going back to the sea.
-		RemakeItem_Remind_TextContent:
-			'''
-			【From the Author】
-			Before you came across this passage, you should have been browsing the items related to the 
-			Calamity Overhaul's reset.
-			These items serve as reset copies of the original content and, under normal circumstances, 
-			should not be encountered in your gameplay.
-			All weapon reset content in the Calamity Overhaul directly applies to the original Calamity items. 
-			However, when you navigate to【Settings】-->【Mod Config -->【Calamity Overhaul Content Settings 
-			-->【Enable Forced Reset Content Replacement】,
-			and disable this option, the reset codes directly applied to the original Calamity items will be deactivated. 
-			Instead, these reset copies will be introduced into the game as remedial measures 
-			that can be exchanged and crafted with the original items.
-			It's essential to note that the author strongly discourages using this setting. 
-			For specific reasons, please refer to the author's words in the mod configuration.
-			This interface aims to eliminate any potential misunderstandings.
-			If you are confident in your understanding and prefer not to see this passage again, 
-			please go to【Settings】-->【Mod Config】-->【Calamity Overhaul】--> 【Content Settings】-->【Reset Item Reminder】,
-			and disable it.
-			'''
 		StarMyriadChanges_TextContent:
 			'''
 			This is but a fragment of the plan.
@@ -4320,6 +4378,9 @@ TextContent: {
 		IconUI_Text5: Donor
 		IconUI_Text6: Balance Tester
 		IconUI_Text7: View log
+		SPU_Text0: In
+		SPU_Text1: Perform final synthesis
+		SPU_Text2: Synthetic acquisition：
 		Spazmatism_Text1: EUX_001 deployed successfully, behavior logged: Collaborate with PCZ_001 to neutralize the target.
 		Spazmatism_Text2: EUX_002 deployed successfully, behavior logged: Collaborate with PCZ_001 to neutralize the target.
 		Spazmatism_Text3: EUX_001 main structure damaged, attempting to retreat from the battlefield...
