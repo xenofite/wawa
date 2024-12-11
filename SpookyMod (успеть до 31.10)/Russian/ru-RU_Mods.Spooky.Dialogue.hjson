@@ -194,17 +194,17 @@ Daffodil: {
 }
 
 NoseBrute: {
-	Dialogue1: Hrnnngg...
-	Dialogue2: Grunt...
-	Dialogue3: Snoooort...
+	Dialogue1: Мрррнг...
+	Dialogue2: Хр...
+	Dialogue3: Фффыррр...
 }
 
 NoseGrunt: {
-	Dialogue1: Sniffle...
+	Dialogue1: *шмыг*
 	Dialogue2: Повелитель... Моко...
 	Dialogue3: Да здравствует Моко!
 	Dialogue4: Правитель явится, если мы будем соблюдать эти ритуалы.
-	Dialogue5: Я не знаю что лидер делает со всеми этими соплями, которые мы ему даём, но, вероятно, они идут на благо.
+	Dialogue5: Я не знаю, что лидер делает со всеми этими соплями, которые мы ему даём, но, вероятно, они идут на благо.
 }
 
 NoseGunner: {
@@ -215,7 +215,7 @@ NoseGunner: {
 }
 
 NoseLeader: {
-	Button: Blessing (Give Snot Glob)
+	Button: Благословение (дать комок соплей)
 	NoseBlessing: Here my little follower, for you a blessing straight from my nose. Use it wisely...
 	NoseBlessingBroke: Did you come to me and expect to yield results with no sacred snot? Shameful.
 	Dialogue1: My little disciple, have you come to sacrifice yourself for the holy one?
