@@ -1166,7 +1166,7 @@ OrroboroRing: {
 	DisplayName: Кольцо Орроборо
 	Tooltip:
 		'''
-		Призывает закольцовенных орро и боро
+		Призывает закольцовенных Орро и Боро
 		«Очень залипательно»
 		'''
 }
@@ -3118,7 +3118,7 @@ EyeWizardRelicItem: {
 }
 
 FrankenGoblinRelicItem: {
-	DisplayName: Реликвия гоблина Франк
+	DisplayName: Реликвия гоблина Франка
 	Tooltip: ""
 }
 
