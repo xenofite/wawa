@@ -296,7 +296,9 @@ ZomboidWarlock.DisplayName: Колдун-зомбоид
 WarlockSkull.DisplayName: Колдун-скелет
 ZomboidWind.DisplayName: Зомбоид
 //valley of eyes
+EyeBat.DisplayName: Глазомышь
 EyeBatFleshy.DisplayName: Летучая глазомышь
+ManHole.DisplayName: Мясное отверстие
 ManHoleFleshy.DisplayName: Мясное отверстие
 ManHoleEye.DisplayName: Глаз
 ManHoleBig.DisplayName: Большое мясное отверстие
