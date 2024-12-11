@@ -277,8 +277,8 @@ SkullEmojiBuff: {
 }
 
 SkullGoopBuff: {
-	DisplayName: Skull Goop
-	Description: The mysterious goop slithers behind you
+	DisplayName: Череп-слизняк
+	Description: Такинственный слизняк ползёт за вами
 }
 
 SpookySpiritPetBuff: {
@@ -362,7 +362,7 @@ TrapdoorSpiderMountBuff: {
 
 SpiderBabyBuff: {
 	DisplayName: Паучки
-	Description: They have imprinted on you (idk)
+	Description: They have imprinted on you
 }
 
 HunterScarfMark: {
@@ -481,8 +481,8 @@ StitchedCloakWebSlow: {
 }
 
 OrroboroPetBuff: {
-	DisplayName: Orroboro Ring
-	Description: The worms are slowly consuming each other
+	DisplayName: Кольцо Орроборо
+	Description: Черви, медленно моглащающие друг друга
 }
 
 EggEventEnemyBuff: {
