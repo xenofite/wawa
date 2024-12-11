@@ -551,7 +551,7 @@ PandoraAmalgam: {
 	DisplayName: Амальгуль
 	Tooltip:
 		'''
-		Даёт эффекты всех аксессуаров Ящика Пандоры
+		Даёт эффекты всех аксессуаров ящика Пандоры
 		Восстановление маны призывает сгустки экоплазмы, наносящие тем больше урона, чем больше маны было восстановлено
 		Нажмите горячую кливишу, чтобы выпустить очередь из звуковых волн, наносящих урон и вам и врагам
 		Каждые 5 секунд вокруг вас будут появляются летающие руки, восстанавливающие ваше здоровье при получении урона
@@ -819,11 +819,11 @@ CemeteryKey: {
 }
 
 CemeterySolution: {
-	DisplayName: Dark Green Solution
+	DisplayName: Тёмно-зелёный раствор
 	Tooltip:
 		'''
-		Used by the Clentaminator
-		Spreads the Swampy Cemetery
+		Используется «Очизнителем»
+		Распространяет заболоченное кладбище
 		'''
 }
 
@@ -1743,7 +1743,7 @@ SpookySolution: {
 	DisplayName: Оранжевый раствор
 	Tooltip:
 		'''
-		Используется «Очистителем»
+		Используется «Очизнителем»
 		Распространяет жуткий лес
 		'''
 }
@@ -2087,16 +2087,16 @@ LeechWhipGore: {
 }
 
 NoseTempleResetter: {
-	DisplayName: Nose Idol of Time Reversal
+	DisplayName: Носовой идол возврата времени
 	Tooltip:
 		'''
-		Reverses time inside of the nose temple when used, resetting all of the combat rooms
-		Cannot be used if any players are inside of the nose temple
+		При использовании, обращает время в спять, сбрасывая все боевые комнаты в храме Моко
+		Не может быть использован, когда в храме присутствуют игроки
 		'''
 }
 
 SnotGlob: {
-	DisplayName: Snot Glob
+	DisplayName: Комок соплей
 	Tooltip: ""
 }
 
@@ -2110,11 +2110,11 @@ SpookyHellKey: {
 }
 
 SpookyHellSolution: {
-	DisplayName: Red & Purple Solution
+	DisplayName: Красно-фиолетовый раствор
 	Tooltip:
 		'''
-		Used by the Clentaminator
-		Spreads the Eye Valley onto underworld blocks
+		Используется «Очизнителем»
+		Распространяет глазастую долину на блоках преисподней
 		'''
 }
 
@@ -2340,12 +2340,12 @@ SentientHeart: {
 }
 
 BoogerBlaster: {
-	DisplayName: Booger Blaster
+	DisplayName: Козявочный бластер
 	Tooltip:
 		'''
-		Charge up to shoot nasty boogers that slow enemies on hit
-		The longer you charge it, the stronger and faster the boogers will become
-		Can be charged up to 3 times total
+		Заряжайте оружие, чтобы выстрелить противными козявками, замедляющими врагов при попадании
+		Чем больше вы его заряжаете, тем сильнее и быстрее козявки становлятся
+		Всего имеет 3 уровня зарядки
 		'''
 }
 
@@ -2365,31 +2365,31 @@ BoogerStaff: {
 }
 
 EyeFlail: {
-	DisplayName: Chained Eyes
-	Tooltip: Wield two long range eye flails
+	DisplayName: Прикованный взгляд
+	Tooltip: Раскручивает кистень из двух больших глаз и позволяет их бросать на большую дистанцию
 }
 
 EyeRocketLauncher: {
-	DisplayName: I.C.U
-	Tooltip: Hold down to shoot explosive eye missles that home on enemies
+	DisplayName: Д.З.Н.
+	Tooltip: Удерживайте, чтобы выстрелить взрывающимися глазоракетами, которые самонаводятся на врагов
 }
 
 LeechStaff: {
-	DisplayName: Swarm Scepter
+	DisplayName: Скипетр пиявки
 	Tooltip:
 		'''
-		Summons weak but agile leeches that rapidly damage enemies
-		Leeches only take up half of a minion slot
+		Призывает слабых, но быстрых пиявок, атакующих врагов
+		Каждая пиявка занимает только половину слота миньонов
 		'''
 }
 
 LeechWhip: {
-	DisplayName: Leecher
+	DisplayName: Подсос
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Hitting enemies will sometimes rip meat chunks off of them
-		Picking up these meat chunks will heal a small amount of your health
+		{$CommonItemTooltip.Whips}
+		Попадания по врагам иногда отрывают от них куски плоти
+		Подбор этой плоти восстановит вам немного здоровья
 		'''
 }
 
@@ -2593,7 +2593,7 @@ VinylSneaky: {
 
 BloomSoilItem: {
 	DisplayName: Благородная почва
-	Tooltip: На ней можно сажать и выращивать цветенья
+	Tooltip: Позволяет сажать и выращивать цветенья
 }
 
 DandelionSeed: {
@@ -3556,7 +3556,7 @@ SpookyWoodFenceItem: {
 }
 
 EyeChestItem: {
-	DisplayName: Monster Chest
+	DisplayName: Сундук-монстр
 	Tooltip: ""
 }
 
