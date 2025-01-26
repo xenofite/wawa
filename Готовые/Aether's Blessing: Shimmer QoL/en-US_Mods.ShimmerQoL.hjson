@@ -115,13 +115,13 @@ Configs: {
 		}
 
 		detransmuteBoosters: {
-			Label: De-transmute Permanent Upgrade Items
+			Label: De-transmutations: Permanent Upgrade Items
 			Tooltip:
 				'''
 				Allows shimmer-exclusive items which provide a permanent upgrade to be transmuted back into their non-shimmer counterpart
 				For example, the Vital Crystal may be reverted into a Life Crystal
 				This feature also includes support for the following mods;
-				Thorium Mod, The Clicker Class, Storm's Additions Mod
+				Thorium Mod, The Clicker Class, Storm's Additions Mod, Q.O.L. 3000
 				'''
 		}
 
@@ -184,6 +184,46 @@ Configs: {
 				Note that the blacklist takes prioity over the whitelist if both are enabled and share an entry
 				WARNING: No modded prefixes are in the list by default and must be added manually!
 				'''
+		}
+
+		tooltipFix: {
+			Label: Shimmer Well Material Tip Patch
+			Tooltip:
+				'''
+				Resolves a side-effect caused by the recipes added by the Shimmer Well
+				Since the Shimmer Well generates recipes for all items with unique transmutations, those items thus qualify as materials
+				When turned on, this setting attempts to remove the 'material' tooltip from items who only have recipes associated with the Shimmer Well 
+				'''
+		}
+
+		unrestrictLunarBrick: {
+			Label: Unrestrict Luminite Brick Transmutation Crafting
+			Tooltip:
+				'''
+				Allows the variants of the Luminite Brick to be obtained via. the Shimmer Well regardless of moon phase
+				Normally - like with their actual transmutations - each variant is exclusivley avaliable on a particular moon phase
+				'''
+		}
+
+		detransmuteBiomeChests: {
+			Label: De-transmutations: Biome Chests
+			Tooltip:
+				'''
+				Allows Biome Chests to be transmuted back into their respective Biome Key
+				Warning: Using this is discouraged, as it doesn't account for mods potentially adding unlocked Biome Chests to pre-Plantera areas!
+				This feature also includes support for the following mods;
+				Thorium Mod, Capture Disc Class
+				'''
+		}
+
+		detransmuteBricks: {
+			Label: De-transmutations: Bricks
+			Tooltip: Allows ancient bricks and Luminite Brick variants (Ex: Astra, Cosmic Ember, etc.) to be transmuted back into their original counterparts
+		}
+
+		detransmuteUnsafeWalls: {
+			Label: De-transmutations: Unsafe Walls
+			Tooltip: Allows unsafe walls to be transmuted back into their safe counterparts
 		}
 	}
 }
