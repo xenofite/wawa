@@ -3,7 +3,7 @@ Items: {
 		DisplayName: Пилон эфира
 		Tooltip:
 			'''
-			Позволяет телепортироваться к другому пилону, когда хотябы {0} {^0:житель находится;жителя находятся;жителей находятся} поблизости
+			Позволяет телепортироваться к другому пилону, когда хотя бы {0} {^0:житель находится;жителя находятся;жителей находятся} поблизости
 			Можно установить только один, соответствующий биому
 			'''
 	}
@@ -45,8 +45,8 @@ CommonItemTooltip: {
 	WellConfig: Необходимо включить функционал колодца мерцания в конфигурации мода
 	PylonConfig: Необходимо включить продажу пилона эфира в конфигурации мода
 	PylonCond: Необходимо включить продажу пилона эфира в конфигурации мода, находиться в биоме эфира, не заражённом биомами мирового зла, и повысить уровень счастья жителя, находящегося рядом с другим жителем
-	ConduitNerf: Не работает на предметы, разбирающиеся на состовляющие при трансмутации в мерцании
-	ConduitDisabled: Гарантия хорошик модификаторов отключена в конфигурации мода
+	ConduitNerf: Не работает на предметы, которые при трансмутации в мерцании разбираются на составляющие
+	ConduitDisabled: Гарантия хороших модификаторов отключена в конфигурации мода
 	WellDisabled: Создание предметов в колодце мерцания отключено в конфигурации мода
 	WellNerf: Создавать предметы в колодце мерцания можно только находясь в биоме эфира
 }
@@ -112,7 +112,7 @@ Configs: {
 		}
 
 		unrestrictLunarBrick: {
-			Label: Неограниченное создание разновидостей люминитовых кирпичей
+			Label: Неограниченное создание разновидностей люминитовых кирпичей
 			Tooltip:
 				'''
 				Позволяет создавать все виды люминитовых кирпичей с помощью колодца независимо от текущей фазы луны
@@ -124,8 +124,8 @@ Configs: {
 			Label: Не отображать трансмутирующиеся предметы как материалы
 			Tooltip:
 				'''
-				Устраняет проблему, из-за которой предметы, которые можно было трансмутировать с помощью колодца мерцания,
-				отображались как материалы, даже если они не использовались ни для чего другого.
+				Устраняет проблему, из-за которой предметы, трансмутируемые с помощью колодца мерцания,
+				отображались как материалы, даже если они не использовались ни в одном другом рецепте.
 				Включите эту настройку, чтобы убрать пометку «Материал» у предметов, не использующихся в рецептах кроме трансмутации
 				'''
 		}
@@ -163,19 +163,18 @@ Configs: {
 			Tooltip:
 				'''
 				Количество жителей поблизости, необходимое дня использования пилона эфира
-				По умолчанию пилону эфира необходим один житель поблизости вместо двух, как у других пилонов
+				По умолчанию пилону эфира необходим один житель поблизости, а не два, как у других пилонов
 				Пилону всё ещё нужно будет находиться в биоме эфира для работы
 				'''
 		}
 
 		enableConduit: {
-			Label: Enable Genesis Conduit
+			Label: Включить проводника мироздания
 			Tooltip:
 				'''
-				Toggles the Genesis Conduit, a transmutation of the Tinkerer's Workshop
-				When placed in the Aether, the Conduit adjusts/improves the prefixes that are rolled when crafting
-				This allows using Shimmer decrafting to repeatedly craft items for desired prefixes
-				See below config options for more details and customization
+				Проводник мироздания — улучшение мастерской изобретателя, получаемое путём его трансмутации
+				При нахождении в биоме эфира, он позволяет полностью контролировать модификаторы, получаемые создаваемыми предметами
+				Смотрите настройки конфигурации ниже для более подробной информации и настройки функционала под себя
 				'''
 		}
 
@@ -184,18 +183,17 @@ Configs: {
 			Tooltip:
 				'''
 				Изменяет принцип получения модификаторов у предметов, созданных рядом с проводником мироздания в биоме эфира
-				Некоторые плохие модификаторы предметов, созданных таким образом, будут вовсе недоступны
-				Чтобы узнать больше и настроить всё под себя нужным образом, ознакомтесь с настройкой «Белый список модификаторов проводника мироздания»
+				Некоторые негативные модификаторы у предметов, созданных таким образом, станут недоступны
+				Чтобы узнать больше и настроить всё под себя нужным образом, ознакомьтесь с настройкой «Белый список модификаторов проводника мироздания»
 				'''
 		}
 
 		usePrefixWhitelist: {
-			Label: Use Prefix Whitelist
+			Label: Использовать белый список модификаторов
 			Tooltip:
 				'''
-				Affects the application of prefixes while near the Aether and a Genesis Conduit
-				Under the above conditions, prefixes that appear when items are created are restricted based on the whitelist below
-				See 'Genesis Conduit Prefix Whitelist' for more details
+				Ограничивает получение модификаторов предметами, создаваемыми на проводнике мироздания в биоме эфира, в соответствии с белым списком
+				Смотрите «Белый список модификаторов проводника мироздания» для более подробной информации
 				'''
 		}
 
@@ -203,32 +201,30 @@ Configs: {
 			Label: Белый список модификаторов проводника мироздания
 			Tooltip:
 				'''
-				Предметы, созданные рядом с проводником мироздания в биоме эфира, будут получать модификаторы только из списка ниже
+				Предметы, создаваемые рядом с проводником мироздания в биоме эфира, будут получать модификаторы только из списка ниже
 				По умолчанию в него входят наиболее оптимальные из модификаторов (например «{$Prefix.Unreal}», «{$Prefix.Godly}», «{$Prefix.Mythical}» и т.п.)  
 				Обратите внимание, что чёрный список модификаторов имеет приоритет над белым, если оба из них будут содержать одинаковые модификаторы
-				ПРЕДУПРЕЖДЕНИЕ: модификаторы, добавляемые другими модами, вам придётся добавлять вручную
+				ПРЕДУПРЕЖДЕНИЕ: модификаторы, добавляемые другими модами, нужно будет добавлять вручную
 				'''
 		}
 
 		usePrefixBlacklist: {
-			Label: Use Prefix Blacklist
+			Label: Использовать чёрный список модификаторов
 			Tooltip:
 				'''
-				Affects the application of prefixes while near the Aether and a Genesis Conduit
-				Under the above conditions, prefixes that appear when items are created are restricted based on the blacklist below
-				See 'Genesis Conduit Prefix Blacklist' for more details
+				Ограничивает получение модификаторов предметами, создаваемыми рядом с проводником мироздания в биоме эфира, в соответствии с чёрным списком
+				Смотрите «Чёрный список модификаторов проводника мироздания» для более подробной информации
 				'''
 		}
 
 		prefixBlacklist: {
-			Label: Genesis Conduit Prefix Blacklist
+			Label: Чёрный список модификаторов проводника мироздания
 			Tooltip:
 				'''
-				Affects the application of prefixes while near the Aether and a Genesis Conduit
-				Under the above conditions, these prefixes NEVER appear when items are created
-				By default, this list includes most vanilla prefixes with negative stats, and accessory prefixes with weaker boosts (Ex: Terrible, Wild, etc.)  
-				Note that the blacklist takes prioity over the whitelist if both are enabled and share an entry
-				WARNING: No modded prefixes are in the list by default and must be added manually!
+				Предметы, создаваемые рядом с проводником мироздания в биоме эфира, не смогут получать модификаторы из списка ниже
+				По умолчанию в него входят негативные модификаторы (например «{$Prefix.Terrible}», «{$Prefix.Wild}» и т.п.)  
+				Обратите внимание, что чёрный список модификаторов имеет приоритет над белым, если оба из них будут содержать одинаковые модификаторы
+				ПРЕДУПРЕЖДЕНИЕ: модификаторы, добавляемые другими модами, нужно будет добавлять вручную
 				'''
 		}
 
@@ -253,23 +249,21 @@ Configs: {
 
 
 		detransmuteUnsafeWalls: {
-			Label: De-transmutations: Unsafe Walls
-			Tooltip: Allows unsafe walls to be transmuted back into their safe counterparts
+			Label: Обратная трансмутация небезопасных стен
+			Tooltip: Позволяет трансмутировать небезопасные стены обратно в безопасные
 		}
 
 		detransmuteBricks: {
-			Label: De-transmutations: Bricks
-			Tooltip: Allows ancient bricks and Luminite Brick variants (Ex: Astra, Cosmic Ember, etc.) to be transmuted back into their original counterparts
+			Label: Обратная трансмутация кирпичей
+			Tooltip: Позволяет трансмутировать древние кирпичи и разновидности люминитовых кирпичей в свои обычные версии
 		}
 
 		detransmuteBiomeChests: {
-			Label: De-transmutations: Biome Chests
+			Label: Обратная трансмутация сундуков биомов
 			Tooltip:
 				'''
-				Allows Biome Chests to be transmuted back into their respective Biome Key
-				Warning: Using this is discouraged, as it doesn't account for mods potentially adding unlocked Biome Chests to pre-Plantera areas!
-				This feature also includes support for the following mods;
-				Thorium Mod, Capture Disc Class
+				Позволяет трансмутировать сундуки биомов обратно в ключи биомов
+				Эта функция поддерживает следующие моды: Thorium Mod, Capture Disc Class
 				'''
 		}
 
