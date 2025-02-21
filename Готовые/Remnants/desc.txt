@@ -1,7 +1,7 @@
 [url=https://discord.gg/cbK6rVC][b]Заходите в наш дискорд сервер, если у вас остались какие-либо вопросы по моду[/b][/url]
 [url=https://ko-fi.com/wombatgamery][b]Поддержать разработчика копейкой можно на его странице Ko-fi[/b][/url]
-[url=https://terrariamods.wiki.gg/wiki/Remnants][b]У мода также есть и фанатская страница вики, на которой тоже можно получить ответы на свои вопросы[/b][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3308342945][b]Советуем вам ознакомиться и с другим нашим модом - Challenge Vaults[/b][/url]
+[url=https://terrariamods.wiki.gg/wiki/Remnants][b]У мода также есть и (отчасти неактуальная) фанатская вики, на которой тоже можно получить ответы на свои вопросы[/b][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3308342945][b]Рекомендуем заодно попробовать ещё один мод от нас — Challenge Vaults![/b][/url]
 
 [h2]Описание[/h2] [img]https://i.imgur.com/jdunrUl.png[/img]
 Remnants — уникальный проект, переделывающий [b]весь[/b] процесс генерации миров в Террарии, выводя его на совершенно новый уровень. Вас ждут ранее невиданные биомы и структуры, каждая со своими особенностями и секретами.
@@ -9,7 +9,7 @@ Remnants — уникальный проект, переделывающий [b]
 Говоря вкратце, этот мод:
 [list]
 [*]Полностью перерабатывает генерацию всех ванильных биомов и структур
-[*]Добавляет ряд новых структур, способных удивить даже самых закалённых игроков
+[*]Добавляет ряд новых структур, исследовать которые будет интересно даже самым закалённым игрокам
 [*]Улучшает некоторые аспекты геймплея, в основном перерабатывая поведение нескольких врагов
 [/list]
 
@@ -17,7 +17,6 @@ Remnants — уникальный проект, переделывающий [b]
 Не все моды работают должным образом с новым процессом генерации мира — рекомендуем вам внимательно ознакомиться со списком поддерживаемых модов ниже перед тем, как начать полноценное прохождение. Не спешите сообщать в дискорде или в комментариях ошибки, возникающие при игре с другими модами — как правило, исправить такие со стороны этого мода не выйдет и докладывать о них лучше разработчикам других модов, вызывающих проблемы.
 
 Полностью совместимые моды, использование Remnants в связке с которыми не должно вызывать у вас особых проблем: [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072][b]Calamity Mod[/b][/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416][b]Thorium Mod[/b][/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3015412343][b]Infernum Mode[/b][/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2893332653][b]Mod of Redemption[/b][/url]
@@ -25,13 +24,14 @@ Remnants — уникальный проект, переделывающий [b]
 [/list]
 
 Частично совместимые моды, генерация мира с которыми скорее всего не пройдёт так гладко, как хотелось бы, но с которыми всё ещё можно будет сделать полноценное прохождение: [list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072][b]Calamity Mod[/b][/url] (Голем всегда будет находиться в разьярённом состоянии из-за новой арены в храме джунглей)
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2563862309][b]The Stars Above[/b][/url] (Неоновый заслон ломает почти все структуры в аду)
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2984622072][b]Starlight River[/b][/url] (Различные мелкие структуры генерируются поверх структур из Remnants)
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914][b]Secrets of the Shadows[/b][/url] (Конфликт двух реворков пирамиды)
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3019925104][b]Lunar Veil[/b][/url] (Слишком большое количество всевозможных конфликтов между биомами и структурами)
 [/list]
 
-Несовместимые моды, в мирах с которыми играть будет невозможно, если игра у вас вовсе не вылетит ещё во время генерации самого мира: [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914][b]Secrets of the Shadows[/b][/url]
+Несовместимые моды, в мирах с которыми играть будет невозможно, если игра у вас вообще не вылетит ещё во время генерации самого мира: [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2930931197][b]Homeward Journey[/b][/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2833852432][b]Spooky Mod[/b][/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2787632488][b]Aequus[/b][/url]
@@ -42,8 +42,8 @@ Remnants — уникальный проект, переделывающий [b]
 [*][url=https://www.bluezone-corporation.com][b]Bluezone Corporation.[/b][/url] за бесплатные звуковые эффекты и саундтрек
 [/list]
 
-Отдаём должное следующим пользователям, как-либо помогавшим с разработкой проекта: [list]
-[*][url=https://steamcommunity.com/id/xenofite][b]Xenofite[/b][/url] и [url=https://steamcommunity.com/profiles/76561199046829447][b]Alino4kaHvoshch.[/b][/url] за создание русской локализации для мода
+Отдаём должное следующим пользователям, как-либо оказавшим поддержку в разработке этого проекта: [list]
+[*][url=https://steamcommunity.com/id/xenofite][b]Xenofite[/b][/url] за создание русской локализации мода и её поддержку постоянными обновлениями
 [/list]
 
 [quote=tModLoader Remnants]
